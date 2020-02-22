@@ -1,0 +1,4 @@
+<map id="Raz::Material" name="Raz::Material">
+<area shape="rect" id="node2" href="$class_raz_1_1_material_blinn_phong.html" title="Raz::MaterialBlinnPhong" alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_material_cook_torrance.html" title="Raz::MaterialCookTorrance" alt="" coords="195,80,373,107"/>
+</map>

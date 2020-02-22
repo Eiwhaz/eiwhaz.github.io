@@ -1,0 +1,25 @@
+title: Razakhel's blog
+
+description: >-
+  Programming blog, revolving around C++ and RaZ, my own game engine.
+
+show_excerpts: true
+baseurl: ""
+# Default permalink: /:categories/:year/:month/:day/:title:output_ext; see: https://jekyllrb.com/docs/permalinks/
+permalink: /blog/:title/
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+disqus: razakhel
+google_analytics: UA-158877517-1
+
+theme: minima
+author:
+  id: Razakhel
+  name: Romain Milbert
+  email: romain.milbert@gmail.com
+  github: Razakhel
+  linkedin: romainmilbert

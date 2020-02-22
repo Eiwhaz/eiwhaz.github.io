@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['texture',['Texture',['../class_raz_1_1_texture.html#a209de2b832ad198a3ef6bc1129343b24',1,'Raz::Texture::Texture()'],['../class_raz_1_1_texture.html#ab898084e886ff66387a4f5d47439fe1b',1,'Raz::Texture::Texture(uint8_t value)'],['../class_raz_1_1_texture.html#a2875ce70eddd4bceaa774677c2b4a841',1,'Raz::Texture::Texture(unsigned int width, unsigned int height, ImageColorspace colorspace=ImageColorspace::RGB, bool createMipmaps=true)'],['../class_raz_1_1_texture.html#a74529f2240968f94d69299de759e2fb0',1,'Raz::Texture::Texture(const std::string &amp;fileName, bool flipVertically=false, bool createMipmaps=true)'],['../class_raz_1_1_texture.html#a1700fab071e03dbaccb04757ad237772',1,'Raz::Texture::Texture(const Texture &amp;)=delete'],['../class_raz_1_1_texture.html#a47a753420bfbd8e186ae03f9decaab5c',1,'Raz::Texture::Texture(Texture &amp;&amp;texture) noexcept']]],
+  ['tolowercase',['toLowercase',['../namespace_raz_1_1_str_utils.html#a25c6156bcda777ff9fff1f0356a1c623',1,'Raz::StrUtils::toLowercase(char &amp;character)'],['../namespace_raz_1_1_str_utils.html#a30f09e936bac2be50b6d313f730596df',1,'Raz::StrUtils::toLowercase(std::string &amp;text)']]],
+  ['tolowercasecopy',['toLowercaseCopy',['../namespace_raz_1_1_str_utils.html#a650233b68149c54019852d10faa72a56',1,'Raz::StrUtils::toLowercaseCopy(char character)'],['../namespace_raz_1_1_str_utils.html#aa8c632557f14472aa71bbc7c559bbb9e',1,'Raz::StrUtils::toLowercaseCopy(std::string text)']]],
+  ['touppercase',['toUppercase',['../namespace_raz_1_1_str_utils.html#a46e42bd33f2a230406c72ece508924db',1,'Raz::StrUtils::toUppercase(char &amp;character)'],['../namespace_raz_1_1_str_utils.html#ac8de04f139308aa3c18385529a83942d',1,'Raz::StrUtils::toUppercase(std::string &amp;text)']]],
+  ['touppercasecopy',['toUppercaseCopy',['../namespace_raz_1_1_str_utils.html#afba83e05437cab82a51d3c19213c29a9',1,'Raz::StrUtils::toUppercaseCopy(char character)'],['../namespace_raz_1_1_str_utils.html#a67178daf27d36b4ba0c3c5a05daa7f56',1,'Raz::StrUtils::toUppercaseCopy(std::string text)']]],
+  ['transform',['Transform',['../class_raz_1_1_transform.html#a9272ca9571fc70e908853c355aebfad5',1,'Raz::Transform']]],
+  ['translate',['translate',['../class_raz_1_1_transform.html#aba13a7a4f72a0c8056d6ec5d945bb2e7',1,'Raz::Transform::translate(float x, float y, float z)'],['../class_raz_1_1_transform.html#a8360ce7cd83169d8cc322734b2d2deaf',1,'Raz::Transform::translate(const Vec3f &amp;displacement)']]],
+  ['transpose',['transpose',['../class_raz_1_1_matrix.html#a8e13499792fa238468ba858a8a173e9b',1,'Raz::Matrix']]],
+  ['triangle',['Triangle',['../class_raz_1_1_triangle.html#acf5a99c4631749f753e7819559dc8c67',1,'Raz::Triangle::Triangle()=default'],['../class_raz_1_1_triangle.html#ab8781ec506addf576d4792e504e48219',1,'Raz::Triangle::Triangle(const Vec3f &amp;firstPos, const Vec3f &amp;secondPos, const Vec3f &amp;thirdPos)']]],
+  ['trim',['trim',['../namespace_raz_1_1_str_utils.html#a3c9363d08ba8a9ef70b2e5baf4596e7f',1,'Raz::StrUtils']]],
+  ['trimcopy',['trimCopy',['../namespace_raz_1_1_str_utils.html#a075e8a6993358bd289f96d9c241bcde0',1,'Raz::StrUtils']]],
+  ['trimleft',['trimLeft',['../namespace_raz_1_1_str_utils.html#a9f3f51e054f46393013915cc51f5348d',1,'Raz::StrUtils']]],
+  ['trimleftcopy',['trimLeftCopy',['../namespace_raz_1_1_str_utils.html#a5f7cdd1b00427d27c419529ccc97a72b',1,'Raz::StrUtils']]],
+  ['trimright',['trimRight',['../namespace_raz_1_1_str_utils.html#ac30e462154fb155d8d9ed86a2beb79e5',1,'Raz::StrUtils']]],
+  ['trimrightcopy',['trimRightCopy',['../namespace_raz_1_1_str_utils.html#ab3333ab92062dc0eebd2110f5c1f9d55',1,'Raz::StrUtils']]]
+];

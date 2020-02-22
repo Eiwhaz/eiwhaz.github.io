@@ -1,0 +1,7 @@
+<map id="Raz::Component" name="Raz::Component">
+<area shape="rect" id="node2" href="$class_raz_1_1_camera.html" title="Camera class, simulating a point of view for a scene to be rendered from. " alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_light.html" title="Raz::Light" alt="" coords="129,80,210,107"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_mesh.html" title="Raz::Mesh" alt="" coords="235,80,320,107"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_rigid_body.html" title="Raz::RigidBody" alt="" coords="344,80,456,107"/>
+<area shape="rect" id="node6" href="$class_raz_1_1_transform.html" title="Transform class which handles 3D transformations (translation/rotation/scale). " alt="" coords="481,80,591,107"/>
+</map>

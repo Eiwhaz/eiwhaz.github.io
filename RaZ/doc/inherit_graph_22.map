@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_raz_1_1_render_pass.html" title="Raz::RenderPass" alt="" coords="5,31,129,57"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_geometry_pass.html" title="Raz::GeometryPass" alt="" coords="177,5,317,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_s_s_r_pass.html" title="Raz::SSRPass" alt="" coords="192,56,303,83"/>
+</map>

@@ -1,0 +1,14 @@
+<ul class="social-media-list">
+  <li>
+    <a href="https://github.com/{{ site.author.github | cgi_escape | escape }}">
+      <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+      <span class="username">{{ site.author.github | escape }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin | cgi_escape | escape }}">
+      <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+      <span class="username">{{ site.author.linkedin | escape }}</span>
+    </a>
+  </li>
+</ul>

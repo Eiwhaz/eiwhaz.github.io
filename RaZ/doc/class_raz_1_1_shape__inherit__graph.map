@@ -1,0 +1,9 @@
+<map id="Raz::Shape" name="Raz::Shape">
+<area shape="rect" id="node2" href="$class_raz_1_1_a_a_b_b.html" title="Raz::AABB" alt="" coords="5,80,95,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions. " alt="" coords="119,80,197,107"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_o_b_b.html" title="Raz::OBB" alt="" coords="221,80,303,107"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_plane.html" title="Plane defined by a distance from [ 0; 0; 0 ] and a normal. " alt="" coords="327,80,413,107"/>
+<area shape="rect" id="node6" href="$class_raz_1_1_quad.html" title="Quad defined by its four vertices&#39; positions, presumably in counter&#45;clockwise order. " alt="" coords="437,80,521,107"/>
+<area shape="rect" id="node7" href="$class_raz_1_1_sphere.html" title="Sphere defined by its center position and a radius. " alt="" coords="545,80,640,107"/>
+<area shape="rect" id="node8" href="$class_raz_1_1_triangle.html" title="Triangle defined by its three vertices&#39; positions, presumably in counter&#45;clockwise order..." alt="" coords="665,80,763,107"/>
+</map>
