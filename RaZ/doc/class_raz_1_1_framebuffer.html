@@ -105,10 +105,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b0a3db78cc4abc266201cd19dc012ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66249ace70d2d3d2638209356854a570"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#a66249ace70d2d3d2638209356854a570">getColorBuffers</a> () const</td></tr>
 <tr class="separator:a66249ace70d2d3d2638209356854a570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36bdb696f120e24cd3d908b8f0aaaa6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#a36bdb696f120e24cd3d908b8f0aaaa6f">addDepthBuffer</a> (unsigned int width, unsigned int height)</td></tr>
-<tr class="separator:a36bdb696f120e24cd3d908b8f0aaaa6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab75c798aabab434c2b96d6a63a7ba694"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#ab75c798aabab434c2b96d6a63a7ba694">addColorBuffer</a> (unsigned int width, unsigned int height, <a class="el" href="namespace_raz.html#ac401c562c77addebca04b48f11137c6c">ImageColorspace</a> colorspace)</td></tr>
-<tr class="separator:ab75c798aabab434c2b96d6a63a7ba694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c42449a2bbb3b2de9283ec5e111fa4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#a0c42449a2bbb3b2de9283ec5e111fa4b">addBuffer</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> texture)</td></tr>
+<tr class="separator:a0c42449a2bbb3b2de9283ec5e111fa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9607f4b51752b8b76b40d62fd8e0db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#aac9607f4b51752b8b76b40d62fd8e0db">addDepthBuffer</a> (unsigned int width, unsigned int height, int bindingIndex)</td></tr>
+<tr class="separator:aac9607f4b51752b8b76b40d62fd8e0db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7488a6b4d01fdb3caa39b1fcc2abd579"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#a7488a6b4d01fdb3caa39b1fcc2abd579">addColorBuffer</a> (unsigned int width, unsigned int height, int bindingIndex, <a class="el" href="namespace_raz.html#ac401c562c77addebca04b48f11137c6c">ImageColorspace</a> colorspace)</td></tr>
+<tr class="separator:a7488a6b4d01fdb3caa39b1fcc2abd579"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a816b02b4f837fc4483cb530bf38617ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#a816b02b4f837fc4483cb530bf38617ef">initBuffers</a> (const <a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;program) const</td></tr>
 <tr class="separator:a816b02b4f837fc4483cb530bf38617ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f3c524ced0495da8882dc966cfa4eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_framebuffer.html#a8f3c524ced0495da8882dc966cfa4eda">mapBuffers</a> () const</td></tr>
@@ -294,8 +296,32 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab75c798aabab434c2b96d6a63a7ba694"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab75c798aabab434c2b96d6a63a7ba694">&#9670;&nbsp;</a></span>addColorBuffer()</h2>
+<a id="a0c42449a2bbb3b2de9283ec5e111fa4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c42449a2bbb3b2de9283ec5e111fa4b">&#9670;&nbsp;</a></span>addBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Framebuffer::addBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td>
+          <td class="paramname"><em>texture</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds an existing buffer texture. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td>Buffer texture to be added. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7488a6b4d01fdb3caa39b1fcc2abd579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7488a6b4d01fdb3caa39b1fcc2abd579">&#9670;&nbsp;</a></span>addColorBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,6 +341,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="namespace_raz.html#ac401c562c77addebca04b48f11137c6c">ImageColorspace</a>&#160;</td>
           <td class="paramname"><em>colorspace</em>&#160;</td>
         </tr>
@@ -325,19 +357,20 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds a color buffer to the framebuffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Adds a color buffer. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">width</td><td>Width of the color buffer to be added. </td></tr>
     <tr><td class="paramname">height</td><td>Height of the color buffer to be added. </td></tr>
-    <tr><td class="paramname">colorspace</td><td>Colorspace of the color buffer to be added. Passing <a class="el" href="namespace_raz.html#a3ece7de29260bf3fa72cf6c9945d484faaa1780b4fcce2d5d9af13dc25386d111">ImageColorspace::DEPTH</a> is equivalent to calling <a class="el" href="class_raz_1_1_framebuffer.html#a36bdb696f120e24cd3d908b8f0aaaa6f">addDepthBuffer()</a>. </td></tr>
+    <tr><td class="paramname">bindingIndex</td><td>Index of the texture's binding point. </td></tr>
+    <tr><td class="paramname">colorspace</td><td>Colorspace of the color buffer to be added. Passing <a class="el" href="namespace_raz.html#a3ece7de29260bf3fa72cf6c9945d484faaa1780b4fcce2d5d9af13dc25386d111">ImageColorspace::DEPTH</a> is equivalent to calling <a class="el" href="class_raz_1_1_framebuffer.html#aac9607f4b51752b8b76b40d62fd8e0db">addDepthBuffer()</a>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a36bdb696f120e24cd3d908b8f0aaaa6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36bdb696f120e24cd3d908b8f0aaaa6f">&#9670;&nbsp;</a></span>addDepthBuffer()</h2>
+<a id="aac9607f4b51752b8b76b40d62fd8e0db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9607f4b51752b8b76b40d62fd8e0db">&#9670;&nbsp;</a></span>addDepthBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,7 +385,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -365,6 +404,7 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">width</td><td>Width of the depth buffer to be added. </td></tr>
     <tr><td class="paramname">height</td><td>Height of the depth buffer to be added. </td></tr>
+    <tr><td class="paramname">bindingIndex</td><td>Index of the texture's binding point. </td></tr>
   </table>
   </dd>
 </dl>

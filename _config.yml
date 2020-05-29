@@ -8,6 +8,10 @@ baseurl: ""
 # Default permalink: /:categories/:year/:month/:day/:title:output_ext; see: https://jekyllrb.com/docs/permalinks/
 permalink: /blog/:title/
 
+header_pages:
+  - RaZ/index.md
+  - about.md
+
 markdown: kramdown
 kramdown:
   math_engine: mathjax

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_shader_program.html" title="ShaderProgram class, holding shaders &amp; handling data transmission to the graphics card with uniforms..." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node1" href="$class_raz_1_1_shader.html" title="Raz::Shader" alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_fragment_shader.html" title="Raz::FragmentShader" alt="" coords="149,5,298,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_geometry_shader.html" title="Raz::GeometryShader" alt="" coords="148,56,299,83"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_vertex_shader.html" title="Raz::VertexShader" alt="" coords="157,107,289,133"/>
 </map>

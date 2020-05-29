@@ -4,7 +4,7 @@ var searchData=
   ['cbegin',['cbegin',['../class_raz_1_1_threading_1_1_iter_range.html#a7a1a2ae6604531d4b9c8eed45ef847df',1,'Raz::Threading::IterRange']]],
   ['cend',['cend',['../class_raz_1_1_threading_1_1_iter_range.html#a5df0a8f6fed5954eeb3d32f8342b0169',1,'Raz::Threading::IterRange']]],
   ['changecursorstate',['changeCursorState',['../class_raz_1_1_window.html#a9f027cd44b9bf1b601ac069c8db651ba',1,'Raz::Window']]],
-  ['clear',['clear',['../class_raz_1_1_renderer.html#abd70d75f7c7b595025ba763177148704',1,'Raz::Renderer::clear(MaskType type)'],['../class_raz_1_1_renderer.html#a959dfcc60cf09dd4c5e832128b4399e9',1,'Raz::Renderer::clear(MaskType type1, MaskType type2)'],['../class_raz_1_1_renderer.html#a61e75103f9f49ccf2772ee2c512b51b1',1,'Raz::Renderer::clear(MaskType type1, MaskType type2, MaskType type3)']]],
+  ['clear',['clear',['../class_raz_1_1_renderer.html#af4827362098aacadfc5c77769fe525a1',1,'Raz::Renderer']]],
   ['clearcolor',['clearColor',['../class_raz_1_1_renderer.html#a43591b71772740bcf212cb6ddee6559e',1,'Raz::Renderer::clearColor(float red, float green, float blue, float alpha)'],['../class_raz_1_1_renderer.html#a600446dd9438965583a63bf5e57c31c1',1,'Raz::Renderer::clearColor(float values[4])']]],
   ['clone',['clone',['../class_raz_1_1_material.html#ace16938b0bf955a8c2e4fc3be6c76da8',1,'Raz::Material::clone()'],['../class_raz_1_1_material_blinn_phong.html#a71ddc03de6023ff2fcd3258187b14e27',1,'Raz::MaterialBlinnPhong::clone()'],['../class_raz_1_1_material_cook_torrance.html#a5ccb4848dced72a0fa36dfabd9020fa4',1,'Raz::MaterialCookTorrance::clone()']]],
   ['close',['close',['../class_raz_1_1_window.html#a95da7c2f618bb65e4966deca1d37eda9',1,'Raz::Window']]],

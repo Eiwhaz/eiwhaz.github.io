@@ -1,4 +1,4 @@
 <map id="Raz::RenderPass" name="Raz::RenderPass">
-<area shape="rect" id="node2" href="$class_raz_1_1_geometry_pass.html" title="Raz::GeometryPass" alt="" coords="5,80,145,107"/>
-<area shape="rect" id="node3" href="$class_raz_1_1_s_s_r_pass.html" title="Raz::SSRPass" alt="" coords="169,80,280,107"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_geometry_pass.html" title="Geometry render pass, rendering the base scene. " alt="" coords="5,80,145,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_s_s_r_pass.html" title="Screen&#45;Space Reflections render pass, producing real&#45;time reflections in screen&#45;space. " alt="" coords="169,80,280,107"/>
 </map>

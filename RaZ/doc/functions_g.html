@@ -126,6 +126,9 @@ $(function() {
 <li>getBeginPos()
 : <a class="el" href="class_raz_1_1_line.html#a015b2208283435bdf4642c0eae5225d1">Raz::Line</a>
 </li>
+<li>getBindingIndex()
+: <a class="el" href="class_raz_1_1_texture.html#a03cde780a6195b9c3a94ccf2b9624ab7">Raz::Texture</a>
+</li>
 <li>getBits()
 : <a class="el" href="class_raz_1_1_bitset.html#ac29f376db3b956cb5119f28b0f8d694f">Raz::Bitset</a>
 </li>
@@ -143,7 +146,7 @@ $(function() {
 : <a class="el" href="class_raz_1_1_window.html#aa8f5f3dd9b79793eb96077f4bdc65fd9">Raz::Window</a>
 </li>
 <li>getCamera()
-: <a class="el" href="class_raz_1_1_render_system.html#a8ef697b72f7f0517a0f2412a409beb66">Raz::RenderSystem</a>
+: <a class="el" href="class_raz_1_1_render_system.html#ac134c93c9691fd121375222d3f56fc8c">Raz::RenderSystem</a>
 </li>
 <li>getCameraEntity()
 : <a class="el" href="class_raz_1_1_render_system.html#a7ed09d2de8f878669c2ebe7a37f89941">Raz::RenderSystem</a>
@@ -214,6 +217,9 @@ $(function() {
 </li>
 <li>getDistance()
 : <a class="el" href="class_raz_1_1_plane.html#aa412fa32de12fae40cfae39f439e41e0">Raz::Plane</a>
+</li>
+<li>getElement()
+: <a class="el" href="class_raz_1_1_matrix.html#a20b9ae212f872feb2c69341e2a9d5fa1">Raz::Matrix&lt; T, W, H &gt;</a>
 </li>
 <li>getEmissive()
 : <a class="el" href="class_raz_1_1_material_blinn_phong.html#a1d22963ace68389a52d7ea1acbc6c5fa">Raz::MaterialBlinnPhong</a>
@@ -311,7 +317,7 @@ $(function() {
 : <a class="el" href="class_raz_1_1_submesh.html#a2e62fdb00a4ce10365432aab7a061f13">Raz::Submesh</a>
 </li>
 <li>getMaterials()
-: <a class="el" href="class_raz_1_1_mesh.html#a3b79c85621b8697be14d5cab1819f6f2">Raz::Mesh</a>
+: <a class="el" href="class_raz_1_1_mesh.html#a2b22d4c1281c54d7ecf61726361ab8d5">Raz::Mesh</a>
 </li>
 <li>getMetallicFactor()
 : <a class="el" href="class_raz_1_1_material_cook_torrance.html#ae54a55113a173c0aed777e0b1838cd39">Raz::MaterialCookTorrance</a>
@@ -320,7 +326,7 @@ $(function() {
 : <a class="el" href="class_raz_1_1_material_cook_torrance.html#a9e2c47c4e9d26c7bd3c1ed9cb59c4fb2">Raz::MaterialCookTorrance</a>
 </li>
 <li>getNodes()
-: <a class="el" href="class_raz_1_1_graph.html#adda1019a35b21e032e5a30c39ea33a6b">Raz::Graph&lt; NodeT &gt;</a>
+: <a class="el" href="class_raz_1_1_graph.html#a595d1e379128877c3d2044d43842b319">Raz::Graph&lt; NodeT &gt;</a>
 </li>
 <li>getNormal()
 : <a class="el" href="class_raz_1_1_plane.html#a02bbd0ced29780bfe6867022e7dc4aaf">Raz::Plane</a>
@@ -332,14 +338,18 @@ $(function() {
 : <a class="el" href="class_raz_1_1_ray.html#a4661a194025981dc7d1ef6b5051f0694">Raz::Ray</a>
 </li>
 <li>getPath()
-: <a class="el" href="class_raz_1_1_shader.html#afd3e99d82669244363ebe08ed9844925">Raz::Shader</a>
+: <a class="el" href="class_raz_1_1_file_path.html#a7c22ad2fec6116b5aa06a8c8e9ad13cc">Raz::FilePath</a>
+, <a class="el" href="class_raz_1_1_shader.html#afd3e99d82669244363ebe08ed9844925">Raz::Shader</a>
+</li>
+<li>getPathStr()
+: <a class="el" href="class_raz_1_1_file_path.html#ac9acde8754a5c343837ba0aa4084d1ad">Raz::FilePath</a>
 </li>
 <li>getPosition()
 : <a class="el" href="class_raz_1_1_transform.html#ad26639b49ec7dd02787d3e47c36e30af">Raz::Transform</a>
 </li>
 <li>getProgram()
 : <a class="el" href="class_raz_1_1_cubemap.html#adc58ac40cb14ee9ea687a82ab2be8001">Raz::Cubemap</a>
-, <a class="el" href="class_raz_1_1_render_pass.html#ae1fb02ec26798d5e6835be669d654b3d">Raz::RenderPass</a>
+, <a class="el" href="class_raz_1_1_render_pass.html#a90a5d285e24375d92228a11d64a08bdf">Raz::RenderPass</a>
 </li>
 <li>getProgramStatus()
 : <a class="el" href="class_raz_1_1_renderer.html#a0073c8c4b49ef924220634cac47f9920">Raz::Renderer</a>
@@ -363,7 +373,7 @@ $(function() {
 : <a class="el" href="class_raz_1_1_quad.html#a7d4e5387c14b3ad50bc48ec93ddd4484">Raz::Quad</a>
 </li>
 <li>getRotation()
-: <a class="el" href="class_raz_1_1_transform.html#ab0420f4429711630c197e172eeb8c188">Raz::Transform</a>
+: <a class="el" href="class_raz_1_1_transform.html#a122ac3d19b70fa76cd65e66d29525461">Raz::Transform</a>
 </li>
 <li>getRoughnessFactor()
 : <a class="el" href="class_raz_1_1_material_cook_torrance.html#a0a99fbb7ed5c125ad443d6c29c89c91a">Raz::MaterialCookTorrance</a>
@@ -372,7 +382,7 @@ $(function() {
 : <a class="el" href="class_raz_1_1_material_cook_torrance.html#a49a70395dcd880ce9d6b6c6b8f6386ab">Raz::MaterialCookTorrance</a>
 </li>
 <li>getScale()
-: <a class="el" href="class_raz_1_1_transform.html#aeeed15294b82d4c910457c06707345e8">Raz::Transform</a>
+: <a class="el" href="class_raz_1_1_transform.html#a99f48455f5c7bb7ce2e1d51c0c7015e8">Raz::Transform</a>
 </li>
 <li>getSecondPos()
 : <a class="el" href="class_raz_1_1_triangle.html#a52bd54d5a09c0d16aa37c30e6f0a7730">Raz::Triangle</a>
@@ -391,10 +401,10 @@ $(function() {
 : <a class="el" href="class_raz_1_1_material_blinn_phong.html#a3e1b0d8cb5a177756a09a8a304e9cccd">Raz::MaterialBlinnPhong</a>
 </li>
 <li>getSSRPass()
-: <a class="el" href="class_raz_1_1_render_system.html#aaf01d889a606aa57dc2df028642d61fa">Raz::RenderSystem</a>
+: <a class="el" href="class_raz_1_1_render_system.html#af35f9b2b24f02f26aaa25bd68fde0815">Raz::RenderSystem</a>
 </li>
 <li>getSubmeshes()
-: <a class="el" href="class_raz_1_1_mesh.html#a61dd48833bcdef85d4ceea96ad39f8fc">Raz::Mesh</a>
+: <a class="el" href="class_raz_1_1_mesh.html#ad8a68fb3d414503b4c1c7c7ff7a5fa8d">Raz::Mesh</a>
 </li>
 <li>getSystem()
 : <a class="el" href="class_raz_1_1_world.html#aa23d5969fb8be3dda0344df4075faf1c">Raz::World</a>
@@ -415,8 +425,8 @@ $(function() {
 : <a class="el" href="class_raz_1_1_submesh.html#a76b90a1acaedb374d0a57477e56ee5b6">Raz::Submesh</a>
 </li>
 <li>getTriangleIndices()
-: <a class="el" href="class_raz_1_1_index_buffer.html#a93f45fd1460a0744e79749a8ea9400a5">Raz::IndexBuffer</a>
-, <a class="el" href="class_raz_1_1_submesh.html#a18ee995e7d17431165be6584f31cffc2">Raz::Submesh</a>
+: <a class="el" href="class_raz_1_1_index_buffer.html#ac320ce2708b9f67ef4c10a08e2eb4c2c">Raz::IndexBuffer</a>
+, <a class="el" href="class_raz_1_1_submesh.html#a94d0fb295cb48e089596f552c4ab7f1b">Raz::Submesh</a>
 </li>
 <li>getType()
 : <a class="el" href="class_raz_1_1_light.html#a68d0a0c2a73832dbe7e82ccf0bf2418d">Raz::Light</a>
@@ -431,7 +441,7 @@ $(function() {
 : <a class="el" href="class_raz_1_1_submesh.html#adb16b5bdfd33d4af6021e48f6209f080">Raz::Submesh</a>
 </li>
 <li>getVertices()
-: <a class="el" href="class_raz_1_1_submesh.html#a2456e803670ed81d578adaa6af3bf1b8">Raz::Submesh</a>
+: <a class="el" href="class_raz_1_1_submesh.html#a035db20e13aa656da7d79078d8acc58f">Raz::Submesh</a>
 , <a class="el" href="class_raz_1_1_vertex_buffer.html#afc7ae59a85c0cbbe04127dde6e2f8a2d">Raz::VertexBuffer</a>
 </li>
 <li>getViewMatrix()
@@ -446,13 +456,13 @@ $(function() {
 : <a class="el" href="class_raz_1_1_render_system.html#acea29d3bf04e16cb0bcc0e757fee4535">Raz::RenderSystem</a>
 </li>
 <li>getWorlds()
-: <a class="el" href="class_raz_1_1_application.html#af63e9b7705c85a863259d3f2512bb739">Raz::Application</a>
+: <a class="el" href="class_raz_1_1_application.html#af420c7790e329dd25de238ae6d80a7c9">Raz::Application</a>
 </li>
 <li>Graph()
-: <a class="el" href="class_raz_1_1_graph.html#a8a236d354913f1cc0e750fe86a7dccb4">Raz::Graph&lt; NodeT &gt;</a>
+: <a class="el" href="class_raz_1_1_graph.html#abcf494521cd3d1961fe1b908404f20ce">Raz::Graph&lt; NodeT &gt;</a>
 </li>
 <li>GraphNode()
-: <a class="el" href="class_raz_1_1_graph_node.html#ae685a7fc8622ddc717251bc97f224e57">Raz::GraphNode&lt; T &gt;</a>
+: <a class="el" href="class_raz_1_1_graph_node.html#acf64554b8c238b00685859849e81181f">Raz::GraphNode&lt; T &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

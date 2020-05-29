@@ -88,7 +88,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25d6eb6e08616b34c8d25cde29e435a5"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstd_1_1hash_3_01_raz_1_1_vector_3_01_t_00_01_size_01_4_01_4.html#a25d6eb6e08616b34c8d25cde29e435a5">operator()</a> (const <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt; &amp;vec) const noexcept</td></tr>
 <tr class="separator:a25d6eb6e08616b34c8d25cde29e435a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T, std::size_t Size&gt;<br />
+struct std::hash&lt; Raz::Vector&lt; T, Size &gt; &gt;</h3>
+
+<p>Specialization of std::hash for Vector. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of the vector's data. </td></tr>
+    <tr><td class="paramname">Size</td><td>Vector's size. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a25d6eb6e08616b34c8d25cde29e435a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25d6eb6e08616b34c8d25cde29e435a5">&#9670;&nbsp;</a></span>operator()()</h2>
 
@@ -114,6 +125,13 @@ template&lt;typename T , std::size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Computes the hash of the given vector. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>Vector to compute the hash of. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector's hash value. </dd></dl>
 
 </div>
 </div>

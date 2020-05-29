@@ -95,8 +95,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92c8a5e3104847149b47ff1e8e51297d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa9ec4b1d33444ad7e50c208d3c76844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_world.html">World</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#afa9ec4b1d33444ad7e50c208d3c76844">addWorld</a> (<a class="el" href="class_raz_1_1_world.html">World</a> world)</td></tr>
 <tr class="separator:afa9ec4b1d33444ad7e50c208d3c76844"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d771a1c3806fa3e8026da2f3016723f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a4d771a1c3806fa3e8026da2f3016723f">run</a> ()</td></tr>
-<tr class="separator:a4d771a1c3806fa3e8026da2f3016723f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b8b4af535645b0df2241e26a937a5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#ad8b8b4af535645b0df2241e26a937a5f">run</a> ()</td></tr>
+<tr class="memdesc:ad8b8b4af535645b0df2241e26a937a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the application.  <a href="#ad8b8b4af535645b0df2241e26a937a5f">More...</a><br /></td></tr>
+<tr class="separator:ad8b8b4af535645b0df2241e26a937a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77fb2ac41cbfa1e08371fc9d6bd47c13"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a77fb2ac41cbfa1e08371fc9d6bd47c13"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a77fb2ac41cbfa1e08371fc9d6bd47c13">run</a> (F &amp;&amp;callback)</td></tr>
+<tr class="separator:a77fb2ac41cbfa1e08371fc9d6bd47c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfadca277c6309a5434915188dcfd49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a2dfadca277c6309a5434915188dcfd49">runOnce</a> ()</td></tr>
+<tr class="separator:a2dfadca277c6309a5434915188dcfd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c36a22fbac3784a6031db1822c6e1f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a1c36a22fbac3784a6031db1822c6e1f0">quit</a> ()</td></tr>
 <tr class="memdesc:a1c36a22fbac3784a6031db1822c6e1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the application to stop running.  <a href="#a1c36a22fbac3784a6031db1822c6e1f0">More...</a><br /></td></tr>
 <tr class="separator:a1c36a22fbac3784a6031db1822c6e1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,26 +262,72 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d771a1c3806fa3e8026da2f3016723f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d771a1c3806fa3e8026da2f3016723f">&#9670;&nbsp;</a></span>run()</h2>
+<a id="ad8b8b4af535645b0df2241e26a937a5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b8b4af535645b0df2241e26a937a5f">&#9670;&nbsp;</a></span>run() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Raz::Application::run </td>
+          <td class="memname">void Raz::Application::run </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Runs the application. </p><dl class="section return"><dt>Returns</dt><dd>True if the application is still running, false otherwise. </dd></dl>
+
+<p>Runs the application. </p>
+
+</div>
+</div>
+<a id="a77fb2ac41cbfa1e08371fc9d6bd47c13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77fb2ac41cbfa1e08371fc9d6bd47c13">&#9670;&nbsp;</a></span>run() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Application::run </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Runs the application and call the given callable between each cycle. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>Callback to call between each cycle. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2dfadca277c6309a5434915188dcfd49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dfadca277c6309a5434915188dcfd49">&#9670;&nbsp;</a></span>runOnce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::Application::runOnce </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Runs one cycle of the application. </p><dl class="section return"><dt>Returns</dt><dd>True if the application is still running, false otherwise. </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_application_8hpp_source.html">Application.hpp</a></li>
+<li><a class="el" href="_application_8inl.html">Application.inl</a></li>
 <li><a class="el" href="_application_8cpp.html">Application.cpp</a></li>
 </ul>
 </div><!-- contents -->

@@ -16,6 +16,8 @@ var searchData=
   ['entityptr',['EntityPtr',['../namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1',1,'Raz']]],
   ['enumutils_2ehpp',['EnumUtils.hpp',['../_enum_utils_8hpp.html',1,'']]],
   ['equal',['EQUAL',['../namespace_raz.html#a2f80f4a6bb609cf709c688e2158439dca969f331a87d8c958473c32b4d0e61a44',1,'Raz']]],
+  ['equal_5fto_3c_20raz_3a_3amatrix_3c_20t_2c_20w_2c_20h_20_3e_20_3e',['equal_to&lt; Raz::Matrix&lt; T, W, H &gt; &gt;',['../structstd_1_1equal__to_3_01_raz_1_1_matrix_3_01_t_00_01_w_00_01_h_01_4_01_4.html',1,'std']]],
+  ['equal_5fto_3c_20raz_3a_3avector_3c_20t_2c_20size_20_3e_20_3e',['equal_to&lt; Raz::Vector&lt; T, Size &gt; &gt;',['../structstd_1_1equal__to_3_01_raz_1_1_vector_3_01_t_00_01_size_01_4_01_4.html',1,'std']]],
   ['errorcode',['ErrorCode',['../namespace_raz.html#a08d253eadce90839613f77ab2486ee39',1,'Raz']]],
   ['errorcodes',['ErrorCodes',['../namespace_raz.html#a71464a749f90601a6412c9aedc46abc4',1,'Raz']]],
   ['escape',['ESCAPE',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a0c13e1fb738982bf6bb8ea233ba7a652',1,'Raz::Keyboard']]],

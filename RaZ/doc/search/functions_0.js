@@ -1,14 +1,16 @@
 var searchData=
 [
   ['aabb',['AABB',['../class_raz_1_1_a_a_b_b.html#a600d78de3c37d8e2b1f11fb687624f6e',1,'Raz::AABB::AABB()=default'],['../class_raz_1_1_a_a_b_b.html#a3b1c54079dcebee09f475a74ffc3305a',1,'Raz::AABB::AABB(const Vec3f &amp;leftBottomBackPos, const Vec3f &amp;rightTopFrontPos)']]],
+  ['activate',['activate',['../class_raz_1_1_texture.html#aa6d81e85eff6811f8e7e2c6dbc870a88',1,'Raz::Texture']]],
   ['activatetexture',['activateTexture',['../class_raz_1_1_renderer.html#a18740f4b5b27ba682a473aecf0826781',1,'Raz::Renderer']]],
+  ['addbuffer',['addBuffer',['../class_raz_1_1_framebuffer.html#a0c42449a2bbb3b2de9283ec5e111fa4b',1,'Raz::Framebuffer']]],
   ['addbutton',['addButton',['../class_raz_1_1_overlay.html#a7e0f1a73775e8aca0b5006670585093e',1,'Raz::Overlay']]],
   ['addcheckbox',['addCheckbox',['../class_raz_1_1_overlay.html#a222153f88516257f500d2712c2a11e31',1,'Raz::Overlay']]],
   ['addchildren',['addChildren',['../class_raz_1_1_graph_node.html#a7aa1a2dc39bff7484a4088a86d9166f8',1,'Raz::GraphNode']]],
-  ['addcolorbuffer',['addColorBuffer',['../class_raz_1_1_framebuffer.html#ab75c798aabab434c2b96d6a63a7ba694',1,'Raz::Framebuffer']]],
+  ['addcolorbuffer',['addColorBuffer',['../class_raz_1_1_framebuffer.html#a7488a6b4d01fdb3caa39b1fcc2abd579',1,'Raz::Framebuffer']]],
   ['addcomponent',['addComponent',['../class_raz_1_1_entity.html#aa73282498ae499ffd37aaf1933929c58',1,'Raz::Entity']]],
   ['addcomponents',['addComponents',['../class_raz_1_1_entity.html#ad37826b14041cba6d3ff7a05c40e19d1',1,'Raz::Entity::addComponents()'],['../class_raz_1_1_entity.html#ab1e51f98184f62cdc7cecef0aa5efd9c',1,'Raz::Entity::addComponents()']]],
-  ['adddepthbuffer',['addDepthBuffer',['../class_raz_1_1_framebuffer.html#a36bdb696f120e24cd3d908b8f0aaaa6f',1,'Raz::Framebuffer']]],
+  ['adddepthbuffer',['addDepthBuffer',['../class_raz_1_1_framebuffer.html#aac9607f4b51752b8b76b40d62fd8e0db',1,'Raz::Framebuffer']]],
   ['addentity',['addEntity',['../class_raz_1_1_world.html#adc59cf7a970125ca9d68f293d9d2cd4e',1,'Raz::World']]],
   ['addentitywithcomponent',['addEntityWithComponent',['../class_raz_1_1_world.html#a49bedc0b5a58cff06186549b14699f5d',1,'Raz::World']]],
   ['addentitywithcomponents',['addEntityWithComponents',['../class_raz_1_1_world.html#aae1f6e7a9090bc31df40cc8f6849f03c',1,'Raz::World']]],

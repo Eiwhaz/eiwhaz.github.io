@@ -9,7 +9,12 @@ var searchData=
   ['recovermaterial',['recoverMaterial',['../class_raz_1_1_material.html#a4b7a41a413095b9eaaf956dac8511500',1,'Raz::Material']]],
   ['recovermouseposition',['recoverMousePosition',['../class_raz_1_1_window.html#a99a422d8b3e059aabee43ed37e414dc6',1,'Raz::Window']]],
   ['recoverrow',['recoverRow',['../class_raz_1_1_matrix.html#ae7692991f8dd82be4963bacaea5d946c',1,'Raz::Matrix']]],
-  ['recovertexture',['recoverTexture',['../class_raz_1_1_texture.html#a4d570a635cbc44a6eb837bcac77099ee',1,'Raz::Texture']]],
+  ['recovertextureattribute',['recoverTextureAttribute',['../class_raz_1_1_renderer.html#ac585167e4719d52a7318ec168f87f811',1,'Raz::Renderer::recoverTextureAttribute(TextureType type, unsigned int mipmapLevel, TextureAttribute attribute, int *values)'],['../class_raz_1_1_renderer.html#a03c0a2bbdbf64f4574f92be787a9b698',1,'Raz::Renderer::recoverTextureAttribute(TextureType type, unsigned int mipmapLevel, TextureAttribute attribute, float *values)']]],
+  ['recovertexturedata',['recoverTextureData',['../class_raz_1_1_renderer.html#a872e27bd1790db50dabca39ce4d75364',1,'Raz::Renderer']]],
+  ['recovertexturedepth',['recoverTextureDepth',['../class_raz_1_1_renderer.html#acca204a84bd7d5db4c20b55bc19be9b4',1,'Raz::Renderer']]],
+  ['recovertextureheight',['recoverTextureHeight',['../class_raz_1_1_renderer.html#a68b12c30112fb2588ba1560fc6138674',1,'Raz::Renderer']]],
+  ['recovertextureinternalformat',['recoverTextureInternalFormat',['../class_raz_1_1_renderer.html#a949f7208925d4594a42364b7199bc835',1,'Raz::Renderer']]],
+  ['recovertexturewidth',['recoverTextureWidth',['../class_raz_1_1_renderer.html#a5e14fcaef206fccc755be9c716d4526d',1,'Raz::Renderer']]],
   ['recovertrianglecount',['recoverTriangleCount',['../class_raz_1_1_mesh.html#a7fc88f2ee7193b7df972ed8559776137',1,'Raz::Mesh']]],
   ['recoveruniformlocation',['recoverUniformLocation',['../class_raz_1_1_renderer.html#a01f603ab5bcb35f580b7ccd38dd0c6c4',1,'Raz::Renderer::recoverUniformLocation()'],['../class_raz_1_1_shader_program.html#ab7ea76c862aa0f8ed1bbdf93c09aad6e',1,'Raz::ShaderProgram::recoverUniformLocation()']]],
   ['recoververtexcount',['recoverVertexCount',['../class_raz_1_1_mesh.html#a616ddca2d84f7e7b69f17740733ef910',1,'Raz::Mesh']]],
@@ -28,5 +33,6 @@ var searchData=
   ['resizeviewport',['resizeViewport',['../class_raz_1_1_camera.html#a11d922e0b9eb2a70d250064d1fd85d9c',1,'Raz::Camera::resizeViewport()'],['../class_raz_1_1_renderer.html#a714d4067e40b5fa21a9dbc6768e454ce',1,'Raz::Renderer::resizeViewport()'],['../class_raz_1_1_render_system.html#ac4732208fc27ac7575404fc5385402ef',1,'Raz::RenderSystem::resizeViewport()']]],
   ['rigidbody',['RigidBody',['../class_raz_1_1_rigid_body.html#a94b0907a402aa420c7846eaa616184ba',1,'Raz::RigidBody']]],
   ['rotate',['rotate',['../class_raz_1_1_transform.html#a2fd52991f92b47be7d7fa32b1d359d52',1,'Raz::Transform::rotate(Radiansf xAngle, Radiansf yAngle, Radiansf zAngle)'],['../class_raz_1_1_transform.html#a2f7503b276f6dade05d01625bb3acf22',1,'Raz::Transform::rotate(Radiansf angle, const Vec3f &amp;axis)']]],
-  ['run',['run',['../class_raz_1_1_application.html#a4d771a1c3806fa3e8026da2f3016723f',1,'Raz::Application::run()'],['../class_raz_1_1_window.html#abb55fd64b6be001122a021662d8f6097',1,'Raz::Window::run()']]]
+  ['run',['run',['../class_raz_1_1_application.html#ad8b8b4af535645b0df2241e26a937a5f',1,'Raz::Application::run()'],['../class_raz_1_1_application.html#a77fb2ac41cbfa1e08371fc9d6bd47c13',1,'Raz::Application::run(F &amp;&amp;callback)'],['../class_raz_1_1_window.html#abb55fd64b6be001122a021662d8f6097',1,'Raz::Window::run()']]],
+  ['runonce',['runOnce',['../class_raz_1_1_application.html#a2dfadca277c6309a5434915188dcfd49',1,'Raz::Application']]]
 ];

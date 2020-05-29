@@ -111,8 +111,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16ef9b00ef665e49e8a048385c16d18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca640554523ce069ecc3c289baf01fef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aca640554523ce069ecc3c289baf01fef">setBaseColorMap</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> baseColorMap)</td></tr>
 <tr class="separator:aca640554523ce069ecc3c289baf01fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab987c5351fee93d6ff80789722fa13c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ab987c5351fee93d6ff80789722fa13c1">loadBaseColorMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:ab987c5351fee93d6ff80789722fa13c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55057535b1a30dc87f6fcf9f024d41dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a55057535b1a30dc87f6fcf9f024d41dc">loadBaseColorMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:a55057535b1a30dc87f6fcf9f024d41dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace16938b0bf955a8c2e4fc3be6c76da8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_raz.html#a75936dba39fe87d11b16d92172849149">MaterialPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ace16938b0bf955a8c2e4fc3be6c76da8">clone</a> () const =0</td></tr>
 <tr class="separator:ace16938b0bf955a8c2e4fc3be6c76da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6123ce6c4a718693213909e1bc7e2241"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a6123ce6c4a718693213909e1bc7e2241">initTextures</a> (const <a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;program) const =0</td></tr>
@@ -142,7 +142,7 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:adc359ac903e7c6d982778d13275d6bcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#adc359ac903e7c6d982778d13275d6bcc">m_baseColor</a> = <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f)</td></tr>
 <tr class="separator:adc359ac903e7c6d982778d13275d6bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae928778f8abc46010612b7bb6a50fd2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae928778f8abc46010612b7bb6a50fd2e">m_baseColorMap</a> = <a class="el" href="class_raz_1_1_texture.html#a4d570a635cbc44a6eb837bcac77099ee">Texture::recoverTexture</a>(<a class="el" href="namespace_raz.html#a19e2adecbb2b607fe55ae10d494f4303ab5bf627e448384cf3a4c35121ca6008d">TexturePreset::WHITE</a>)</td></tr>
+<tr class="memitem:ae928778f8abc46010612b7bb6a50fd2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae928778f8abc46010612b7bb6a50fd2e">m_baseColorMap</a> = <a class="el" href="class_raz_1_1_texture.html#a4fb09c252f65061a9abe9369a48169df">Texture::create</a>(<a class="el" href="namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afab5bf627e448384cf3a4c35121ca6008d">ColorPreset::WHITE</a>)</td></tr>
 <tr class="separator:ae928778f8abc46010612b7bb6a50fd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -471,20 +471,23 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab987c5351fee93d6ff80789722fa13c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab987c5351fee93d6ff80789722fa13c1">&#9670;&nbsp;</a></span>loadBaseColorMap()</h2>
+<a id="a55057535b1a30dc87f6fcf9f024d41dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55057535b1a30dc87f6fcf9f024d41dc">&#9670;&nbsp;</a></span>loadBaseColorMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::Material::loadBaseColorMap </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -498,11 +501,6 @@ Protected Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -670,7 +668,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> Raz::Material::m_baseColorMap = <a class="el" href="class_raz_1_1_texture.html#a4d570a635cbc44a6eb837bcac77099ee">Texture::recoverTexture</a>(<a class="el" href="namespace_raz.html#a19e2adecbb2b607fe55ae10d494f4303ab5bf627e448384cf3a4c35121ca6008d">TexturePreset::WHITE</a>)</td>
+          <td class="memname"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> Raz::Material::m_baseColorMap = <a class="el" href="class_raz_1_1_texture.html#a4fb09c252f65061a9abe9369a48169df">Texture::create</a>(<a class="el" href="namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afab5bf627e448384cf3a4c35121ca6008d">ColorPreset::WHITE</a>)</td>
         </tr>
       </table>
   </td>

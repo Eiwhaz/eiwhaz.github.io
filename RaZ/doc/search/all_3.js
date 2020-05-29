@@ -14,7 +14,7 @@ var searchData=
   ['checkbox',['CHECKBOX',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca22ab9eebdf3d8e32268c02e577520333',1,'Raz']]],
   ['chromium',['CHROMIUM',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda7a8e888595f5a86f9a1612010ae96f1e',1,'Raz']]],
   ['clamp_5fto_5fedge',['CLAMP_TO_EDGE',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980aca305cdc5d749d643055111218063f26',1,'Raz']]],
-  ['clear',['clear',['../class_raz_1_1_renderer.html#abd70d75f7c7b595025ba763177148704',1,'Raz::Renderer::clear(MaskType type)'],['../class_raz_1_1_renderer.html#a959dfcc60cf09dd4c5e832128b4399e9',1,'Raz::Renderer::clear(MaskType type1, MaskType type2)'],['../class_raz_1_1_renderer.html#a61e75103f9f49ccf2772ee2c512b51b1',1,'Raz::Renderer::clear(MaskType type1, MaskType type2, MaskType type3)']]],
+  ['clear',['clear',['../class_raz_1_1_renderer.html#af4827362098aacadfc5c77769fe525a1',1,'Raz::Renderer']]],
   ['clearcolor',['clearColor',['../class_raz_1_1_renderer.html#a43591b71772740bcf212cb6ddee6559e',1,'Raz::Renderer::clearColor(float red, float green, float blue, float alpha)'],['../class_raz_1_1_renderer.html#a600446dd9438965583a63bf5e57c31c1',1,'Raz::Renderer::clearColor(float values[4])']]],
   ['clone',['clone',['../class_raz_1_1_material.html#ace16938b0bf955a8c2e4fc3be6c76da8',1,'Raz::Material::clone()'],['../class_raz_1_1_material_blinn_phong.html#a71ddc03de6023ff2fcd3258187b14e27',1,'Raz::MaterialBlinnPhong::clone()'],['../class_raz_1_1_material_cook_torrance.html#a5ccb4848dced72a0fa36dfabd9020fa4',1,'Raz::MaterialCookTorrance::clone()']]],
   ['close',['close',['../class_raz_1_1_window.html#a95da7c2f618bb65e4966deca1d37eda9',1,'Raz::Window']]],
@@ -37,7 +37,9 @@ var searchData=
   ['color_5fattachment6',['COLOR_ATTACHMENT6',['../namespace_raz.html#ac31c87885c21a0bb00bdbee3741a3863a4ca6ec934f157f59e5daa4760782e3b8',1,'Raz']]],
   ['color_5fattachment7',['COLOR_ATTACHMENT7',['../namespace_raz.html#ac31c87885c21a0bb00bdbee3741a3863af7714b4196e534e919e86ef7ac7d934f',1,'Raz']]],
   ['color_5flogic_5fop',['COLOR_LOGIC_OP',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a1edc90266958911382dc601aae62ee4e',1,'Raz']]],
+  ['colorpreset',['ColorPreset',['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8af',1,'Raz']]],
   ['compile',['compile',['../class_raz_1_1_shader.html#a0757d55e20fab834fdeeeae2b7fdfdd7',1,'Raz::Shader::compile()'],['../namespace_raz.html#a3731f7a815a0a040e4259970ea05c085a6789cf817caacc2139464fd540bef728',1,'Raz::COMPILE()']]],
+  ['compilerutils_2ehpp',['CompilerUtils.hpp',['../_compiler_utils_8hpp.html',1,'']]],
   ['compileshader',['compileShader',['../class_raz_1_1_renderer.html#a135edb9cc2be3ea14afa4c0e08f67b53',1,'Raz::Renderer']]],
   ['compileshaders',['compileShaders',['../class_raz_1_1_shader_program.html#a8a88b2af4eeeceb8335abe9a14b4a37b',1,'Raz::ShaderProgram']]],
   ['complete',['COMPLETE',['../namespace_raz.html#a3dc4fe979a8fdba3bdd7e100af06510ca3de44296982e58199afc513a715b12ba',1,'Raz']]],
@@ -45,6 +47,8 @@ var searchData=
   ['component_2ehpp',['Component.hpp',['../_component_8hpp.html',1,'']]],
   ['component_2einl',['Component.inl',['../_component_8inl.html',1,'']]],
   ['componentptr',['ComponentPtr',['../namespace_raz.html#af279ed5db59c0b4fcfc3644eda9088ed',1,'Raz']]],
+  ['compressed',['COMPRESSED',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a724ba27218714b182f22d5b24b5e4317',1,'Raz']]],
+  ['compressed_5fimage_5fsize',['COMPRESSED_IMAGE_SIZE',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a47ca7b0558cf513db7c28e4ef026ac18',1,'Raz']]],
   ['computeboundingbox',['computeBoundingBox',['../class_raz_1_1_mesh.html#ae46259f09795c6efcebd432e5c81668e',1,'Raz::Mesh::computeBoundingBox()'],['../class_raz_1_1_submesh.html#a71b6c87ebff31ae4735d26c270891c53',1,'Raz::Submesh::computeBoundingBox()']]],
   ['computecentroid',['computeCentroid',['../class_raz_1_1_shape.html#a7ca69119245e74c019091c319a13733a',1,'Raz::Shape::computeCentroid()'],['../class_raz_1_1_line.html#aa2b2e8789b78c21fa88689e4262b39cd',1,'Raz::Line::computeCentroid()'],['../class_raz_1_1_plane.html#a527e87c9f0b73a7e3bcb62b982b1d546',1,'Raz::Plane::computeCentroid()'],['../class_raz_1_1_sphere.html#a600e848436ee917901bf2027047db4c3',1,'Raz::Sphere::computeCentroid()'],['../class_raz_1_1_triangle.html#a19071afc181db27d2fc34d8a484c0d18',1,'Raz::Triangle::computeCentroid()'],['../class_raz_1_1_quad.html#a86af533b02df91eaaf623a45eb99a625',1,'Raz::Quad::computeCentroid()'],['../class_raz_1_1_a_a_b_b.html#a0ef62a7a8d136f0a77daf765c5aec110',1,'Raz::AABB::computeCentroid()'],['../class_raz_1_1_o_b_b.html#aeb399b3ad1facf6bfc04ba7d31cbac33',1,'Raz::OBB::computeCentroid()']]],
   ['computedeterminant',['computeDeterminant',['../class_raz_1_1_matrix.html#ae8d975f0a53f186d5fdb95f79a0f2005',1,'Raz::Matrix']]],
@@ -88,5 +92,6 @@ var searchData=
   ['cubemap_5fpos_5fz',['CUBEMAP_POS_Z',['../namespace_raz.html#a089e78713ca8a2ef4251e190fe56e602a078b2034d7d121b865e3f1a13a28db75',1,'Raz']]],
   ['cubemap_5fseamless',['CUBEMAP_SEAMLESS',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2afe4ba50d86402ffdf495f8a61c5b0278',1,'Raz']]],
   ['cubemapptr',['CubemapPtr',['../namespace_raz.html#a28b2e3471ad379a091c5d7d066fe8522',1,'Raz']]],
-  ['cull',['CULL',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a4ac66b4aef989941bacb18424426ec49',1,'Raz']]]
+  ['cull',['CULL',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a4ac66b4aef989941bacb18424426ec49',1,'Raz']]],
+  ['cyan',['CYAN',['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afa344dd8cd533280795b9db82ef0c92749',1,'Raz']]]
 ];

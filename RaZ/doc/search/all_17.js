@@ -1,7 +1,8 @@
 var searchData=
 [
   ['w',['W',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639abc5eacb79ecdb0d2a58bdad6dccf7b31',1,'Raz::Keyboard']]],
-  ['white',['WHITE',['../namespace_raz.html#a19e2adecbb2b607fe55ae10d494f4303ab5bf627e448384cf3a4c35121ca6008d',1,'Raz']]],
+  ['white',['WHITE',['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afab5bf627e448384cf3a4c35121ca6008d',1,'Raz']]],
+  ['width',['WIDTH',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a49da85b69bc6285eeee286ca49fa7195',1,'Raz']]],
   ['window',['Window',['../class_raz_1_1_window.html',1,'Raz::Window'],['../class_raz_1_1_window.html#a1a43139ce76446e97ad9a7d6b03423fb',1,'Raz::Window::Window(unsigned int width, unsigned int height, const std::string &amp;title=&quot;&quot;, uint8_t antiAliasingSampleCount=1)'],['../class_raz_1_1_window.html#ac634d309e010ab89cf91b97d67733113',1,'Raz::Window::Window(const Window &amp;)=delete'],['../class_raz_1_1_window.html#acb98ea5f95c9df4fbe6e73bcc3c61a7d',1,'Raz::Window::Window(Window &amp;&amp;)=default']]],
   ['window_2ecpp',['Window.cpp',['../_window_8cpp.html',1,'']]],
   ['window_2ehpp',['Window.hpp',['../_window_8hpp.html',1,'']]],

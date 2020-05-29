@@ -98,8 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6a08a06dabf5885e64375eb06425fa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6af60966c3ef2b665d899da416c174ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a6af60966c3ef2b665d899da416c174ac">MaterialCookTorrance</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> albedoMap)</td></tr>
 <tr class="separator:a6af60966c3ef2b665d899da416c174ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8801cad9d73b5288766432f3961f5f04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a8801cad9d73b5288766432f3961f5f04">MaterialCookTorrance</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:a8801cad9d73b5288766432f3961f5f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ce0f6ad95c3981a08d878129187cd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a47ce0f6ad95c3981a08d878129187cd0">MaterialCookTorrance</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:a47ce0f6ad95c3981a08d878129187cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0039f6c1030bbbd78beef37d3b137d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#ae0039f6c1030bbbd78beef37d3b137d0">MaterialCookTorrance</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;baseColor, float metallicFactor, float roughnessFactor)</td></tr>
 <tr class="separator:ae0039f6c1030bbbd78beef37d3b137d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2d8ab9f60f307d82140230ae8513626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#af2d8ab9f60f307d82140230ae8513626">getType</a> () const override</td></tr>
@@ -132,16 +132,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2c1e4c5156f10b7807421fffcc927067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4c8427d8fd06247ac791289f9d45f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a6a4c8427d8fd06247ac791289f9d45f0">setAmbientOcclusionMap</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> ambientOcclusionMap)</td></tr>
 <tr class="separator:a6a4c8427d8fd06247ac791289f9d45f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ed997a50c763f73c51d4b0daaa4521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#ae3ed997a50c763f73c51d4b0daaa4521">loadAlbedoMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:ae3ed997a50c763f73c51d4b0daaa4521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7430d0a258642336c4c5a06a6b7c2d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a7430d0a258642336c4c5a06a6b7c2d38">loadNormalMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:a7430d0a258642336c4c5a06a6b7c2d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd0d906f44f59e9c627f4713db999fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#affd0d906f44f59e9c627f4713db999fb">loadMetallicMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:affd0d906f44f59e9c627f4713db999fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1b8eaa9b1d0ea314f08a658b2317658"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#ab1b8eaa9b1d0ea314f08a658b2317658">loadRoughnessMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:ab1b8eaa9b1d0ea314f08a658b2317658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed8915b1c02dc1fcd7805576ea3f02e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#aed8915b1c02dc1fcd7805576ea3f02e2">loadAmbientOcclusionMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:aed8915b1c02dc1fcd7805576ea3f02e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1528f98027305fdf2f158aac91d6d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#ade1528f98027305fdf2f158aac91d6d4">loadAlbedoMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:ade1528f98027305fdf2f158aac91d6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a766ad0fd05ba1b8ff1e199db624a4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a7a766ad0fd05ba1b8ff1e199db624a4c">loadNormalMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:a7a766ad0fd05ba1b8ff1e199db624a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f9d6a6b65972765007fbad770f918b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a82f9d6a6b65972765007fbad770f918b">loadMetallicMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:a82f9d6a6b65972765007fbad770f918b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06167f21043b2b2835fd351657029ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#ab06167f21043b2b2835fd351657029ef">loadRoughnessMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:ab06167f21043b2b2835fd351657029ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba8d21ecb0d62fd5bb892b824f1a1f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a5ba8d21ecb0d62fd5bb892b824f1a1f4">loadAmbientOcclusionMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:a5ba8d21ecb0d62fd5bb892b824f1a1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ccb4848dced72a0fa36dfabd9020fa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a75936dba39fe87d11b16d92172849149">MaterialPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a5ccb4848dced72a0fa36dfabd9020fa4">clone</a> () const override</td></tr>
 <tr class="separator:a5ccb4848dced72a0fa36dfabd9020fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a595e04244c94e1fb43e1f502bf478ac9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_cook_torrance.html#a595e04244c94e1fb43e1f502bf478ac9">initTextures</a> (const <a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;program) const override</td></tr>
@@ -161,8 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16ef9b00ef665e49e8a048385c16d18b inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca640554523ce069ecc3c289baf01fef inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aca640554523ce069ecc3c289baf01fef">setBaseColorMap</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> baseColorMap)</td></tr>
 <tr class="separator:aca640554523ce069ecc3c289baf01fef inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab987c5351fee93d6ff80789722fa13c1 inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ab987c5351fee93d6ff80789722fa13c1">loadBaseColorMap</a> (const std::string &amp;fileName, bool flipVertically=true)</td></tr>
-<tr class="separator:ab987c5351fee93d6ff80789722fa13c1 inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55057535b1a30dc87f6fcf9f024d41dc inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a55057535b1a30dc87f6fcf9f024d41dc">loadBaseColorMap</a> (const std::string &amp;fileName, int bindingIndex, bool flipVertically=true)</td></tr>
+<tr class="separator:a55057535b1a30dc87f6fcf9f024d41dc inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac248674e9eaf73a50fe4a5b127bdae4a inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ac248674e9eaf73a50fe4a5b127bdae4a">~Material</a> ()=default</td></tr>
 <tr class="separator:ac248674e9eaf73a50fe4a5b127bdae4a inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -189,7 +189,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_raz_1_1_material"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_raz_1_1_material')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_raz_1_1_material.html">Raz::Material</a></td></tr>
 <tr class="memitem:adc359ac903e7c6d982778d13275d6bcc inherit pro_attribs_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#adc359ac903e7c6d982778d13275d6bcc">m_baseColor</a> = <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f)</td></tr>
 <tr class="separator:adc359ac903e7c6d982778d13275d6bcc inherit pro_attribs_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae928778f8abc46010612b7bb6a50fd2e inherit pro_attribs_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae928778f8abc46010612b7bb6a50fd2e">m_baseColorMap</a> = <a class="el" href="class_raz_1_1_texture.html#a4d570a635cbc44a6eb837bcac77099ee">Texture::recoverTexture</a>(<a class="el" href="namespace_raz.html#a19e2adecbb2b607fe55ae10d494f4303ab5bf627e448384cf3a4c35121ca6008d">TexturePreset::WHITE</a>)</td></tr>
+<tr class="memitem:ae928778f8abc46010612b7bb6a50fd2e inherit pro_attribs_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae928778f8abc46010612b7bb6a50fd2e">m_baseColorMap</a> = <a class="el" href="class_raz_1_1_texture.html#a4fb09c252f65061a9abe9369a48169df">Texture::create</a>(<a class="el" href="namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afab5bf627e448384cf3a4c35121ca6008d">ColorPreset::WHITE</a>)</td></tr>
 <tr class="separator:ae928778f8abc46010612b7bb6a50fd2e inherit pro_attribs_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -244,8 +244,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8801cad9d73b5288766432f3961f5f04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8801cad9d73b5288766432f3961f5f04">&#9670;&nbsp;</a></span>MaterialCookTorrance() <span class="overload">[3/4]</span></h2>
+<a id="a47ce0f6ad95c3981a08d878129187cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ce0f6ad95c3981a08d878129187cd0">&#9670;&nbsp;</a></span>MaterialCookTorrance() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,6 +258,12 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -636,14 +642,11 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="ae3ed997a50c763f73c51d4b0daaa4521"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ed997a50c763f73c51d4b0daaa4521">&#9670;&nbsp;</a></span>loadAlbedoMap()</h2>
+<a id="ade1528f98027305fdf2f158aac91d6d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade1528f98027305fdf2f158aac91d6d4">&#9670;&nbsp;</a></span>loadAlbedoMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::MaterialCookTorrance::loadAlbedoMap </td>
@@ -654,6 +657,12 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
         </tr>
@@ -663,23 +672,15 @@ template&lt;typename... Args&gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aed8915b1c02dc1fcd7805576ea3f02e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed8915b1c02dc1fcd7805576ea3f02e2">&#9670;&nbsp;</a></span>loadAmbientOcclusionMap()</h2>
+<a id="a5ba8d21ecb0d62fd5bb892b824f1a1f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ba8d21ecb0d62fd5bb892b824f1a1f4">&#9670;&nbsp;</a></span>loadAmbientOcclusionMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::MaterialCookTorrance::loadAmbientOcclusionMap </td>
@@ -690,6 +691,12 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
         </tr>
@@ -699,23 +706,15 @@ template&lt;typename... Args&gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="affd0d906f44f59e9c627f4713db999fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd0d906f44f59e9c627f4713db999fb">&#9670;&nbsp;</a></span>loadMetallicMap()</h2>
+<a id="a82f9d6a6b65972765007fbad770f918b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82f9d6a6b65972765007fbad770f918b">&#9670;&nbsp;</a></span>loadMetallicMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::MaterialCookTorrance::loadMetallicMap </td>
@@ -726,6 +725,12 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
         </tr>
@@ -735,23 +740,15 @@ template&lt;typename... Args&gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7430d0a258642336c4c5a06a6b7c2d38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7430d0a258642336c4c5a06a6b7c2d38">&#9670;&nbsp;</a></span>loadNormalMap()</h2>
+<a id="a7a766ad0fd05ba1b8ff1e199db624a4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a766ad0fd05ba1b8ff1e199db624a4c">&#9670;&nbsp;</a></span>loadNormalMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::MaterialCookTorrance::loadNormalMap </td>
@@ -762,38 +759,8 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab1b8eaa9b1d0ea314f08a658b2317658"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1b8eaa9b1d0ea314f08a658b2317658">&#9670;&nbsp;</a></span>loadRoughnessMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::MaterialCookTorrance::loadRoughnessMap </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fileName</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -807,11 +774,40 @@ template&lt;typename... Args&gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab06167f21043b2b2835fd351657029ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06167f21043b2b2835fd351657029ef">&#9670;&nbsp;</a></span>loadRoughnessMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::MaterialCookTorrance::loadRoughnessMap </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

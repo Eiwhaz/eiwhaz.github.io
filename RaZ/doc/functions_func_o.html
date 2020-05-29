@@ -81,6 +81,12 @@ $(function() {
 <li>operator &amp;=()
 : <a class="el" href="class_raz_1_1_bitset.html#a5f0871ba31e6e84cf59d0d1d499811e7">Raz::Bitset</a>
 </li>
+<li>operator const StringType &amp;()
+: <a class="el" href="class_raz_1_1_file_path.html#a923eaa243c4a70df06e4621aea890696">Raz::FilePath</a>
+</li>
+<li>operator const StringType::value_type *()
+: <a class="el" href="class_raz_1_1_file_path.html#ad4324889ef334b85f799b1ef46f21a67">Raz::FilePath</a>
+</li>
 <li>operator Degrees&lt; T2 &gt;()
 : <a class="el" href="struct_raz_1_1_degrees.html#ac1f5460d28dcf731be1369d05b822596">Raz::Degrees&lt; T &gt;</a>
 , <a class="el" href="struct_raz_1_1_radians.html#a33c682305eddc6512914f64362878d08">Raz::Radians&lt; T &gt;</a>
@@ -95,6 +101,7 @@ $(function() {
 <li>operator!=()
 : <a class="el" href="class_raz_1_1_bitset.html#a7076d92fa3445c8314c86e5c705ed5a6">Raz::Bitset</a>
 , <a class="el" href="struct_raz_1_1_degrees.html#adcdd732a51d46a94d0b8bac57791c025">Raz::Degrees&lt; T &gt;</a>
+, <a class="el" href="class_raz_1_1_file_path.html#a730b4b05cda90e06b7dc56eb5536f818">Raz::FilePath</a>
 , <a class="el" href="class_raz_1_1_image.html#a83a034daf243767d420c005d3836f148">Raz::Image</a>
 , <a class="el" href="struct_raz_1_1_image_data.html#a1bb3c62168dbbe16854b57d959e71ff4">Raz::ImageData</a>
 , <a class="el" href="class_raz_1_1_matrix.html#a24e67875c9c406e7b8b566a10662b18a">Raz::Matrix&lt; T, W, H &gt;</a>
@@ -108,9 +115,11 @@ $(function() {
 : <a class="el" href="class_raz_1_1_matrix.html#ab1c1c3a495137cc4a83227be635659e7">Raz::Matrix&lt; T, W, H &gt;</a>
 </li>
 <li>operator()()
-: <a class="el" href="class_raz_1_1_matrix.html#a737dcaf713c7570d866f152fe870b726">Raz::Matrix&lt; T, W, H &gt;</a>
-, <a class="el" href="class_raz_1_1_vector.html#afeedf119084407508cc136665f1fa85f">Raz::Vector&lt; T, Size &gt;</a>
+: <a class="el" href="class_raz_1_1_vector.html#afeedf119084407508cc136665f1fa85f">Raz::Vector&lt; T, Size &gt;</a>
 , <a class="el" href="struct_raz_1_1_vertex.html#ae1958ee15feb6b779cfad6b94142a382">Raz::Vertex</a>
+, <a class="el" href="structstd_1_1equal__to_3_01_raz_1_1_matrix_3_01_t_00_01_w_00_01_h_01_4_01_4.html#a8fee9ad461dac0316d01ae9b137a5fbf">std::equal_to&lt; Raz::Matrix&lt; T, W, H &gt; &gt;</a>
+, <a class="el" href="structstd_1_1equal__to_3_01_raz_1_1_vector_3_01_t_00_01_size_01_4_01_4.html#abe4ef29348a7e569a2ee204582d5bb8e">std::equal_to&lt; Raz::Vector&lt; T, Size &gt; &gt;</a>
+, <a class="el" href="structstd_1_1hash_3_01_raz_1_1_matrix_3_01_t_00_01_w_00_01_h_01_4_01_4.html#a4e28623963a8c88ae6ecee7e395b9de3">std::hash&lt; Raz::Matrix&lt; T, W, H &gt; &gt;</a>
 , <a class="el" href="structstd_1_1hash_3_01_raz_1_1_vector_3_01_t_00_01_size_01_4_01_4.html#a25d6eb6e08616b34c8d25cde29e435a5">std::hash&lt; Raz::Vector&lt; T, Size &gt; &gt;</a>
 </li>
 <li>operator*()
@@ -149,7 +158,7 @@ $(function() {
 : <a class="el" href="struct_raz_1_1_degrees.html#a27b1ef6dc65b84d3671b8bea126f4b62">Raz::Degrees&lt; T &gt;</a>
 , <a class="el" href="class_raz_1_1_matrix.html#a3896191e4507f82fa01c78058349bd07">Raz::Matrix&lt; T, W, H &gt;</a>
 , <a class="el" href="struct_raz_1_1_radians.html#a37c1f77fcb4566b41f827b4b10272b5a">Raz::Radians&lt; T &gt;</a>
-, <a class="el" href="class_raz_1_1_vector.html#ae0543a50f9c6ccaa1eb8984967c2b246">Raz::Vector&lt; T, Size &gt;</a>
+, <a class="el" href="class_raz_1_1_vector.html#a3b4e5c649d4f53b1d1072430331f77d0">Raz::Vector&lt; T, Size &gt;</a>
 </li>
 <li>operator/()
 : <a class="el" href="struct_raz_1_1_degrees.html#a66479d83e5ed72354d891dc84bda865b">Raz::Degrees&lt; T &gt;</a>
@@ -171,33 +180,34 @@ $(function() {
 </li>
 <li>operator=()
 : <a class="el" href="class_raz_1_1_component.html#ab014426f4bfa80b836553c73a05f16bf">Raz::Component</a>
-, <a class="el" href="struct_raz_1_1_degrees.html#a8463c03f0a23040d1478faa16971cc22">Raz::Degrees&lt; T &gt;</a>
+, <a class="el" href="struct_raz_1_1_degrees.html#a33afd616fc1c0cc4c312d0772f8eb6ee">Raz::Degrees&lt; T &gt;</a>
 , <a class="el" href="class_raz_1_1_framebuffer.html#ad34d1486d5226c26ae7dbd1b3e3ca8be">Raz::Framebuffer</a>
 , <a class="el" href="class_raz_1_1_graph.html#ada546ae2f683425ac10a97f5d687384d">Raz::Graph&lt; NodeT &gt;</a>
 , <a class="el" href="class_raz_1_1_graph_node.html#ac1189fdb959d134f684785310f0a1bd0">Raz::GraphNode&lt; T &gt;</a>
 , <a class="el" href="class_raz_1_1_index_buffer.html#a23c8ff763a6c3ea2285968b96b8d4a77">Raz::IndexBuffer</a>
 , <a class="el" href="class_raz_1_1_matrix.html#ac92039c81de76ea45b5afd55c521b728">Raz::Matrix&lt; T, W, H &gt;</a>
-, <a class="el" href="class_raz_1_1_quaternion.html#af0233407bd5ffd49eaa945ca1d0dc3c3">Raz::Quaternion&lt; T &gt;</a>
-, <a class="el" href="struct_raz_1_1_radians.html#a1e1e77ff6f233db5bf01b8a33cdb0ad0">Raz::Radians&lt; T &gt;</a>
-, <a class="el" href="class_raz_1_1_ray.html#a8c6c2edff65cacb7b69c63ab68cc33a7">Raz::Ray</a>
+, <a class="el" href="class_raz_1_1_quaternion.html#ad0bc1f7af349e3e6d5c245c240cd4534">Raz::Quaternion&lt; T &gt;</a>
+, <a class="el" href="struct_raz_1_1_radians.html#a49ef06170e2b0140c452401434e3f06f">Raz::Radians&lt; T &gt;</a>
+, <a class="el" href="class_raz_1_1_ray.html#a75e5525c85ee1fb9c5480a5609e9c10f">Raz::Ray</a>
 , <a class="el" href="class_raz_1_1_renderer.html#a08a355d7ac56b1e7f42129f64bc1d887">Raz::Renderer</a>
-, <a class="el" href="class_raz_1_1_render_pass.html#a92884ac6d24566b829d88418127ac0be">Raz::RenderPass</a>
+, <a class="el" href="class_raz_1_1_render_pass.html#abca3b7f1738f5669e2ba01837f7039ae">Raz::RenderPass</a>
 , <a class="el" href="class_raz_1_1_shader.html#ae8444172614232a0cf4ceb160d028b1d">Raz::Shader</a>
 , <a class="el" href="class_raz_1_1_shader_program.html#aab6bccc46a8a72a24fee93904bfeef07">Raz::ShaderProgram</a>
 , <a class="el" href="class_raz_1_1_shape.html#a985ac051cdf01e5c0e5480f4c3e8b738">Raz::Shape</a>
 , <a class="el" href="class_raz_1_1_submesh.html#abbec68a2abedb1005efd52917453bf6a">Raz::Submesh</a>
 , <a class="el" href="class_raz_1_1_system.html#aa872860a55e9e1a1fc7b6d678ee12926">Raz::System</a>
-, <a class="el" href="class_raz_1_1_texture.html#a15a9f5d5842667f7bf9d5aa714160641">Raz::Texture</a>
-, <a class="el" href="class_raz_1_1_uniform_buffer.html#add42555f5cd4742241df2002b8e5bcf4">Raz::UniformBuffer</a>
+, <a class="el" href="class_raz_1_1_texture.html#a3fb4ed1f89bbc068975d79e0f5d30224">Raz::Texture</a>
+, <a class="el" href="class_raz_1_1_uniform_buffer.html#ae72dda1aa4284c7c03d8fc6fad33bec7">Raz::UniformBuffer</a>
 , <a class="el" href="class_raz_1_1_vector.html#ab5bc364332a9a6531e98e4310fb6b888">Raz::Vector&lt; T, Size &gt;</a>
-, <a class="el" href="class_raz_1_1_vertex_array.html#a3c661010e84a56a899821371383ea0ce">Raz::VertexArray</a>
+, <a class="el" href="class_raz_1_1_vertex_array.html#aa5cea00a7e3a788177171b5920c507e3">Raz::VertexArray</a>
 , <a class="el" href="class_raz_1_1_vertex_buffer.html#a6667bccb110b063140812d1feb90e8e0">Raz::VertexBuffer</a>
-, <a class="el" href="class_raz_1_1_window.html#a0aba717cc56e9b118f0e1b7bde9f18d5">Raz::Window</a>
+, <a class="el" href="class_raz_1_1_window.html#ac27f84988d0d36cd13750ac9dbf1a5c0">Raz::Window</a>
 , <a class="el" href="class_raz_1_1_world.html#a03d12a73e371cb47a3a3dacc835f43f9">Raz::World</a>
 </li>
 <li>operator==()
 : <a class="el" href="class_raz_1_1_bitset.html#a9817cc8373a19c43dd4cfe31d4932052">Raz::Bitset</a>
 , <a class="el" href="struct_raz_1_1_degrees.html#aa538988753a0eb830cd5008678801b44">Raz::Degrees&lt; T &gt;</a>
+, <a class="el" href="class_raz_1_1_file_path.html#aa1c5561057d2ca52430a84bab7012340">Raz::FilePath</a>
 , <a class="el" href="class_raz_1_1_image.html#a7dc6ed430001a5f1596f9a1cc4e00aa4">Raz::Image</a>
 , <a class="el" href="struct_raz_1_1_image_data.html#ae6e7338348cd446656f7a3943fed225c">Raz::ImageData</a>
 , <a class="el" href="struct_raz_1_1_image_data_b.html#a622aeda20e50dc4f49f2ca50eb26374a">Raz::ImageDataB</a>
@@ -215,8 +225,8 @@ $(function() {
 </li>
 <li>operator[]()
 : <a class="el" href="class_raz_1_1_bitset.html#a42cb5347139f6dcfd4d824b1b03bc25e">Raz::Bitset</a>
-, <a class="el" href="class_raz_1_1_matrix.html#a8221469dd6d6f027dfae0f9acdc7806e">Raz::Matrix&lt; T, W, H &gt;</a>
-, <a class="el" href="class_raz_1_1_vector.html#aa6503192aef3539c32d6a583fdce0493">Raz::Vector&lt; T, Size &gt;</a>
+, <a class="el" href="class_raz_1_1_matrix.html#afe345a6b60d99193f3427cd8634238fe">Raz::Matrix&lt; T, W, H &gt;</a>
+, <a class="el" href="class_raz_1_1_vector.html#afda154adcfbbfb14273e732dd63c3817">Raz::Vector&lt; T, Size &gt;</a>
 </li>
 <li>operator^()
 : <a class="el" href="class_raz_1_1_bitset.html#a68ccd8a1efb9a8f3e8cd84c25ca842ad">Raz::Bitset</a>

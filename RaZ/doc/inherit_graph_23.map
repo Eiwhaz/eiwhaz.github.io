@@ -1,6 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_shader.html" title="Raz::Shader" alt="" coords="5,56,100,83"/>
-<area shape="rect" id="node2" href="$class_raz_1_1_fragment_shader.html" title="Raz::FragmentShader" alt="" coords="149,5,298,32"/>
-<area shape="rect" id="node3" href="$class_raz_1_1_geometry_shader.html" title="Raz::GeometryShader" alt="" coords="148,56,299,83"/>
-<area shape="rect" id="node4" href="$class_raz_1_1_vertex_shader.html" title="Raz::VertexShader" alt="" coords="157,107,289,133"/>
+<area shape="rect" id="node1" href="$class_raz_1_1_render_pass.html" title="Raz::RenderPass" alt="" coords="5,31,129,57"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_geometry_pass.html" title="Geometry render pass, rendering the base scene. " alt="" coords="177,5,317,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_s_s_r_pass.html" title="Screen&#45;Space Reflections render pass, producing real&#45;time reflections in screen&#45;space. " alt="" coords="192,56,303,83"/>
 </map>

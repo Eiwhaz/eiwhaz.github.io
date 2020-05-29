@@ -62,6 +62,7 @@ var menudata={children:[
 {text:"p",url:"namespacemembers_func.html#index_p"},
 {text:"s",url:"namespacemembers_func.html#index_s"},
 {text:"t",url:"namespacemembers_func.html#index_t"},
+{text:"v",url:"namespacemembers_func.html#index_v"},
 {text:"x",url:"namespacemembers_func.html#index_x"},
 {text:"y",url:"namespacemembers_func.html#index_y"},
 {text:"z",url:"namespacemembers_func.html#index_z"}]},
@@ -181,10 +182,14 @@ var menudata={children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
+{text:"d",url:"globals.html#index_d"},
 {text:"g",url:"globals.html#index_g"},
 {text:"m",url:"globals.html#index_m"},
+{text:"p",url:"globals.html#index_p"},
 {text:"r",url:"globals.html#index_r"}]},
 {text:"Macros",url:"globals_defs.html",children:[
+{text:"d",url:"globals_defs.html#index_d"},
 {text:"g",url:"globals_defs.html#index_g"},
 {text:"m",url:"globals_defs.html#index_m"},
+{text:"p",url:"globals_defs.html#index_p"},
 {text:"r",url:"globals_defs.html#index_r"}]}]}]}]}

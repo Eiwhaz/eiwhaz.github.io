@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aae45969c9f4ba2812bad61b32e90dae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9dacee573d4c2cfa4a7bcb70b406d95"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ad9dacee573d4c2cfa4a7bcb70b406d95">computeSquaredLength</a> () const noexcept</td></tr>
 <tr class="separator:ad9dacee573d4c2cfa4a7bcb70b406d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9fae2ce07e3e285cc5309acf626260"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#aac9fae2ce07e3e285cc5309acf626260">strictlyEquals</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) const noexcept</td></tr>
+<tr class="separator:aac9fae2ce07e3e285cc5309acf626260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8e45bd1a7f9e292cfc45d2f866ef9af"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#af8e45bd1a7f9e292cfc45d2f866ef9af">hash</a> (std::size_t seed=0) const noexcept</td></tr>
 <tr class="separator:af8e45bd1a7f9e292cfc45d2f866ef9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5bc364332a9a6531e98e4310fb6b888"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ab5bc364332a9a6531e98e4310fb6b888">operator=</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;) noexcept=default</td></tr>
@@ -730,7 +732,7 @@ template&lt;typename T , std::size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Computes the unique hash of the vector. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Computes the unique hash of the current vector. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">seed</td><td>Value to use as a hash seed. </td></tr>
   </table>
@@ -785,7 +787,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_raz_1_1_vector.html">Vector</a> unequality comparison operator. Uses a near-equality check on floating types to take floating-point errors into account. </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a class="el" href="class_raz_1_1_vector.html">Vector</a> inequality comparison operator. Uses a near-equality check on floating types to take floating-point errors into account. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be compared with. </td></tr>
   </table>
@@ -1645,6 +1647,41 @@ Incident vector reflection</div></div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_vector.html">Vector</a>'s reflection. </dd></dl>
+
+</div>
+</div>
+<a id="aac9fae2ce07e3e285cc5309acf626260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9fae2ce07e3e285cc5309acf626260">&#9670;&nbsp;</a></span>strictlyEquals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::strictlyEquals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Checks for strict equality between the current vector &amp; the given one. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be compared with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if vectors are strictly equal to each other, false otherwise. </dd></dl>
 
 </div>
 </div>
