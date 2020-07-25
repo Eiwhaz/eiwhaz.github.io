@@ -124,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac91c2bd43f110ad0522572aabf42dd2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#ac91c2bd43f110ad0522572aabf42dd2a">use</a> () const</td></tr>
 <tr class="memdesc:ac91c2bd43f110ad0522572aabf42dd2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the graphics card to use the program.  <a href="#ac91c2bd43f110ad0522572aabf42dd2a">More...</a><br /></td></tr>
 <tr class="separator:ac91c2bd43f110ad0522572aabf42dd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c16a9ba280b814c8e39df216348b1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a47c16a9ba280b814c8e39df216348b1c">isUsed</a> () const</td></tr>
+<tr class="memdesc:a47c16a9ba280b814c8e39df216348b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the program is currently defined as used.  <a href="#a47c16a9ba280b814c8e39df216348b1c">More...</a><br /></td></tr>
+<tr class="separator:a47c16a9ba280b814c8e39df216348b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd48623e8a6333818ed3f547cf0a222b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#afd48623e8a6333818ed3f547cf0a222b">updateShaders</a> () const</td></tr>
 <tr class="memdesc:afd48623e8a6333818ed3f547cf0a222b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads &amp; compiles all the shaders contained by the program, then links &amp; uses it.  <a href="#afd48623e8a6333818ed3f547cf0a222b">More...</a><br /></td></tr>
 <tr class="separator:afd48623e8a6333818ed3f547cf0a222b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -494,6 +497,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a47c16a9ba280b814c8e39df216348b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c16a9ba280b814c8e39df216348b1c">&#9670;&nbsp;</a></span>isUsed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::ShaderProgram::isUsed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the program is currently defined as used. </p>
+
+</div>
+</div>
 <a id="a00f4d42c123a5e31e7b4b68b06d88952"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00f4d42c123a5e31e7b4b68b06d88952">&#9670;&nbsp;</a></span>link()</h2>
 
@@ -616,9 +638,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -638,11 +657,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends an integer as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -659,9 +673,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -681,11 +692,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends an unsigned integer as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -702,9 +708,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -724,11 +727,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point value as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -745,9 +743,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -767,11 +762,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point 2D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -788,9 +778,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -810,11 +797,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point 3D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -831,9 +813,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -853,11 +832,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point 4D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -874,9 +848,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -896,11 +867,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point 2x2 matrix as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -917,9 +883,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -939,11 +902,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point 3x3 matrix as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -960,9 +918,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Raz::ShaderProgram::sendUniform </td>
@@ -982,11 +937,6 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Sends a floating-point 4x4 matrix as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

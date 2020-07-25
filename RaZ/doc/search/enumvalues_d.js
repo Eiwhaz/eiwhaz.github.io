@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n',['N',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a234bb1e1e214d54b2cf61d171ef29ce3',1,'Raz::Keyboard']]],
-  ['nearest',['NEAREST',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980aad135772d7cf93dd0ccf9d2474b34e6a',1,'Raz']]],
+  ['nearest',['NEAREST',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980aad135772d7cf93dd0ccf9d2474b34e6a',1,'Raz::NEAREST()'],['../namespace_raz.html#af2171d541a899890255fc73e895185b5aad135772d7cf93dd0ccf9d2474b34e6a',1,'Raz::NEAREST()']]],
   ['nearest_5fmipmap_5flinear',['NEAREST_MIPMAP_LINEAR',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980a65706de8e74692e0dcd9cd776d668bab',1,'Raz']]],
   ['nearest_5fmipmap_5fnearest',['NEAREST_MIPMAP_NEAREST',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980a1fbb2c20778f4e3e3ea0ec17ebd5dce3',1,'Raz']]],
   ['never',['NEVER',['../namespace_raz.html#a2f80f4a6bb609cf709c688e2158439dca443475558f0168dff92ecde26b98ae5a',1,'Raz']]],

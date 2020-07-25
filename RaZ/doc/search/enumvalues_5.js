@@ -14,7 +14,7 @@ var searchData=
   ['f8',['F8',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a34594c7957d8d92e9a8969276d2c7cca',1,'Raz::Keyboard']]],
   ['f9',['F9',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a1b01f3b0d8bbed0ea80a09782109f792',1,'Raz::Keyboard']]],
   ['fill',['FILL',['../namespace_raz.html#a17e77ed5b38a4fa2cc34b8d2d5d7e4fbae8225b11842409df543692aebed34fd1',1,'Raz']]],
-  ['float',['FLOAT',['../namespace_raz.html#a651306b9d3e7811b1601fb5651d89a7eae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()'],['../namespace_raz.html#a560e0a7db1b131359ef82257442d8b8cae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()']]],
+  ['float',['FLOAT',['../namespace_raz.html#a651306b9d3e7811b1601fb5651d89a7eae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0ae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()'],['../namespace_raz.html#a560e0a7db1b131359ef82257442d8b8cae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()']]],
   ['fps_5fcounter',['FPS_COUNTER',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca778030f0e27aa1ba1500f09b5954f0a5',1,'Raz']]],
   ['fragment',['FRAGMENT',['../namespace_raz.html#ad89bb45846c2309a8d1e60ed06a68d37a7345a249ed5c2f850d85dc1727c24716',1,'Raz']]],
   ['frame_5ftime',['FRAME_TIME',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca6659e24a56dc15a075e98afd8c4bbde0',1,'Raz']]],

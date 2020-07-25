@@ -76,12 +76,14 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">FilePath.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &lt;string_view&gt;</code><br />
 </div>
 <p><a href="_file_path_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -89,6 +91,9 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_file_path.html">Raz::FilePath</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstd_1_1hash_3_01_raz_1_1_file_path_01_4.html">std::hash&lt; Raz::FilePath &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of std::hash for FilePath.  <a href="structstd_1_1hash_3_01_raz_1_1_file_path_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -100,6 +105,21 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a6bad730583f103d6c8545664aa3c955b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_file_path_8hpp.html#a6bad730583f103d6c8545664aa3c955b">RAZ_FILEPATH_HPP</a></td></tr>
 <tr class="separator:a6bad730583f103d6c8545664aa3c955b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a980f8acbffd9ec5925e831d1e974c06e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a980f8acbffd9ec5925e831d1e974c06e">Raz::operator+</a> (const char *pathStr, const FilePath &amp;filePath)</td></tr>
+<tr class="separator:a980f8acbffd9ec5925e831d1e974c06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0de3a9e5a10a00538f99fa6a62f91c"><td class="memItemLeft" align="right" valign="top">static std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a0d0de3a9e5a10a00538f99fa6a62f91c">Raz::operator+</a> (const wchar_t *pathStr, const FilePath &amp;filePath)</td></tr>
+<tr class="separator:a0d0de3a9e5a10a00538f99fa6a62f91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2068894151c71e333fac29ea7829772"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#ad2068894151c71e333fac29ea7829772">Raz::operator+</a> (const std::string &amp;pathStr, const FilePath &amp;filePath)</td></tr>
+<tr class="separator:ad2068894151c71e333fac29ea7829772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e5f1316b6361539b594b90092ecb6b"><td class="memItemLeft" align="right" valign="top">static std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a19e5f1316b6361539b594b90092ecb6b">Raz::operator+</a> (const std::wstring &amp;pathStr, const FilePath &amp;filePath)</td></tr>
+<tr class="separator:a19e5f1316b6361539b594b90092ecb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591528015657244db3bd014a1c8f5fc0"><td class="memItemLeft" align="right" valign="top">static std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a591528015657244db3bd014a1c8f5fc0">Raz::operator&lt;&lt;</a> (std::ostream &amp;stream, const FilePath &amp;filePath)</td></tr>
+<tr class="separator:a591528015657244db3bd014a1c8f5fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea5a877f6b67dc8d1e2044196c8f558"><td class="memItemLeft" align="right" valign="top">static std::wostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a6ea5a877f6b67dc8d1e2044196c8f558">Raz::operator&lt;&lt;</a> (std::wostream &amp;stream, const FilePath &amp;filePath)</td></tr>
+<tr class="separator:a6ea5a877f6b67dc8d1e2044196c8f558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a6bad730583f103d6c8545664aa3c955b"></a>

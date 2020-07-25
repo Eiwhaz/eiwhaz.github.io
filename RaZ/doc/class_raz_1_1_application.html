@@ -93,8 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af63e9b7705c85a863259d3f2512bb739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c8a5e3104847149b47ff1e8e51297d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a92c8a5e3104847149b47ff1e8e51297d">getDeltaTime</a> () const</td></tr>
 <tr class="separator:a92c8a5e3104847149b47ff1e8e51297d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa9ec4b1d33444ad7e50c208d3c76844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_world.html">World</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#afa9ec4b1d33444ad7e50c208d3c76844">addWorld</a> (<a class="el" href="class_raz_1_1_world.html">World</a> world)</td></tr>
-<tr class="separator:afa9ec4b1d33444ad7e50c208d3c76844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae912580dd2490d4fc4d613bd9f8d4313"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ae912580dd2490d4fc4d613bd9f8d4313"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_world.html">World</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#ae912580dd2490d4fc4d613bd9f8d4313">addWorld</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ae912580dd2490d4fc4d613bd9f8d4313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8b8b4af535645b0df2241e26a937a5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#ad8b8b4af535645b0df2241e26a937a5f">run</a> ()</td></tr>
 <tr class="memdesc:ad8b8b4af535645b0df2241e26a937a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the application.  <a href="#ad8b8b4af535645b0df2241e26a937a5f">More...</a><br /></td></tr>
 <tr class="separator:ad8b8b4af535645b0df2241e26a937a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,24 +136,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afa9ec4b1d33444ad7e50c208d3c76844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa9ec4b1d33444ad7e50c208d3c76844">&#9670;&nbsp;</a></span>addWorld()</h2>
+<a id="ae912580dd2490d4fc4d613bd9f8d4313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae912580dd2490d4fc4d613bd9f8d4313">&#9670;&nbsp;</a></span>addWorld()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_raz_1_1_world.html">World</a> &amp; Raz::Application::addWorld </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_world.html">World</a>&#160;</td>
-          <td class="paramname"><em>world</em></td><td>)</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds a <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities. ">World</a> into the <a class="el" href="class_raz_1_1_application.html">Application</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Adds a <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities. ">World</a> into the <a class="el" href="class_raz_1_1_application.html">Application</a>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Args</td><td>Types of the arguments to be forwarded to the <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities. ">World</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">world</td><td><a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities. ">World</a> to be added. </td></tr>
+    <tr><td class="paramname">args</td><td>Arguments to be forwarded to the <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities. ">World</a>. </td></tr>
   </table>
   </dd>
 </dl>

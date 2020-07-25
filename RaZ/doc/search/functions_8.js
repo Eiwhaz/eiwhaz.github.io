@@ -1,8 +1,8 @@
 var searchData=
 [
   ['identity',['identity',['../class_raz_1_1_matrix.html#a43effe0a9ecd9ec873259bc82973c434',1,'Raz::Matrix::identity()'],['../class_raz_1_1_quaternion.html#ae66b761d8b4e0780468a5c14683eb147',1,'Raz::Quaternion::identity()']]],
-  ['image',['Image',['../class_raz_1_1_image.html#a437bae8bda3cf7c086d6c6bd335afc1f',1,'Raz::Image::Image()=default'],['../class_raz_1_1_image.html#aaf36f04753f699f97eacda1ddc6e34e4',1,'Raz::Image::Image(unsigned int width, unsigned int height, ImageColorspace colorspace=ImageColorspace::RGB)'],['../class_raz_1_1_image.html#a6f406cf20833c5598cd581fc42e95dd1',1,'Raz::Image::Image(const std::string &amp;fileName, bool flipVertically=false)']]],
-  ['import',['import',['../class_raz_1_1_mesh.html#a58e62af2067108649a03a9df7292f9b0',1,'Raz::Mesh::import()'],['../class_raz_1_1_shader.html#ab49099cab6feed4d3bcf97d0952b33ea',1,'Raz::Shader::import()']]],
+  ['image',['Image',['../class_raz_1_1_image.html#a437bae8bda3cf7c086d6c6bd335afc1f',1,'Raz::Image::Image()=default'],['../class_raz_1_1_image.html#aaf36f04753f699f97eacda1ddc6e34e4',1,'Raz::Image::Image(unsigned int width, unsigned int height, ImageColorspace colorspace=ImageColorspace::RGB)'],['../class_raz_1_1_image.html#addcb350884f552d475e4d2ebdaadc2ce',1,'Raz::Image::Image(const FilePath &amp;filePath, bool flipVertically=false)']]],
+  ['import',['import',['../class_raz_1_1_mesh.html#ade98e66bcb6262499002878e5e3c5076',1,'Raz::Mesh::import()'],['../class_raz_1_1_shader.html#ac9dcbaa735c0a13e7579973428b6ec52',1,'Raz::Shader::import()']]],
   ['indexbuffer',['IndexBuffer',['../class_raz_1_1_index_buffer.html#ac9fe9ceaf4681de9961d1d2581a96ba5',1,'Raz::IndexBuffer::IndexBuffer()'],['../class_raz_1_1_index_buffer.html#a04584d844d8f0f28b2b69dee2dc6dcdb',1,'Raz::IndexBuffer::IndexBuffer(const IndexBuffer &amp;)=delete'],['../class_raz_1_1_index_buffer.html#a114932e48c97113a09f0db3c0ade5c50',1,'Raz::IndexBuffer::IndexBuffer(IndexBuffer &amp;&amp;ibo) noexcept']]],
   ['initbuffers',['initBuffers',['../class_raz_1_1_framebuffer.html#a816b02b4f837fc4483cb530bf38617ef',1,'Raz::Framebuffer']]],
   ['initialize',['initialize',['../class_raz_1_1_renderer.html#a7367921642fca1c0a5384bb878b1e374',1,'Raz::Renderer']]],
@@ -11,13 +11,19 @@ var searchData=
   ['inverse',['inverse',['../class_raz_1_1_matrix.html#a4e3d17fcf0797b432386bc4cfdcbee16',1,'Raz::Matrix::inverse()'],['../class_raz_1_1_quaternion.html#ae3bb87c0f3e500594cb3897511c2f614',1,'Raz::Quaternion::inverse()']]],
   ['iscompiled',['isCompiled',['../class_raz_1_1_shader.html#af180a09cd568df5429cdd84f7811214a',1,'Raz::Shader']]],
   ['iscounterclockwise',['isCounterClockwise',['../class_raz_1_1_triangle.html#aefd4847f6b48cd7eb7ee435af85b782d',1,'Raz::Triangle']]],
-  ['isempty',['isEmpty',['../class_raz_1_1_bitset.html#af11c20dffddc84d69a3daa748ea46726',1,'Raz::Bitset::isEmpty()'],['../struct_raz_1_1_image_data.html#ab5ec971e6d6e6be95f22c69f666f5297',1,'Raz::ImageData::isEmpty()'],['../struct_raz_1_1_image_data_b.html#a3504488a5523d9e67b525a4d166d90c0',1,'Raz::ImageDataB::isEmpty()'],['../struct_raz_1_1_image_data_f.html#a4b28ac46e30c14a8c43cc102d2bac655',1,'Raz::ImageDataF::isEmpty()'],['../class_raz_1_1_image.html#af6b4f6dac9bba963f01692e6dfc4f75e',1,'Raz::Image::isEmpty()']]],
+  ['isempty',['isEmpty',['../struct_raz_1_1_error_codes.html#a92597f7a1a2f00bcac3064fb9868315b',1,'Raz::ErrorCodes::isEmpty()'],['../class_raz_1_1_bitset.html#af11c20dffddc84d69a3daa748ea46726',1,'Raz::Bitset::isEmpty()'],['../struct_raz_1_1_image_data.html#ab5ec971e6d6e6be95f22c69f666f5297',1,'Raz::ImageData::isEmpty()'],['../struct_raz_1_1_image_data_b.html#a3504488a5523d9e67b525a4d166d90c0',1,'Raz::ImageDataB::isEmpty()'],['../struct_raz_1_1_image_data_f.html#a4b28ac46e30c14a8c43cc102d2bac655',1,'Raz::ImageDataF::isEmpty()'],['../class_raz_1_1_image.html#af6b4f6dac9bba963f01692e6dfc4f75e',1,'Raz::Image::isEmpty()']]],
   ['isenabled',['isEnabled',['../class_raz_1_1_entity.html#a2eb5833d6b0f7d80922807f3e994e015',1,'Raz::Entity::isEnabled()'],['../class_raz_1_1_renderer.html#a9044341e1d45103510728864d26f32db',1,'Raz::Renderer::isEnabled()']]],
   ['isframebuffercomplete',['isFramebufferComplete',['../class_raz_1_1_renderer.html#a7e054c5b966b2de2ce9acf4741547d6d',1,'Raz::Renderer']]],
   ['isinitialized',['isInitialized',['../class_raz_1_1_renderer.html#a09a17a7d9ed0c75c2255d80ebde99662',1,'Raz::Renderer']]],
   ['islinked',['isLinked',['../class_raz_1_1_shader_program.html#a41531eda69af07b6fe1513f91b8ca058',1,'Raz::ShaderProgram']]],
+  ['ispaused',['isPaused',['../class_raz_1_1_sound.html#ab115bd75d3c71a43e74cc6df8e6ecf8f',1,'Raz::Sound']]],
+  ['isplaying',['isPlaying',['../class_raz_1_1_sound.html#a3543f8647e70d3e2d63b1694a82661ca',1,'Raz::Sound']]],
   ['isprogramlinked',['isProgramLinked',['../class_raz_1_1_renderer.html#a6a987bbc1e537d11ab5131ee1facb0da',1,'Raz::Renderer']]],
   ['isroot',['isRoot',['../class_raz_1_1_graph_node.html#a978098a3ee01f697741719c974a67188',1,'Raz::GraphNode']]],
   ['isshadercompiled',['isShaderCompiled',['../class_raz_1_1_renderer.html#ac598ce04692d4cd4915ff496f08b19a5',1,'Raz::Renderer']]],
+  ['isstopped',['isStopped',['../class_raz_1_1_sound.html#a61e7d1c6a8b8d83424665a0f4491f33e',1,'Raz::Sound']]],
+  ['istexture',['isTexture',['../class_raz_1_1_renderer.html#a72d396d7cb5b48033ddeab7394f0e642',1,'Raz::Renderer']]],
+  ['isused',['isUsed',['../class_raz_1_1_shader_program.html#a47c16a9ba280b814c8e39df216348b1c',1,'Raz::ShaderProgram']]],
+  ['isvalid',['isValid',['../class_raz_1_1_shader.html#accfafe296c3d5980561528fcb7bbb74d',1,'Raz::Shader']]],
   ['iterrange',['IterRange',['../class_raz_1_1_threading_1_1_iter_range.html#a4f7c7c4afdbc676c298708c768567e9f',1,'Raz::Threading::IterRange']]]
 ];

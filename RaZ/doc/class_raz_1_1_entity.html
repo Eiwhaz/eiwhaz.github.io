@@ -92,6 +92,10 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae91a5c62141a61b2f8e1d01631409844"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#ae91a5c62141a61b2f8e1d01631409844">Entity</a> (std::size_t index, bool enabled=true)</td></tr>
 <tr class="separator:ae91a5c62141a61b2f8e1d01631409844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb78157958ae63d6bd798a86272d0362"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#acb78157958ae63d6bd798a86272d0362">Entity</a> (const <a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;)=delete</td></tr>
+<tr class="separator:acb78157958ae63d6bd798a86272d0362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e13cb2f7b9983718e4edeeb5e2b43c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a0e13cb2f7b9983718e4edeeb5e2b43c8">Entity</a> (<a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&amp;) noexcept=delete</td></tr>
+<tr class="separator:a0e13cb2f7b9983718e4edeeb5e2b43c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa06d7060e6779355c7fc50ba85767412"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#aa06d7060e6779355c7fc50ba85767412">getId</a> () const</td></tr>
 <tr class="separator:aa06d7060e6779355c7fc50ba85767412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb5833d6b0f7d80922807f3e994e015"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a2eb5833d6b0f7d80922807f3e994e015">isEnabled</a> () const</td></tr>
@@ -126,6 +130,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a149131ac1aa19ba7d7ba31e807639b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a149131ac1aa19ba7d7ba31e807639b49">disable</a> ()</td></tr>
 <tr class="memdesc:a149131ac1aa19ba7d7ba31e807639b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the entity.  <a href="#a149131ac1aa19ba7d7ba31e807639b49">More...</a><br /></td></tr>
 <tr class="separator:a149131ac1aa19ba7d7ba31e807639b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22eca0fbbe9b77955a2d973c109c9e55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a22eca0fbbe9b77955a2d973c109c9e55">operator=</a> (const <a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;)=delete</td></tr>
+<tr class="separator:a22eca0fbbe9b77955a2d973c109c9e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56855b0941165e498a66c0e8a697c637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a56855b0941165e498a66c0e8a697c637">operator=</a> (<a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&amp;) noexcept=delete</td></tr>
+<tr class="separator:a56855b0941165e498a66c0e8a697c637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -142,7 +150,7 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_entity.html" title="Entity class representing an aggregate of Component objects. ">Entity</a> class representing an aggregate of <a class="el" href="class_raz_1_1_component.html" title="Component class representing a base Component to be inherited. ">Component</a> objects. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae91a5c62141a61b2f8e1d01631409844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae91a5c62141a61b2f8e1d01631409844">&#9670;&nbsp;</a></span>Entity() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91a5c62141a61b2f8e1d01631409844">&#9670;&nbsp;</a></span>Entity() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,8 +185,60 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acb78157958ae63d6bd798a86272d0362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb78157958ae63d6bd798a86272d0362">&#9670;&nbsp;</a></span>Entity() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::Entity::Entity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e13cb2f7b9983718e4edeeb5e2b43c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e13cb2f7b9983718e4edeeb5e2b43c8">&#9670;&nbsp;</a></span>Entity() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::Entity::Entity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acf2d7ea09e1b46288ebe5466645b4631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf2d7ea09e1b46288ebe5466645b4631">&#9670;&nbsp;</a></span>Entity() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2d7ea09e1b46288ebe5466645b4631">&#9670;&nbsp;</a></span>Entity() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,6 +618,58 @@ template&lt;typename Comp &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22eca0fbbe9b77955a2d973c109c9e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22eca0fbbe9b77955a2d973c109c9e55">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_raz_1_1_entity.html">Entity</a>&amp; Raz::Entity::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56855b0941165e498a66c0e8a697c637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56855b0941165e498a66c0e8a697c637">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_raz_1_1_entity.html">Entity</a>&amp; Raz::Entity::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

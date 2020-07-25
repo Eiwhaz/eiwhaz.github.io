@@ -2,6 +2,9 @@ var searchData=
 [
   ['g',['G',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639aa32916aa27afa7c235db70b1772086e3',1,'Raz::Keyboard']]],
   ['geometry',['GEOMETRY',['../namespace_raz.html#ad89bb45846c2309a8d1e60ed06a68d37ab22957ad8078e8d73de61aef53d13a74',1,'Raz::GEOMETRY()'],['../namespace_raz.html#a741e3821acba563eb4e0705b09345412ab22957ad8078e8d73de61aef53d13a74',1,'Raz::GEOMETRY()']]],
+  ['geometry_5finput_5ftype',['GEOMETRY_INPUT_TYPE',['../namespace_raz.html#ac54024d9a636da350deb905799823304a2b414add338785f3e06e5d71f262ae0a',1,'Raz']]],
+  ['geometry_5foutput_5ftype',['GEOMETRY_OUTPUT_TYPE',['../namespace_raz.html#ac54024d9a636da350deb905799823304a2ade3f17bfeeb2841c98b3ba6f47aeb1',1,'Raz']]],
+  ['geometry_5fvertices_5fout',['GEOMETRY_VERTICES_OUT',['../namespace_raz.html#ac54024d9a636da350deb905799823304a1ed6c8de7af273b2a8703c9d750a44aa',1,'Raz']]],
   ['gold',['GOLD',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda2c0898822ab3baf7f93bea86648adb26',1,'Raz']]],
   ['grass',['GRASS',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43edaa3030e42cd8f04255711905a9182399f',1,'Raz']]],
   ['gray',['GRAY',['../namespace_raz.html#ac401c562c77addebca04b48f11137c6ca48bf014c704c9eaae100a98006a37bf7',1,'Raz']]],

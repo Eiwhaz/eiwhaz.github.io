@@ -55,7 +55,6 @@ var menudata={children:[
 {text:"z",url:"namespacemembers_z.html#index_z"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"a",url:"namespacemembers_func.html#index_a"},
-{text:"e",url:"namespacemembers_func.html#index_e"},
 {text:"g",url:"namespacemembers_func.html#index_g"},
 {text:"l",url:"namespacemembers_func.html#index_l"},
 {text:"o",url:"namespacemembers_func.html#index_o"},
@@ -96,7 +95,8 @@ var menudata={children:[
 {text:"p",url:"namespacemembers_enum.html#index_p"},
 {text:"r",url:"namespacemembers_enum.html#index_r"},
 {text:"s",url:"namespacemembers_enum.html#index_s"},
-{text:"t",url:"namespacemembers_enum.html#index_t"}]},
+{text:"t",url:"namespacemembers_enum.html#index_t"},
+{text:"u",url:"namespacemembers_enum.html#index_u"}]},
 {text:"Enumerator",url:"namespacemembers_eval.html",children:[
 {text:"a",url:"namespacemembers_eval.html#index_a"},
 {text:"b",url:"namespacemembers_eval.html#index_b"},
@@ -182,11 +182,17 @@ var menudata={children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
+{text:"a",url:"globals.html#index_a"},
+{text:"b",url:"globals.html#index_b"},
+{text:"c",url:"globals.html#index_c"},
 {text:"d",url:"globals.html#index_d"},
+{text:"f",url:"globals.html#index_f"},
 {text:"g",url:"globals.html#index_g"},
+{text:"i",url:"globals.html#index_i"},
 {text:"m",url:"globals.html#index_m"},
 {text:"p",url:"globals.html#index_p"},
 {text:"r",url:"globals.html#index_r"}]},
+{text:"Variables",url:"globals_vars.html"},
 {text:"Macros",url:"globals_defs.html",children:[
 {text:"d",url:"globals_defs.html#index_d"},
 {text:"g",url:"globals_defs.html#index_g"},

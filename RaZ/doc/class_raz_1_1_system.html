@@ -78,6 +78,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_raz_1_1_system-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Raz::System Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -93,8 +94,9 @@ Inheritance diagram for Raz::System:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_raz_1_1_system__inherit__graph.jpg" border="0" usemap="#_raz_1_1_system_inherit__map" alt="Inheritance graph"/></div>
 <map name="_raz_1_1_system_inherit__map" id="_raz_1_1_system_inherit__map">
-<area shape="rect" id="node2" href="class_raz_1_1_physics_system.html" title="Raz::PhysicsSystem" alt="" coords="5,80,151,107"/>
-<area shape="rect" id="node3" href="class_raz_1_1_render_system.html" title="RenderSystem class, handling the rendering part. " alt="" coords="175,80,314,107"/>
+<area shape="rect" id="node2" href="class_raz_1_1_audio_system.html" title="Raz::AudioSystem" alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="class_raz_1_1_physics_system.html" title="Raz::PhysicsSystem" alt="" coords="161,80,306,107"/>
+<area shape="rect" id="node4" href="class_raz_1_1_render_system.html" title="RenderSystem class, handling the rendering part. " alt="" coords="331,80,469,107"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -108,10 +110,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac7ccf099eb9bcc01f6dd6e25549cb850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f6e01024cf654062ffb56d41277006"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#ae5f6e01024cf654062ffb56d41277006">containsEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
 <tr class="separator:ae5f6e01024cf654062ffb56d41277006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7ccef74f9997772a37bb50bd1a5021a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#af7ccef74f9997772a37bb50bd1a5021a">linkEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
-<tr class="separator:af7ccef74f9997772a37bb50bd1a5021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a943de303a5104f059f5f67af2cf1310d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a943de303a5104f059f5f67af2cf1310d">unlinkEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
-<tr class="separator:a943de303a5104f059f5f67af2cf1310d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a057b026cb87fe967bf556ae108ae4dc3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a057b026cb87fe967bf556ae108ae4dc3">update</a> (float deltaTime)=0</td></tr>
 <tr class="separator:a057b026cb87fe967bf556ae108ae4dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3569d03a6cc52bb692fbb45af827e564"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a3569d03a6cc52bb692fbb45af827e564">destroy</a> ()</td></tr>
@@ -134,6 +132,10 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a13724e46cdf777ff630db9f84526c01b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a13724e46cdf777ff630db9f84526c01b">System</a> ()=default</td></tr>
 <tr class="separator:a13724e46cdf777ff630db9f84526c01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ccef74f9997772a37bb50bd1a5021a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#af7ccef74f9997772a37bb50bd1a5021a">linkEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
+<tr class="separator:af7ccef74f9997772a37bb50bd1a5021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a943de303a5104f059f5f67af2cf1310d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a943de303a5104f059f5f67af2cf1310d">unlinkEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
+<tr class="separator:a943de303a5104f059f5f67af2cf1310d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -141,6 +143,11 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af5d37a8dd1a5c0c826004724cb981374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adef4b2de9fd857b67b9fa14ba6eb55ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_bitset.html">Bitset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#adef4b2de9fd857b67b9fa14ba6eb55ed">m_acceptedComponents</a> {}</td></tr>
 <tr class="separator:adef4b2de9fd857b67b9fa14ba6eb55ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a7b4bcdf992c21ae83363f25df05b1d25"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a7b4bcdf992c21ae83363f25df05b1d25">World</a></td></tr>
+<tr class="separator:a7b4bcdf992c21ae83363f25df05b1d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_system.html" title="System class representing a base System to be inherited. ">System</a> class representing a base <a class="el" href="class_raz_1_1_system.html" title="System class representing a base System to be inherited. ">System</a> to be inherited. </p>
@@ -380,7 +387,7 @@ template&lt;typename Sys &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -466,7 +473,7 @@ template&lt;typename Sys &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -510,7 +517,30 @@ template&lt;typename Sys &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the system is still active, false otherwise. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_raz_1_1_render_system.html#a32871d5f50027628dbc62ec18a920632">Raz::RenderSystem</a>, and <a class="el" href="class_raz_1_1_physics_system.html#ab68a24be4480ffc49baac20124b0485a">Raz::PhysicsSystem</a>.</p>
+<p>Implemented in <a class="el" href="class_raz_1_1_render_system.html#a32871d5f50027628dbc62ec18a920632">Raz::RenderSystem</a>, <a class="el" href="class_raz_1_1_physics_system.html#ab68a24be4480ffc49baac20124b0485a">Raz::PhysicsSystem</a>, and <a class="el" href="class_raz_1_1_audio_system.html#a2e08d8915506870b6d957b98968f0830">Raz::AudioSystem</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a7b4bcdf992c21ae83363f25df05b1d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4bcdf992c21ae83363f25df05b1d25">&#9670;&nbsp;</a></span>World</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_raz_1_1_world.html">World</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

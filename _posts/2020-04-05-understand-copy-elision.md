@@ -102,13 +102,13 @@ RVO actually isn't considered as copy elision anymore, since it is _guaranteed_ 
 
 ## Why not make use of move semantics?
 
-As stated in the previous section and as its name implies, copy elision allows to remove copy operations... but not just that. If you read carefully the previous example, you can see that _no move has been made_. Copy elision allows to bypass both copy _and_ move operations.
+As stated in the previous section and as its name implies, copy elision allows removing copy operations... but not just that. If you read carefully the previous example, you can see that _no move has been made_. Copy elision allows to bypass both copy _and_ move operations.
 
 To explain what introducing move semantics would do, let's take a quick look at C++ value categories.
 
 ### Value categories
 
-There are two main categories in C++, which you've probably seen earlier: lvalues and rvalues. The following explanation, although not perfectly accurate, hopefully will help making the distinction clear:
+There are two main categories in C++, which you've probably seen earlier: lvalues and rvalues. The following explanation, although not perfectly accurate, hopefully will help to make the distinction clear:
 
 - lvalues are variables which are not xvalues (see below). They were given their name from the fact that they were technically values on the left side of the equal sign on an assignation (_left_ values).
 - rvalues, contrary to lvalues, have their name originating from the fact that they were on the right side of the equal sign on an assignation (_right_ values). rvalues are separated in two sub-categories:
@@ -197,7 +197,7 @@ Destructor
 
 ([Live example](http://coliru.stacked-crooked.com/a/d4833d6e28b4160d))
 
-The output has changed: _a move construction has been performed_. This is because the returned value from `getFooRVO()` has been transformed to an xvalue, thus losing its possible optimization as a prvalue. Likewise, one more destruction has occured, since a temporary object has been created. The result is the same whether the value is moved on the return clause or at the call site.
+The output has changed: _a move construction has been performed_. This is because the returned value from `getFooRVO()` has been transformed to an xvalue, thus losing its possible optimization as a prvalue. Likewise, one more destruction has occurred, since a temporary object has been created. The result is the same whether the value is moved on the return clause or at the call site.
 
 In the third output, when std::move() is applied both when returning the value _and_ when retrieving it, without surprise, twice the operations are applied.
 
@@ -266,6 +266,6 @@ Compilers do a **much** better job than humans in figuring out what to do with y
 
 [^return-no-ctor]: Being guaranteed means that it is safe, in a function, to return an instance of a class which has its copy & move constructors deleted.
 
-[^pessimizing-move]: Note that both GCC & Clang have a warning dedicated to detecting those kind of issues, `-Wpessimizing-move` (included in `-Wall`), which in this case [is triggered by Clang](http://coliru.stacked-crooked.com/a/4e7aa433cb417349) on every attempt to move values.
+[^pessimizing-move]: Note that both GCC & Clang have a warning dedicated to detect this kind of issues, `-Wpessimizing-move` (included in `-Wall`), which in this case [is triggered by Clang](http://coliru.stacked-crooked.com/a/4e7aa433cb417349) on every attempt to move values.
 
-[^clang-nrvo]: The application of the NRVO is highly dependent on the compiler. On the same example, Clang actually [avoids the move operation](http://coliru.stacked-crooked.com/a/c7b7f31388e81b94) even within the branch. However, instanciating the returned variable out of the condition forces Clang to move it when returning.
+[^clang-nrvo]: The application of the NRVO is highly dependent on the compiler. On the same example, Clang actually [avoids the move operation](http://coliru.stacked-crooked.com/a/c7b7f31388e81b94) even within the branch. However, instantiating the returned variable out of the condition forces Clang to move it when returning.

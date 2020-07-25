@@ -30,6 +30,11 @@ If you already know of RaZ and seek the documentation, you're in luck: it's [rig
 
 RaZ is entirely written in C++17 and architectured as an ECS (Entity-Component-System). It is compatible with Windows, Linux & macOS, and uses CMake as its build system.
 
+- Audio:
+  - Sound (play, pause, ...)
+  - Positional listener
+  - WAV import
+
 - Math:
   - Vectors
   - Matrices

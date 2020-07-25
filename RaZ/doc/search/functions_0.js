@@ -29,15 +29,20 @@ var searchData=
   ['addoverlayframetime',['addOverlayFrameTime',['../class_raz_1_1_window.html#a1244dffd47c67bd375a9ecf504579f89',1,'Raz::Window']]],
   ['addoverlaylabel',['addOverlayLabel',['../class_raz_1_1_window.html#a6f3001fb4a542107a5a4598725a31e75',1,'Raz::Window']]],
   ['addoverlayseparator',['addOverlaySeparator',['../class_raz_1_1_window.html#a2a05550a5d619564db8b4a4154501c7c',1,'Raz::Window']]],
+  ['addoverlayslider',['addOverlaySlider',['../class_raz_1_1_window.html#a0285cd8f9a07cc5188079a644a1430c5',1,'Raz::Window']]],
   ['addoverlaytextbox',['addOverlayTextbox',['../class_raz_1_1_window.html#a8a5582c8d1b51d2c6d17833e97f4d0c1',1,'Raz::Window']]],
+  ['addoverlaytexture',['addOverlayTexture',['../class_raz_1_1_window.html#a4b103148f138574e0a4522ea8633c325',1,'Raz::Window::addOverlayTexture(const Texture &amp;texture, unsigned int maxWidth, unsigned int maxHeight)'],['../class_raz_1_1_window.html#ab1bbf604ce34d413cdce198ab76f3eaf',1,'Raz::Window::addOverlayTexture(const Texture &amp;texture)']]],
   ['addparents',['addParents',['../class_raz_1_1_graph_node.html#a2836e94c61cd96ee121cfba7202973c8',1,'Raz::GraphNode']]],
   ['addseparator',['addSeparator',['../class_raz_1_1_overlay.html#aef57e7723bb311b1e1a6c80ce03e5c79',1,'Raz::Overlay']]],
+  ['addslider',['addSlider',['../class_raz_1_1_overlay.html#a17a9ba29d9400eb72ff4438cc7810f6b',1,'Raz::Overlay']]],
   ['addsubmesh',['addSubmesh',['../class_raz_1_1_mesh.html#ad1d6a090515c3f736bb8d0dddd96817e',1,'Raz::Mesh']]],
   ['addsystem',['addSystem',['../class_raz_1_1_world.html#aedf5035ebd0de1ef8cc65f73cd7705e4',1,'Raz::World']]],
   ['addtextbox',['addTextbox',['../class_raz_1_1_overlay.html#aea997adfb216ff180490244b1f5192c9',1,'Raz::Overlay']]],
-  ['addworld',['addWorld',['../class_raz_1_1_application.html#afa9ec4b1d33444ad7e50c208d3c76844',1,'Raz::Application']]],
+  ['addtexture',['addTexture',['../class_raz_1_1_overlay.html#a28b761385a8d9423a2791b442c346d98',1,'Raz::Overlay::addTexture(const Texture &amp;texture, unsigned int maxWidth, unsigned int maxHeight)'],['../class_raz_1_1_overlay.html#a5f17b0b74b89b996173aadb7574f9e76',1,'Raz::Overlay::addTexture(const Texture &amp;texture)']]],
+  ['addworld',['addWorld',['../class_raz_1_1_application.html#ae912580dd2490d4fc4d613bd9f8d4313',1,'Raz::Application']]],
   ['application',['Application',['../class_raz_1_1_application.html#aa48221d2832049bc5a03ff6fca102652',1,'Raz::Application']]],
   ['applyforces',['applyForces',['../class_raz_1_1_rigid_body.html#a4232faa7992f41183cd72b9c85c7e64f',1,'Raz::RigidBody']]],
   ['arenearlyequal',['areNearlyEqual',['../namespace_raz_1_1_float_utils.html#ac935150760be6bdbe649ed7c027dc3a3',1,'Raz::FloatUtils::areNearlyEqual(T val1, T val2, TolT absTol=std::numeric_limits&lt; TolT &gt;::epsilon()) noexcept'],['../namespace_raz_1_1_float_utils.html#a6c75d54815c7f52f3d7b18fab1a3af97',1,'Raz::FloatUtils::areNearlyEqual(const Vector&lt; T, Size &gt; &amp;vec1, const Vector&lt; T, Size &gt; &amp;vec2, TolT absTol=std::numeric_limits&lt; TolT &gt;::epsilon()) noexcept'],['../namespace_raz_1_1_float_utils.html#ad3d3803c91137a1749dfe149713d6887',1,'Raz::FloatUtils::areNearlyEqual(const Matrix&lt; T, W, H &gt; &amp;mat1, const Matrix&lt; T, W, H &gt; &amp;mat2, TolT absTol=std::numeric_limits&lt; TolT &gt;::epsilon()) noexcept']]],
-  ['attachshader',['attachShader',['../class_raz_1_1_renderer.html#a5ef03a76d75b8079a0a8c3e8d3c43f8b',1,'Raz::Renderer']]]
+  ['attachshader',['attachShader',['../class_raz_1_1_renderer.html#a5ef03a76d75b8079a0a8c3e8d3c43f8b',1,'Raz::Renderer']]],
+  ['audiosystem',['AudioSystem',['../class_raz_1_1_audio_system.html#a57c10863fd0d1c9c0089f42794712cd9',1,'Raz::AudioSystem']]]
 ];
