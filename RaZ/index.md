@@ -10,11 +10,13 @@ RaZ is a personal project I started in mid-2017, in my last years of study. I wa
 
 RaZ was originally started as a 3D engine toy project, intended solely for learning purposes. However, the more I was working on it, the more I wanted to keep doing so. Over time, RaZ has evolved to be now more of a (basic) game engine rather than a simple 3D one.
 
-If you're interested in the project, feel free to explore (and star!) the project on [GitHub](https://github.com/Razakhel/RaZ "RaZ - GitHub"). If you think of improvements or features you'd want to see in RaZ, don't hesitate to [fill an issue](https://github.com/Razakhel/RaZ/issues/new "RaZ - Create issue") or submit a pull request!
+If you're interested in the project, feel free to explore (and star!) the project on [GitHub](https://github.com/Razakhel/RaZ "RaZ - GitHub"). If you think of improvements or features you'd want to see in RaZ, don't hesitate to [fill an issue](https://github.com/Razakhel/RaZ/issues/new "RaZ - Create issue") or [submit a pull request](https://github.com/Razakhel/RaZ/compare "RaZ - Submit PR")!
 
-Some tutorials & explanations are available on the [GitHub's wiki](https://github.com/Razakhel/RaZ/wiki).
+Some tutorials & explanations are available on the [GitHub's wiki](https://github.com/Razakhel/RaZ/wiki). If you already know of RaZ and seek the documentation, you're in luck: it's [right here](doc/ "RaZ - Documentation")!
 
-If you already know of RaZ and seek the documentation, you're in luck: it's [right here](doc/ "RaZ - Documentation")!
+A Discord server is also available, feel free to drop by if you have any question or just want to say hi:
+
+<iframe src="https://discordapp.com/widget?id=734342940960358446&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 ### Some examples
 
