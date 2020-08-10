@@ -33,7 +33,6 @@ var searchData=
   ['space',['SPACE',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a350324dba7b12d88b2a08ef04c536043',1,'Raz::Keyboard']]],
   ['spot',['SPOT',['../namespace_raz.html#a1bd4faa31ed041df2f17e91ff234a59ba5bac85a0c611ddef64ab0dfb383056f4',1,'Raz']]],
   ['srgb',['SRGB',['../namespace_raz.html#a0a4faa4537fa2a0be15331b53e9a2f3da1f3f09bca5728eb7af4ea263ae84b9f1',1,'Raz::SRGB()'],['../namespace_raz.html#ae2079173da3471c87fd0b855968e79aea1f3f09bca5728eb7af4ea263ae84b9f1',1,'Raz::SRGB()']]],
-  ['ssr',['SSR',['../namespace_raz.html#a741e3821acba563eb4e0705b09345412a1c16e694abe7b18f52484174b0aa3c87',1,'Raz']]],
   ['stack_5foverflow',['STACK_OVERFLOW',['../namespace_raz.html#a08d253eadce90839613f77ab2486ee39aaf5dcc114f4d3618802f0cd7bad2ccd8',1,'Raz']]],
   ['stack_5funderflow',['STACK_UNDERFLOW',['../namespace_raz.html#a08d253eadce90839613f77ab2486ee39a4a0a7f755cbb064fb44e2201ab5c57c4',1,'Raz']]],
   ['static_5fcopy',['STATIC_COPY',['../namespace_raz.html#ae6f230e4e4ae9aaca21babd00d268a33a150f2044a549b43d2dee980cc887fc7b',1,'Raz']]],

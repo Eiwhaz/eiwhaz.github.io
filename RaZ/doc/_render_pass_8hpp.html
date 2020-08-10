@@ -76,27 +76,20 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">RenderPass.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_framebuffer_8hpp_source.html">RaZ/Render/Framebuffer.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_shader_program_8hpp_source.html">RaZ/Render/ShaderProgram.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_graph_8hpp_source.html">RaZ/Utils/Graph.hpp</a>&quot;</code><br />
 </div>
 <p><a href="_render_pass_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html">Raz::RenderPass</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_geometry_pass.html">Raz::GeometryPass</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry render pass, rendering the base scene.  <a href="class_raz_1_1_geometry_pass.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_s_s_r_pass.html">Raz::SSRPass</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Screen-Space Reflections render pass, producing real-time reflections in screen-space.  <a href="class_raz_1_1_s_s_r_pass.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -108,19 +101,6 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:abbbf4a7173d2aefe64d80225b674f32c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_render_pass_8hpp.html#abbbf4a7173d2aefe64d80225b674f32c">RAZ_RENDERPASS_HPP</a></td></tr>
 <tr class="separator:abbbf4a7173d2aefe64d80225b674f32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:af2999068086ec8f88aa087a0c915ae28"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#af2999068086ec8f88aa087a0c915ae28">Raz::RenderPassPtr</a> = std::unique_ptr&lt; RenderPass &gt;</td></tr>
-<tr class="separator:af2999068086ec8f88aa087a0c915ae28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a741e3821acba563eb4e0705b09345412"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a741e3821acba563eb4e0705b09345412">Raz::RenderPassType</a> : uint8_t { <a class="el" href="namespace_raz.html#a741e3821acba563eb4e0705b09345412ab22957ad8078e8d73de61aef53d13a74">Raz::RenderPassType::GEOMETRY</a> = 0, 
-<a class="el" href="namespace_raz.html#a741e3821acba563eb4e0705b09345412a1c16e694abe7b18f52484174b0aa3c87">Raz::RenderPassType::SSR</a>, 
-<a class="el" href="namespace_raz.html#a741e3821acba563eb4e0705b09345412afe0466d2375fd6b28ce29c8e760ee980">Raz::RenderPassType::RENDER_PASS_COUNT</a>
- }</td></tr>
-<tr class="separator:a741e3821acba563eb4e0705b09345412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="abbbf4a7173d2aefe64d80225b674f32c"></a>

@@ -50,11 +50,11 @@ RaZ is entirely written in C++17 and architectured as an ECS (Entity-Component-S
   - Material models:
     - Blinn-Phong
     - Cook-Torrance PBR (metallic/roughness)
+  - Deferred rendering with a custom render graph
   - Camera (perspective/orthographic)
   - Light sources (point & directional)
   - Cubemap
   - Normal mapping
-  - Render passes _[in progress]_
 
 - Physics:
   - Shapes:

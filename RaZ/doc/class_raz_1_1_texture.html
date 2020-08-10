@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03372d67f2c0fe25b38f3be6440ab02b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a03372d67f2c0fe25b38f3be6440ab02b">unbind</a> () const</td></tr>
 <tr class="memdesc:a03372d67f2c0fe25b38f3be6440ab02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbinds the current texture.  <a href="#a03372d67f2c0fe25b38f3be6440ab02b">More...</a><br /></td></tr>
 <tr class="separator:a03372d67f2c0fe25b38f3be6440ab02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d115e2dde9b6ac5d15170c4b6e69246"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a4d115e2dde9b6ac5d15170c4b6e69246">resize</a> (unsigned int width, unsigned int height) const</td></tr>
+<tr class="separator:a4d115e2dde9b6ac5d15170c4b6e69246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fb4ed1f89bbc068975d79e0f5d30224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a3fb4ed1f89bbc068975d79e0f5d30224">operator=</a> (const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;)=delete</td></tr>
 <tr class="separator:a3fb4ed1f89bbc068975d79e0f5d30224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15a9f5d5842667f7bf9d5aa714160641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a15a9f5d5842667f7bf9d5aa714160641">operator=</a> (<a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&amp;texture) noexcept</td></tr>
@@ -667,6 +669,42 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d115e2dde9b6ac5d15170c4b6e69246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d115e2dde9b6ac5d15170c4b6e69246">&#9670;&nbsp;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Texture::resize </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the texture. </p><dl class="section warning"><dt>Warning</dt><dd>This does NOT resize the contained image. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>New texture width. </td></tr>
+    <tr><td class="paramname">height</td><td>New texture height. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

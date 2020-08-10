@@ -74,8 +74,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">TypeUtils.hpp File Reference</div>  </div>
@@ -85,9 +87,22 @@ $(function() {
 </div>
 <p><a href="_type_utils_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_type_utils_1_1_details_1_1_detector.html">Raz::TypeUtils::Details::Detector&lt; Default, AlwaysVoid, Attr, Args &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_type_utils_1_1_details_1_1_detector_3_01_default_00_01std_1_1void__t_3_01_attr_3_5848d339f449ea557e8a0145ee844866.html">Raz::TypeUtils::Details::Detector&lt; Default, std::void_t&lt; Attr&lt; Args... &gt; &gt;, Attr, Args... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_type_utils_1_1_details_1_1_nonesuch.html">Raz::TypeUtils::Details::Nonesuch</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_raz_1_1_type_utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html">Raz::TypeUtils</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_raz_1_1_type_utils_1_1_details"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html">Raz::TypeUtils::Details</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_raz_1_1_type_utils_1_1_attribute"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html">Raz::TypeUtils::Attribute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -95,11 +110,101 @@ Macros</h2></td></tr>
 <tr class="memitem:aeaf764f85d1fe25329377015c63fa55d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_type_utils_8hpp.html#aeaf764f85d1fe25329377015c63fa55d">RAZ_TYPEUTILS_HPP</a></td></tr>
 <tr class="separator:aeaf764f85d1fe25329377015c63fa55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afafde5def91e6165404b3ed28e85046f"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:afafde5def91e6165404b3ed28e85046f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html#afafde5def91e6165404b3ed28e85046f">Raz::TypeUtils::Details::IsDetectedT</a> = typename Details::Detector&lt; Nonesuch, void, Attr, Args... &gt;::ValueT</td></tr>
+<tr class="separator:afafde5def91e6165404b3ed28e85046f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf42e26475cd88e4a1e2a5021ced53d2"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:acf42e26475cd88e4a1e2a5021ced53d2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html#acf42e26475cd88e4a1e2a5021ced53d2">Raz::TypeUtils::Details::DetectedT</a> = typename Details::Detector&lt; Nonesuch, void, Attr, Args... &gt;::Type</td></tr>
+<tr class="separator:acf42e26475cd88e4a1e2a5021ced53d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19138630ba0f321c94d1a122df2b9502"><td class="memTemplParams" colspan="2">template&lt;typename Default , template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:a19138630ba0f321c94d1a122df2b9502"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html#a19138630ba0f321c94d1a122df2b9502">Raz::TypeUtils::Details::DetectedOr</a> = Details::Detector&lt; Default, void, Attr, Args... &gt;</td></tr>
+<tr class="separator:a19138630ba0f321c94d1a122df2b9502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa99231bf78ba06bc87fd803976412a14"><td class="memTemplParams" colspan="2">template&lt;typename Default , template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:aa99231bf78ba06bc87fd803976412a14"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html#aa99231bf78ba06bc87fd803976412a14">Raz::TypeUtils::Details::DetectedOrT</a> = typename DetectedOr&lt; Default, Attr, Args... &gt;::Type</td></tr>
+<tr class="separator:aa99231bf78ba06bc87fd803976412a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65975eec7ee46daccc104c1c3e955891"><td class="memTemplParams" colspan="2">template&lt;typename Expected , template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:a65975eec7ee46daccc104c1c3e955891"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html#a65975eec7ee46daccc104c1c3e955891">Raz::TypeUtils::Details::IsDetectedExactT</a> = std::is_same&lt; Expected, DetectedT&lt; Attr, Args... &gt; &gt;</td></tr>
+<tr class="separator:a65975eec7ee46daccc104c1c3e955891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f451546bae4882eaabd80eee1dc5667"><td class="memTemplParams" colspan="2">template&lt;typename To , template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:a3f451546bae4882eaabd80eee1dc5667"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_details.html#a3f451546bae4882eaabd80eee1dc5667">Raz::TypeUtils::Details::IsDetectedConvertibleT</a> = std::is_convertible&lt; DetectedT&lt; Attr, Args... &gt;, To &gt;</td></tr>
+<tr class="separator:a3f451546bae4882eaabd80eee1dc5667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e461c0bb6b6b0f0f99707678dcadb72"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6e461c0bb6b6b0f0f99707678dcadb72"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a6e461c0bb6b6b0f0f99707678dcadb72">Raz::TypeUtils::Attribute::DefaultConstructor</a> = decltype(T())</td></tr>
+<tr class="separator:a6e461c0bb6b6b0f0f99707678dcadb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac549fd3ffd39a300b6647efb4b76cd0c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac549fd3ffd39a300b6647efb4b76cd0c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#ac549fd3ffd39a300b6647efb4b76cd0c">Raz::TypeUtils::Attribute::CopyConstructor</a> = decltype(T(std::declval&lt; const T &amp; &gt;()))</td></tr>
+<tr class="separator:ac549fd3ffd39a300b6647efb4b76cd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee8e442c439909aff8cc253f51e573a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:adee8e442c439909aff8cc253f51e573a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#adee8e442c439909aff8cc253f51e573a">Raz::TypeUtils::Attribute::MoveConstructor</a> = decltype(T(std::declval&lt; T &amp;&amp; &gt;()))</td></tr>
+<tr class="separator:adee8e442c439909aff8cc253f51e573a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e8c8bb11c06b2b8ea9851dc0aa9b388"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3e8c8bb11c06b2b8ea9851dc0aa9b388"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a3e8c8bb11c06b2b8ea9851dc0aa9b388">Raz::TypeUtils::Attribute::CopyAssignmentOperator</a> = decltype(std::declval&lt; T &amp; &gt;()=std::declval&lt; const T &amp; &gt;())</td></tr>
+<tr class="separator:a3e8c8bb11c06b2b8ea9851dc0aa9b388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c41f4853586690ad663590e39958241"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7c41f4853586690ad663590e39958241"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a7c41f4853586690ad663590e39958241">Raz::TypeUtils::Attribute::MoveAssignmentOperator</a> = decltype(std::declval&lt; T &amp; &gt;()=std::declval&lt; T &amp;&amp; &gt;())</td></tr>
+<tr class="separator:a7c41f4853586690ad663590e39958241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450c946ea6938e6a664ddbf54d5692c8"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = T&gt; </td></tr>
+<tr class="memitem:a450c946ea6938e6a664ddbf54d5692c8"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a450c946ea6938e6a664ddbf54d5692c8">Raz::TypeUtils::Attribute::EqualityOperator</a> = decltype(std::declval&lt; T &gt;()==std::declval&lt; U &gt;())</td></tr>
+<tr class="separator:a450c946ea6938e6a664ddbf54d5692c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae27caee512d7b2189bd1586f81919046"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = T&gt; </td></tr>
+<tr class="memitem:ae27caee512d7b2189bd1586f81919046"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#ae27caee512d7b2189bd1586f81919046">Raz::TypeUtils::Attribute::InequalityOperator</a> = decltype(std::declval&lt; T &gt;() !=std::declval&lt; U &gt;())</td></tr>
+<tr class="separator:ae27caee512d7b2189bd1586f81919046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa206dea3082a05bcf2399a0fbfc1d02b"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = T&gt; </td></tr>
+<tr class="memitem:aa206dea3082a05bcf2399a0fbfc1d02b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#aa206dea3082a05bcf2399a0fbfc1d02b">Raz::TypeUtils::Attribute::PlusOperator</a> = decltype(std::declval&lt; T &gt;()+std::declval&lt; U &gt;())</td></tr>
+<tr class="separator:aa206dea3082a05bcf2399a0fbfc1d02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf063718791df913e9b17de43fc76206"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = T&gt; </td></tr>
+<tr class="memitem:acf063718791df913e9b17de43fc76206"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#acf063718791df913e9b17de43fc76206">Raz::TypeUtils::Attribute::MinusOperator</a> = decltype(std::declval&lt; T &gt;() - std::declval&lt; U &gt;())</td></tr>
+<tr class="separator:acf063718791df913e9b17de43fc76206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2392c64e073c42c627a8bee11a59ae40"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = T&gt; </td></tr>
+<tr class="memitem:a2392c64e073c42c627a8bee11a59ae40"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a2392c64e073c42c627a8bee11a59ae40">Raz::TypeUtils::Attribute::MultiplicationOperator</a> = decltype(std::declval&lt; T &gt;() *std::declval&lt; U &gt;())</td></tr>
+<tr class="separator:a2392c64e073c42c627a8bee11a59ae40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405661166eb943c39fcef52a34aaca6c"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = T&gt; </td></tr>
+<tr class="memitem:a405661166eb943c39fcef52a34aaca6c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a405661166eb943c39fcef52a34aaca6c">Raz::TypeUtils::Attribute::DivisionOperator</a> = decltype(std::declval&lt; T &gt;()/std::declval&lt; U &gt;())</td></tr>
+<tr class="separator:a405661166eb943c39fcef52a34aaca6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003a4707148aad651d0951b522e26135"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a003a4707148aad651d0951b522e26135"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils_1_1_attribute.html#a003a4707148aad651d0951b522e26135">Raz::TypeUtils::Attribute::DefaultDestructor</a> = decltype(std::declval&lt; T &amp; &gt;().~T())</td></tr>
+<tr class="separator:a003a4707148aad651d0951b522e26135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a155fa52cda2af8b9a18bfad2c83c8411"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a155fa52cda2af8b9a18bfad2c83c8411"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a155fa52cda2af8b9a18bfad2c83c8411">Raz::TypeUtils::getTypeStr</a> () noexcept</td></tr>
 <tr class="separator:a155fa52cda2af8b9a18bfad2c83c8411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911a308b7829be89b7e3934f51ce7dfc"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:a911a308b7829be89b7e3934f51ce7dfc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a911a308b7829be89b7e3934f51ce7dfc">Raz::TypeUtils::hasAttribute</a> ()</td></tr>
+<tr class="separator:a911a308b7829be89b7e3934f51ce7dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f101c0879d5a3551a50b6e6c495c10"><td class="memTemplParams" colspan="2">template&lt;typename Expected , template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:ab6f101c0879d5a3551a50b6e6c495c10"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#ab6f101c0879d5a3551a50b6e6c495c10">Raz::TypeUtils::hasReturnType</a> ()</td></tr>
+<tr class="separator:ab6f101c0879d5a3551a50b6e6c495c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd41cbea437757e206bbf5076b61a1f"><td class="memTemplParams" colspan="2">template&lt;typename To , template&lt; typename... &gt; typename Attr, typename... Args&gt; </td></tr>
+<tr class="memitem:a2fd41cbea437757e206bbf5076b61a1f"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a2fd41cbea437757e206bbf5076b61a1f">Raz::TypeUtils::hasReturnTypeConvertible</a> ()</td></tr>
+<tr class="separator:a2fd41cbea437757e206bbf5076b61a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46520d006e38753f656b783eeeaca510"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a46520d006e38753f656b783eeeaca510"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a46520d006e38753f656b783eeeaca510">Raz::TypeUtils::hasDefaultConstructor</a> () noexcept</td></tr>
+<tr class="separator:a46520d006e38753f656b783eeeaca510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0b1e06286309e1b7e7f476dd344c58"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3a0b1e06286309e1b7e7f476dd344c58"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a3a0b1e06286309e1b7e7f476dd344c58">Raz::TypeUtils::hasCopyConstructor</a> () noexcept</td></tr>
+<tr class="separator:a3a0b1e06286309e1b7e7f476dd344c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963c5249a3fbf0e9e3a5bff2eadbedd4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a963c5249a3fbf0e9e3a5bff2eadbedd4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a963c5249a3fbf0e9e3a5bff2eadbedd4">Raz::TypeUtils::hasMoveConstructor</a> () noexcept</td></tr>
+<tr class="separator:a963c5249a3fbf0e9e3a5bff2eadbedd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a732efb9420f8791307b7c7c20b375551"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a732efb9420f8791307b7c7c20b375551"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a732efb9420f8791307b7c7c20b375551">Raz::TypeUtils::hasCopyAssignmentOperator</a> () noexcept</td></tr>
+<tr class="separator:a732efb9420f8791307b7c7c20b375551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9f95e5b16b45645de5e717dcaed2e2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7e9f95e5b16b45645de5e717dcaed2e2"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a7e9f95e5b16b45645de5e717dcaed2e2">Raz::TypeUtils::hasMoveAssignmentOperator</a> () noexcept</td></tr>
+<tr class="separator:a7e9f95e5b16b45645de5e717dcaed2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af643f1e99166e8cb5a4c5999e6650236"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af643f1e99166e8cb5a4c5999e6650236"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#af643f1e99166e8cb5a4c5999e6650236">Raz::TypeUtils::hasEqualityOperator</a> () noexcept</td></tr>
+<tr class="separator:af643f1e99166e8cb5a4c5999e6650236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7ba7569e29b4639e0743e1bdb3ed2e1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab7ba7569e29b4639e0743e1bdb3ed2e1"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#ab7ba7569e29b4639e0743e1bdb3ed2e1">Raz::TypeUtils::hasInequalityOperator</a> () noexcept</td></tr>
+<tr class="separator:ab7ba7569e29b4639e0743e1bdb3ed2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fed30c55382a479cc042d8d597f3e55"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9fed30c55382a479cc042d8d597f3e55"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_type_utils.html#a9fed30c55382a479cc042d8d597f3e55">Raz::TypeUtils::hasDefaultDestructor</a> () noexcept</td></tr>
+<tr class="separator:a9fed30c55382a479cc042d8d597f3e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aeaf764f85d1fe25329377015c63fa55d"></a>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['textureptr',['TexturePtr',['../namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac',1,'Raz']]]
+  ['systemptr',['SystemPtr',['../namespace_raz.html#a2a546c23b831bbd92476f80f632f69f3',1,'Raz']]]
 ];

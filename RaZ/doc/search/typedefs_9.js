@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['systemptr',['SystemPtr',['../namespace_raz.html#a2a546c23b831bbd92476f80f632f69f3',1,'Raz']]]
+  ['radiansd',['Radiansd',['../namespace_raz.html#ab6a7d01e050b1af87f14f99de774dc38',1,'Raz']]],
+  ['radiansf',['Radiansf',['../namespace_raz.html#a25ac78b10060851c32660ce1388735dd',1,'Raz']]],
+  ['radiansld',['Radiansld',['../namespace_raz.html#adc3ab9a504f9c8a217269f2f1eb61aff',1,'Raz']]]
 ];

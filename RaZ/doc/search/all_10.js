@@ -24,6 +24,7 @@ var searchData=
   ['platinum',['PLATINUM',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda0d2489f3616693c707709295fd091c84',1,'Raz']]],
   ['play',['play',['../class_raz_1_1_sound.html#a78895a6a3b48a0fe794eebc4b26de60c',1,'Raz::Sound']]],
   ['playing',['PLAYING',['../namespace_raz.html#af43f170cb926b16c0a233521fcff723da50366a49630a416ab3ccaa004196027e',1,'Raz']]],
+  ['plusoperator',['PlusOperator',['../namespace_raz_1_1_type_utils_1_1_attribute.html#aa206dea3082a05bcf2399a0fbfc1d02b',1,'Raz::TypeUtils::Attribute']]],
   ['pngimage_2ecpp',['PngImage.cpp',['../_png_image_8cpp.html',1,'']]],
   ['point',['POINT',['../namespace_raz.html#a1bd4faa31ed041df2f17e91ff234a59baaebdbcb765394d25d6a604589a890f82',1,'Raz::POINT()'],['../namespace_raz.html#a17e77ed5b38a4fa2cc34b8d2d5d7e4fbaaebdbcb765394d25d6a604589a890f82',1,'Raz::POINT()'],['../namespace_raz.html#aaeac9eeddf41c86d4b1075acccff55d2aaebdbcb765394d25d6a604589a890f82',1,'Raz::POINT()']]],
   ['point_5fsize',['POINT_SIZE',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a4294c746bb33d3a99508391542b33435',1,'Raz::POINT_SIZE()'],['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1ea4294c746bb33d3a99508391542b33435',1,'Raz::POINT_SIZE()']]],

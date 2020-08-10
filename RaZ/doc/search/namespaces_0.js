@@ -1,7 +1,9 @@
 var searchData=
 [
+  ['attribute',['Attribute',['../namespace_raz_1_1_type_utils_1_1_attribute.html',1,'Raz::TypeUtils']]],
   ['axis',['Axis',['../namespace_raz_1_1_axis.html',1,'Raz']]],
   ['cursor',['Cursor',['../namespace_raz_1_1_cursor.html',1,'Raz']]],
+  ['details',['Details',['../namespace_raz_1_1_type_utils_1_1_details.html',1,'Raz::TypeUtils']]],
   ['floatutils',['FloatUtils',['../namespace_raz_1_1_float_utils.html',1,'Raz']]],
   ['input',['Input',['../namespace_raz_1_1_input.html',1,'Raz']]],
   ['keyboard',['Keyboard',['../namespace_raz_1_1_keyboard.html',1,'Raz']]],
