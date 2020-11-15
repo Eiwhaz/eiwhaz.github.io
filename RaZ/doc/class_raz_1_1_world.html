@@ -103,9 +103,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4c822a08d038e96f398102ee9e78d68"><td class="memTemplParams" colspan="2">template&lt;typename Sys &gt; </td></tr>
 <tr class="memitem:ad4c822a08d038e96f398102ee9e78d68"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#ad4c822a08d038e96f398102ee9e78d68">hasSystem</a> () const</td></tr>
 <tr class="separator:ad4c822a08d038e96f398102ee9e78d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23d5969fb8be3dda0344df4075faf1c"><td class="memTemplParams" colspan="2">template&lt;typename Sys &gt; </td></tr>
-<tr class="memitem:aa23d5969fb8be3dda0344df4075faf1c"><td class="memTemplItemLeft" align="right" valign="top">Sys &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#aa23d5969fb8be3dda0344df4075faf1c">getSystem</a> ()</td></tr>
-<tr class="separator:aa23d5969fb8be3dda0344df4075faf1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add6aceccd497f4b29a4fce4a41d50e65"><td class="memTemplParams" colspan="2">template&lt;typename Sys &gt; </td></tr>
+<tr class="memitem:add6aceccd497f4b29a4fce4a41d50e65"><td class="memTemplItemLeft" align="right" valign="top">const Sys &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#add6aceccd497f4b29a4fce4a41d50e65">getSystem</a> () const</td></tr>
+<tr class="separator:add6aceccd497f4b29a4fce4a41d50e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7644be47a002ecd9a1afbb42102fea27"><td class="memTemplParams" colspan="2">template&lt;typename Sys &gt; </td></tr>
+<tr class="memitem:a7644be47a002ecd9a1afbb42102fea27"><td class="memTemplItemLeft" align="right" valign="top">Sys &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#a7644be47a002ecd9a1afbb42102fea27">getSystem</a> ()</td></tr>
+<tr class="separator:a7644be47a002ecd9a1afbb42102fea27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedf5035ebd0de1ef8cc65f73cd7705e4"><td class="memTemplParams" colspan="2">template&lt;typename Sys , typename... Args&gt; </td></tr>
 <tr class="memitem:aedf5035ebd0de1ef8cc65f73cd7705e4"><td class="memTemplItemLeft" align="right" valign="top">Sys &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#aedf5035ebd0de1ef8cc65f73cd7705e4">addSystem</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:aedf5035ebd0de1ef8cc65f73cd7705e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -388,8 +391,8 @@ template&lt;typename Sys , typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="aa23d5969fb8be3dda0344df4075faf1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa23d5969fb8be3dda0344df4075faf1c">&#9670;&nbsp;</a></span>getSystem()</h2>
+<a id="add6aceccd497f4b29a4fce4a41d50e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add6aceccd497f4b29a4fce4a41d50e65">&#9670;&nbsp;</a></span>getSystem() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,12 +400,46 @@ template&lt;typename Sys , typename... Args&gt; </div>
 template&lt;typename Sys &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">Sys &amp; Raz::World::getSystem </td>
+          <td class="memname">const Sys &amp; Raz::World::getSystem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a given system contained by the world. This system must be present within the world. If not, an exception is thrown. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Sys</td><td>Type of the system to be fetched. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Constant reference to the found system. </dd></dl>
+
+</div>
+</div>
+<a id="a7644be47a002ecd9a1afbb42102fea27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7644be47a002ecd9a1afbb42102fea27">&#9670;&nbsp;</a></span>getSystem() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Sys &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sys&amp; Raz::World::getSystem </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Gets a given system contained by the world. This system must be present within the world. If not, an exception is thrown. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">

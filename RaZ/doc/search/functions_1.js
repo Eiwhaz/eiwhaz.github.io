@@ -10,5 +10,6 @@ var searchData=
   ['bindtexture',['bindTexture',['../class_raz_1_1_renderer.html#accb08a4d3fe0c34c885adcc302ca4ea4',1,'Raz::Renderer']]],
   ['binduniformblock',['bindUniformBlock',['../class_raz_1_1_uniform_buffer.html#a052a93cffaf5eed59e19e024d6d2977b',1,'Raz::UniformBuffer::bindUniformBlock(const ShaderProgram &amp;program, unsigned int uboIndex, unsigned int bindingIndex) const'],['../class_raz_1_1_uniform_buffer.html#a597635c663a7aa9e79feb81e196c9bda',1,'Raz::UniformBuffer::bindUniformBlock(const ShaderProgram &amp;program, const std::string &amp;uboName, unsigned int bindingIndex) const']]],
   ['bitset',['Bitset',['../class_raz_1_1_bitset.html#ae729efd320f9334e3da46736be9e9108',1,'Raz::Bitset::Bitset()=default'],['../class_raz_1_1_bitset.html#a97c05a50bdeacf5ce5f03b6469909358',1,'Raz::Bitset::Bitset(std::size_t bitCount, bool initVal=false)'],['../class_raz_1_1_bitset.html#a6fa565897344443ef02f0421da16b418',1,'Raz::Bitset::Bitset(std::initializer_list&lt; bool &gt; values)']]],
-  ['blitframebuffer',['blitFramebuffer',['../class_raz_1_1_renderer.html#a9ed3fcaaa3dd06cf7104ece99d0b4bca',1,'Raz::Renderer']]]
+  ['blitframebuffer',['blitFramebuffer',['../class_raz_1_1_renderer.html#a9ed3fcaaa3dd06cf7104ece99d0b4bca',1,'Raz::Renderer']]],
+  ['bvhformat',['BvhFormat',['../class_raz_1_1_bvh_format.html#a6a1599bb50d6e2893383763dc2492dcb',1,'Raz::BvhFormat']]]
 ];

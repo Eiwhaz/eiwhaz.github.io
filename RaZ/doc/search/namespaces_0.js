@@ -8,6 +8,7 @@ var searchData=
   ['input',['Input',['../namespace_raz_1_1_input.html',1,'Raz']]],
   ['keyboard',['Keyboard',['../namespace_raz_1_1_keyboard.html',1,'Raz']]],
   ['literals',['Literals',['../namespace_raz_1_1_literals.html',1,'Raz']]],
+  ['mathutils',['MathUtils',['../namespace_raz_1_1_math_utils.html',1,'Raz']]],
   ['mouse',['Mouse',['../namespace_raz_1_1_mouse.html',1,'Raz']]],
   ['raz',['Raz',['../namespace_raz.html',1,'']]],
   ['strutils',['StrUtils',['../namespace_raz_1_1_str_utils.html',1,'Raz']]],

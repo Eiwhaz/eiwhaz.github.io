@@ -89,8 +89,10 @@ Inheritance diagram for Raz::GraphNode&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_raz_1_1_graph_node__inherit__graph.jpg" border="0" usemap="#_raz_1_1_graph_node_3_01_t_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="_raz_1_1_graph_node_3_01_t_01_4_inherit__map" id="_raz_1_1_graph_node_3_01_t_01_4_inherit__map">
-<area shape="rect" id="node2" href="class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; RenderPass \&gt;" alt="" coords="5,95,219,121"/>
-<area shape="rect" id="node3" href="class_raz_1_1_render_pass.html" title="Raz::RenderPass" alt="" coords="50,171,174,197"/>
+<area shape="rect" id="node2" href="class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; RenderPass \&gt;" alt="" coords="5,102,219,129"/>
+<area shape="rect" id="node4" href="class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; Skeleton\lJoint \&gt;" alt="" coords="243,95,424,136"/>
+<area shape="rect" id="node3" href="class_raz_1_1_render_pass.html" title="Raz::RenderPass" alt="" coords="50,185,174,212"/>
+<area shape="rect" id="node5" href="class_raz_1_1_skeleton_joint.html" title="Raz::SkeletonJoint" alt="" coords="268,185,399,212"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -102,6 +104,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acf64554b8c238b00685859849e81181f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1963d1abeb2228469d16dc3d593b768d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; T * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph_node.html#a1963d1abeb2228469d16dc3d593b768d">getChildren</a> () const noexcept</td></tr>
 <tr class="separator:a1963d1abeb2228469d16dc3d593b768d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49097977f8a7cebc309f392a45735419"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph_node.html#a49097977f8a7cebc309f392a45735419">getChildCount</a> () const noexcept</td></tr>
+<tr class="separator:a49097977f8a7cebc309f392a45735419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116b0d363da0304a5f3281c2f42bb408"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph_node.html#a116b0d363da0304a5f3281c2f42bb408">getChild</a> (std::size_t index) const noexcept</td></tr>
+<tr class="separator:a116b0d363da0304a5f3281c2f42bb408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7360489c0eba27347a184d5cbb01268a"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph_node.html#a7360489c0eba27347a184d5cbb01268a">getChild</a> (std::size_t index) noexcept</td></tr>
+<tr class="separator:a7360489c0eba27347a184d5cbb01268a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a978098a3ee01f697741719c974a67188"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph_node.html#a978098a3ee01f697741719c974a67188">isRoot</a> () const noexcept</td></tr>
 <tr class="separator:a978098a3ee01f697741719c974a67188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aa1a2dc39bff7484a4088a86d9166f8"><td class="memTemplParams" colspan="2">template&lt;typename NodeT , typename... OtherNodesTs&gt; </td></tr>
@@ -343,6 +351,89 @@ template&lt;typename NodeT , typename... OtherNodesTs&gt; </div>
 
 </div>
 </div>
+<a id="a116b0d363da0304a5f3281c2f42bb408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116b0d363da0304a5f3281c2f42bb408">&#9670;&nbsp;</a></span>getChild() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T &amp; <a class="el" href="class_raz_1_1_graph_node.html">Raz::GraphNode</a>&lt; T &gt;::getChild </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7360489c0eba27347a184d5cbb01268a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7360489c0eba27347a184d5cbb01268a">&#9670;&nbsp;</a></span>getChild() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T &amp; <a class="el" href="class_raz_1_1_graph_node.html">Raz::GraphNode</a>&lt; T &gt;::getChild </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49097977f8a7cebc309f392a45735419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49097977f8a7cebc309f392a45735419">&#9670;&nbsp;</a></span>getChildCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t <a class="el" href="class_raz_1_1_graph_node.html">Raz::GraphNode</a>&lt; T &gt;::getChildCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1963d1abeb2228469d16dc3d593b768d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1963d1abeb2228469d16dc3d593b768d">&#9670;&nbsp;</a></span>getChildren()</h2>
 
@@ -394,6 +485,7 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Checks if the current node is a root, that is, a node without any parent. </p><dl class="section return"><dt>Returns</dt><dd>True if it is a root node, false otherwise. </dd></dl>
 
 </div>
 </div>

@@ -99,6 +99,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa7a38a9915525f122c1e4042a4e0ae6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba08dfa96adb29ddfebe7d529108168"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#aaba08dfa96adb29ddfebe7d529108168">Texture</a> (unsigned int width, unsigned int height, int bindingIndex, <a class="el" href="namespace_raz.html#ac401c562c77addebca04b48f11137c6c">ImageColorspace</a> colorspace=<a class="el" href="namespace_raz.html#a0a4faa4537fa2a0be15331b53e9a2f3da889574aebacda6bfd3e534e2b49b8028">ImageColorspace::RGB</a>, bool createMipmaps=true)</td></tr>
 <tr class="separator:aaba08dfa96adb29ddfebe7d529108168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab202fee6dd09b605f70e89215bf87438"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#ab202fee6dd09b605f70e89215bf87438">Texture</a> (<a class="el" href="class_raz_1_1_image.html">Image</a> image, int bindingIndex, bool createMipmaps=true)</td></tr>
+<tr class="separator:ab202fee6dd09b605f70e89215bf87438"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02fd56052d296cf5cbdfbdd42e2b316a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a02fd56052d296cf5cbdfbdd42e2b316a">Texture</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath, int bindingIndex, bool flipVertically=false, bool createMipmaps=true)</td></tr>
 <tr class="separator:a02fd56052d296cf5cbdfbdd42e2b316a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1700fab071e03dbaccb04757ad237772"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a1700fab071e03dbaccb04757ad237772">Texture</a> (const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;)=delete</td></tr>
@@ -113,6 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a06b517adc24faa5bce561b7158563393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494fbc3724c40f1ce2439d8355578a03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a494fbc3724c40f1ce2439d8355578a03">setBindingIndex</a> (int bindingIndex)</td></tr>
 <tr class="separator:a494fbc3724c40f1ce2439d8355578a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a63906694ff0c5b93db69aaee9d90e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a44a63906694ff0c5b93db69aaee9d90e">load</a> (<a class="el" href="class_raz_1_1_image.html">Image</a> image, bool createMipmaps=true)</td></tr>
+<tr class="separator:a44a63906694ff0c5b93db69aaee9d90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20d193e95b3e747a68d7210c8fe0d7a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a20d193e95b3e747a68d7210c8fe0d7a8">load</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath, bool flipVertically=false, bool createMipmaps=true)</td></tr>
 <tr class="separator:a20d193e95b3e747a68d7210c8fe0d7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3076589f883a3b46da8818e0a83a312"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#ad3076589f883a3b46da8818e0a83a312">save</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath, bool flipVertically=false) const</td></tr>
@@ -145,7 +149,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_texture.html" title="Texture class, handling images to be displayed into the scene. ">Texture</a> class, handling images to be displayed into the scene. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a209de2b832ad198a3ef6bc1129343b24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a209de2b832ad198a3ef6bc1129343b24">&#9670;&nbsp;</a></span>Texture() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a209de2b832ad198a3ef6bc1129343b24">&#9670;&nbsp;</a></span>Texture() <span class="overload">[1/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +166,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a51e341c5614d6700977114632c102771"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51e341c5614d6700977114632c102771">&#9670;&nbsp;</a></span>Texture() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e341c5614d6700977114632c102771">&#9670;&nbsp;</a></span>Texture() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +192,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af7e0db3a4e0ad3e693a756e47a67ebfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7e0db3a4e0ad3e693a756e47a67ebfb">&#9670;&nbsp;</a></span>Texture() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e0db3a4e0ad3e693a756e47a67ebfb">&#9670;&nbsp;</a></span>Texture() <span class="overload">[3/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +235,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aa7a38a9915525f122c1e4042a4e0ae6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7a38a9915525f122c1e4042a4e0ae6e">&#9670;&nbsp;</a></span>Texture() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7a38a9915525f122c1e4042a4e0ae6e">&#9670;&nbsp;</a></span>Texture() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +278,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aaba08dfa96adb29ddfebe7d529108168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba08dfa96adb29ddfebe7d529108168">&#9670;&nbsp;</a></span>Texture() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba08dfa96adb29ddfebe7d529108168">&#9670;&nbsp;</a></span>Texture() <span class="overload">[5/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,8 +323,50 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab202fee6dd09b605f70e89215bf87438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab202fee6dd09b605f70e89215bf87438">&#9670;&nbsp;</a></span>Texture() <span class="overload">[6/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::Texture::Texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_raz_1_1_image.html">Image</a>&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bindingIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>createMipmaps</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a02fd56052d296cf5cbdfbdd42e2b316a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02fd56052d296cf5cbdfbdd42e2b316a">&#9670;&nbsp;</a></span>Texture() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a02fd56052d296cf5cbdfbdd42e2b316a">&#9670;&nbsp;</a></span>Texture() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +414,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1700fab071e03dbaccb04757ad237772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1700fab071e03dbaccb04757ad237772">&#9670;&nbsp;</a></span>Texture() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1700fab071e03dbaccb04757ad237772">&#9670;&nbsp;</a></span>Texture() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +440,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a47a753420bfbd8e186ae03f9decaab5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47a753420bfbd8e186ae03f9decaab5c">&#9670;&nbsp;</a></span>Texture() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a47a753420bfbd8e186ae03f9decaab5c">&#9670;&nbsp;</a></span>Texture() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,8 +624,43 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a44a63906694ff0c5b93db69aaee9d90e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44a63906694ff0c5b93db69aaee9d90e">&#9670;&nbsp;</a></span>load() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Texture::load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_raz_1_1_image.html">Image</a>&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>createMipmaps</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the image &amp; loads it onto the graphics card. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td><a class="el" href="class_raz_1_1_image.html" title="Image class, handling images of different formats. ">Image</a> to be set as a texture. </td></tr>
+    <tr><td class="paramname">createMipmaps</td><td>True to generate texture mipmaps, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a20d193e95b3e747a68d7210c8fe0d7a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20d193e95b3e747a68d7210c8fe0d7a8">&#9670;&nbsp;</a></span>load()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d193e95b3e747a68d7210c8fe0d7a8">&#9670;&nbsp;</a></span>load() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w',['W',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639abc5eacb79ecdb0d2a58bdad6dccf7b31',1,'Raz::Keyboard']]],
+  ['w',['w',['../class_raz_1_1_quaternion.html#aa6ad3856a207056bfc2d8585001c943a',1,'Raz::Quaternion::w()'],['../class_raz_1_1_vector.html#af46e4cd10f851bb4bf361e702be29add',1,'Raz::Vector::w() const noexcept'],['../class_raz_1_1_vector.html#a33493bbbaebc2a77e4c6d7cbcef24a39',1,'Raz::Vector::w() noexcept'],['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639abc5eacb79ecdb0d2a58bdad6dccf7b31',1,'Raz::Keyboard::W()']]],
   ['wavaudio_2ecpp',['WavAudio.cpp',['../_wav_audio_8cpp.html',1,'']]],
   ['white',['WHITE',['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afab5bf627e448384cf3a4c35121ca6008d',1,'Raz']]],
   ['width',['WIDTH',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a49da85b69bc6285eeee286ca49fa7195',1,'Raz']]],

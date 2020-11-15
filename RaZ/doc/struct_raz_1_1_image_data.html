@@ -105,6 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af69dcbc9d8e2440070678ddcd2135332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5ec971e6d6e6be95f22c69f666f5297"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_image_data.html#ab5ec971e6d6e6be95f22c69f666f5297">isEmpty</a> () const =0</td></tr>
 <tr class="separator:ab5ec971e6d6e6be95f22c69f666f5297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e355e51716b8a46b01738cb630428a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_image_data.html#a2e355e51716b8a46b01738cb630428a0">resize</a> (std::size_t size)=0</td></tr>
+<tr class="separator:a2e355e51716b8a46b01738cb630428a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6e7338348cd446656f7a3943fed225c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_image_data.html#ae6e7338348cd446656f7a3943fed225c">operator==</a> (const <a class="el" href="struct_raz_1_1_image_data.html">ImageData</a> &amp;imgData) const =0</td></tr>
 <tr class="separator:ae6e7338348cd446656f7a3943fed225c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb3c62168dbbe16854b57d959e71ff4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_image_data.html#a1bb3c62168dbbe16854b57d959e71ff4">operator!=</a> (const <a class="el" href="struct_raz_1_1_image_data.html">ImageData</a> &amp;imgData) const</td></tr>
@@ -279,7 +281,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>True if datas are different, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if data are different, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -312,9 +314,43 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>True if datas are equal, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True if data are equal, false otherwise. </dd></dl>
 
 <p>Implemented in <a class="el" href="struct_raz_1_1_image_data_f.html#abecf697486ff78d3942bce217a3b9034">Raz::ImageDataF</a>, and <a class="el" href="struct_raz_1_1_image_data_b.html#a622aeda20e50dc4f49f2ca50eb26374a">Raz::ImageDataB</a>.</p>
+
+</div>
+</div>
+<a id="a2e355e51716b8a46b01738cb630428a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e355e51716b8a46b01738cb630428a0">&#9670;&nbsp;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Raz::ImageData::resize </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Resizes the data container. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>New data size. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="struct_raz_1_1_image_data_f.html#ad19c2491f48067fa707e13b2fdef1a40">Raz::ImageDataF</a>, and <a class="el" href="struct_raz_1_1_image_data_b.html#a1d137f8791ce00f21dfec19aa3fd955d">Raz::ImageDataB</a>.</p>
 
 </div>
 </div>

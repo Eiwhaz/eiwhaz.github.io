@@ -89,6 +89,7 @@ Inheritance diagram for Raz::Graph&lt; NodeT &gt;:</div>
 <div class="center"><img src="class_raz_1_1_graph__inherit__graph.jpg" border="0" usemap="#_raz_1_1_graph_3_01_node_t_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="_raz_1_1_graph_3_01_node_t_01_4_inherit__map" id="_raz_1_1_graph_3_01_node_t_01_4_inherit__map">
 <area shape="rect" id="node2" href="class_raz_1_1_graph.html" title="Raz::Graph\&lt; RenderPass \&gt;" alt="" coords="5,95,188,121"/>
+<area shape="rect" id="node4" href="class_raz_1_1_graph.html" title="Raz::Graph\&lt; SkeletonJoint \&gt;" alt="" coords="212,95,403,121"/>
 <area shape="rect" id="node3" href="class_raz_1_1_render_graph.html" title="Raz::RenderGraph" alt="" coords="32,171,161,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -104,10 +105,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8a236d354913f1cc0e750fe86a7dccb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a632eca1315bec12fb6ab2533b38147f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#a632eca1315bec12fb6ab2533b38147f0">Graph</a> (<a class="el" href="class_raz_1_1_graph.html">Graph</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a632eca1315bec12fb6ab2533b38147f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a595d1e379128877c3d2044d43842b319"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const NodePtr &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#a595d1e379128877c3d2044d43842b319">getNodes</a> () const noexcept</td></tr>
-<tr class="separator:a595d1e379128877c3d2044d43842b319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda1019a35b21e032e5a30c39ea33a6b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; NodePtr &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#adda1019a35b21e032e5a30c39ea33a6b">getNodes</a> () noexcept</td></tr>
-<tr class="separator:adda1019a35b21e032e5a30c39ea33a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5242fa21806cd14168d945e2c3558553"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#a5242fa21806cd14168d945e2c3558553">getNodeCount</a> () const noexcept</td></tr>
+<tr class="separator:a5242fa21806cd14168d945e2c3558553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a781cdd1962b4b29cec272df7575484a1"><td class="memItemLeft" align="right" valign="top">const NodeT &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#a781cdd1962b4b29cec272df7575484a1">getNode</a> (std::size_t index) const noexcept</td></tr>
+<tr class="separator:a781cdd1962b4b29cec272df7575484a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191168006f6a900dc4853d0a288e0b2b"><td class="memItemLeft" align="right" valign="top">NodeT &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#a191168006f6a900dc4853d0a288e0b2b">getNode</a> (std::size_t index) noexcept</td></tr>
+<tr class="separator:a191168006f6a900dc4853d0a288e0b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd3f3b53af6b9a4b5d018918a990bef"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a6bd3f3b53af6b9a4b5d018918a990bef"><td class="memTemplItemLeft" align="right" valign="top">NodeT &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_graph.html#a6bd3f3b53af6b9a4b5d018918a990bef">addNode</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a6bd3f3b53af6b9a4b5d018918a990bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,35 +290,64 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a595d1e379128877c3d2044d43842b319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a595d1e379128877c3d2044d43842b319">&#9670;&nbsp;</a></span>getNodes() <span class="overload">[1/2]</span></h2>
+<a id="a781cdd1962b4b29cec272df7575484a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a781cdd1962b4b29cec272df7575484a1">&#9670;&nbsp;</a></span>getNode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename NodeT&gt; </div>
+template&lt;typename NodeT &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;const NodePtr&gt;&amp; <a class="el" href="class_raz_1_1_graph.html">Raz::Graph</a>&lt; NodeT &gt;::getNodes </td>
+          <td class="memname">const NodeT &amp; <a class="el" href="class_raz_1_1_graph.html">Raz::Graph</a>&lt; NodeT &gt;::getNode </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="adda1019a35b21e032e5a30c39ea33a6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adda1019a35b21e032e5a30c39ea33a6b">&#9670;&nbsp;</a></span>getNodes() <span class="overload">[2/2]</span></h2>
+<a id="a191168006f6a900dc4853d0a288e0b2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191168006f6a900dc4853d0a288e0b2b">&#9670;&nbsp;</a></span>getNode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NodeT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NodeT &amp; <a class="el" href="class_raz_1_1_graph.html">Raz::Graph</a>&lt; NodeT &gt;::getNode </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5242fa21806cd14168d945e2c3558553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5242fa21806cd14168d945e2c3558553">&#9670;&nbsp;</a></span>getNodeCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,10 +358,10 @@ template&lt;typename NodeT&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;NodePtr&gt;&amp; <a class="el" href="class_raz_1_1_graph.html">Raz::Graph</a>&lt; NodeT &gt;::getNodes </td>
+          <td class="memname">std::size_t <a class="el" href="class_raz_1_1_graph.html">Raz::Graph</a>&lt; NodeT &gt;::getNodeCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>

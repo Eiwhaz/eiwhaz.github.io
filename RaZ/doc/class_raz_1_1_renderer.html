@@ -234,8 +234,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:af97cf61f5ae26079dcd5916a1e3146cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a987bbc1e537d11ab5131ee1facb0da"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a6a987bbc1e537d11ab5131ee1facb0da">isProgramLinked</a> (unsigned int index)</td></tr>
 <tr class="separator:a6a987bbc1e537d11ab5131ee1facb0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35aa3a46f05d6dc2151e38a3e6e7f38a"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a35aa3a46f05d6dc2151e38a3e6e7f38a">recoverActiveUniformCount</a> (unsigned int index)</td></tr>
-<tr class="separator:a35aa3a46f05d6dc2151e38a3e6e7f38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2cd356ad1cb2475fb709d44f45f60eb"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#ae2cd356ad1cb2475fb709d44f45f60eb">recoverActiveUniformCount</a> (unsigned int programIndex)</td></tr>
+<tr class="separator:ae2cd356ad1cb2475fb709d44f45f60eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec85e0dbe5c1a100f4597ecf7f107453"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#aec85e0dbe5c1a100f4597ecf7f107453">recoverAttachedShaders</a> (unsigned int programIndex)</td></tr>
+<tr class="separator:aec85e0dbe5c1a100f4597ecf7f107453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91efc1e240f0eedc9d3fd1e291d11b75"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a91efc1e240f0eedc9d3fd1e291d11b75">linkProgram</a> (unsigned int index)</td></tr>
 <tr class="separator:a91efc1e240f0eedc9d3fd1e291d11b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55f7e2c7aa13125d5820978d62b3de1e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a55f7e2c7aa13125d5820978d62b3de1e">useProgram</a> (unsigned int index)</td></tr>
@@ -258,6 +260,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5ef03a76d75b8079a0a8c3e8d3c43f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59b126ef4b164bb03d93992ac5f56b62"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a59b126ef4b164bb03d93992ac5f56b62">detachShader</a> (unsigned int programIndex, unsigned int shaderIndex)</td></tr>
 <tr class="separator:a59b126ef4b164bb03d93992ac5f56b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9831c7acc7d760509fd3993405dead11"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a9831c7acc7d760509fd3993405dead11">isShaderAttached</a> (unsigned int programIndex, unsigned int shaderIndex)</td></tr>
+<tr class="separator:a9831c7acc7d760509fd3993405dead11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a004e3ad96c238b2772ea942e59bd03fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a004e3ad96c238b2772ea942e59bd03fa">deleteShader</a> (unsigned int index)</td></tr>
 <tr class="separator:a004e3ad96c238b2772ea942e59bd03fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01f603ab5bcb35f580b7ccd38dd0c6c4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_renderer.html#a01f603ab5bcb35f580b7ccd38dd0c6c4">recoverUniformLocation</a> (unsigned int programIndex, const char *uniformName)</td></tr>
@@ -2285,6 +2289,42 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a9831c7acc7d760509fd3993405dead11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9831c7acc7d760509fd3993405dead11">&#9670;&nbsp;</a></span>isShaderAttached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::Renderer::isShaderAttached </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>programIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>shaderIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac598ce04692d4cd4915ff496f08b19a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac598ce04692d4cd4915ff496f08b19a5">&#9670;&nbsp;</a></span>isShaderCompiled()</h2>
 
@@ -2440,8 +2480,8 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
-<a id="a35aa3a46f05d6dc2151e38a3e6e7f38a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35aa3a46f05d6dc2151e38a3e6e7f38a">&#9670;&nbsp;</a></span>recoverActiveUniformCount()</h2>
+<a id="ae2cd356ad1cb2475fb709d44f45f60eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2cd356ad1cb2475fb709d44f45f60eb">&#9670;&nbsp;</a></span>recoverActiveUniformCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2453,7 +2493,33 @@ template&lt;std::size_t N&gt; </div>
           <td class="memname">unsigned int Raz::Renderer::recoverActiveUniformCount </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
+          <td class="paramname"><em>programIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec85e0dbe5c1a100f4597ecf7f107453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec85e0dbe5c1a100f4597ecf7f107453">&#9670;&nbsp;</a></span>recoverAttachedShaders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; unsigned int &gt; Raz::Renderer::recoverAttachedShaders </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>programIndex</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2900,7 +2966,7 @@ template&lt;std::size_t N&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_raz_1_1_renderer.html#a35aa3a46f05d6dc2151e38a3e6e7f38a">recoverActiveUniformCount()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_raz_1_1_renderer.html#ae2cd356ad1cb2475fb709d44f45f60eb">recoverActiveUniformCount()</a>. </dd></dl>
 
 </div>
 </div>
