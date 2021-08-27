@@ -22,6 +22,7 @@ var searchData=
   ['fill',['FILL',['../namespace_raz.html#a17e77ed5b38a4fa2cc34b8d2d5d7e4fbae8225b11842409df543692aebed34fd1',1,'Raz']]],
   ['float',['FLOAT',['../namespace_raz.html#a651306b9d3e7811b1601fb5651d89a7eae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0ae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()'],['../namespace_raz.html#a560e0a7db1b131359ef82257442d8b8cae738c26bf4ce1037fa81b039a915cbf6',1,'Raz::FLOAT()']]],
   ['floatutils_2ehpp',['FloatUtils.hpp',['../_float_utils_8hpp.html',1,'']]],
+  ['focused',['FOCUSED',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a3bccbab2a35cb78388a0f4a8e2003b07',1,'Raz']]],
   ['formatblocksize',['formatBlockSize',['../_wav_audio_8cpp.html#a0cd027a46e62d91629f9f7a297fb75d8',1,'WavAudio.cpp']]],
   ['fps_5fcounter',['FPS_COUNTER',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca778030f0e27aa1ba1500f09b5954f0a5',1,'Raz']]],
   ['fragment',['FRAGMENT',['../namespace_raz.html#ad89bb45846c2309a8d1e60ed06a68d37a7345a249ed5c2f850d85dc1727c24716',1,'Raz']]],

@@ -31,6 +31,7 @@ var searchData=
   ['smooth_5fline_5fwidth_5frange',['SMOOTH_LINE_WIDTH_RANGE',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1eae1f52d26797391dbcce3b7f1365311cb',1,'Raz']]],
   ['snow',['SNOW',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda5b93646ac0ddec8af3c0d78a094d0fc3',1,'Raz']]],
   ['space',['SPACE',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a350324dba7b12d88b2a08ef04c536043',1,'Raz::Keyboard']]],
+  ['sphere',['SPHERE',['../namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7a6f7cea7381e843e2ee0338b4a92b0d43',1,'Raz']]],
   ['spot',['SPOT',['../namespace_raz.html#a1bd4faa31ed041df2f17e91ff234a59ba5bac85a0c611ddef64ab0dfb383056f4',1,'Raz']]],
   ['srgb',['SRGB',['../namespace_raz.html#a0a4faa4537fa2a0be15331b53e9a2f3da1f3f09bca5728eb7af4ea263ae84b9f1',1,'Raz::SRGB()'],['../namespace_raz.html#ae2079173da3471c87fd0b855968e79aea1f3f09bca5728eb7af4ea263ae84b9f1',1,'Raz::SRGB()']]],
   ['stack_5foverflow',['STACK_OVERFLOW',['../namespace_raz.html#a08d253eadce90839613f77ab2486ee39aaf5dcc114f4d3618802f0cd7bad2ccd8',1,'Raz']]],

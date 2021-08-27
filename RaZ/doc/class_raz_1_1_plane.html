@@ -96,14 +96,14 @@ Inheritance diagram for Raz::Plane:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1e5f8ff7be4f6c488b5d4e091f4ead91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#a1e5f8ff7be4f6c488b5d4e091f4ead91">Plane</a> ()=default</td></tr>
-<tr class="separator:a1e5f8ff7be4f6c488b5d4e091f4ead91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad539c6c4dd0120d051aeb079b6ef07c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#aad539c6c4dd0120d051aeb079b6ef07c">Plane</a> (float distance, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;normal=<a class="el" href="namespace_raz_1_1_axis.html#ac6303f020594a2fefc86e7271c8cf502">Axis::Y</a>)</td></tr>
 <tr class="separator:aad539c6c4dd0120d051aeb079b6ef07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefef66f04b28d8239ee492dfd823dd76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#aefef66f04b28d8239ee492dfd823dd76">Plane</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;position, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;normal=<a class="el" href="namespace_raz_1_1_axis.html#ac6303f020594a2fefc86e7271c8cf502">Axis::Y</a>)</td></tr>
 <tr class="separator:aefef66f04b28d8239ee492dfd823dd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84e951c89cadb60ab4e4832b80702a02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#a84e951c89cadb60ab4e4832b80702a02">Plane</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;firstPoint, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;secondPoint, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;thirdPoint)</td></tr>
 <tr class="separator:a84e951c89cadb60ab4e4832b80702a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ae83536c05ab231ff2799314a8085c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#a87ae83536c05ab231ff2799314a8085c">getType</a> () const noexcept override</td></tr>
+<tr class="separator:a87ae83536c05ab231ff2799314a8085c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa412fa32de12fae40cfae39f439e41e0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#aa412fa32de12fae40cfae39f439e41e0">getDistance</a> () const</td></tr>
 <tr class="separator:aa412fa32de12fae40cfae39f439e41e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02bbd0ced29780bfe6867022e7dc4aaf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_plane.html#a02bbd0ced29780bfe6867022e7dc4aaf">getNormal</a> () const</td></tr>
@@ -151,33 +151,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_plane.html" title="Plane defined by a distance from [ 0; 0; 0 ] and a normal. ">Plane</a> defined by a distance from [ 0; 0; 0 ] and a normal. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1e5f8ff7be4f6c488b5d4e091f4ead91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e5f8ff7be4f6c488b5d4e091f4ead91">&#9670;&nbsp;</a></span>Plane() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Plane::Plane </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aad539c6c4dd0120d051aeb079b6ef07c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad539c6c4dd0120d051aeb079b6ef07c">&#9670;&nbsp;</a></span>Plane() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad539c6c4dd0120d051aeb079b6ef07c">&#9670;&nbsp;</a></span>Plane() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +188,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aefef66f04b28d8239ee492dfd823dd76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefef66f04b28d8239ee492dfd823dd76">&#9670;&nbsp;</a></span>Plane() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aefef66f04b28d8239ee492dfd823dd76">&#9670;&nbsp;</a></span>Plane() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,7 +224,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a84e951c89cadb60ab4e4832b80702a02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84e951c89cadb60ab4e4832b80702a02">&#9670;&nbsp;</a></span>Plane() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a84e951c89cadb60ab4e4832b80702a02">&#9670;&nbsp;</a></span>Plane() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,6 +411,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87ae83536c05ab231ff2799314a8085c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ae83536c05ab231ff2799314a8085c">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a> Raz::Plane::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the type of the shape. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_shape.html">Shape</a>'s type. </dd></dl>
+
+<p>Implements <a class="el" href="class_raz_1_1_shape.html#a6f56925f0d2d5ff2db5d6a37e9bc4276">Raz::Shape</a>.</p>
 
 </div>
 </div>

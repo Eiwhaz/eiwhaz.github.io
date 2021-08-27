@@ -1,7 +1,7 @@
 var searchData=
 [
   ['a',['A',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a4b834889a771675c3d42debe53982189',1,'Raz::Keyboard']]],
-  ['aabb',['AABB',['../class_raz_1_1_a_a_b_b.html',1,'Raz::AABB'],['../class_raz_1_1_a_a_b_b.html#a600d78de3c37d8e2b1f11fb687624f6e',1,'Raz::AABB::AABB()=default'],['../class_raz_1_1_a_a_b_b.html#a3b1c54079dcebee09f475a74ffc3305a',1,'Raz::AABB::AABB(const Vec3f &amp;leftBottomBackPos, const Vec3f &amp;rightTopFrontPos)']]],
+  ['aabb',['AABB',['../class_raz_1_1_a_a_b_b.html',1,'Raz::AABB'],['../class_raz_1_1_a_a_b_b.html#a3b1c54079dcebee09f475a74ffc3305a',1,'Raz::AABB::AABB()'],['../namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7a4276d50f05d2cac4c98c17337ac30c99',1,'Raz::AABB()']]],
   ['actiontrigger',['ActionTrigger',['../namespace_raz_1_1_input.html#ab00430b5b7e3c9f912ac3e24b7358d8f',1,'Raz::Input']]],
   ['activate',['activate',['../class_raz_1_1_texture.html#aa6d81e85eff6811f8e7e2c6dbc870a88',1,'Raz::Texture']]],
   ['activatetexture',['activateTexture',['../class_raz_1_1_renderer.html#a18740f4b5b27ba682a473aecf0826781',1,'Raz::Renderer']]],
@@ -25,7 +25,7 @@ var searchData=
   ['addframetime',['addFrameTime',['../class_raz_1_1_overlay.html#a925cab7875aa7cfbcf55e56e93ae70dd',1,'Raz::Overlay']]],
   ['addkeycallback',['addKeyCallback',['../class_raz_1_1_window.html#a1fd41486ab8a99de15e5a90355b5af90',1,'Raz::Window']]],
   ['addlabel',['addLabel',['../class_raz_1_1_overlay.html#aef83026583622f36e0dcfe1bebba528a',1,'Raz::Overlay']]],
-  ['addmaterial',['addMaterial',['../class_raz_1_1_mesh.html#ae2ff7f771c00f8c4fdf60047f9fb56d6',1,'Raz::Mesh']]],
+  ['addmaterial',['addMaterial',['../class_raz_1_1_mesh.html#a2c8ea85ca8f1c063a48a7ec0fb43f99f',1,'Raz::Mesh']]],
   ['addmousebuttoncallback',['addMouseButtonCallback',['../class_raz_1_1_window.html#acc290401e7236033a7fc81448dc530c3',1,'Raz::Window']]],
   ['addmousemovecallback',['addMouseMoveCallback',['../class_raz_1_1_window.html#a154c4b3859cff67f558a8bd5b0e96f93',1,'Raz::Window']]],
   ['addmousescrollcallback',['addMouseScrollCallback',['../class_raz_1_1_window.html#a99c03fd0c463ae357279874442ee9b63',1,'Raz::Window']]],
@@ -34,8 +34,8 @@ var searchData=
   ['addreadtexture',['addReadTexture',['../class_raz_1_1_render_pass.html#ac5d7deff2a9f23a98124d0c13253ba67',1,'Raz::RenderPass']]],
   ['addrenderpass',['addRenderPass',['../class_raz_1_1_render_system.html#a1077b4592ec296d112823782b80ac4eb',1,'Raz::RenderSystem::addRenderPass(VertexShader vertShader, FragmentShader fragShader)'],['../class_raz_1_1_render_system.html#ac534b31e86c7d34b5c4a30b6872136c4',1,'Raz::RenderSystem::addRenderPass(FragmentShader fragShader)']]],
   ['addseparator',['addSeparator',['../class_raz_1_1_overlay.html#aef57e7723bb311b1e1a6c80ce03e5c79',1,'Raz::Overlay']]],
-  ['addslider',['addSlider',['../class_raz_1_1_overlay.html#a17a9ba29d9400eb72ff4438cc7810f6b',1,'Raz::Overlay']]],
-  ['addsubmesh',['addSubmesh',['../class_raz_1_1_mesh.html#ad1d6a090515c3f736bb8d0dddd96817e',1,'Raz::Mesh']]],
+  ['addslider',['addSlider',['../class_raz_1_1_overlay.html#aff3c10cc70ee7605df5248c107845537',1,'Raz::Overlay']]],
+  ['addsubmesh',['addSubmesh',['../class_raz_1_1_mesh.html#aa3675d78836fb74a612f4362c433576e',1,'Raz::Mesh']]],
   ['addsystem',['addSystem',['../class_raz_1_1_world.html#aedf5035ebd0de1ef8cc65f73cd7705e4',1,'Raz::World']]],
   ['addtextbox',['addTextbox',['../class_raz_1_1_overlay.html#aea997adfb216ff180490244b1f5192c9',1,'Raz::Overlay']]],
   ['addtexture',['addTexture',['../class_raz_1_1_overlay.html#a28b761385a8d9423a2791b442c346d98',1,'Raz::Overlay::addTexture(const Texture &amp;texture, unsigned int maxWidth, unsigned int maxHeight)'],['../class_raz_1_1_overlay.html#a5f17b0b74b89b996173aadb7574f9e76',1,'Raz::Overlay::addTexture(const Texture &amp;texture)']]],
@@ -46,6 +46,7 @@ var searchData=
   ['alpha_5fsize',['ALPHA_SIZE',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00aa03e6855927d7f8aef0932cae2a181c9',1,'Raz']]],
   ['aluminium',['ALUMINIUM',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda786e6153a22481ffe1125ea40f6f51c3',1,'Raz']]],
   ['always',['ALWAYS',['../namespace_raz_1_1_input.html#ab00430b5b7e3c9f912ac3e24b7358d8fa729ce82d2d43be3bd5730e6c83eae566',1,'Raz::Input::ALWAYS()'],['../namespace_raz.html#a2f80f4a6bb609cf709c688e2158439dcaf3fc827ade4b968e50406496907ef962',1,'Raz::ALWAYS()']]],
+  ['always_5fon_5ftop',['ALWAYS_ON_TOP',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1ae691ed6feadad498d49ae83224dfc172',1,'Raz']]],
   ['angle_2ehpp',['Angle.hpp',['../_angle_8hpp.html',1,'']]],
   ['application',['Application',['../class_raz_1_1_application.html',1,'Raz::Application'],['../class_raz_1_1_application.html#aa48221d2832049bc5a03ff6fca102652',1,'Raz::Application::Application()']]],
   ['application_2ecpp',['Application.cpp',['../_application_8cpp.html',1,'']]],
@@ -60,5 +61,7 @@ var searchData=
   ['audioformat',['audioFormat',['../_wav_audio_8cpp.html#a8b883729d8ecdf47d2bb1e26080c4cd1',1,'WavAudio.cpp']]],
   ['audiosystem',['AudioSystem',['../class_raz_1_1_audio_system.html',1,'Raz::AudioSystem'],['../class_raz_1_1_audio_system.html#a57c10863fd0d1c9c0089f42794712cd9',1,'Raz::AudioSystem::AudioSystem()']]],
   ['audiosystem_2ecpp',['AudioSystem.cpp',['../_audio_system_8cpp.html',1,'']]],
-  ['audiosystem_2ehpp',['AudioSystem.hpp',['../_audio_system_8hpp.html',1,'']]]
+  ['audiosystem_2ehpp',['AudioSystem.hpp',['../_audio_system_8hpp.html',1,'']]],
+  ['auto_5fminimize',['AUTO_MINIMIZE',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a4f7b79eb5f183a72f18d55410460db9e',1,'Raz']]],
+  ['autofocus',['AUTOFOCUS',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1aab201cc1fe69556697783084015b7672',1,'Raz']]]
 ];

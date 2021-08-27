@@ -123,15 +123,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae1f6e7a9090bc31df40cc8f6849f03c"><td class="memTemplParams" colspan="2">template&lt;typename... Comps&gt; </td></tr>
 <tr class="memitem:aae1f6e7a9090bc31df40cc8f6849f03c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#aae1f6e7a9090bc31df40cc8f6849f03c">addEntityWithComponents</a> (bool enabled=true)</td></tr>
 <tr class="separator:aae1f6e7a9090bc31df40cc8f6849f03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455c2161d35b960b8c364c1248eb5c15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#a455c2161d35b960b8c364c1248eb5c15">removeEntity</a> (const <a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;entity)</td></tr>
+<tr class="separator:a455c2161d35b960b8c364c1248eb5c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b85059dbedda49f3f68b2fbe56a414"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#a37b85059dbedda49f3f68b2fbe56a414">update</a> (float deltaTime)</td></tr>
 <tr class="separator:a37b85059dbedda49f3f68b2fbe56a414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad7c811166c9ef509b1a049ce427c462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#aad7c811166c9ef509b1a049ce427c462">refresh</a> ()</td></tr>
-<tr class="memdesc:aad7c811166c9ef509b1a049ce427c462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the world, reorganizing its entities to optimize caching by moving the active entities in front.  <a href="#aad7c811166c9ef509b1a049ce427c462">More...</a><br /></td></tr>
+<tr class="memdesc:aad7c811166c9ef509b1a049ce427c462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the world, optimizing the entities &amp; linking/unlinking entities to systems if needed.  <a href="#aad7c811166c9ef509b1a049ce427c462">More...</a><br /></td></tr>
 <tr class="separator:aad7c811166c9ef509b1a049ce427c462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1694eb3a4e4b513623a7740b647b1a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#aa1694eb3a4e4b513623a7740b647b1a3">destroy</a> ()</td></tr>
+<tr class="memdesc:aa1694eb3a4e4b513623a7740b647b1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the world, releasing all its entities &amp; systems.  <a href="#aa1694eb3a4e4b513623a7740b647b1a3">More...</a><br /></td></tr>
+<tr class="separator:aa1694eb3a4e4b513623a7740b647b1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03d12a73e371cb47a3a3dacc835f43f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_world.html">World</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#a03d12a73e371cb47a3a3dacc835f43f9">operator=</a> (const <a class="el" href="class_raz_1_1_world.html">World</a> &amp;)=delete</td></tr>
 <tr class="separator:a03d12a73e371cb47a3a3dacc835f43f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51cdfbe2946fa2492ba89597a73728f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_world.html">World</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#a51cdfbe2946fa2492ba89597a73728f5">operator=</a> (<a class="el" href="class_raz_1_1_world.html">World</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a51cdfbe2946fa2492ba89597a73728f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f8ff8b203adffb03f710b6fb2ffa92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_world.html#ab9f8ff8b203adffb03f710b6fb2ffa92">~World</a> ()</td></tr>
+<tr class="separator:ab9f8ff8b203adffb03f710b6fb2ffa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities. ">World</a> class handling systems &amp; entities. </p>
@@ -233,6 +240,31 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9f8ff8b203adffb03f710b6fb2ffa92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f8ff8b203adffb03f710b6fb2ffa92">&#9670;&nbsp;</a></span>~World()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::World::~World </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -363,6 +395,25 @@ template&lt;typename Sys , typename... Args&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the newly added system. </dd></dl>
+
+</div>
+</div>
+<a id="aa1694eb3a4e4b513623a7740b647b1a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1694eb3a4e4b513623a7740b647b1a3">&#9670;&nbsp;</a></span>destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::World::destroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys the world, releasing all its entities &amp; systems. </p>
 
 </div>
 </div>
@@ -569,7 +620,31 @@ template&lt;typename Sys &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Refreshes the world, reorganizing its entities to optimize caching by moving the active entities in front. </p>
+<p>Refreshes the world, optimizing the entities &amp; linking/unlinking entities to systems if needed. </p>
+
+</div>
+</div>
+<a id="a455c2161d35b960b8c364c1248eb5c15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455c2161d35b960b8c364c1248eb5c15">&#9670;&nbsp;</a></span>removeEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::World::removeEntity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes an entity from the world. It <em>must</em> be an entity created by this world. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="class_raz_1_1_entity.html" title="Entity class representing an aggregate of Component objects. ">Entity</a> to be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

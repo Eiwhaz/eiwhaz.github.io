@@ -14,6 +14,7 @@ var searchData=
   ['pause',['PAUSE',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a3f166a0a535ce7c286382f82f3733998',1,'Raz::Keyboard']]],
   ['paused',['PAUSED',['../namespace_raz.html#af43f170cb926b16c0a233521fcff723da99b2439e63f73ad515f7ab2447a80673',1,'Raz']]],
   ['perspective',['PERSPECTIVE',['../namespace_raz.html#a360ee468371283ad8562d2bb54e1a9faad46c97be63d6c4cb887419a4a3df5347',1,'Raz']]],
+  ['plane',['PLANE',['../namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7aad6990fc23cd957328515fde2db852a3',1,'Raz']]],
   ['platinum',['PLATINUM',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda0d2489f3616693c707709295fd091c84',1,'Raz']]],
   ['playing',['PLAYING',['../namespace_raz.html#af43f170cb926b16c0a233521fcff723da50366a49630a416ab3ccaa004196027e',1,'Raz']]],
   ['point',['POINT',['../namespace_raz.html#a1bd4faa31ed041df2f17e91ff234a59baaebdbcb765394d25d6a604589a890f82',1,'Raz::POINT()'],['../namespace_raz.html#a17e77ed5b38a4fa2cc34b8d2d5d7e4fbaaebdbcb765394d25d6a604589a890f82',1,'Raz::POINT()'],['../namespace_raz.html#aaeac9eeddf41c86d4b1075acccff55d2aaebdbcb765394d25d6a604589a890f82',1,'Raz::POINT()']]],

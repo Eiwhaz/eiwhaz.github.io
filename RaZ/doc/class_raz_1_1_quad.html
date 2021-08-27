@@ -96,10 +96,10 @@ Inheritance diagram for Raz::Quad:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0a482150e3c90bbabbf8dec5458abae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quad.html#ac0a482150e3c90bbabbf8dec5458abae">Quad</a> ()=default</td></tr>
-<tr class="separator:ac0a482150e3c90bbabbf8dec5458abae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a041763060a5c6e511a95753812c9f84e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quad.html#a041763060a5c6e511a95753812c9f84e">Quad</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;leftTopPos, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;rightTopPos, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;rightBottomPos, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;leftBottomPos)</td></tr>
 <tr class="separator:a041763060a5c6e511a95753812c9f84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4bbab0ed1085ee7aa4ccefebdc6d4ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quad.html#ac4bbab0ed1085ee7aa4ccefebdc6d4ca">getType</a> () const noexcept override</td></tr>
+<tr class="separator:ac4bbab0ed1085ee7aa4ccefebdc6d4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7927e0ac76556bcfbf0e7cfe4226dd9e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quad.html#a7927e0ac76556bcfbf0e7cfe4226dd9e">getLeftTopPos</a> () const</td></tr>
 <tr class="separator:a7927e0ac76556bcfbf0e7cfe4226dd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d4e5387c14b3ad50bc48ec93ddd4484"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quad.html#a7d4e5387c14b3ad50bc48ec93ddd4484">getRightTopPos</a> () const</td></tr>
@@ -151,33 +151,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_quad.html" title="Quad defined by its four vertices&#39; positions, presumably in counter-clockwise order. ">Quad</a> defined by its four vertices' positions, presumably in counter-clockwise order. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac0a482150e3c90bbabbf8dec5458abae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0a482150e3c90bbabbf8dec5458abae">&#9670;&nbsp;</a></span>Quad() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Quad::Quad </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a041763060a5c6e511a95753812c9f84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a041763060a5c6e511a95753812c9f84e">&#9670;&nbsp;</a></span>Quad() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a041763060a5c6e511a95753812c9f84e">&#9670;&nbsp;</a></span>Quad()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,6 +395,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4bbab0ed1085ee7aa4ccefebdc6d4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4bbab0ed1085ee7aa4ccefebdc6d4ca">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a> Raz::Quad::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the type of the shape. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_shape.html">Shape</a>'s type. </dd></dl>
+
+<p>Implements <a class="el" href="class_raz_1_1_shape.html#a6f56925f0d2d5ff2db5d6a37e9bc4276">Raz::Shape</a>.</p>
 
 </div>
 </div>

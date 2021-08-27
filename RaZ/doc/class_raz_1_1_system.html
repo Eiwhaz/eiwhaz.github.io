@@ -81,7 +81,7 @@ $(function() {
 <a href="#friends">Friends</a> &#124;
 <a href="class_raz_1_1_system-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Raz::System Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Raz::System Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -110,8 +110,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac7ccf099eb9bcc01f6dd6e25549cb850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f6e01024cf654062ffb56d41277006"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#ae5f6e01024cf654062ffb56d41277006">containsEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
 <tr class="separator:ae5f6e01024cf654062ffb56d41277006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057b026cb87fe967bf556ae108ae4dc3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a057b026cb87fe967bf556ae108ae4dc3">update</a> (float deltaTime)=0</td></tr>
-<tr class="separator:a057b026cb87fe967bf556ae108ae4dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450a227a74fba849b36e5b15b0bf5d7c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a450a227a74fba849b36e5b15b0bf5d7c">update</a> ([[maybe_unused]] float deltaTime)</td></tr>
+<tr class="separator:a450a227a74fba849b36e5b15b0bf5d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43693bef6b481c58842c9a362774c8c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a43693bef6b481c58842c9a362774c8c8">step</a> ([[maybe_unused]] float deltaTime)</td></tr>
+<tr class="separator:a43693bef6b481c58842c9a362774c8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3569d03a6cc52bb692fbb45af827e564"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a3569d03a6cc52bb692fbb45af827e564">destroy</a> ()</td></tr>
 <tr class="memdesc:a3569d03a6cc52bb692fbb45af827e564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the system.  <a href="#a3569d03a6cc52bb692fbb45af827e564">More...</a><br /></td></tr>
 <tr class="separator:a3569d03a6cc52bb692fbb45af827e564"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -305,7 +307,7 @@ Friends</h2></td></tr>
 
 <p>Destroys the system. </p>
 
-<p>Reimplemented in <a class="el" href="class_raz_1_1_render_system.html#a9eb3c114038b8704d5efae99cb448bdd">Raz::RenderSystem</a>, <a class="el" href="class_raz_1_1_audio_system.html#af745ff4ceac6a61e6bc7e0445798bdd4">Raz::AudioSystem</a>, and <a class="el" href="class_raz_1_1_physics_system.html#aa550c21f9b0d32f7302ef62abc4720ba">Raz::PhysicsSystem</a>.</p>
+<p>Reimplemented in <a class="el" href="class_raz_1_1_render_system.html#a9eb3c114038b8704d5efae99cb448bdd">Raz::RenderSystem</a>, and <a class="el" href="class_raz_1_1_audio_system.html#af745ff4ceac6a61e6bc7e0445798bdd4">Raz::AudioSystem</a>.</p>
 
 </div>
 </div>
@@ -454,6 +456,39 @@ template&lt;typename Sys &gt; </div>
 
 </div>
 </div>
+<a id="a43693bef6b481c58842c9a362774c8c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43693bef6b481c58842c9a362774c8c8">&#9670;&nbsp;</a></span>step()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Raz::System::step </td>
+          <td>(</td>
+          <td class="paramtype">[[maybe_unused] ] float&#160;</td>
+          <td class="paramname"><em>deltaTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Updates the system with a fixed time step, independent of the frame rate. If fixed steps are not needed, use <a class="el" href="class_raz_1_1_system.html#a450a227a74fba849b36e5b15b0bf5d7c">update()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deltaTime</td><td>Step time elapsed since the last update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the system is still active, false otherwise. </dd></dl>
+
+</div>
+</div>
 <a id="a943de303a5104f059f5f67af2cf1310d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a943de303a5104f059f5f67af2cf1310d">&#9670;&nbsp;</a></span>unlinkEntity()</h2>
 
@@ -486,8 +521,8 @@ template&lt;typename Sys &gt; </div>
 
 </div>
 </div>
-<a id="a057b026cb87fe967bf556ae108ae4dc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a057b026cb87fe967bf556ae108ae4dc3">&#9670;&nbsp;</a></span>update()</h2>
+<a id="a450a227a74fba849b36e5b15b0bf5d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a450a227a74fba849b36e5b15b0bf5d7c">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,26 +533,24 @@ template&lt;typename Sys &gt; </div>
         <tr>
           <td class="memname">virtual bool Raz::System::update </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">[[maybe_unused] ] float&#160;</td>
           <td class="paramname"><em>deltaTime</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Updates the system. This function is pure virtual and so must be reimplemented in the derived classes. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Updates the system with a variable time step. For a constant step update, use <a class="el" href="class_raz_1_1_system.html#a43693bef6b481c58842c9a362774c8c8">step()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">deltaTime</td><td>Time elapsed since the last update. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the system is still active, false otherwise. </dd></dl>
-
-<p>Implemented in <a class="el" href="class_raz_1_1_render_system.html#a32871d5f50027628dbc62ec18a920632">Raz::RenderSystem</a>, <a class="el" href="class_raz_1_1_audio_system.html#a2e08d8915506870b6d957b98968f0830">Raz::AudioSystem</a>, and <a class="el" href="class_raz_1_1_physics_system.html#ab68a24be4480ffc49baac20124b0485a">Raz::PhysicsSystem</a>.</p>
 
 </div>
 </div>

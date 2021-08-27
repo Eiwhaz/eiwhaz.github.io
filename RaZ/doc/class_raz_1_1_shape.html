@@ -104,6 +104,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3b5ae8c408afa0db6759dd581a4c00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a435c26f42cec84bb286461787d04a812"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a435c26f42cec84bb286461787d04a812">Shape</a> (<a class="el" href="class_raz_1_1_shape.html">Shape</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a435c26f42cec84bb286461787d04a812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f56925f0d2d5ff2db5d6a37e9bc4276"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a6f56925f0d2d5ff2db5d6a37e9bc4276">getType</a> () const noexcept=0</td></tr>
+<tr class="separator:a6f56925f0d2d5ff2db5d6a37e9bc4276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adabb3f1eedc482caad264ce66c36290c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#adabb3f1eedc482caad264ce66c36290c">contains</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;point) const =0</td></tr>
 <tr class="separator:adabb3f1eedc482caad264ce66c36290c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f68426532c97d99af42001fa1eb7be"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a92f68426532c97d99af42001fa1eb7be">intersects</a> (const <a class="el" href="class_raz_1_1_line.html">Line</a> &amp;line) const =0</td></tr>
@@ -337,6 +339,34 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>True if the point is contained by the shape, false otherwise. </dd></dl>
 
 <p>Implemented in <a class="el" href="class_raz_1_1_o_b_b.html#ac17a43b4003479afdbaa2a45a530cf0d">Raz::OBB</a>, <a class="el" href="class_raz_1_1_a_a_b_b.html#ab5540dbdab3e4f17f4904e526c41db31">Raz::AABB</a>, <a class="el" href="class_raz_1_1_quad.html#ad66f6c8250de86437cd102e1862643d5">Raz::Quad</a>, <a class="el" href="class_raz_1_1_triangle.html#a006a32d75cf81f8d1c9be44b18461738">Raz::Triangle</a>, <a class="el" href="class_raz_1_1_sphere.html#adeb744f5cb8c8852c4470e4b0470b6bb">Raz::Sphere</a>, <a class="el" href="class_raz_1_1_plane.html#a0066e87f03290684f0a119b86d435491">Raz::Plane</a>, and <a class="el" href="class_raz_1_1_line.html#aa823fee1e3b07fe56d9da03b2a3bce85">Raz::Line</a>.</p>
+
+</div>
+</div>
+<a id="a6f56925f0d2d5ff2db5d6a37e9bc4276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f56925f0d2d5ff2db5d6a37e9bc4276">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a> Raz::Shape::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the type of the shape. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_shape.html">Shape</a>'s type. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_raz_1_1_a_a_b_b.html#a4d42e1d225254c6e28dfc70627c7fc13">Raz::AABB</a>, <a class="el" href="class_raz_1_1_quad.html#ac4bbab0ed1085ee7aa4ccefebdc6d4ca">Raz::Quad</a>, <a class="el" href="class_raz_1_1_triangle.html#a490264c97645a0ea735add01dca0926d">Raz::Triangle</a>, <a class="el" href="class_raz_1_1_sphere.html#a48ab5cf4e49f820dec4ffd14a7ea4e27">Raz::Sphere</a>, <a class="el" href="class_raz_1_1_plane.html#a87ae83536c05ab231ff2799314a8085c">Raz::Plane</a>, and <a class="el" href="class_raz_1_1_line.html#afa7353abbc44ba56deae3fe35b1abd13">Raz::Line</a>.</p>
 
 </div>
 </div>

@@ -10,7 +10,7 @@ var searchData=
   ['none',['NONE',['../namespace_raz.html#ac31c87885c21a0bb00bdbee3741a3863ab50339a10e1de285ac99d4c3990b8693',1,'Raz::NONE()'],['../namespace_raz.html#a08d253eadce90839613f77ab2486ee39ab50339a10e1de285ac99d4c3990b8693',1,'Raz::NONE()']]],
   ['nonesuch',['Nonesuch',['../struct_raz_1_1_type_utils_1_1_details_1_1_nonesuch.html',1,'Raz::TypeUtils::Details::Nonesuch'],['../struct_raz_1_1_type_utils_1_1_details_1_1_nonesuch.html#a12fba2faccdcde89ec57ecfdd663dba8',1,'Raz::TypeUtils::Details::Nonesuch::Nonesuch()']]],
   ['normal',['normal',['../struct_raz_1_1_vertex.html#ad437116b03465b863ff059205a238bcd',1,'Raz::Vertex::normal()'],['../struct_raz_1_1_ray_hit.html#ac50fbc76a183d82b4f1a8535722a228b',1,'Raz::RayHit::normal()'],['../namespace_raz_1_1_cursor.html#a29a2e5225bfb6920236a16983f0ff57fa891ae68ebca6b66a291ae877554b096c',1,'Raz::Cursor::NORMAL()']]],
-  ['normalize',['normalize',['../class_raz_1_1_quaternion.html#a80e68c51126c6027cc3cf8abd2600fab',1,'Raz::Quaternion::normalize()'],['../class_raz_1_1_vector.html#aedb66e4d709775b721672c842cc13153',1,'Raz::Vector::normalize()']]],
+  ['normalize',['normalize',['../class_raz_1_1_quaternion.html#a80e68c51126c6027cc3cf8abd2600fab',1,'Raz::Quaternion::normalize()'],['../class_raz_1_1_vector.html#a4b020d0930377da18d34ba69617d6dba',1,'Raz::Vector::normalize()']]],
   ['not_5fequal',['NOT_EQUAL',['../namespace_raz.html#a2f80f4a6bb609cf709c688e2158439dca4ea2d378cdec20f59330f113297bc1ce',1,'Raz']]],
   ['num0',['NUM0',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a23aa63aa8dee0e8e819787b915e69be8',1,'Raz::Keyboard']]],
   ['num1',['NUM1',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639ab773d1cc730415d0a05f70384762b232',1,'Raz::Keyboard']]],

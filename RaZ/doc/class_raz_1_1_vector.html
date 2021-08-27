@@ -103,11 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f1533cc60a87f6e24e2b02a1d068de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1544aadc43a45b62423d9cd588c5dd9"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ab1544aadc43a45b62423d9cd588c5dd9">Vector</a> (T val) noexcept</td></tr>
 <tr class="separator:ab1544aadc43a45b62423d9cd588c5dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3debf0de219250f2b50f1a453866e2"><td class="memTemplParams" colspan="2">template&lt;typename... Args, typename  = std::enable_if_t&lt;sizeof...(Args) == Size&gt;&gt; </td></tr>
-<tr class="memitem:a1f3debf0de219250f2b50f1a453866e2"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a1f3debf0de219250f2b50f1a453866e2">Vector</a> (Args &amp;&amp;... args) noexcept</td></tr>
-<tr class="separator:a1f3debf0de219250f2b50f1a453866e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52d2b85a4d206efa25278a4cd2c05d16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a52d2b85a4d206efa25278a4cd2c05d16">Vector</a> (std::initializer_list&lt; T &gt; list) noexcept</td></tr>
-<tr class="separator:a52d2b85a4d206efa25278a4cd2c05d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1b195378026a787b01a5e874819125"><td class="memTemplParams" colspan="2">template&lt;typename... Args, typename  = std::enable_if_t&lt;sizeof...(Args) == Size&gt;, typename  = std::enable_if_t&lt;(std::is_convertible_v&lt;std::decay_t&lt;Args&gt;, T&gt; &amp;&amp; ...)&gt;&gt; </td></tr>
+<tr class="memitem:a3c1b195378026a787b01a5e874819125"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a3c1b195378026a787b01a5e874819125">Vector</a> (Args &amp;&amp;... args) noexcept</td></tr>
+<tr class="separator:a3c1b195378026a787b01a5e874819125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7b9393518b5102f61c009e21f13dba"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a4e7b9393518b5102f61c009e21f13dba">Vector</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;) noexcept=default</td></tr>
 <tr class="separator:a4e7b9393518b5102f61c009e21f13dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1d7cf4c8a44517956894ddf97649877"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ad1d7cf4c8a44517956894ddf97649877">Vector</a> (<a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&amp;) noexcept=default</td></tr>
@@ -144,12 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a808b8971e582916134d5c987631ceb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40952e65e99cbe1b861a083f7d497cb9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a40952e65e99cbe1b861a083f7d497cb9">reflect</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;normal) const noexcept</td></tr>
 <tr class="separator:a40952e65e99cbe1b861a083f7d497cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae45969c9f4ba2812bad61b32e90dae2"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#aae45969c9f4ba2812bad61b32e90dae2">computeLength</a> () const</td></tr>
-<tr class="separator:aae45969c9f4ba2812bad61b32e90dae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6efe690f16aa3175d37df9d5e633cc6f"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a6efe690f16aa3175d37df9d5e633cc6f">computeLength</a> () const noexcept</td></tr>
+<tr class="separator:a6efe690f16aa3175d37df9d5e633cc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9dacee573d4c2cfa4a7bcb70b406d95"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ad9dacee573d4c2cfa4a7bcb70b406d95">computeSquaredLength</a> () const noexcept</td></tr>
 <tr class="separator:ad9dacee573d4c2cfa4a7bcb70b406d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedb66e4d709775b721672c842cc13153"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#aedb66e4d709775b721672c842cc13153">normalize</a> () const</td></tr>
-<tr class="separator:aedb66e4d709775b721672c842cc13153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b020d0930377da18d34ba69617d6dba"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a4b020d0930377da18d34ba69617d6dba">normalize</a> () const noexcept</td></tr>
+<tr class="separator:a4b020d0930377da18d34ba69617d6dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40179de17f6b13a3ded7a23a9350e6f9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a40179de17f6b13a3ded7a23a9350e6f9">lerp</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec, float coeff) const noexcept</td></tr>
 <tr class="separator:a40179de17f6b13a3ded7a23a9350e6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65ffa95212b0e31ce881ad9371037a6d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a65ffa95212b0e31ce881ad9371037a6d">nlerp</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec, float coeff) const noexcept</td></tr>
@@ -162,8 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab5bc364332a9a6531e98e4310fb6b888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfc6a1c20d233577a1b96a74a3c7577b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#adfc6a1c20d233577a1b96a74a3c7577b">operator=</a> (<a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:adfc6a1c20d233577a1b96a74a3c7577b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5caa8907dd6b30657b7ab113563e07ab"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a5caa8907dd6b30657b7ab113563e07ab">operator-</a> () const</td></tr>
-<tr class="separator:a5caa8907dd6b30657b7ab113563e07ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc3cc5c964859466d6bc9c5cb2f6df1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a6dc3cc5c964859466d6bc9c5cb2f6df1">operator-</a> () const noexcept</td></tr>
+<tr class="separator:a6dc3cc5c964859466d6bc9c5cb2f6df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a739d574bf28d787887155361f7d33e06"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a739d574bf28d787887155361f7d33e06">operator+</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) const noexcept</td></tr>
 <tr class="separator:a739d574bf28d787887155361f7d33e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec0984261360d5be4b5c2be36830ca26"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#aec0984261360d5be4b5c2be36830ca26">operator+</a> (T val) const noexcept</td></tr>
@@ -174,12 +172,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af430942040f64aad4052805b4117cb97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5853fcee7ca7dc129b7bd8bbf703a29e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a5853fcee7ca7dc129b7bd8bbf703a29e">operator*</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) const noexcept</td></tr>
 <tr class="separator:a5853fcee7ca7dc129b7bd8bbf703a29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12d9a97a56f1216bcc1dd4a408469329"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a12d9a97a56f1216bcc1dd4a408469329">operator*</a> (T val) const noexcept</td></tr>
-<tr class="separator:a12d9a97a56f1216bcc1dd4a408469329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a4d2f28887f6a180d93153ba54bcb81"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a7a4d2f28887f6a180d93153ba54bcb81">operator/</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) const</td></tr>
-<tr class="separator:a7a4d2f28887f6a180d93153ba54bcb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb84e0e0e7b7493e45ad1359f86814d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a8cb84e0e0e7b7493e45ad1359f86814d">operator/</a> (T val) const</td></tr>
-<tr class="separator:a8cb84e0e0e7b7493e45ad1359f86814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7346d3cca4ef32a637b42bf6021ed11f"><td class="memTemplParams" colspan="2">template&lt;typename T2 &gt; </td></tr>
+<tr class="memitem:a7346d3cca4ef32a637b42bf6021ed11f"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a7346d3cca4ef32a637b42bf6021ed11f">operator*</a> (T2 val) const noexcept</td></tr>
+<tr class="separator:a7346d3cca4ef32a637b42bf6021ed11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e7e7753c616e375592a3fa449953414"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a0e7e7753c616e375592a3fa449953414">operator/</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:a0e7e7753c616e375592a3fa449953414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e489d81bcbd8f97211b2d80148a0f41"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a6e489d81bcbd8f97211b2d80148a0f41">operator/</a> (T val) const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:a6e489d81bcbd8f97211b2d80148a0f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c29780a54c8f92195e960eec58509f6"><td class="memTemplParams" colspan="2">template&lt;std::size_t H&gt; </td></tr>
 <tr class="memitem:a4c29780a54c8f92195e960eec58509f6"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a4c29780a54c8f92195e960eec58509f6">operator*</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, Size, H &gt; &amp;mat) const noexcept</td></tr>
 <tr class="separator:a4c29780a54c8f92195e960eec58509f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,12 +192,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0543a50f9c6ccaa1eb8984967c2b246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4b8e4f4c483e1628e3635b162d98b75"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ab4b8e4f4c483e1628e3635b162d98b75">operator*=</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) noexcept</td></tr>
 <tr class="separator:ab4b8e4f4c483e1628e3635b162d98b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43756936a2a02ec2ac30037e37f4fe14"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a43756936a2a02ec2ac30037e37f4fe14">operator*=</a> (T val) noexcept</td></tr>
-<tr class="separator:a43756936a2a02ec2ac30037e37f4fe14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab059cb84a7d2ae3adf7a886e487e3c77"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ab059cb84a7d2ae3adf7a886e487e3c77">operator/=</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec)</td></tr>
-<tr class="separator:ab059cb84a7d2ae3adf7a886e487e3c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bc18af11958585e2dbf7409ae4520b0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a1bc18af11958585e2dbf7409ae4520b0">operator/=</a> (T val)</td></tr>
-<tr class="separator:a1bc18af11958585e2dbf7409ae4520b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6caa9e4960b830e12030e96512be555d"><td class="memTemplParams" colspan="2">template&lt;typename T2 &gt; </td></tr>
+<tr class="memitem:a6caa9e4960b830e12030e96512be555d"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a6caa9e4960b830e12030e96512be555d">operator*=</a> (T2 val) noexcept</td></tr>
+<tr class="separator:a6caa9e4960b830e12030e96512be555d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a187ee36242c83baad362b8114f8a9cc6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a187ee36242c83baad362b8114f8a9cc6">operator/=</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:a187ee36242c83baad362b8114f8a9cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae89a33fa772d44d0a85692b0a15ddb9b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ae89a33fa772d44d0a85692b0a15ddb9b">operator/=</a> (T val) noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:ae89a33fa772d44d0a85692b0a15ddb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6503192aef3539c32d6a583fdce0493"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#aa6503192aef3539c32d6a583fdce0493">operator[]</a> (std::size_t index) const noexcept</td></tr>
 <tr class="separator:aa6503192aef3539c32d6a583fdce0493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afda154adcfbbfb14273e732dd63c3817"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#afda154adcfbbfb14273e732dd63c3817">operator[]</a> (std::size_t index) noexcept</td></tr>
@@ -207,9 +207,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af3d3e10e19a9924613afbfa87f5ca627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae04a6b57d6fba185b510c7cee16344e6"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ae04a6b57d6fba185b510c7cee16344e6">operator!=</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a> &amp;vec) const noexcept</td></tr>
 <tr class="separator:ae04a6b57d6fba185b510c7cee16344e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78aabd779042d0d6f74e91badde9e0b5"><td class="memTemplParams" colspan="2">template&lt;typename T2&gt; </td></tr>
+<tr class="memitem:a78aabd779042d0d6f74e91badde9e0b5"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#a78aabd779042d0d6f74e91badde9e0b5">operator*</a> (T2 val) const noexcept</td></tr>
+<tr class="separator:a78aabd779042d0d6f74e91badde9e0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb87eb8f75737005afe708c67e7c709f"><td class="memTemplParams" colspan="2">template&lt;std::size_t H&gt; </td></tr>
 <tr class="memitem:afb87eb8f75737005afe708c67e7c709f"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#afb87eb8f75737005afe708c67e7c709f">operator*</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, Size, H &gt; &amp;mat) const noexcept</td></tr>
 <tr class="separator:afb87eb8f75737005afe708c67e7c709f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac127bb164a776856c91dd6033c91c5e2"><td class="memTemplParams" colspan="2">template&lt;typename T2 &gt; </td></tr>
+<tr class="memitem:ac127bb164a776856c91dd6033c91c5e2"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_vector.html#ac127bb164a776856c91dd6033c91c5e2">operator*=</a> (T2 val) noexcept</td></tr>
+<tr class="separator:ac127bb164a776856c91dd6033c91c5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -229,7 +235,7 @@ class Raz::Vector&lt; T, Size &gt;</h3>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6cda4bc8b5e32fe297cfb11c143ed726"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cda4bc8b5e32fe297cfb11c143ed726">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cda4bc8b5e32fe297cfb11c143ed726">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +262,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
 </div>
 </div>
 <a id="a9b8a34651c3d41866561656f4fe886ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b8a34651c3d41866561656f4fe886ba">&#9670;&nbsp;</a></span>Vector() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8a34651c3d41866561656f4fe886ba">&#9670;&nbsp;</a></span>Vector() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +290,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
 </div>
 </div>
 <a id="a5f1533cc60a87f6e24e2b02a1d068de8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f1533cc60a87f6e24e2b02a1d068de8">&#9670;&nbsp;</a></span>Vector() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1533cc60a87f6e24e2b02a1d068de8">&#9670;&nbsp;</a></span>Vector() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +328,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
 </div>
 </div>
 <a id="ab1544aadc43a45b62423d9cd588c5dd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1544aadc43a45b62423d9cd588c5dd9">&#9670;&nbsp;</a></span>Vector() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1544aadc43a45b62423d9cd588c5dd9">&#9670;&nbsp;</a></span>Vector() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,15 +355,15 @@ template&lt;typename T, std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a1f3debf0de219250f2b50f1a453866e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3debf0de219250f2b50f1a453866e2">&#9670;&nbsp;</a></span>Vector() <span class="overload">[5/8]</span></h2>
+<a id="a3c1b195378026a787b01a5e874819125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1b195378026a787b01a5e874819125">&#9670;&nbsp;</a></span>Vector() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, std::size_t Size&gt; </div>
 <div class="memtemplate">
-template&lt;typename... Args, typename  = std::enable_if_t&lt;sizeof...(Args) == Size&gt;&gt; </div>
+template&lt;typename... Args, typename  = std::enable_if_t&lt;sizeof...(Args) == Size&gt;, typename  = std::enable_if_t&lt;(std::is_convertible_v&lt;std::decay_t&lt;Args&gt;, T&gt; &amp;&amp; ...)&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -379,36 +385,8 @@ template&lt;typename... Args, typename  = std::enable_if_t&lt;sizeof...(Args) ==
 
 </div>
 </div>
-<a id="a52d2b85a4d206efa25278a4cd2c05d16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52d2b85a4d206efa25278a4cd2c05d16">&#9670;&nbsp;</a></span>Vector() <span class="overload">[6/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, std::size_t Size&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::<a class="el" href="class_raz_1_1_vector.html">Vector</a> </td>
-          <td>(</td>
-          <td class="paramtype">std::initializer_list&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4e7b9393518b5102f61c009e21f13dba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e7b9393518b5102f61c009e21f13dba">&#9670;&nbsp;</a></span>Vector() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7b9393518b5102f61c009e21f13dba">&#9670;&nbsp;</a></span>Vector() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,7 +414,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
 </div>
 </div>
 <a id="ad1d7cf4c8a44517956894ddf97649877"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1d7cf4c8a44517956894ddf97649877">&#9670;&nbsp;</a></span>Vector() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d7cf4c8a44517956894ddf97649877">&#9670;&nbsp;</a></span>Vector() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -464,8 +442,8 @@ template&lt;typename T, std::size_t Size&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aae45969c9f4ba2812bad61b32e90dae2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae45969c9f4ba2812bad61b32e90dae2">&#9670;&nbsp;</a></span>computeLength()</h2>
+<a id="a6efe690f16aa3175d37df9d5e633cc6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6efe690f16aa3175d37df9d5e633cc6f">&#9670;&nbsp;</a></span>computeLength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +462,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -516,7 +494,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Computes the squared length of the vector. The squared length is equal to the dot product of the vector with itself. This calculation does not involve a square root; it is then to be preferred over <a class="el" href="class_raz_1_1_vector.html#aae45969c9f4ba2812bad61b32e90dae2">computeLength()</a> for faster operations. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_vector.html">Vector</a>'s squared length. </dd></dl>
+<p>Computes the squared length of the vector. The squared length is equal to the dot product of the vector with itself. This calculation does not involve a square root; it is then to be preferred over <a class="el" href="class_raz_1_1_vector.html#a6efe690f16aa3175d37df9d5e633cc6f">computeLength()</a> for faster operations. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_vector.html">Vector</a>'s squared length. </dd></dl>
 
 </div>
 </div>
@@ -852,13 +830,16 @@ template&lt;typename T, std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="aedb66e4d709775b721672c842cc13153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedb66e4d709775b721672c842cc13153">&#9670;&nbsp;</a></span>normalize()</h2>
+<a id="a4b020d0930377da18d34ba69617d6dba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b020d0930377da18d34ba69617d6dba">&#9670;&nbsp;</a></span>normalize()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::normalize </td>
@@ -867,6 +848,11 @@ template&lt;typename T , std::size_t Size&gt; </div>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Computes the normalized vector. Normalizing a vector makes it of length 1. </p><dl class="section return"><dt>Returns</dt><dd>Normalized vector. </dd></dl>
 
@@ -908,7 +894,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
 </div>
 </div>
 <a id="a5853fcee7ca7dc129b7bd8bbf703a29e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5853fcee7ca7dc129b7bd8bbf703a29e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5853fcee7ca7dc129b7bd8bbf703a29e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -942,21 +928,23 @@ template&lt;typename T , std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a12d9a97a56f1216bcc1dd4a408469329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12d9a97a56f1216bcc1dd4a408469329">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
+<a id="a7346d3cca4ef32a637b42bf6021ed11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7346d3cca4ef32a637b42bf6021ed11f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, std::size_t Size&gt; </div>
+<div class="memtemplate">
+template&lt;typename T2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a> <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
+          <td class="paramtype">T2&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -967,7 +955,13 @@ template&lt;typename T, std::size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Element-wise vector-value multiplication operator. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Element-wise vector-value multiplication operator. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T2</td><td>Type of the given value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">val</td><td>Value to be multiplied by. </td></tr>
   </table>
@@ -977,8 +971,38 @@ template&lt;typename T, std::size_t Size&gt; </div>
 
 </div>
 </div>
+<a id="a78aabd779042d0d6f74e91badde9e0b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78aabd779042d0d6f74e91badde9e0b5">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t Size&gt; </div>
+<div class="memtemplate">
+template&lt;typename T2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt;T, Size&gt; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">T2&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4c29780a54c8f92195e960eec58509f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c29780a54c8f92195e960eec58509f6">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c29780a54c8f92195e960eec58509f6">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1015,7 +1039,7 @@ template&lt;std::size_t H&gt; </div>
 </div>
 </div>
 <a id="afb87eb8f75737005afe708c67e7c709f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb87eb8f75737005afe708c67e7c709f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb87eb8f75737005afe708c67e7c709f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1045,7 +1069,7 @@ template&lt;std::size_t H&gt; </div>
 </div>
 </div>
 <a id="ab4b8e4f4c483e1628e3635b162d98b75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4b8e4f4c483e1628e3635b162d98b75">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b8e4f4c483e1628e3635b162d98b75">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1079,21 +1103,23 @@ template&lt;typename T , std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a43756936a2a02ec2ac30037e37f4fe14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43756936a2a02ec2ac30037e37f4fe14">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
+<a id="a6caa9e4960b830e12030e96512be555d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6caa9e4960b830e12030e96512be555d">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, std::size_t Size&gt; </div>
+<div class="memtemplate">
+template&lt;typename T2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator*= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&amp; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
+          <td class="paramtype">T2&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1104,13 +1130,49 @@ template&lt;typename T, std::size_t Size&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Element-wise vector-value multiplication assignment operator. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Element-wise vector-value multiplication assignment operator. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T2</td><td>Type of the given value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">val</td><td>Value to be multiplied by. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the modified original vector. </dd></dl>
+
+</div>
+</div>
+<a id="ac127bb164a776856c91dd6033c91c5e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac127bb164a776856c91dd6033c91c5e2">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t Size&gt; </div>
+<div class="memtemplate">
+template&lt;typename T2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt;T, Size&gt;&amp; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">T2&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1254,8 +1316,8 @@ template&lt;typename T, std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a5caa8907dd6b30657b7ab113563e07ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5caa8907dd6b30657b7ab113563e07ab">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/3]</span></h2>
+<a id="a6dc3cc5c964859466d6bc9c5cb2f6df1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dc3cc5c964859466d6bc9c5cb2f6df1">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1274,7 +1336,7 @@ template&lt;typename T, std::size_t Size&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1422,13 +1484,16 @@ template&lt;typename T, std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a7a4d2f28887f6a180d93153ba54bcb81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a4d2f28887f6a180d93153ba54bcb81">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+<a id="a0e7e7753c616e375592a3fa449953414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e7e7753c616e375592a3fa449953414">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator/ </td>
@@ -1438,6 +1503,11 @@ template&lt;typename T , std::size_t Size&gt; </div>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Element-wise vector-vector division operator. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1449,13 +1519,16 @@ template&lt;typename T , std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a8cb84e0e0e7b7493e45ad1359f86814d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cb84e0e0e7b7493e45ad1359f86814d">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+<a id="a6e489d81bcbd8f97211b2d80148a0f41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e489d81bcbd8f97211b2d80148a0f41">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator/ </td>
@@ -1465,6 +1538,11 @@ template&lt;typename T, std::size_t Size&gt; </div>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Element-wise vector-value division operator. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1476,13 +1554,16 @@ template&lt;typename T, std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="ab059cb84a7d2ae3adf7a886e487e3c77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab059cb84a7d2ae3adf7a886e487e3c77">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+<a id="a187ee36242c83baad362b8114f8a9cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a187ee36242c83baad362b8114f8a9cc6">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator/= </td>
@@ -1492,6 +1573,11 @@ template&lt;typename T , std::size_t Size&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Element-wise vector-vector division assignment operator. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1503,13 +1589,16 @@ template&lt;typename T , std::size_t Size&gt; </div>
 
 </div>
 </div>
-<a id="a1bc18af11958585e2dbf7409ae4520b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bc18af11958585e2dbf7409ae4520b0">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+<a id="ae89a33fa772d44d0a85692b0a15ddb9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae89a33fa772d44d0a85692b0a15ddb9b">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp; <a class="el" href="class_raz_1_1_vector.html">Raz::Vector</a>&lt; T, Size &gt;::operator/= </td>
@@ -1519,6 +1608,11 @@ template&lt;typename T, std::size_t Size&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Element-wise vector-value division assignment operator. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

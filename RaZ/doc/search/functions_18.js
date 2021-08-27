@@ -10,6 +10,7 @@ var searchData=
   ['_7ematerial',['~Material',['../class_raz_1_1_material.html#ac248674e9eaf73a50fe4a5b127bdae4a',1,'Raz::Material']]],
   ['_7enonesuch',['~Nonesuch',['../struct_raz_1_1_type_utils_1_1_details_1_1_nonesuch.html#a3a57763f6df796c9f17dc5a0bf307a73',1,'Raz::TypeUtils::Details::Nonesuch']]],
   ['_7eoverlay',['~Overlay',['../class_raz_1_1_overlay.html#ad496bd5aeb94341f5edd27ac09212d75',1,'Raz::Overlay']]],
+  ['_7eplugin',['~Plugin',['../class_raz_1_1_plugin.html#a0c4e5dd99de2245595184834c866a697',1,'Raz::Plugin']]],
   ['_7erenderer',['~Renderer',['../class_raz_1_1_renderer.html#ae1fc7bccc79789f9bc944c3b6668d547',1,'Raz::Renderer']]],
   ['_7erenderpass',['~RenderPass',['../class_raz_1_1_render_pass.html#a3a714e4b3c40c6968ae8b7d090943eb8',1,'Raz::RenderPass']]],
   ['_7eshader',['~Shader',['../class_raz_1_1_shader.html#ac7769c41c3cbb694d8614490c655b155',1,'Raz::Shader']]],
@@ -21,5 +22,6 @@ var searchData=
   ['_7euniformbuffer',['~UniformBuffer',['../class_raz_1_1_uniform_buffer.html#ab33a5360571c8ca49131545fb1d1a749',1,'Raz::UniformBuffer']]],
   ['_7evertexarray',['~VertexArray',['../class_raz_1_1_vertex_array.html#ae9f1b7b5e971faaf266cc362ef45226b',1,'Raz::VertexArray']]],
   ['_7evertexbuffer',['~VertexBuffer',['../class_raz_1_1_vertex_buffer.html#a14d7fde89c92ee5993772436234f7e11',1,'Raz::VertexBuffer']]],
-  ['_7ewindow',['~Window',['../class_raz_1_1_window.html#a1a21b91555d26427bb5ac882e30974ed',1,'Raz::Window']]]
+  ['_7ewindow',['~Window',['../class_raz_1_1_window.html#a1a21b91555d26427bb5ac882e30974ed',1,'Raz::Window']]],
+  ['_7eworld',['~World',['../class_raz_1_1_world.html#ab9f8ff8b203adffb03f710b6fb2ffa92',1,'Raz::World']]]
 ];

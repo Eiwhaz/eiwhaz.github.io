@@ -77,7 +77,8 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">Window.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -123,6 +124,32 @@ Typedefs</h2></td></tr>
 <tr class="separator:ad0c1dead15288c0d1a40a29b3bcd898a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc432b8a6751cff0bc3c6a39385d8432"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#adc432b8a6751cff0bc3c6a39385d8432">Raz::InputCallbacks</a> = std::tuple&lt; KeyboardCallbacks, MouseButtonCallbacks, MouseScrollCallback, MouseMoveCallback, InputActions &gt;</td></tr>
 <tr class="separator:adc432b8a6751cff0bc3c6a39385d8432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6417be0badc5a842a8993ba7e6f4ef"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#acd6417be0badc5a842a8993ba7e6f4ef">Raz::CloseCallback</a> = std::function&lt; void()&gt;</td></tr>
+<tr class="separator:acd6417be0badc5a842a8993ba7e6f4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a622466e4e31f311ef6e719d6fb759eb1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1">Raz::WindowSetting</a> : unsigned int { <br />
+&#160;&#160;<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a3bccbab2a35cb78388a0f4a8e2003b07">Raz::WindowSetting::FOCUSED</a> = 1, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1ac0520afdc57f61008645a8d423d0e3f4">Raz::WindowSetting::RESIZABLE</a> = 2, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a510222cdd4bc0b765486ba35b2775e54">Raz::WindowSetting::VISIBLE</a> = 4, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a5dbbf9237dfcc4f9ee5caad7d493f12d">Raz::WindowSetting::DECORATED</a> = 8, 
+<br />
+&#160;&#160;<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a4f7b79eb5f183a72f18d55410460db9e">Raz::WindowSetting::AUTO_MINIMIZE</a> = 16, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1ae691ed6feadad498d49ae83224dfc172">Raz::WindowSetting::ALWAYS_ON_TOP</a> = 32, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a2f33d682f3a4e19c31ced6cb4fd022e3">Raz::WindowSetting::MAXIMIZED</a> = 64, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1abb3246bc305c65d95f219efa6f66a0b2">Raz::WindowSetting::CENTER_CURSOR</a> = 128, 
+<br />
+&#160;&#160;<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a81f2f089e559547b9f51543b410520b8">Raz::WindowSetting::TRANSPARENT_FB</a> = 256, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1aab201cc1fe69556697783084015b7672">Raz::WindowSetting::AUTOFOCUS</a> = 512, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a5b39c8b553c821e7cddc6da64b5bd2ee">Raz::WindowSetting::DEFAULT</a> = FOCUSED | VISIBLE | DECORATED, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1adaa43822b2c6abbb5d4eaf867ff6e4a4">Raz::WindowSetting::WINDOWED</a> = DEFAULT | MAXIMIZED, 
+<br />
+&#160;&#160;<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1af744a3ac16b1ac0bc9df0aa02cc1a038">Raz::WindowSetting::BORDERLESS</a> = FOCUSED | VISIBLE, 
+<a class="el" href="namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1a5fb351568336ebb294804f81e3c8663d">Raz::WindowSetting::INVISIBLE</a> = 0
+<br />
+ }</td></tr>
+<tr class="separator:a622466e4e31f311ef6e719d6fb759eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad382ee7ca28bdf71843415e2eaadee0c"></a>

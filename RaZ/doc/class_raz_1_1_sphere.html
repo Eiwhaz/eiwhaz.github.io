@@ -96,10 +96,10 @@ Inheritance diagram for Raz::Sphere:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad06074603f40b5e49949cd662f9ac1b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_sphere.html#ad06074603f40b5e49949cd662f9ac1b1">Sphere</a> ()=default</td></tr>
-<tr class="separator:ad06074603f40b5e49949cd662f9ac1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac581ff740c5a5fc4c3fec914301c16f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_sphere.html#ac581ff740c5a5fc4c3fec914301c16f1">Sphere</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;centerPos, float radius)</td></tr>
 <tr class="separator:ac581ff740c5a5fc4c3fec914301c16f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ab5cf4e49f820dec4ffd14a7ea4e27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_sphere.html#a48ab5cf4e49f820dec4ffd14a7ea4e27">getType</a> () const noexcept override</td></tr>
+<tr class="separator:a48ab5cf4e49f820dec4ffd14a7ea4e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a105296ef879cf9f628ca13c0ccd708af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_sphere.html#a105296ef879cf9f628ca13c0ccd708af">getCenter</a> () const</td></tr>
 <tr class="separator:a105296ef879cf9f628ca13c0ccd708af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e766f2e30549e068c19a7105463de81"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_sphere.html#a9e766f2e30549e068c19a7105463de81">getRadius</a> () const</td></tr>
@@ -147,33 +147,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_sphere.html" title="Sphere defined by its center position and a radius. ">Sphere</a> defined by its center position and a radius. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad06074603f40b5e49949cd662f9ac1b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad06074603f40b5e49949cd662f9ac1b1">&#9670;&nbsp;</a></span>Sphere() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Sphere::Sphere </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac581ff740c5a5fc4c3fec914301c16f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac581ff740c5a5fc4c3fec914301c16f1">&#9670;&nbsp;</a></span>Sphere() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac581ff740c5a5fc4c3fec914301c16f1">&#9670;&nbsp;</a></span>Sphere()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,6 +329,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48ab5cf4e49f820dec4ffd14a7ea4e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ab5cf4e49f820dec4ffd14a7ea4e27">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a> Raz::Sphere::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the type of the shape. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_shape.html">Shape</a>'s type. </dd></dl>
+
+<p>Implements <a class="el" href="class_raz_1_1_shape.html#a6f56925f0d2d5ff2db5d6a37e9bc4276">Raz::Shape</a>.</p>
 
 </div>
 </div>

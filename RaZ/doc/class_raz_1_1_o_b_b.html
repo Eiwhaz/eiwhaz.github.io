@@ -94,8 +94,6 @@ Inheritance diagram for Raz::OBB:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ff0cec104d46ba243e5c3cb64bd6a61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_o_b_b.html#a7ff0cec104d46ba243e5c3cb64bd6a61">OBB</a> ()=default</td></tr>
-<tr class="separator:a7ff0cec104d46ba243e5c3cb64bd6a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac17a43b4003479afdbaa2a45a530cf0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_o_b_b.html#ac17a43b4003479afdbaa2a45a530cf0d">contains</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;point) const override</td></tr>
 <tr class="separator:ac17a43b4003479afdbaa2a45a530cf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4da7db0ef04434e803b422f75cbb600"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_o_b_b.html#aa4da7db0ef04434e803b422f75cbb600">intersects</a> (const <a class="el" href="class_raz_1_1_line.html">Line</a> &amp;line) const override</td></tr>
@@ -125,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3b5ae8c408afa0db6759dd581a4c00d inherit pub_methods_class_raz_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a435c26f42cec84bb286461787d04a812 inherit pub_methods_class_raz_1_1_shape"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a435c26f42cec84bb286461787d04a812">Shape</a> (<a class="el" href="class_raz_1_1_shape.html">Shape</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a435c26f42cec84bb286461787d04a812 inherit pub_methods_class_raz_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f56925f0d2d5ff2db5d6a37e9bc4276 inherit pub_methods_class_raz_1_1_shape"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a6f56925f0d2d5ff2db5d6a37e9bc4276">getType</a> () const noexcept=0</td></tr>
+<tr class="separator:a6f56925f0d2d5ff2db5d6a37e9bc4276 inherit pub_methods_class_raz_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a985ac051cdf01e5c0e5480f4c3e8b738 inherit pub_methods_class_raz_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_shape.html">Shape</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a985ac051cdf01e5c0e5480f4c3e8b738">operator=</a> (const <a class="el" href="class_raz_1_1_shape.html">Shape</a> &amp;)=default</td></tr>
 <tr class="separator:a985ac051cdf01e5c0e5480f4c3e8b738 inherit pub_methods_class_raz_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb552df3dadf514113263ff25b165c1 inherit pub_methods_class_raz_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_shape.html">Shape</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shape.html#a1bb552df3dadf514113263ff25b165c1">operator=</a> (<a class="el" href="class_raz_1_1_shape.html">Shape</a> &amp;&amp;) noexcept=default</td></tr>
@@ -184,33 +184,7 @@ Additional Inherited Members</h2></td></tr>
          \            /      \          /
            \        /          \      /
              \    /              \  /
-               \/-----------------/</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7ff0cec104d46ba243e5c3cb64bd6a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ff0cec104d46ba243e5c3cb64bd6a61">&#9670;&nbsp;</a></span>OBB()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::OBB::OBB </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+               \/-----------------/</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aeb399b3ad1facf6bfc04ba7d31cbac33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb399b3ad1facf6bfc04ba7d31cbac33">&#9670;&nbsp;</a></span>computeCentroid()</h2>
 
@@ -663,7 +637,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{ rotation } {}</div><div class="line">  <span class="keyword">explicit</span> <a class="code" href="class_raz_1_1_o_b_b.html#a7ff0cec104d46ba243e5c3cb64bd6a61">OBB</a>(<span class="keyword">const</span> AABB&amp; aabb, <span class="keyword">const</span> <a class="code" href="namespace_raz.html#ae70b21247401182351e0e908c755e3cf">Mat3f</a>&amp; rotation = <a class="code" href="class_raz_1_1_matrix.html#a43effe0a9ecd9ec873259bc82973c434">Mat3f::identity</a>()) : m_aabb{ aabb }</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">{ rotation } {}</div><div class="line">  <span class="keyword">explicit</span> <a class="code" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7a9aac15e014ce3a36fcbf4a3f669332da">OBB</a>(<span class="keyword">const</span> <a class="code" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7a4276d50f05d2cac4c98c17337ac30c99">AABB</a>&amp; aabb, <span class="keyword">const</span> <a class="code" href="namespace_raz.html#ae70b21247401182351e0e908c755e3cf">Mat3f</a>&amp; rotation = <a class="code" href="class_raz_1_1_matrix.html#a43effe0a9ecd9ec873259bc82973c434">Mat3f::identity</a>()) : m_aabb{ aabb }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ad923972c9dbfeb683420b082345c3868"></a>

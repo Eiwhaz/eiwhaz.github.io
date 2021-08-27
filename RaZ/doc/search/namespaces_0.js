@@ -10,6 +10,7 @@ var searchData=
   ['literals',['Literals',['../namespace_raz_1_1_literals.html',1,'Raz']]],
   ['mathutils',['MathUtils',['../namespace_raz_1_1_math_utils.html',1,'Raz']]],
   ['mouse',['Mouse',['../namespace_raz_1_1_mouse.html',1,'Raz']]],
+  ['perlinnoise',['PerlinNoise',['../namespace_raz_1_1_perlin_noise.html',1,'Raz']]],
   ['raz',['Raz',['../namespace_raz.html',1,'']]],
   ['strutils',['StrUtils',['../namespace_raz_1_1_str_utils.html',1,'Raz']]],
   ['threading',['Threading',['../namespace_raz_1_1_threading.html',1,'Raz']]],

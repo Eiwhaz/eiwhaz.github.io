@@ -96,10 +96,10 @@ Inheritance diagram for Raz::Line:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3b365b9408f763602b8d892f1b5068e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_line.html#a3b365b9408f763602b8d892f1b5068e2">Line</a> ()=default</td></tr>
-<tr class="separator:a3b365b9408f763602b8d892f1b5068e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c0b27787aacef557be4ab2b7cd7f78d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_line.html#a8c0b27787aacef557be4ab2b7cd7f78d">Line</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;beginPos, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;endPos)</td></tr>
 <tr class="separator:a8c0b27787aacef557be4ab2b7cd7f78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7353abbc44ba56deae3fe35b1abd13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_line.html#afa7353abbc44ba56deae3fe35b1abd13">getType</a> () const noexcept override</td></tr>
+<tr class="separator:afa7353abbc44ba56deae3fe35b1abd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a015b2208283435bdf4642c0eae5225d1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_line.html#a015b2208283435bdf4642c0eae5225d1">getBeginPos</a> () const</td></tr>
 <tr class="separator:a015b2208283435bdf4642c0eae5225d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a623461ff754e2a2a6fd34c50dd0249f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_line.html#a623461ff754e2a2a6fd34c50dd0249f9">getEndPos</a> () const</td></tr>
@@ -151,33 +151,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions. ">Line</a> segment defined by its two extremities' positions. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3b365b9408f763602b8d892f1b5068e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b365b9408f763602b8d892f1b5068e2">&#9670;&nbsp;</a></span>Line() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Line::Line </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8c0b27787aacef557be4ab2b7cd7f78d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c0b27787aacef557be4ab2b7cd7f78d">&#9670;&nbsp;</a></span>Line() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0b27787aacef557be4ab2b7cd7f78d">&#9670;&nbsp;</a></span>Line()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +238,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions. ">Line</a> length computation. To be used if actual length is needed; otherwise, prefer <a class="el" href="class_raz_1_1_line.html#aa65d97d18fa77cfd0b99980cd7b2769b">computeSquaredLength()</a>. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions. ">Line</a>'s length. </dd></dl>
+<p><a class="el" href="class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions. ">Line</a> length computation. To be used if the actual length is needed; otherwise, prefer <a class="el" href="class_raz_1_1_line.html#aa65d97d18fa77cfd0b99980cd7b2769b">computeSquaredLength()</a>. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions. ">Line</a>'s length. </dd></dl>
 
 </div>
 </div>
@@ -410,6 +385,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa7353abbc44ba56deae3fe35b1abd13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7353abbc44ba56deae3fe35b1abd13">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_raz.html#a2a5db0208f102cbc974768bb5fafa6a7">ShapeType</a> Raz::Line::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the type of the shape. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_shape.html">Shape</a>'s type. </dd></dl>
+
+<p>Implements <a class="el" href="class_raz_1_1_shape.html#a6f56925f0d2d5ff2db5d6a37e9bc4276">Raz::Shape</a>.</p>
 
 </div>
 </div>

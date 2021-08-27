@@ -166,6 +166,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac7ccf099eb9bcc01f6dd6e25549cb850 inherit pub_methods_class_raz_1_1_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f6e01024cf654062ffb56d41277006 inherit pub_methods_class_raz_1_1_system"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#ae5f6e01024cf654062ffb56d41277006">containsEntity</a> (const <a class="el" href="namespace_raz.html#a6b3f5b6bbc2c3c3ffaa1de833da9f9a1">EntityPtr</a> &amp;entity)</td></tr>
 <tr class="separator:ae5f6e01024cf654062ffb56d41277006 inherit pub_methods_class_raz_1_1_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450a227a74fba849b36e5b15b0bf5d7c inherit pub_methods_class_raz_1_1_system"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a450a227a74fba849b36e5b15b0bf5d7c">update</a> ([[maybe_unused]] float deltaTime)</td></tr>
+<tr class="separator:a450a227a74fba849b36e5b15b0bf5d7c inherit pub_methods_class_raz_1_1_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43693bef6b481c58842c9a362774c8c8 inherit pub_methods_class_raz_1_1_system"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a43693bef6b481c58842c9a362774c8c8">step</a> ([[maybe_unused]] float deltaTime)</td></tr>
+<tr class="separator:a43693bef6b481c58842c9a362774c8c8 inherit pub_methods_class_raz_1_1_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63e786b5fba3993f10410ac485eef49b inherit pub_methods_class_raz_1_1_system"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_system.html">System</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#a63e786b5fba3993f10410ac485eef49b">operator=</a> (const <a class="el" href="class_raz_1_1_system.html">System</a> &amp;)=delete</td></tr>
 <tr class="separator:a63e786b5fba3993f10410ac485eef49b inherit pub_methods_class_raz_1_1_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa872860a55e9e1a1fc7b6d678ee12926 inherit pub_methods_class_raz_1_1_system"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_system.html">System</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_system.html#aa872860a55e9e1a1fc7b6d678ee12926">operator=</a> (<a class="el" href="class_raz_1_1_system.html">System</a> &amp;&amp;) noexcept=delete</td></tr>
@@ -895,19 +899,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Updates the system. This function is pure virtual and so must be reimplemented in the derived classes. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">deltaTime</td><td>Time elapsed since the last update. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if the system is still active, false otherwise. </dd></dl>
-
-<p>Implements <a class="el" href="class_raz_1_1_system.html#a057b026cb87fe967bf556ae108ae4dc3">Raz::System</a>.</p>
 
 </div>
 </div>

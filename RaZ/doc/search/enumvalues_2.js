@@ -2,6 +2,7 @@ var searchData=
 [
   ['c',['C',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a3f45b2e09b273708c1a788d4d3e25287',1,'Raz::Keyboard']]],
   ['capslock',['CAPSLOCK',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a53f6ff649f32da629f59838dd3ea41cf',1,'Raz::Keyboard']]],
+  ['center_5fcursor',['CENTER_CURSOR',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1abb3246bc305c65d95f219efa6f66a0b2',1,'Raz']]],
   ['charcoal',['CHARCOAL',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda718dde271243f70455f11e1fc4c3c5f5',1,'Raz']]],
   ['checkbox',['CHECKBOX',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca22ab9eebdf3d8e32268c02e577520333',1,'Raz']]],
   ['chromium',['CHROMIUM',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda7a8e888595f5a86f9a1612010ae96f1e',1,'Raz']]],

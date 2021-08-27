@@ -36,6 +36,7 @@ var searchData=
   ['blue',['BLUE',['../namespace_raz.html#a0a4faa4537fa2a0be15331b53e9a2f3da1b3e1ee9bff86431dea6b181365ba65f',1,'Raz::BLUE()'],['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afa1b3e1ee9bff86431dea6b181365ba65f',1,'Raz::BLUE()']]],
   ['blue_5fsize',['BLUE_SIZE',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a9a95ca89dda246092bc82e777e583bdc',1,'Raz']]],
   ['bool',['BOOL',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa97b2c144243b2b9d2c593ec268b62f5',1,'Raz']]],
+  ['borderless',['BORDERLESS',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1af744a3ac16b1ac0bc9df0aa02cc1a038',1,'Raz']]],
   ['bufferdatausage',['BufferDataUsage',['../namespace_raz.html#ae6f230e4e4ae9aaca21babd00d268a33',1,'Raz']]],
   ['buffertype',['BufferType',['../namespace_raz.html#a61581b620e9ba8b7e52013105af294bb',1,'Raz']]],
   ['button',['BUTTON',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca57b35198356d373bcd2a6e08abcb3795',1,'Raz::BUTTON()'],['../namespace_raz_1_1_mouse.html#aecd851d1547db40e9a695d94486dedd7',1,'Raz::Mouse::Button()']]],
