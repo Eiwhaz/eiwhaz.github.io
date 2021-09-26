@@ -28,6 +28,7 @@ var searchData=
   ['color_5fclear_5fvalue',['COLOR_CLEAR_VALUE',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1ea133588db86d3fdf0a8692788200ad5bc',1,'Raz']]],
   ['color_5flogic_5fop',['COLOR_LOGIC_OP',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a1edc90266958911382dc601aae62ee4e',1,'Raz::COLOR_LOGIC_OP()'],['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1ea1edc90266958911382dc601aae62ee4e',1,'Raz::COLOR_LOGIC_OP()']]],
   ['color_5fwritemask',['COLOR_WRITEMASK',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1eaab5471ccf8cc507e83aaa88c91633fe0',1,'Raz']]],
+  ['colored_5flabel',['COLORED_LABEL',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca03a2a887a72bd5d3393e3cfb81842862',1,'Raz']]],
   ['compile',['COMPILE',['../namespace_raz.html#a3731f7a815a0a040e4259970ea05c085a6789cf817caacc2139464fd540bef728',1,'Raz']]],
   ['complete',['COMPLETE',['../namespace_raz.html#a3dc4fe979a8fdba3bdd7e100af06510ca3de44296982e58199afc513a715b12ba',1,'Raz']]],
   ['compressed',['COMPRESSED',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a724ba27218714b182f22d5b24b5e4317',1,'Raz']]],

@@ -7,5 +7,6 @@ var searchData=
   ['sound',['Sound',['../class_raz_1_1_sound.html',1,'Raz']]],
   ['sphere',['Sphere',['../class_raz_1_1_sphere.html',1,'Raz']]],
   ['submesh',['Submesh',['../class_raz_1_1_submesh.html',1,'Raz']]],
+  ['submeshrenderer',['SubmeshRenderer',['../class_raz_1_1_submesh_renderer.html',1,'Raz']]],
   ['system',['System',['../class_raz_1_1_system.html',1,'Raz']]]
 ];

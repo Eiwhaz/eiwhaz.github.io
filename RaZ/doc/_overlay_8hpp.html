@@ -95,6 +95,10 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html">Raz::Overlay</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_raz_1_1_overlay.html" title="Overlay class, used to render GUI elements (labels, buttons, checkboxes, ...) into a Window...">Overlay</a> class, used to render GUI elements (labels, buttons, checkboxes, ...) into a <a class="el" href="class_raz_1_1_window.html" title="Graphical window to render the scenes on, with input custom actions. ">Window</a>.  <a href="class_raz_1_1_overlay.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_window.html">Raz::OverlayWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_raz_1_1_overlay_window.html" title="OverlayWindow class, representing a specific window in the Overlay. ">OverlayWindow</a> class, representing a specific window in the <a class="el" href="class_raz_1_1_overlay.html" title="Overlay class, used to render GUI elements (labels, buttons, checkboxes, ...) into a Window...">Overlay</a>.  <a href="class_raz_1_1_overlay_window.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -111,21 +115,26 @@ Macros</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a69b127818bb33fbabe7e46a86024ad5d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a69b127818bb33fbabe7e46a86024ad5d">Raz::OverlayPtr</a> = std::unique_ptr&lt; Overlay &gt;</td></tr>
 <tr class="separator:a69b127818bb33fbabe7e46a86024ad5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7379c2eb7dd9c685e9404c43628c3c38"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a7379c2eb7dd9c685e9404c43628c3c38">Raz::OverlayWindowPtr</a> = std::unique_ptr&lt; OverlayWindow &gt;</td></tr>
+<tr class="separator:a7379c2eb7dd9c685e9404c43628c3c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a7552f3e530ba9e9bd4e6c411b0661edc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edc">Raz::OverlayElementType</a> { <br />
 &#160;&#160;<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca6f434c508ad901b8667ed22f713e52bb">Raz::OverlayElementType::LABEL</a>, 
+<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca03a2a887a72bd5d3393e3cfb81842862">Raz::OverlayElementType::COLORED_LABEL</a>, 
 <a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca57b35198356d373bcd2a6e08abcb3795">Raz::OverlayElementType::BUTTON</a>, 
 <a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca22ab9eebdf3d8e32268c02e577520333">Raz::OverlayElementType::CHECKBOX</a>, 
-<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca3c93f85078b290625b7c4db299979c4f">Raz::OverlayElementType::SLIDER</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca90bb771088edc79816de4252154f5037">Raz::OverlayElementType::TEXTBOX</a>, 
-<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca3f92f542bd9ec48f912b9350e22736ac">Raz::OverlayElementType::TEXTURE</a>, 
+&#160;&#160;<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca3c93f85078b290625b7c4db299979c4f">Raz::OverlayElementType::SLIDER</a>, 
+<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca90bb771088edc79816de4252154f5037">Raz::OverlayElementType::TEXTBOX</a>, 
+<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca93acd75af8be088fceba3c5a613f7645">Raz::OverlayElementType::LIST_BOX</a>, 
+<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca11104907ea3583e29b65b1bceb239a02">Raz::OverlayElementType::DROPDOWN</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca3f92f542bd9ec48f912b9350e22736ac">Raz::OverlayElementType::TEXTURE</a>, 
 <a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca70bb8dc90aa233a66b91ae2e9dc1a850">Raz::OverlayElementType::SEPARATOR</a>, 
 <a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca6659e24a56dc15a075e98afd8c4bbde0">Raz::OverlayElementType::FRAME_TIME</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca778030f0e27aa1ba1500f09b5954f0a5">Raz::OverlayElementType::FPS_COUNTER</a>
+<a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca778030f0e27aa1ba1500f09b5954f0a5">Raz::OverlayElementType::FPS_COUNTER</a>
 <br />
  }</td></tr>
 <tr class="separator:a7552f3e530ba9e9bd4e6c411b0661edc"><td class="memSeparator" colspan="2">&#160;</td></tr>

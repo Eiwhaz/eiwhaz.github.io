@@ -154,6 +154,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab54916f242952be715d08cd16c7617e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#ab54916f242952be715d08cd16c7617e0">updateCallbacks</a> () const</td></tr>
 <tr class="memdesc:ab54916f242952be715d08cd16c7617e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates all of the callbacks, making them active.  <a href="#ab54916f242952be715d08cd16c7617e0">More...</a><br /></td></tr>
 <tr class="separator:ab54916f242952be715d08cd16c7617e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307d27e19fd9b8a5070cecbfa53c9599"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_window.html">OverlayWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a307d27e19fd9b8a5070cecbfa53c9599">addOverlayWindow</a> (std::string title)</td></tr>
+<tr class="separator:a307d27e19fd9b8a5070cecbfa53c9599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086e970a781a570cc2d6e0fdae006a74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a086e970a781a570cc2d6e0fdae006a74">enableOverlay</a> (bool enable=true)</td></tr>
+<tr class="separator:a086e970a781a570cc2d6e0fdae006a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eaf53a7c3c992810e7aa055d99449e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a6eaf53a7c3c992810e7aa055d99449e0">disableOverlay</a> ()</td></tr>
+<tr class="memdesc:a6eaf53a7c3c992810e7aa055d99449e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the overlay.  <a href="#a6eaf53a7c3c992810e7aa055d99449e0">More...</a><br /></td></tr>
+<tr class="separator:a6eaf53a7c3c992810e7aa055d99449e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb55fd64b6be001122a021662d8f6097"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#abb55fd64b6be001122a021662d8f6097">run</a> (float deltaTime)</td></tr>
 <tr class="separator:abb55fd64b6be001122a021662d8f6097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a422d8b3e059aabee43ed37e414dc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a99a422d8b3e059aabee43ed37e414dc6">recoverMousePosition</a> () const</td></tr>
@@ -460,6 +467,39 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a307d27e19fd9b8a5070cecbfa53c9599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307d27e19fd9b8a5070cecbfa53c9599">&#9670;&nbsp;</a></span>addOverlayWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_raz_1_1_overlay_window.html">OverlayWindow</a>&amp; Raz::Window::addOverlayWindow </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>title</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adds a new overlay window. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td><a class="el" href="class_raz_1_1_window.html" title="Graphical window to render the scenes on, with input custom actions. ">Window</a> title. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The newly added window. </dd></dl>
+
+</div>
+</div>
 <a id="a9f027cd44b9bf1b601ac069c8db651ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f027cd44b9bf1b601ac069c8db651ba">&#9670;&nbsp;</a></span>changeCursorState()</h2>
 
@@ -584,6 +624,33 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a6eaf53a7c3c992810e7aa055d99449e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eaf53a7c3c992810e7aa055d99449e0">&#9670;&nbsp;</a></span>disableOverlay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Window::disableOverlay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Disables the overlay. </p>
+
+</div>
+</div>
 <a id="a959834ad2a4e2664b2d47c75a4d789b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a959834ad2a4e2664b2d47c75a4d789b4">&#9670;&nbsp;</a></span>disableVerticalSync()</h2>
 
@@ -629,6 +696,38 @@ template&lt;typename... Args&gt; </div>
 <p>Changes the face culling's state. Enables or disables face culling according to the given parameter. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>Value to apply. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a086e970a781a570cc2d6e0fdae006a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086e970a781a570cc2d6e0fdae006a74">&#9670;&nbsp;</a></span>enableOverlay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Window::enableOverlay </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Changes the overlay's enabled state. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enable</td><td>True if it should be enabled, false otherwise. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1099,7 +1198,7 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 <p>Defines an action on window close. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">callback</td><td>Action to be executed when the window is closed. </td></tr>
+    <tr><td class="paramname">func</td><td>Action to be executed when the window is closed. </td></tr>
   </table>
   </dd>
 </dl>

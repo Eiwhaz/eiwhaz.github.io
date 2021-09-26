@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['debug',['debug',['../class_raz_1_1_logger.html#a02d041123bacffd39c263bdecb6a3e7d',1,'Raz::Logger']]],
   ['degrees',['Degrees',['../struct_raz_1_1_degrees.html#a55d545543593152111ad6b21860191a0',1,'Raz::Degrees::Degrees(T val)'],['../struct_raz_1_1_degrees.html#aad3905056deca118ce7518fd8ef8c8bd',1,'Raz::Degrees::Degrees(Radians&lt; T &gt; rad)'],['../struct_raz_1_1_degrees.html#ae5be9bd604277a9b352634858b8e1ac6',1,'Raz::Degrees::Degrees(const Degrees &amp;)=default'],['../struct_raz_1_1_degrees.html#af9f1b4e8a856763a25387d3d9fb62c37',1,'Raz::Degrees::Degrees(Degrees &amp;&amp;) noexcept=default']]],
   ['deletebuffer',['deleteBuffer',['../class_raz_1_1_renderer.html#aa0b989a8ec56772964a4ee548eb6c8fe',1,'Raz::Renderer']]],
   ['deletebuffers',['deleteBuffers',['../class_raz_1_1_renderer.html#af88584cf1ea8833036b957ad662a0ed5',1,'Raz::Renderer::deleteBuffers(unsigned int count, unsigned int *indices)'],['../class_raz_1_1_renderer.html#afb8db3f8baf87689a7243bf47af317e2',1,'Raz::Renderer::deleteBuffers(unsigned int(&amp;indices)[N])']]],
@@ -9,7 +10,7 @@ var searchData=
   ['deleteshader',['deleteShader',['../class_raz_1_1_renderer.html#a004e3ad96c238b2772ea942e59bd03fa',1,'Raz::Renderer']]],
   ['deletetexture',['deleteTexture',['../class_raz_1_1_renderer.html#a9a355d94eb8b6959745c4772a75033b6',1,'Raz::Renderer']]],
   ['deletetextures',['deleteTextures',['../class_raz_1_1_renderer.html#afe3439f402658ae2ac090fb1af63bb52',1,'Raz::Renderer::deleteTextures(unsigned int count, unsigned int *indices)'],['../class_raz_1_1_renderer.html#ad6ddc873f2de3ef725082c83e18f33ca',1,'Raz::Renderer::deleteTextures(unsigned int(&amp;indices)[N])']]],
-  ['destroy',['destroy',['../class_raz_1_1_audio_system.html#af745ff4ceac6a61e6bc7e0445798bdd4',1,'Raz::AudioSystem::destroy()'],['../class_raz_1_1_sound.html#a970847c7e9fdf581d255a4fc78fb525f',1,'Raz::Sound::destroy()'],['../class_raz_1_1_render_system.html#a9eb3c114038b8704d5efae99cb448bdd',1,'Raz::RenderSystem::destroy()'],['../class_raz_1_1_shader.html#a445004f312a3bc393241c5f94dec61d2',1,'Raz::Shader::destroy()'],['../class_raz_1_1_system.html#a3569d03a6cc52bb692fbb45af827e564',1,'Raz::System::destroy()'],['../class_raz_1_1_world.html#aa1694eb3a4e4b513623a7740b647b1a3',1,'Raz::World::destroy()']]],
+  ['destroy',['destroy',['../class_raz_1_1_audio_system.html#af745ff4ceac6a61e6bc7e0445798bdd4',1,'Raz::AudioSystem::destroy()'],['../class_raz_1_1_sound.html#a970847c7e9fdf581d255a4fc78fb525f',1,'Raz::Sound::destroy()'],['../class_raz_1_1_render_system.html#a9eb3c114038b8704d5efae99cb448bdd',1,'Raz::RenderSystem::destroy()'],['../class_raz_1_1_shader.html#a445004f312a3bc393241c5f94dec61d2',1,'Raz::Shader::destroy()'],['../class_raz_1_1_system.html#a3569d03a6cc52bb692fbb45af827e564',1,'Raz::System::destroy()'],['../class_raz_1_1_overlay.html#aa24283005b51c23572b51153b03eb12a',1,'Raz::Overlay::destroy()'],['../class_raz_1_1_world.html#aa1694eb3a4e4b513623a7740b647b1a3',1,'Raz::World::destroy()']]],
   ['destroyfragmentshader',['destroyFragmentShader',['../class_raz_1_1_shader_program.html#ac5c1a75ab214e2a32937268146b82e67',1,'Raz::ShaderProgram']]],
   ['destroygeometryshader',['destroyGeometryShader',['../class_raz_1_1_shader_program.html#a845ee4f0c8e3fe39aeabe3ece07f026d',1,'Raz::ShaderProgram']]],
   ['destroyvertexshader',['destroyVertexShader',['../class_raz_1_1_shader_program.html#af8ebb30021b88e9f295c2a1d434bb3f7',1,'Raz::ShaderProgram']]],
@@ -17,12 +18,13 @@ var searchData=
   ['disable',['disable',['../class_raz_1_1_entity.html#a149131ac1aa19ba7d7ba31e807639b49',1,'Raz::Entity::disable()'],['../class_raz_1_1_renderer.html#a8b052e9df4e2748e1344cd7e77f24fb2',1,'Raz::Renderer::disable()'],['../class_raz_1_1_render_pass.html#a7e489d620df393c84213a3b384442b9c',1,'Raz::RenderPass::disable()']]],
   ['disablecursor',['disableCursor',['../class_raz_1_1_window.html#a7da2d32fb4756d207cbb17745d4fc780',1,'Raz::Window']]],
   ['disablefaceculling',['disableFaceCulling',['../class_raz_1_1_window.html#a20b160e3d212455ca73540c96f7b2ae0',1,'Raz::Window']]],
+  ['disableoverlay',['disableOverlay',['../class_raz_1_1_window.html#a6eaf53a7c3c992810e7aa055d99449e0',1,'Raz::Window']]],
   ['disableverticalsync',['disableVerticalSync',['../class_raz_1_1_window.html#a959834ad2a4e2664b2d47c75a4d789b4',1,'Raz::Window']]],
   ['display',['display',['../class_raz_1_1_framebuffer.html#a0e1f5bac1489583e982f1f0daf207237',1,'Raz::Framebuffer']]],
   ['dot',['dot',['../class_raz_1_1_quaternion.html#a32cac65a1758dbd27a2141d69579006f',1,'Raz::Quaternion::dot()'],['../class_raz_1_1_vector.html#a66a1952266c3f47e6332dd7a50e41f75',1,'Raz::Vector::dot()']]],
-  ['draw',['draw',['../class_raz_1_1_cubemap.html#a531e1d36318ede28914ad21e9d18582b',1,'Raz::Cubemap::draw()'],['../class_raz_1_1_mesh.html#ac2992c1bb2681ef74209ca40a0ad6165',1,'Raz::Mesh::draw() const'],['../class_raz_1_1_mesh.html#a8d9cc8cd31c2f479f08690ee3a390d12',1,'Raz::Mesh::draw(const ShaderProgram &amp;program) const'],['../class_raz_1_1_submesh.html#accd64e31baf11548a35f41ab0519c987',1,'Raz::Submesh::draw()']]],
-  ['drawunitcube',['drawUnitCube',['../class_raz_1_1_mesh.html#a7b7f36e3e38ddff729bc5ddedc00dde5',1,'Raz::Mesh']]],
-  ['drawunitplane',['drawUnitPlane',['../class_raz_1_1_mesh.html#add2d4edf8dffd36edf37f069a46f8827',1,'Raz::Mesh']]],
-  ['drawunitquad',['drawUnitQuad',['../class_raz_1_1_mesh.html#a14dd069182091954acf58bb99bcae025',1,'Raz::Mesh']]],
-  ['drawunitsphere',['drawUnitSphere',['../class_raz_1_1_mesh.html#af3b7e32be297dc4b2d079472fd8cca51',1,'Raz::Mesh']]]
+  ['draw',['draw',['../class_raz_1_1_cubemap.html#a531e1d36318ede28914ad21e9d18582b',1,'Raz::Cubemap::draw()'],['../class_raz_1_1_mesh_renderer.html#a1dc0c1719eb265fc9d750be01fb0e0f0',1,'Raz::MeshRenderer::draw() const'],['../class_raz_1_1_mesh_renderer.html#a9d44d303bab9009d670c873bc862a0d5',1,'Raz::MeshRenderer::draw(const ShaderProgram &amp;program) const'],['../class_raz_1_1_submesh_renderer.html#af35898591235a77762294a9274fcf3f5',1,'Raz::SubmeshRenderer::draw()']]],
+  ['drawunitcube',['drawUnitCube',['../class_raz_1_1_mesh_renderer.html#a887f6325da5c726484a59318501962be',1,'Raz::MeshRenderer']]],
+  ['drawunitplane',['drawUnitPlane',['../class_raz_1_1_mesh_renderer.html#a9718245c9ef44c8a6fdbdeffc9d904be',1,'Raz::MeshRenderer']]],
+  ['drawunitquad',['drawUnitQuad',['../class_raz_1_1_mesh_renderer.html#ad25030bd3f13f7071b5ade85db5f274d',1,'Raz::MeshRenderer']]],
+  ['drawunitsphere',['drawUnitSphere',['../class_raz_1_1_mesh_renderer.html#a344782ae839157dbca2ab293e5df4bd0',1,'Raz::MeshRenderer']]]
 ];

@@ -94,6 +94,12 @@ Macros</h2></td></tr>
 <tr class="separator:ab85f152062d65a39f8d9544ad224bd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e59a06eadc36b11f95664cb674f5db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_compiler_utils_8hpp.html#a59e59a06eadc36b11f95664cb674f5db">DISABLE_WARNING</a>(Warning)</td></tr>
 <tr class="separator:a59e59a06eadc36b11f95664cb674f5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282e727b3b530b9e8366850f80979c72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_compiler_utils_8hpp.html#a282e727b3b530b9e8366850f80979c72">DISABLE_WARNING_GCC</a>(Warning)</td></tr>
+<tr class="separator:a282e727b3b530b9e8366850f80979c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a55ed7fc5503b894bb62dce3e8ab1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_compiler_utils_8hpp.html#ab3a55ed7fc5503b894bb62dce3e8ab1b">DISABLE_WARNING_CLANG</a>(Warning)</td></tr>
+<tr class="separator:ab3a55ed7fc5503b894bb62dce3e8ab1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd9c4738ace329c3bc8b45f0a768756"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_compiler_utils_8hpp.html#a1dd9c4738ace329c3bc8b45f0a768756">DISABLE_WARNING_MSVC</a>(Warning)</td></tr>
+<tr class="separator:a1dd9c4738ace329c3bc8b45f0a768756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a59e59a06eadc36b11f95664cb674f5db"></a>
@@ -111,14 +117,60 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Disables the given compiler-specific warning. </p><dl class="section note"><dt>Note</dt><dd>Make sure the warnings' state has been pushed before. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_compiler_utils_8hpp.html#a006f5ac61841d90e1525ea1e097b9016">PUSH_WARNINGS_STATE</a>. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Warning</td><td>Warning to disable. </td></tr>
-  </table>
-  </dd>
-</dl>
+
+</div>
+</div>
+<a id="ab3a55ed7fc5503b894bb62dce3e8ab1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a55ed7fc5503b894bb62dce3e8ab1b">&#9670;&nbsp;</a></span>DISABLE_WARNING_CLANG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DISABLE_WARNING_CLANG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Warning</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a282e727b3b530b9e8366850f80979c72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a282e727b3b530b9e8366850f80979c72">&#9670;&nbsp;</a></span>DISABLE_WARNING_GCC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DISABLE_WARNING_GCC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Warning</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dd9c4738ace329c3bc8b45f0a768756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd9c4738ace329c3bc8b45f0a768756">&#9670;&nbsp;</a></span>DISABLE_WARNING_MSVC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DISABLE_WARNING_MSVC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Warning</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -137,12 +189,6 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Declares a pragma directive, passing it the given argument. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Arg</td><td>Argument to be passed to the pragma directive. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -157,7 +203,6 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Reapplies the previously pushed warnings' state. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_compiler_utils_8hpp.html#a006f5ac61841d90e1525ea1e097b9016">PUSH_WARNINGS_STATE</a>. </dd></dl>
 
 </div>
 </div>
@@ -172,7 +217,6 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Saves the warnings' state to be reapplied later. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_compiler_utils_8hpp.html#ab85f152062d65a39f8d9544ad224bd25">POP_WARNINGS_STATE</a>. </dd></dl>
 
 </div>
 </div>
