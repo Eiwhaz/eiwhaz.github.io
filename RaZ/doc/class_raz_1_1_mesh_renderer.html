@@ -118,6 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af90c1aba00b2375c81b3b76e2a6b7878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c6293842f50daa265687fb1cedd7fad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh_renderer.html#a2c6293842f50daa265687fb1cedd7fad">addMaterial</a> (<a class="el" href="namespace_raz.html#a75936dba39fe87d11b16d92172849149">MaterialPtr</a> material)</td></tr>
 <tr class="separator:a2c6293842f50daa265687fb1cedd7fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937a984174a58d462267d410bddd25ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh_renderer.html#a937a984174a58d462267d410bddd25ef">removeMaterial</a> (std::size_t materialIndex)</td></tr>
+<tr class="separator:a937a984174a58d462267d410bddd25ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a369deddbd13f0d12cf796cc1b43d7587"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a369deddbd13f0d12cf796cc1b43d7587"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_submesh_renderer.html">SubmeshRenderer</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh_renderer.html#a369deddbd13f0d12cf796cc1b43d7587">addSubmeshRenderer</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a369deddbd13f0d12cf796cc1b43d7587"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +310,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Adds a given material into the mesh renderer. </p><dl class="section note"><dt>Note</dt><dd>This doesn't apply the material to any submesh; to do so, manually set the corresponding material index to any submesh renderer. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td><a class="el" href="class_raz_1_1_material.html">Material</a> to be added. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the newly added material. </dd></dl>
 
 </div>
 </div>
@@ -336,6 +346,19 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Adds a new submesh renderer to render a submesh with. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Args</td><td>Types of the arguments to be forwarded to the submesh renderer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>Arguments to be forwarded to the submesh renderer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the newly added submesh renderer. </dd></dl>
 
 </div>
 </div>
@@ -353,7 +376,7 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Clones the mesh renderer. </p><dl class="section warning"><dt>Warning</dt><dd>This doesn't load anything onto the graphics card; the <a class="el" href="class_raz_1_1_mesh_renderer.html#ad86bf49290234f17632edcc63bb4e0b9">load()</a> function must be called afterwards with a <a class="el" href="class_raz_1_1_mesh.html">Mesh</a> for this. </dd></dl>
+<p>Clones the mesh renderer. </p><dl class="section warning"><dt>Warning</dt><dd>This doesn't load anything onto the GPU; to do so, call the <a class="el" href="class_raz_1_1_mesh_renderer.html#ad86bf49290234f17632edcc63bb4e0b9">load()</a> function taking a <a class="el" href="class_raz_1_1_mesh.html">Mesh</a> afterwards. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Cloned mesh renderer. </dd></dl>
 
 </div>
@@ -372,6 +395,7 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Renders the mesh. </p><dl class="section warning"><dt>Warning</dt><dd>This requires to manually handle materials' uniforms updating and textures activation &amp; binding; if not, use the overload with a <a class="el" href="class_raz_1_1_shader_program.html" title="ShaderProgram class, holding shaders &amp; handling data transmission to the graphics card with uniforms...">ShaderProgram</a>. </dd></dl>
 
 </div>
 </div>
@@ -390,6 +414,12 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Renders the mesh with the given shader program. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">program</td><td>Program to render the mesh with. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -618,6 +648,13 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Loads a mesh onto the GPU. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td><a class="el" href="class_raz_1_1_mesh.html">Mesh</a> to be loaded. </td></tr>
+    <tr><td class="paramname">renderMode</td><td>Render mode to apply. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -636,6 +673,12 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Binds the materials' textures to the given shader program. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">program</td><td><a class="el" href="class_raz_1_1_shader.html">Shader</a> program to bind the textures to. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -670,6 +713,14 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Loads a mesh onto the GPU and binds the materials' textures to the given shader program. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td><a class="el" href="class_raz_1_1_mesh.html">Mesh</a> to be loaded. </td></tr>
+    <tr><td class="paramname">program</td><td><a class="el" href="class_raz_1_1_shader.html">Shader</a> program to bind the textures to. </td></tr>
+    <tr><td class="paramname">renderMode</td><td>Render mode to apply. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -725,6 +776,30 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a937a984174a58d462267d410bddd25ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937a984174a58d462267d410bddd25ef">&#9670;&nbsp;</a></span>removeMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::MeshRenderer::removeMaterial </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>materialIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes an existing material. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">materialIndex</td><td>Index of the material to remove. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ab5064d7dddb84053e0819c0f8fceec17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5064d7dddb84053e0819c0f8fceec17">&#9670;&nbsp;</a></span>setMaterial() <span class="overload">[1/2]</span></h2>
 
@@ -740,6 +815,13 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets one unique material for the whole mesh. </p><dl class="section warning"><dt>Warning</dt><dd>This clears all previously existing materials. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">material</td><td><a class="el" href="class_raz_1_1_material.html">Material</a> to be set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -768,6 +850,13 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Replaces attributes of all existing materials according to a given preset. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">materialPreset</td><td>Preset material to apply. </td></tr>
+    <tr><td class="paramname">roughnessFactor</td><td><a class="el" href="class_raz_1_1_material.html">Material</a>'s roughness factor. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -796,6 +885,13 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Sets a specific mode to render the mesh into. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderMode</td><td>Render mode to apply. </td></tr>
+    <tr><td class="paramname">mesh</td><td><a class="el" href="class_raz_1_1_mesh.html">Mesh</a> to load the render mode's indices from. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

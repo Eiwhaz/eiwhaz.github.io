@@ -100,6 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9dc4e0e6225b17b82d35fa3dbf523881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ff355ec2af7b0f5d68a9277dafbaa1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_blinn_phong.html#a7ff355ec2af7b0f5d68a9277dafbaa1d">MaterialBlinnPhong</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath, int bindingIndex, bool flipVertically=true)</td></tr>
 <tr class="separator:a7ff355ec2af7b0f5d68a9277dafbaa1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadde56499cafefc84caef011f1042c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_blinn_phong.html#adadde56499cafefc84caef011f1042c5">MaterialBlinnPhong</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;baseColor, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;ambient=<a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f), const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;specular=<a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f), const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;emissive=<a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(0.f), float transparency=1.f)</td></tr>
+<tr class="separator:adadde56499cafefc84caef011f1042c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acac426ee387d34e5a0afb622c8fe76c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_blinn_phong.html#acac426ee387d34e5a0afb622c8fe76c5">getType</a> () const override</td></tr>
 <tr class="separator:acac426ee387d34e5a0afb622c8fe76c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac2e813429797594a38fa8497163583d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material_blinn_phong.html#aac2e813429797594a38fa8497163583d">getAmbient</a> () const</td></tr>
@@ -185,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aca640554523ce069ecc3c289baf01fef inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af68447009176b6b46e42014591787e22 inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#af68447009176b6b46e42014591787e22">loadBaseColorMap</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath, int bindingIndex, bool flipVertically=true)</td></tr>
 <tr class="separator:af68447009176b6b46e42014591787e22 inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e89095811cddd3af3912cdb1d66116 inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ad4e89095811cddd3af3912cdb1d66116">operator=</a> (<a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&amp;) noexcept=default</td></tr>
+<tr class="separator:ad4e89095811cddd3af3912cdb1d66116 inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac248674e9eaf73a50fe4a5b127bdae4a inherit pub_methods_class_raz_1_1_material"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ac248674e9eaf73a50fe4a5b127bdae4a">~Material</a> ()=default</td></tr>
 <tr class="separator:ac248674e9eaf73a50fe4a5b127bdae4a inherit pub_methods_class_raz_1_1_material"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -216,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a49419f59d9be2ecf5e2825ec1f0e4f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49419f59d9be2ecf5e2825ec1f0e4f5b">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49419f59d9be2ecf5e2825ec1f0e4f5b">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +245,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a9dc4e0e6225b17b82d35fa3dbf523881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dc4e0e6225b17b82d35fa3dbf523881">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dc4e0e6225b17b82d35fa3dbf523881">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a7ff355ec2af7b0f5d68a9277dafbaa1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ff355ec2af7b0f5d68a9277dafbaa1d">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff355ec2af7b0f5d68a9277dafbaa1d">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,6 +296,60 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adadde56499cafefc84caef011f1042c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adadde56499cafefc84caef011f1042c5">&#9670;&nbsp;</a></span>MaterialBlinnPhong() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::MaterialBlinnPhong::MaterialBlinnPhong </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>baseColor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>ambient</em> = <code><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>specular</em> = <code><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>emissive</em> = <code><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(0.f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>transparency</em> = <code>1.f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

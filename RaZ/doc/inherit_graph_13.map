@@ -1,4 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; RenderPass \&gt;" alt="" coords="5,5,219,32"/>
-<area shape="rect" id="node2" href="$class_raz_1_1_render_pass.html" title="Raz::RenderPass" alt="" coords="267,5,391,32"/>
+<area shape="rect" id="node1" href="$class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; T \&gt;" alt="" coords="5,5,155,32"/>
 </map>

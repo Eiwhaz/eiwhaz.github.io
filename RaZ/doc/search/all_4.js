@@ -2,7 +2,7 @@ var searchData=
 [
   ['d',['D',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a38c153f11e225e44fa8f2da66b2d0b9e',1,'Raz::Keyboard']]],
   ['data',['data',['../struct_raz_1_1_image_data_b.html#a27270ba863c00faf11e4e69f520b0f33',1,'Raz::ImageDataB::data()'],['../struct_raz_1_1_image_data_f.html#afeecc5ae04161c0a4eb3dc811e19fd50',1,'Raz::ImageDataF::data()']]],
-  ['datasize',['dataSize',['../_wav_audio_8cpp.html#ae3c68f6750377179ad148e76693cc7d1',1,'WavAudio.cpp']]],
+  ['datasize',['dataSize',['../_wav_load_8cpp.html#ae3c68f6750377179ad148e76693cc7d1',1,'WavLoad.cpp']]],
   ['debug',['debug',['../class_raz_1_1_logger.html#a02d041123bacffd39c263bdecb6a3e7d',1,'Raz::Logger::debug()'],['../namespace_raz.html#a363557d9277281d0ff0c70ed19f57538adc30ec20708ef7b0f641ef78b7880a15',1,'Raz::DEBUG()']]],
   ['debug_5foutput',['DEBUG_OUTPUT',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2ac0c76ac1e0fd602baa0986233db9dbcd',1,'Raz']]],
   ['debug_5foutput_5fsynchronous',['DEBUG_OUTPUT_SYNCHRONOUS',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a6bfcf5d4d346e80fced0f89359d702ca',1,'Raz']]],

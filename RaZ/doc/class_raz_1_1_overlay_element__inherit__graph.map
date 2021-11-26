@@ -1,0 +1,15 @@
+<map id="Raz::OverlayElement" name="Raz::OverlayElement">
+<area shape="rect" id="node2" href="$class_raz_1_1_overlay_button.html" title="Raz::OverlayButton" alt="" coords="215,5,350,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_overlay_checkbox.html" title="Raz::OverlayCheckbox" alt="" coords="205,56,360,83"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_overlay_colored_label.html" title="Raz::OverlayColoredLabel" alt="" coords="197,107,368,133"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_overlay_dropdown.html" title="Raz::OverlayDropdown" alt="" coords="206,157,359,184"/>
+<area shape="rect" id="node6" href="$class_raz_1_1_overlay_fps_counter.html" title="Raz::OverlayFpsCounter" alt="" coords="201,208,364,235"/>
+<area shape="rect" id="node7" href="$class_raz_1_1_overlay_frame_time.html" title="Raz::OverlayFrameTime" alt="" coords="202,259,363,285"/>
+<area shape="rect" id="node8" href="$class_raz_1_1_overlay_label.html" title="Raz::OverlayLabel" alt="" coords="219,309,346,336"/>
+<area shape="rect" id="node9" href="$class_raz_1_1_overlay_list_box.html" title="Raz::OverlayListBox" alt="" coords="213,360,353,387"/>
+<area shape="rect" id="node10" href="$class_raz_1_1_overlay_progress_bar.html" title="Raz::OverlayProgressBar" alt="" coords="199,411,367,437"/>
+<area shape="rect" id="node11" href="$class_raz_1_1_overlay_separator.html" title="Raz::OverlaySeparator" alt="" coords="207,461,359,488"/>
+<area shape="rect" id="node12" href="$class_raz_1_1_overlay_slider.html" title="Raz::OverlaySlider" alt="" coords="218,512,347,539"/>
+<area shape="rect" id="node13" href="$class_raz_1_1_overlay_textbox.html" title="Raz::OverlayTextbox" alt="" coords="211,563,354,589"/>
+<area shape="rect" id="node14" href="$class_raz_1_1_overlay_texture.html" title="Raz::OverlayTexture" alt="" coords="213,613,352,640"/>
+</map>

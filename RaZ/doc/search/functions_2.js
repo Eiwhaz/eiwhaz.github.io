@@ -1,10 +1,10 @@
 var searchData=
 [
   ['camera',['Camera',['../class_raz_1_1_camera.html#a93d4ad181baa9fc497cf7049fde75f00',1,'Raz::Camera::Camera()=default'],['../class_raz_1_1_camera.html#ad70a876543131131c8389370ebfdcceb',1,'Raz::Camera::Camera(unsigned int frameWidth, unsigned int frameHeight, Radiansf fieldOfView=Degreesf(45.f), float nearPlane=0.1f, float farPlane=100.f, ProjectionType projType=ProjectionType::PERSPECTIVE)']]],
-  ['cbegin',['cbegin',['../class_raz_1_1_threading_1_1_iter_range.html#a7a1a2ae6604531d4b9c8eed45ef847df',1,'Raz::Threading::IterRange']]],
-  ['cend',['cend',['../class_raz_1_1_threading_1_1_iter_range.html#a5df0a8f6fed5954eeb3d32f8342b0169',1,'Raz::Threading::IterRange']]],
+  ['cbegin',['cbegin',['../class_raz_1_1_threading_1_1_iter_range.html#ad6b036014496e8e56523a3238a0ffc05',1,'Raz::Threading::IterRange']]],
+  ['cend',['cend',['../class_raz_1_1_threading_1_1_iter_range.html#a44dcc7f0b63eaab04c28b4d0a7a2c782',1,'Raz::Threading::IterRange']]],
   ['changecursorstate',['changeCursorState',['../class_raz_1_1_window.html#a9f027cd44b9bf1b601ac069c8db651ba',1,'Raz::Window']]],
-  ['clear',['clear',['../class_raz_1_1_renderer.html#af4827362098aacadfc5c77769fe525a1',1,'Raz::Renderer::clear()'],['../class_raz_1_1_bitset.html#ac9473035fd7eccd19834e1f484919e91',1,'Raz::Bitset::clear()']]],
+  ['clear',['clear',['../class_raz_1_1_renderer.html#af4827362098aacadfc5c77769fe525a1',1,'Raz::Renderer::clear()'],['../class_raz_1_1_bitset.html#ac9473035fd7eccd19834e1f484919e91',1,'Raz::Bitset::clear()'],['../class_raz_1_1_overlay_textbox.html#a121001e1f86d6998eb6fe68b2592f0d4',1,'Raz::OverlayTextbox::clear()']]],
   ['clearcolor',['clearColor',['../class_raz_1_1_renderer.html#a43591b71772740bcf212cb6ddee6559e',1,'Raz::Renderer::clearColor(float red, float green, float blue, float alpha)'],['../class_raz_1_1_renderer.html#a600446dd9438965583a63bf5e57c31c1',1,'Raz::Renderer::clearColor(float values[4])']]],
   ['clone',['clone',['../class_raz_1_1_material.html#ace16938b0bf955a8c2e4fc3be6c76da8',1,'Raz::Material::clone()'],['../class_raz_1_1_material_blinn_phong.html#a71ddc03de6023ff2fcd3258187b14e27',1,'Raz::MaterialBlinnPhong::clone()'],['../class_raz_1_1_material_cook_torrance.html#a5ccb4848dced72a0fa36dfabd9020fa4',1,'Raz::MaterialCookTorrance::clone()'],['../class_raz_1_1_mesh_renderer.html#ae31c5f2e9cdb5b421a6f1c0b3933e88a',1,'Raz::MeshRenderer::clone()'],['../class_raz_1_1_submesh_renderer.html#ad9ce52357fb8748ad2f0c128b79525b0',1,'Raz::SubmeshRenderer::clone()']]],
   ['close',['close',['../class_raz_1_1_plugin.html#aa0826e4a8940629673f86d541872821f',1,'Raz::Plugin::close()'],['../class_raz_1_1_window.html#a95da7c2f618bb65e4966deca1d37eda9',1,'Raz::Window::close()']]],

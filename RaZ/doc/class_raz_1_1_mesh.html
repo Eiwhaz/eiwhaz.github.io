@@ -95,8 +95,6 @@ Inheritance diagram for Raz::Mesh:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a36cfb6a1f884027d4cbb7310eb00a196"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#a36cfb6a1f884027d4cbb7310eb00a196">Mesh</a> ()=default</td></tr>
 <tr class="separator:a36cfb6a1f884027d4cbb7310eb00a196"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94ebacfe68a04aa981bd85e3721081bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#a94ebacfe68a04aa981bd85e3721081bb">Mesh</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath)</td></tr>
-<tr class="separator:a94ebacfe68a04aa981bd85e3721081bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaad8fd6ba4088b79356c6c16af938f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#aaaad8fd6ba4088b79356c6c16af938f3">Mesh</a> (const <a class="el" href="class_raz_1_1_plane.html">Plane</a> &amp;plane, float width, float depth)</td></tr>
 <tr class="separator:aaaad8fd6ba4088b79356c6c16af938f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dc958588f4c913f02a76e34247c031d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#a9dc958588f4c913f02a76e34247c031d">Mesh</a> (const <a class="el" href="class_raz_1_1_sphere.html">Sphere</a> &amp;sphere, uint32_t subdivCount, <a class="el" href="namespace_raz.html#aed7d485a1e7a40f377859b5abf111004">SphereMeshType</a> type)</td></tr>
@@ -121,8 +119,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a616ddca2d84f7e7b69f17740733ef910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fc88f2ee7193b7df972ed8559776137"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#a7fc88f2ee7193b7df972ed8559776137">recoverTriangleCount</a> () const</td></tr>
 <tr class="separator:a7fc88f2ee7193b7df972ed8559776137"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade98e66bcb6262499002878e5e3c5076"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#ade98e66bcb6262499002878e5e3c5076">import</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath)</td></tr>
-<tr class="separator:ade98e66bcb6262499002878e5e3c5076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26fbef2e9fe64bfbd6815df44933aabf"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a26fbef2e9fe64bfbd6815df44933aabf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_submesh.html">Submesh</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_mesh.html#a26fbef2e9fe64bfbd6815df44933aabf">addSubmesh</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a26fbef2e9fe64bfbd6815df44933aabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,7 +152,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a36cfb6a1f884027d4cbb7310eb00a196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36cfb6a1f884027d4cbb7310eb00a196">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36cfb6a1f884027d4cbb7310eb00a196">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,34 +176,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a94ebacfe68a04aa981bd85e3721081bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94ebacfe68a04aa981bd85e3721081bb">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[2/9]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Mesh::Mesh </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;&#160;</td>
-          <td class="paramname"><em>filePath</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aaaad8fd6ba4088b79356c6c16af938f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaad8fd6ba4088b79356c6c16af938f3">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaad8fd6ba4088b79356c6c16af938f3">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +211,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a9dc958588f4c913f02a76e34247c031d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dc958588f4c913f02a76e34247c031d">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dc958588f4c913f02a76e34247c031d">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,7 +253,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aa41a3b7576acf6322efd897a61777d29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa41a3b7576acf6322efd897a61777d29">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41a3b7576acf6322efd897a61777d29">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,7 +279,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a150dd149b5e9594cc345814a465d252e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a150dd149b5e9594cc345814a465d252e">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a150dd149b5e9594cc345814a465d252e">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,7 +305,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ad7d330324e8f07af9f0e5155d2129ae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7d330324e8f07af9f0e5155d2129ae7">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d330324e8f07af9f0e5155d2129ae7">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a2421c030d5c1277897021d94952d71ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2421c030d5c1277897021d94952d71ac">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2421c030d5c1277897021d94952d71ac">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +357,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a98615f16992bd576cdb95c6fcba72dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98615f16992bd576cdb95c6fcba72dec">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a98615f16992bd576cdb95c6fcba72dec">&#9670;&nbsp;</a></span>Mesh() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,24 +504,6 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="ade98e66bcb6262499002878e5e3c5076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade98e66bcb6262499002878e5e3c5076">&#9670;&nbsp;</a></span>import()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::Mesh::import </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;&#160;</td>
-          <td class="paramname"><em>filePath</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa989de8fee9f655f3dd64c2fa28449c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa989de8fee9f655f3dd64c2fa28449c2">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -641,8 +593,6 @@ template&lt;typename... Args&gt; </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_mesh_8hpp_source.html">Mesh.hpp</a></li>
 <li><a class="el" href="_mesh_8cpp.html">Mesh.cpp</a></li>
-<li><a class="el" href="_mesh_import_8cpp.html">MeshImport.cpp</a></li>
-<li><a class="el" href="_off_importer_8cpp.html">OffImporter.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

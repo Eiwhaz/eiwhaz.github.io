@@ -85,6 +85,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad54d910bcbde8f33be1a67cc361a7c41"><td class="memTemplParams" colspan="2">template&lt;typename T , typename CoeffT &gt; </td></tr>
 <tr class="memitem:ad54d910bcbde8f33be1a67cc361a7c41"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_math_utils.html#ad54d910bcbde8f33be1a67cc361a7c41">lerp</a> (T min, T max, CoeffT coeff) noexcept</td></tr>
 <tr class="separator:ad54d910bcbde8f33be1a67cc361a7c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ba8a9d20d3cd4d92d7062b63d68897f"><td class="memTemplParams" colspan="2">template&lt;typename T , std::size_t Size, typename CoeffT &gt; </td></tr>
+<tr class="memitem:a2ba8a9d20d3cd4d92d7062b63d68897f"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_math_utils.html#a2ba8a9d20d3cd4d92d7062b63d68897f">lerp</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp;min, const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp;max, CoeffT coeff) noexcept</td></tr>
+<tr class="separator:a2ba8a9d20d3cd4d92d7062b63d68897f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ad5bc7c07fd60aa10c52e5abefb008"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aa8ad5bc7c07fd60aa10c52e5abefb008"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_math_utils.html#aa8ad5bc7c07fd60aa10c52e5abefb008">smoothstep</a> (T value) noexcept</td></tr>
 <tr class="separator:aa8ad5bc7c07fd60aa10c52e5abefb008"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -100,7 +103,7 @@ Functions</h2></td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad54d910bcbde8f33be1a67cc361a7c41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad54d910bcbde8f33be1a67cc361a7c41">&#9670;&nbsp;</a></span>lerp()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54d910bcbde8f33be1a67cc361a7c41">&#9670;&nbsp;</a></span>lerp() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,6 +146,67 @@ template&lt;typename T , typename CoeffT &gt; </div>
 <p>Computes the linear interpolation between two values, according to a coefficient. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>Type to compute the interpolation with. </td></tr>
+    <tr><td class="paramname">CoeffT</td><td>Type of the coefficient to apply. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min</td><td>Minimum value (lower bound). </td></tr>
+    <tr><td class="paramname">max</td><td>Maximum value (upper bound). </td></tr>
+    <tr><td class="paramname">coeff</td><td>Coefficient between 0 (returns <code>min</code>) and 1 (returns <code>max</code>). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Computed linear interpolation between <code>min</code> and <code>max</code>. </dd></dl>
+
+</div>
+</div>
+<a id="a2ba8a9d20d3cd4d92d7062b63d68897f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ba8a9d20d3cd4d92d7062b63d68897f">&#9670;&nbsp;</a></span>lerp() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , std::size_t Size, typename CoeffT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt;T, Size&gt; Raz::MathUtils::lerp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, Size &gt; &amp;&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CoeffT&#160;</td>
+          <td class="paramname"><em>coeff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Computes the component-wise linear interpolation between two vectors, according to a coefficient. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of the vectors' values to compute the interpolation with. </td></tr>
+    <tr><td class="paramname">Size</td><td>Size of the vectors to compute the interpolation with. </td></tr>
     <tr><td class="paramname">CoeffT</td><td>Type of the coefficient to apply. </td></tr>
   </table>
   </dd>

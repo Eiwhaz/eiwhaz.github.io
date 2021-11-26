@@ -5,7 +5,7 @@ var searchData=
   ['back_5fleft',['BACK_LEFT',['../namespace_raz.html#ac31c87885c21a0bb00bdbee3741a3863a312668bcc143fd3778c68442f6c3e32f',1,'Raz']]],
   ['back_5fright',['BACK_RIGHT',['../namespace_raz.html#ac31c87885c21a0bb00bdbee3741a3863a7e77482f99baeaa96a02f36b2f99f387',1,'Raz']]],
   ['backspace',['BACKSPACE',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a2288adce7c13d9004be751cacfec302a',1,'Raz::Keyboard']]],
-  ['begin',['begin',['../class_raz_1_1_threading_1_1_iter_range.html#ad0fe6fa7eaa74c2ae7314692d3290a82',1,'Raz::Threading::IterRange']]],
+  ['begin',['begin',['../class_raz_1_1_threading_1_1_iter_range.html#ad5f95a366824349ece4835695b56a5b5',1,'Raz::Threading::IterRange']]],
   ['beginindex',['beginIndex',['../struct_raz_1_1_threading_1_1_index_range.html#aaf616b225f6e6eb145397842cc661861',1,'Raz::Threading::IndexRange']]],
   ['bgr',['BGR',['../namespace_raz.html#a0a4faa4537fa2a0be15331b53e9a2f3da2ad5640ebdec72fc79531d1778c6c2dc',1,'Raz::BGR()'],['../namespace_raz.html#ae2079173da3471c87fd0b855968e79aea2ad5640ebdec72fc79531d1778c6c2dc',1,'Raz::BGR()']]],
   ['bgra',['BGRA',['../namespace_raz.html#a0a4faa4537fa2a0be15331b53e9a2f3da5a1fe3c61c9e2fd6dbbc823589f6e697',1,'Raz::BGRA()'],['../namespace_raz.html#ae2079173da3471c87fd0b855968e79aea5a1fe3c61c9e2fd6dbbc823589f6e697',1,'Raz::BGRA()']]],
@@ -20,7 +20,7 @@ var searchData=
   ['bitset',['Bitset',['../class_raz_1_1_bitset.html',1,'Raz::Bitset'],['../class_raz_1_1_bitset.html#ae729efd320f9334e3da46736be9e9108',1,'Raz::Bitset::Bitset()=default'],['../class_raz_1_1_bitset.html#a97c05a50bdeacf5ce5f03b6469909358',1,'Raz::Bitset::Bitset(std::size_t bitCount, bool initVal=false)'],['../class_raz_1_1_bitset.html#a6fa565897344443ef02f0421da16b418',1,'Raz::Bitset::Bitset(std::initializer_list&lt; bool &gt; values)']]],
   ['bitset_2ecpp',['Bitset.cpp',['../_bitset_8cpp.html',1,'']]],
   ['bitset_2ehpp',['Bitset.hpp',['../_bitset_8hpp.html',1,'']]],
-  ['bitspersample',['bitsPerSample',['../_wav_audio_8cpp.html#a74a45ac6d34673b2377dedf44c6ec281',1,'WavAudio.cpp']]],
+  ['bitspersample',['bitsPerSample',['../_wav_load_8cpp.html#a74a45ac6d34673b2377dedf44c6ec281',1,'WavLoad.cpp']]],
   ['black',['BLACK',['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afa08d0012388564e95c3b4a7407cf04965',1,'Raz']]],
   ['blend',['BLEND',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2af58072a9536aaeef0196115e445fa4d8',1,'Raz::BLEND()'],['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1eaf58072a9536aaeef0196115e445fa4d8',1,'Raz::BLEND()']]],
   ['blend_5fcolor',['BLEND_COLOR',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1ea67f3fd8644927fd67b0f241755e83c78',1,'Raz']]],
@@ -43,10 +43,9 @@ var searchData=
   ['bvec2',['BVEC2',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa65e3234d2bf7d76169393cb2d4b658b',1,'Raz']]],
   ['bvec3',['BVEC3',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a9cf22f139a6e72d92b074eaa61c1c6f3',1,'Raz']]],
   ['bvec4',['BVEC4',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a45262af824b41c9c05cc443ca6e71b90',1,'Raz']]],
-  ['bvhformat',['BvhFormat',['../class_raz_1_1_bvh_format.html',1,'Raz::BvhFormat'],['../class_raz_1_1_bvh_format.html#a6a1599bb50d6e2893383763dc2492dcb',1,'Raz::BvhFormat::BvhFormat()']]],
   ['bvhformat_2ecpp',['BvhFormat.cpp',['../_bvh_format_8cpp.html',1,'']]],
   ['bvhformat_2ehpp',['BvhFormat.hpp',['../_bvh_format_8hpp.html',1,'']]],
   ['byte',['BYTE',['../namespace_raz.html#a560e0a7db1b131359ef82257442d8b8cae409eb2ba6eb6801f52763ae370c350e',1,'Raz']]],
-  ['bytesperblock',['bytesPerBlock',['../_wav_audio_8cpp.html#a73431c4ea0ce34b4f2815e9a4b0e474e',1,'WavAudio.cpp']]],
-  ['bytespersecond',['bytesPerSecond',['../_wav_audio_8cpp.html#a2aa2c9f8b125cb3f19aeda2a0c1dde31',1,'WavAudio.cpp']]]
+  ['bytesperblock',['bytesPerBlock',['../_wav_load_8cpp.html#a73431c4ea0ce34b4f2815e9a4b0e474e',1,'WavLoad.cpp']]],
+  ['bytespersecond',['bytesPerSecond',['../_wav_load_8cpp.html#a2aa2c9f8b125cb3f19aeda2a0c1dde31',1,'WavLoad.cpp']]]
 ];

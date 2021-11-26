@@ -11,7 +11,7 @@ var searchData=
   ['pack_5fswap_5fbytes',['PACK_SWAP_BYTES',['../namespace_raz.html#a02605d7b6c2f990263f458c5f6f3d9f1a8ac7799ecd5f42d1d3a3a162559d8b07',1,'Raz']]],
   ['pagedown',['PAGEDOWN',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639ad66e761a2dbede90e45a9b9d4729010d',1,'Raz::Keyboard']]],
   ['pageup',['PAGEUP',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639abc27ea5599117ddb09f8e83f599164ea',1,'Raz::Keyboard']]],
-  ['parallelize',['parallelize',['../namespace_raz_1_1_threading.html#af0bda30e071a825d1311b440e91e45b5',1,'Raz::Threading::parallelize(const std::function&lt; void()&gt; &amp;action, std::size_t threadCount=getSystemThreadCount())'],['../namespace_raz_1_1_threading.html#a95ac6555b5385210dc7eb9a0e6ee123f',1,'Raz::Threading::parallelize(const ContainerType &amp;collection, Func &amp;&amp;action, std::size_t threadCount=getSystemThreadCount())'],['../namespace_raz_1_1_threading.html#a6982a8715c295b2a0173f9d9815ac9ca',1,'Raz::Threading::parallelize(ContainerType &amp;collection, Func &amp;&amp;action, std::size_t threadCount=getSystemThreadCount())']]],
+  ['parallelize',['parallelize',['../namespace_raz_1_1_threading.html#ad00c5908be95ebe1c296f20d3b35b246',1,'Raz::Threading::parallelize(const std::function&lt; void()&gt; &amp;action, unsigned int threadCount=getSystemThreadCount())'],['../namespace_raz_1_1_threading.html#a86825bb6a6dafff6612e9ebe07758b27',1,'Raz::Threading::parallelize(const ContainerT &amp;collection, FuncT &amp;&amp;action, unsigned int threadCount=getSystemThreadCount())'],['../namespace_raz_1_1_threading.html#a3f7ddfb2be9460ccca5b9988176756fb',1,'Raz::Threading::parallelize(ContainerT &amp;collection, FuncT &amp;&amp;action, unsigned int threadCount=getSystemThreadCount())']]],
   ['pause',['pause',['../class_raz_1_1_sound.html#ab6eace39f122c4752f4f6d4febd92e8e',1,'Raz::Sound::pause()'],['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a3f166a0a535ce7c286382f82f3733998',1,'Raz::Keyboard::PAUSE()']]],
   ['paused',['PAUSED',['../namespace_raz.html#af43f170cb926b16c0a233521fcff723da99b2439e63f73ad515f7ab2447a80673',1,'Raz']]],
   ['perlinnoise_2ecpp',['PerlinNoise.cpp',['../_perlin_noise_8cpp.html',1,'']]],
@@ -45,6 +45,7 @@ var searchData=
   ['print_5fscreen',['PRINT_SCREEN',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a777bf37e88ab0059125c938a4a5200fb',1,'Raz::Keyboard']]],
   ['printerrors',['printErrors',['../class_raz_1_1_renderer.html#afc5a7141acb637a4ea31599b110be425',1,'Raz::Renderer']]],
   ['programparameter',['ProgramParameter',['../namespace_raz.html#ac54024d9a636da350deb905799823304',1,'Raz']]],
+  ['progress_5fbar',['PROGRESS_BAR',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca0d32e02396c223148b9aadf9894521d8',1,'Raz']]],
   ['projectiontype',['ProjectionType',['../namespace_raz.html#a360ee468371283ad8562d2bb54e1a9fa',1,'Raz']]],
   ['push_5fwarnings_5fstate',['PUSH_WARNINGS_STATE',['../_compiler_utils_8hpp.html#a006f5ac61841d90e1525ea1e097b9016',1,'CompilerUtils.hpp']]]
 ];

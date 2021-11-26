@@ -93,11 +93,13 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_raz_1_1_threading_1_1_index_range.html">Raz::Threading::IndexRange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_threading_1_1_iter_range.html">Raz::Threading::IterRange&lt; ContainerType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_threading_1_1_iter_range.html">Raz::Threading::IterRange&lt; ContainerT &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespace_raz"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz.html">Raz</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_raz_1_1_threading"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html">Raz::Threading</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -112,19 +114,21 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a95c6c460a6d61261b8b74ae5e669764e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">Raz::Threading::getSystemThreadCount</a> () noexcept</td></tr>
 <tr class="separator:a95c6c460a6d61261b8b74ae5e669764e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda2661f4a1a9ae8c6f4816c966943dd"><td class="memItemLeft" align="right" valign="top">ThreadPool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#adda2661f4a1a9ae8c6f4816c966943dd">Raz::Threading::getDefaultThreadPool</a> ()</td></tr>
+<tr class="separator:adda2661f4a1a9ae8c6f4816c966943dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9809999b9b7bea0f05bf481b072b4094"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a9809999b9b7bea0f05bf481b072b4094">Raz::Threading::sleep</a> (uint64_t milliseconds)</td></tr>
 <tr class="separator:a9809999b9b7bea0f05bf481b072b4094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cc1a0b222b7b16a7b8bc154bec6336b"><td class="memTemplParams" colspan="2">template&lt;typename Func , typename... Args, typename ResultType  = std::invoke_result_t&lt;Func&amp;&amp;, Args&amp;&amp;...&gt;&gt; </td></tr>
-<tr class="memitem:a6cc1a0b222b7b16a7b8bc154bec6336b"><td class="memTemplItemLeft" align="right" valign="top">std::future&lt; ResultType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a6cc1a0b222b7b16a7b8bc154bec6336b">Raz::Threading::launchAsync</a> (Func &amp;&amp;action, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a6cc1a0b222b7b16a7b8bc154bec6336b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0bda30e071a825d1311b440e91e45b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#af0bda30e071a825d1311b440e91e45b5">Raz::Threading::parallelize</a> (const std::function&lt; void()&gt; &amp;action, std::size_t threadCount=getSystemThreadCount())</td></tr>
-<tr class="separator:af0bda30e071a825d1311b440e91e45b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95ac6555b5385210dc7eb9a0e6ee123f"><td class="memTemplParams" colspan="2">template&lt;typename ContainerType , typename Func , typename  = std::enable_if_t&lt;std::is_constructible_v&lt;std::function&lt;void(IndexRange)&gt;, Func&gt;&gt;&gt; </td></tr>
-<tr class="memitem:a95ac6555b5385210dc7eb9a0e6ee123f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a95ac6555b5385210dc7eb9a0e6ee123f">Raz::Threading::parallelize</a> (const ContainerType &amp;collection, Func &amp;&amp;action, std::size_t threadCount=getSystemThreadCount())</td></tr>
-<tr class="separator:a95ac6555b5385210dc7eb9a0e6ee123f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6982a8715c295b2a0173f9d9815ac9ca"><td class="memTemplParams" colspan="2">template&lt;typename ContainerType , typename Func , typename  = std::enable_if_t&lt;std::is_constructible_v&lt;std::function&lt;void(IterRange&lt;std::common_type_t&lt;ContainerType&gt;&gt;)&gt;, Func&gt;&gt;&gt; </td></tr>
-<tr class="memitem:a6982a8715c295b2a0173f9d9815ac9ca"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a6982a8715c295b2a0173f9d9815ac9ca">Raz::Threading::parallelize</a> (ContainerType &amp;collection, Func &amp;&amp;action, std::size_t threadCount=getSystemThreadCount())</td></tr>
-<tr class="separator:a6982a8715c295b2a0173f9d9815ac9ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a451a9f2b6d5d1e694bdae60b96eca8e6"><td class="memTemplParams" colspan="2">template&lt;typename FuncT , typename... Args, typename ResultT  = std::invoke_result_t&lt;FuncT&amp;&amp;, Args&amp;&amp;...&gt;&gt; </td></tr>
+<tr class="memitem:a451a9f2b6d5d1e694bdae60b96eca8e6"><td class="memTemplItemLeft" align="right" valign="top">std::future&lt; ResultT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a451a9f2b6d5d1e694bdae60b96eca8e6">Raz::Threading::launchAsync</a> (FuncT &amp;&amp;action, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a451a9f2b6d5d1e694bdae60b96eca8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad00c5908be95ebe1c296f20d3b35b246"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#ad00c5908be95ebe1c296f20d3b35b246">Raz::Threading::parallelize</a> (const std::function&lt; void()&gt; &amp;action, unsigned int threadCount=getSystemThreadCount())</td></tr>
+<tr class="separator:ad00c5908be95ebe1c296f20d3b35b246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86825bb6a6dafff6612e9ebe07758b27"><td class="memTemplParams" colspan="2">template&lt;typename ContainerT , typename FuncT , typename  = std::enable_if_t&lt;std::is_constructible_v&lt;std::function&lt;void(IndexRange)&gt;, FuncT&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a86825bb6a6dafff6612e9ebe07758b27"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a86825bb6a6dafff6612e9ebe07758b27">Raz::Threading::parallelize</a> (const ContainerT &amp;collection, FuncT &amp;&amp;action, unsigned int threadCount=getSystemThreadCount())</td></tr>
+<tr class="separator:a86825bb6a6dafff6612e9ebe07758b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f7ddfb2be9460ccca5b9988176756fb"><td class="memTemplParams" colspan="2">template&lt;typename ContainerT , typename FuncT , typename  = std::enable_if_t&lt;std::is_constructible_v&lt;std::function&lt;void(IterRange&lt;std::common_type_t&lt;ContainerT&gt;&gt;)&gt;, FuncT&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a3f7ddfb2be9460ccca5b9988176756fb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a3f7ddfb2be9460ccca5b9988176756fb">Raz::Threading::parallelize</a> (ContainerT &amp;collection, FuncT &amp;&amp;action, unsigned int threadCount=getSystemThreadCount())</td></tr>
+<tr class="separator:a3f7ddfb2be9460ccca5b9988176756fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a83984cdb56cce5fedc02b8e17a2bf598"></a>

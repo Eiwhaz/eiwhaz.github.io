@@ -16,7 +16,7 @@ var searchData=
   ['vec3f',['Vec3f',['../namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3',1,'Raz']]],
   ['vec3i',['Vec3i',['../namespace_raz.html#a877c2c6bc8800fd312dfd7522c6f3fe6',1,'Raz']]],
   ['vec3u',['Vec3u',['../namespace_raz.html#a4e7f12189bc5ad38413bb019da9e5aa8',1,'Raz']]],
-  ['vec4',['Vec4',['../namespace_raz.html#a2dbc6311df08074a23b146bcc2a14ced',1,'Raz::Vec4()'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aee190f7a0572504036effa0134dc5d88',1,'Raz::VEC4()']]],
+  ['vec4',['VEC4',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aee190f7a0572504036effa0134dc5d88',1,'Raz::VEC4()'],['../namespace_raz.html#a2dbc6311df08074a23b146bcc2a14ced',1,'Raz::Vec4()']]],
   ['vec4b',['Vec4b',['../namespace_raz.html#a634535c4ec2e2849175d813bbf04fc18',1,'Raz']]],
   ['vec4d',['Vec4d',['../namespace_raz.html#a41e0d71c8cce0f66be9d3c5cc657e500',1,'Raz']]],
   ['vec4f',['Vec4f',['../namespace_raz.html#af6af78815189dd96bea3491327fa938a',1,'Raz']]],
