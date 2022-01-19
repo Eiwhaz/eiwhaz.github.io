@@ -9,6 +9,7 @@ gem "addressable", ">= 2.8.0"
 gem "kramdown", ">= 2.3.1"
 gem "nokogiri", ">= 1.12.5"
 gem "rexml", ">= 3.2.5"
+gem "webrick"
 
 gem "github-pages", group: :jekyll_plugins
 
