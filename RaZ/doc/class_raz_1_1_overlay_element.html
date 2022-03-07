@@ -116,6 +116,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09eb1b644cb13357d705627822ca7e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad00f0ff6b9e4e38a8b1fae2099438113"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edc">OverlayElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#ad00f0ff6b9e4e38a8b1fae2099438113">getType</a> () const =0</td></tr>
 <tr class="separator:ad00f0ff6b9e4e38a8b1fae2099438113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98429d8041859620eb10ed6aae52b30c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#a98429d8041859620eb10ed6aae52b30c">isEnabled</a> () const noexcept</td></tr>
+<tr class="separator:a98429d8041859620eb10ed6aae52b30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60787afb68d0fa91c2f281fa1a3d5ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#ac60787afb68d0fa91c2f281fa1a3d5ac">enable</a> (bool enabled=true)</td></tr>
+<tr class="separator:ac60787afb68d0fa91c2f281fa1a3d5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f593e1e43491cba93fd3ee63bb3a28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#ac1f593e1e43491cba93fd3ee63bb3a28">disable</a> ()</td></tr>
+<tr class="separator:ac1f593e1e43491cba93fd3ee63bb3a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c090285d9566c8291a719044f11340f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_element.html">OverlayElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#a5c090285d9566c8291a719044f11340f">operator=</a> (const <a class="el" href="class_raz_1_1_overlay_element.html">OverlayElement</a> &amp;)=delete</td></tr>
 <tr class="separator:a5c090285d9566c8291a719044f11340f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3c1cbc74e3649ee27913be5d49eaef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_element.html">OverlayElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#a4b3c1cbc74e3649ee27913be5d49eaef">operator=</a> (<a class="el" href="class_raz_1_1_overlay_element.html">OverlayElement</a> &amp;&amp;) noexcept=delete</td></tr>
@@ -127,6 +133,8 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aaead7b0b0a27c8ea07e6af31b46631f7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#aaead7b0b0a27c8ea07e6af31b46631f7">m_label</a> {}</td></tr>
 <tr class="separator:aaead7b0b0a27c8ea07e6af31b46631f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10e154432e1e278a541dfdf5ea84a18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_element.html#ad10e154432e1e278a541dfdf5ea84a18">m_enabled</a> = true</td></tr>
+<tr class="separator:ad10e154432e1e278a541dfdf5ea84a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af9cede1c853693142f32b28492e65b7d"></a>
@@ -258,6 +266,57 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac1f593e1e43491cba93fd3ee63bb3a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f593e1e43491cba93fd3ee63bb3a28">&#9670;&nbsp;</a></span>disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::OverlayElement::disable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac60787afb68d0fa91c2f281fa1a3d5ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac60787afb68d0fa91c2f281fa1a3d5ac">&#9670;&nbsp;</a></span>enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::OverlayElement::enable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad00f0ff6b9e4e38a8b1fae2099438113"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad00f0ff6b9e4e38a8b1fae2099438113">&#9670;&nbsp;</a></span>getType()</h2>
 
@@ -282,6 +341,31 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="class_raz_1_1_overlay_fps_counter.html#a723b46de66a92359520523037dab9d37">Raz::OverlayFpsCounter</a>, <a class="el" href="class_raz_1_1_overlay_frame_time.html#a3065c0dc27d7edbcac0af4ffac8ec850">Raz::OverlayFrameTime</a>, <a class="el" href="class_raz_1_1_overlay_separator.html#aeee3a84e5c4c60d13dfd65d6395bfad3">Raz::OverlaySeparator</a>, <a class="el" href="class_raz_1_1_overlay_progress_bar.html#a49c1b481b93c48e7911c157bbb21c539">Raz::OverlayProgressBar</a>, <a class="el" href="class_raz_1_1_overlay_texture.html#a0c512b01ac0baf66c0a159a93113c54b">Raz::OverlayTexture</a>, <a class="el" href="class_raz_1_1_overlay_dropdown.html#ae0090c2eabe3b7278aea5cdb06bf3008">Raz::OverlayDropdown</a>, <a class="el" href="class_raz_1_1_overlay_list_box.html#ab910f7cc54e79c345c157d1c3efde2a1">Raz::OverlayListBox</a>, <a class="el" href="class_raz_1_1_overlay_textbox.html#a85a1ed64d23ae597f249feea24aa0d33">Raz::OverlayTextbox</a>, <a class="el" href="class_raz_1_1_overlay_slider.html#a287b8eb5f3e686967a49a6c4fd31bd4b">Raz::OverlaySlider</a>, <a class="el" href="class_raz_1_1_overlay_checkbox.html#ade3fa5a4f82d7461d2c175c800cf14df">Raz::OverlayCheckbox</a>, <a class="el" href="class_raz_1_1_overlay_button.html#a1b5968626823b28498d9f646d271ee35">Raz::OverlayButton</a>, <a class="el" href="class_raz_1_1_overlay_colored_label.html#a1b12f07284a19550797f018868d8af68">Raz::OverlayColoredLabel</a>, and <a class="el" href="class_raz_1_1_overlay_label.html#a1f7a95f819a68a9831ebabd15ff28eef">Raz::OverlayLabel</a>.</p>
+
+</div>
+</div>
+<a id="a98429d8041859620eb10ed6aae52b30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98429d8041859620eb10ed6aae52b30c">&#9670;&nbsp;</a></span>isEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::OverlayElement::isEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -338,6 +422,28 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad10e154432e1e278a541dfdf5ea84a18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10e154432e1e278a541dfdf5ea84a18">&#9670;&nbsp;</a></span>m_enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::OverlayElement::m_enabled = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaead7b0b0a27c8ea07e6af31b46631f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaead7b0b0a27c8ea07e6af31b46631f7">&#9670;&nbsp;</a></span>m_label</h2>
 

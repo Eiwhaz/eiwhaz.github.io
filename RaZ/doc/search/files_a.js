@@ -6,5 +6,6 @@ var searchData=
   ['physicssystem_2ehpp',['PhysicsSystem.hpp',['../_physics_system_8hpp.html',1,'']]],
   ['plugin_2ecpp',['Plugin.cpp',['../_plugin_8cpp.html',1,'']]],
   ['plugin_2ehpp',['Plugin.hpp',['../_plugin_8hpp.html',1,'']]],
-  ['pngimage_2ecpp',['PngImage.cpp',['../_png_image_8cpp.html',1,'']]]
+  ['pngformat_2ecpp',['PngFormat.cpp',['../_png_format_8cpp.html',1,'']]],
+  ['pngformat_2ehpp',['PngFormat.hpp',['../_png_format_8hpp.html',1,'']]]
 ];

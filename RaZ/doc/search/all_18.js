@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['x',['x',['../class_raz_1_1_quaternion.html#aaf0f2dfbc8367dd988790b52e8869c68',1,'Raz::Quaternion::x()'],['../class_raz_1_1_vector.html#a04237f64b06359322b8b064a0232cdca',1,'Raz::Vector::x() const noexcept'],['../class_raz_1_1_vector.html#a42e0f1feb0893c502ba896223824817a',1,'Raz::Vector::x() noexcept'],['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a59a70bde68a32ef093247cde130b3ef4',1,'Raz::Keyboard::X()'],['../namespace_raz_1_1_axis.html#a66922b62699c279cc7665f5531d37433',1,'Raz::Axis::X()']]]
+  ['y',['y',['../class_raz_1_1_quaternion.html#a0c6f03e3065388eb99bf292b397b36e5',1,'Raz::Quaternion::y()'],['../class_raz_1_1_vector.html#a50fff4d8009ffc69a5517eebe72a9344',1,'Raz::Vector::y() const noexcept'],['../class_raz_1_1_vector.html#a9ead914157a8a26ad69b85ce2b4b1051',1,'Raz::Vector::y() noexcept'],['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a087467aff1d7a5e14176c1b377a2539e',1,'Raz::Keyboard::Y()'],['../namespace_raz_1_1_axis.html#ac6303f020594a2fefc86e7271c8cf502',1,'Raz::Axis::Y()']]],
+  ['yellow',['YELLOW',['../namespace_raz.html#a604e7b1af82bfb25a83b91c7ce5fb8afa8a568e5f41b7e4da88fe5c4a00aad34e',1,'Raz']]]
 ];

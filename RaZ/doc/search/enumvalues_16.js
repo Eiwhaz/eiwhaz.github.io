@@ -7,5 +7,6 @@ var searchData=
   ['windowed',['WINDOWED',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1adaa43822b2c6abbb5d4eaf867ff6e4a4',1,'Raz']]],
   ['wrap_5fr',['WRAP_R',['../namespace_raz.html#a14093882ba75577889d37831da612fcda4e2ae86d02bae28da44fc62bf49a2241',1,'Raz']]],
   ['wrap_5fs',['WRAP_S',['../namespace_raz.html#a14093882ba75577889d37831da612fcda95f9edd9934180553235bd99d6067f78',1,'Raz']]],
-  ['wrap_5ft',['WRAP_T',['../namespace_raz.html#a14093882ba75577889d37831da612fcdab7432d88778de12539fbb0b52e51cb3c',1,'Raz']]]
+  ['wrap_5ft',['WRAP_T',['../namespace_raz.html#a14093882ba75577889d37831da612fcdab7432d88778de12539fbb0b52e51cb3c',1,'Raz']]],
+  ['write',['WRITE',['../namespace_raz.html#a84bf0815dd2f3e338c6b2e189a7fc208ad4b9e47f65b6e79b010582f15785867e',1,'Raz']]]
 ];

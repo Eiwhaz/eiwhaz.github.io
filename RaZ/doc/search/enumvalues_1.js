@@ -21,6 +21,8 @@ var searchData=
   ['blue_5fsize',['BLUE_SIZE',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00a9a95ca89dda246092bc82e777e583bdc',1,'Raz']]],
   ['bool',['BOOL',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa97b2c144243b2b9d2c593ec268b62f5',1,'Raz']]],
   ['borderless',['BORDERLESS',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1af744a3ac16b1ac0bc9df0aa02cc1a038',1,'Raz']]],
+  ['buffer',['BUFFER',['../namespace_raz.html#a803a534368a5680f8f9ff56200ab3f94a17de626bcae5109bb2f7a66dfc4a8a1d',1,'Raz']]],
+  ['buffer_5fupdate',['BUFFER_UPDATE',['../namespace_raz.html#add7d0d2c9e171120534cf3deeb30e550a2b1623e72f5ec9a4d22869ed7ebddf99',1,'Raz']]],
   ['button',['BUTTON',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca57b35198356d373bcd2a6e08abcb3795',1,'Raz']]],
   ['bvec2',['BVEC2',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa65e3234d2bf7d76169393cb2d4b658b',1,'Raz']]],
   ['bvec3',['BVEC3',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a9cf22f139a6e72d92b074eaa61c1c6f3',1,'Raz']]],

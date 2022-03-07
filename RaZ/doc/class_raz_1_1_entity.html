@@ -96,14 +96,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acb78157958ae63d6bd798a86272d0362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e13cb2f7b9983718e4edeeb5e2b43c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a0e13cb2f7b9983718e4edeeb5e2b43c8">Entity</a> (<a class="el" href="class_raz_1_1_entity.html">Entity</a> &amp;&amp;) noexcept=delete</td></tr>
 <tr class="separator:a0e13cb2f7b9983718e4edeeb5e2b43c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06d7060e6779355c7fc50ba85767412"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#aa06d7060e6779355c7fc50ba85767412">getId</a> () const</td></tr>
-<tr class="separator:aa06d7060e6779355c7fc50ba85767412"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eb5833d6b0f7d80922807f3e994e015"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a2eb5833d6b0f7d80922807f3e994e015">isEnabled</a> () const</td></tr>
-<tr class="separator:a2eb5833d6b0f7d80922807f3e994e015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab117bffdd6713a3831366ca2521b85d5"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_raz.html#af279ed5db59c0b4fcfc3644eda9088ed">ComponentPtr</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#ab117bffdd6713a3831366ca2521b85d5">getComponents</a> () const</td></tr>
-<tr class="separator:ab117bffdd6713a3831366ca2521b85d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95c7ad4d1acdf39bbe6ec710c00682a5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_bitset.html">Bitset</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a95c7ad4d1acdf39bbe6ec710c00682a5">getEnabledComponents</a> () const</td></tr>
-<tr class="separator:a95c7ad4d1acdf39bbe6ec710c00682a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abc1570b57a2a601a5ac8e7ad201e55"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a1abc1570b57a2a601a5ac8e7ad201e55">getId</a> () const noexcept</td></tr>
+<tr class="separator:a1abc1570b57a2a601a5ac8e7ad201e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433cb08ea58c151091308474961195a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#a433cb08ea58c151091308474961195a7">isEnabled</a> () const noexcept</td></tr>
+<tr class="separator:a433cb08ea58c151091308474961195a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac267a84dd9921dd098f9b8e4822cc2f0"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_raz.html#af279ed5db59c0b4fcfc3644eda9088ed">ComponentPtr</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#ac267a84dd9921dd098f9b8e4822cc2f0">getComponents</a> () const noexcept</td></tr>
+<tr class="separator:ac267a84dd9921dd098f9b8e4822cc2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05f0238121ad9028d209d4108a5b2f6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_bitset.html">Bitset</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#ab05f0238121ad9028d209d4108a5b2f6">getEnabledComponents</a> () const noexcept</td></tr>
+<tr class="separator:ab05f0238121ad9028d209d4108a5b2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa73282498ae499ffd37aaf1933929c58"><td class="memTemplParams" colspan="2">template&lt;typename Comp , typename... Args&gt; </td></tr>
 <tr class="memitem:aa73282498ae499ffd37aaf1933929c58"><td class="memTemplItemLeft" align="right" valign="top">Comp &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_entity.html#aa73282498ae499ffd37aaf1933929c58">addComponent</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:aa73282498ae499ffd37aaf1933929c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -498,8 +498,8 @@ template&lt;typename Comp &gt; </div>
 
 </div>
 </div>
-<a id="ab117bffdd6713a3831366ca2521b85d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab117bffdd6713a3831366ca2521b85d5">&#9670;&nbsp;</a></span>getComponents()</h2>
+<a id="ac267a84dd9921dd098f9b8e4822cc2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac267a84dd9921dd098f9b8e4822cc2f0">&#9670;&nbsp;</a></span>getComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,15 +516,15 @@ template&lt;typename Comp &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a95c7ad4d1acdf39bbe6ec710c00682a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95c7ad4d1acdf39bbe6ec710c00682a5">&#9670;&nbsp;</a></span>getEnabledComponents()</h2>
+<a id="ab05f0238121ad9028d209d4108a5b2f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05f0238121ad9028d209d4108a5b2f6">&#9670;&nbsp;</a></span>getEnabledComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,15 +541,15 @@ template&lt;typename Comp &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa06d7060e6779355c7fc50ba85767412"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa06d7060e6779355c7fc50ba85767412">&#9670;&nbsp;</a></span>getId()</h2>
+<a id="a1abc1570b57a2a601a5ac8e7ad201e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1abc1570b57a2a601a5ac8e7ad201e55">&#9670;&nbsp;</a></span>getId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,7 +566,7 @@ template&lt;typename Comp &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -599,8 +599,8 @@ template&lt;typename Comp &gt; </div>
 
 </div>
 </div>
-<a id="a2eb5833d6b0f7d80922807f3e994e015"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eb5833d6b0f7d80922807f3e994e015">&#9670;&nbsp;</a></span>isEnabled()</h2>
+<a id="a433cb08ea58c151091308474961195a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433cb08ea58c151091308474961195a7">&#9670;&nbsp;</a></span>isEnabled()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -617,7 +617,7 @@ template&lt;typename Comp &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

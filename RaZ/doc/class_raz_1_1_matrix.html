@@ -101,12 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5aefa7d3a59e1579f911701b6e805719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a5f64b4a156db7ac8bcf3c9e3e6364f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a0a5f64b4a156db7ac8bcf3c9e3e6364f">Matrix</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W - 1, H - 1 &gt; &amp;mat) noexcept</td></tr>
 <tr class="separator:a0a5f64b4a156db7ac8bcf3c9e3e6364f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa98d0540d88355a0d2782b589004461a"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:aa98d0540d88355a0d2782b589004461a"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#aa98d0540d88355a0d2782b589004461a">Matrix</a> (T val, Args &amp;&amp;... args) noexcept</td></tr>
-<tr class="separator:aa98d0540d88355a0d2782b589004461a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5bdcb18430d92510bd7f341cb031d48"><td class="memTemplParams" colspan="2">template&lt;typename... Vecs&gt; </td></tr>
-<tr class="memitem:af5bdcb18430d92510bd7f341cb031d48"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#af5bdcb18430d92510bd7f341cb031d48">Matrix</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt; &amp;vec, Vecs &amp;&amp;... vecs) noexcept</td></tr>
-<tr class="separator:af5bdcb18430d92510bd7f341cb031d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8f7e6f8e07e2cbd54be8ec0259982a"><td class="memTemplParams" colspan="2">template&lt;typename T2 , typename... Args, typename  = std::enable_if_t&lt;std::is_same_v&lt;T, std::decay_t&lt;T2&gt;&gt;&gt;&gt; </td></tr>
+<tr class="memitem:aee8f7e6f8e07e2cbd54be8ec0259982a"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#aee8f7e6f8e07e2cbd54be8ec0259982a">Matrix</a> (T2 &amp;&amp;val, Args &amp;&amp;... args) noexcept</td></tr>
+<tr class="separator:aee8f7e6f8e07e2cbd54be8ec0259982a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93fa8d842a14fc814327c032ad104fc6"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a93fa8d842a14fc814327c032ad104fc6">Matrix</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;) noexcept=default</td></tr>
 <tr class="separator:a93fa8d842a14fc814327c032ad104fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3a93af6b5a6b028fdae4f54ea30033"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a5b3a93af6b5a6b028fdae4f54ea30033">Matrix</a> (<a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&amp;) noexcept=default</td></tr>
@@ -127,16 +124,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a20b9ae212f872feb2c69341e2a9d5fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a133c64475409fc4218527ef9a360f367"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a133c64475409fc4218527ef9a360f367">getElement</a> (std::size_t widthIndex, std::size_t heightIndex) noexcept</td></tr>
 <tr class="separator:a133c64475409fc4218527ef9a360f367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e13499792fa238468ba858a8a173e9b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, H, W &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a8e13499792fa238468ba858a8a173e9b">transpose</a> () const noexcept</td></tr>
-<tr class="separator:a8e13499792fa238468ba858a8a173e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2d47ce6a46b13ff3107ae07ee441db"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, H, W &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#aac2d47ce6a46b13ff3107ae07ee441db">transpose</a> () const noexcept</td></tr>
+<tr class="separator:aac2d47ce6a46b13ff3107ae07ee441db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d975f0a53f186d5fdb95f79a0f2005"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ae8d975f0a53f186d5fdb95f79a0f2005">computeDeterminant</a> () const noexcept</td></tr>
 <tr class="separator:ae8d975f0a53f186d5fdb95f79a0f2005"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abadecf8e494b35517470feabbfd38128"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#abadecf8e494b35517470feabbfd38128">inverse</a> () const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
-<tr class="separator:abadecf8e494b35517470feabbfd38128"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7692991f8dd82be4963bacaea5d946c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ae7692991f8dd82be4963bacaea5d946c">recoverRow</a> (std::size_t rowIndex) const noexcept</td></tr>
-<tr class="separator:ae7692991f8dd82be4963bacaea5d946c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a755e826fb6eccc29e6d0e453400bc6c5"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a755e826fb6eccc29e6d0e453400bc6c5">recoverColumn</a> (std::size_t columnIndex) const noexcept</td></tr>
-<tr class="separator:a755e826fb6eccc29e6d0e453400bc6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb14cfdb15153cda28e376579eebd4c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#abcb14cfdb15153cda28e376579eebd4c">inverse</a> () const noexcept</td></tr>
+<tr class="separator:abcb14cfdb15153cda28e376579eebd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60b372441d5149af68b1ccc7833014a1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a60b372441d5149af68b1ccc7833014a1">recoverRow</a> (std::size_t rowIndex) const noexcept</td></tr>
+<tr class="separator:a60b372441d5149af68b1ccc7833014a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ecc276982eb07f3a502a96aa898de9b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a4ecc276982eb07f3a502a96aa898de9b">recoverColumn</a> (std::size_t columnIndex) const noexcept</td></tr>
+<tr class="separator:a4ecc276982eb07f3a502a96aa898de9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf6b19a7df51ac7b86c7c9321fbf612"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#acbf6b19a7df51ac7b86c7c9321fbf612">strictlyEquals</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
 <tr class="separator:acbf6b19a7df51ac7b86c7c9321fbf612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e894a180bbefc73246b9efe36b1ed5"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ac8e894a180bbefc73246b9efe36b1ed5">hash</a> (std::size_t seed=0) const noexcept</td></tr>
@@ -145,45 +142,45 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac92039c81de76ea45b5afd55c521b728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a016d71caea253f39f7e71b5e24ff375e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a016d71caea253f39f7e71b5e24ff375e">operator=</a> (<a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a016d71caea253f39f7e71b5e24ff375e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c8947f4f682c00ede1c68a27885e1be"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a2c8947f4f682c00ede1c68a27885e1be">operator+</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
-<tr class="separator:a2c8947f4f682c00ede1c68a27885e1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c28979e099d7d587279cdb84b7d4457"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a3c28979e099d7d587279cdb84b7d4457">operator+</a> (T val) const noexcept</td></tr>
-<tr class="separator:a3c28979e099d7d587279cdb84b7d4457"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8122eead30c75bb06b49740f5a044d64"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a8122eead30c75bb06b49740f5a044d64">operator-</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
-<tr class="separator:a8122eead30c75bb06b49740f5a044d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0a09185a53d391dcdfb283c70b90e4c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ae0a09185a53d391dcdfb283c70b90e4c">operator-</a> (T val) const noexcept</td></tr>
-<tr class="separator:ae0a09185a53d391dcdfb283c70b90e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af41637d6990e4044fd07d68f3cf80144"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#af41637d6990e4044fd07d68f3cf80144">operator%</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
-<tr class="separator:af41637d6990e4044fd07d68f3cf80144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f6d6cc7c95906e7b0b0fbbcadd5745b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a1f6d6cc7c95906e7b0b0fbbcadd5745b">operator*</a> (T val) const noexcept</td></tr>
-<tr class="separator:a1f6d6cc7c95906e7b0b0fbbcadd5745b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a265d069d25950694f0810305aa2517d1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a265d069d25950694f0810305aa2517d1">operator/</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
-<tr class="separator:a265d069d25950694f0810305aa2517d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3650dd1e7c3f5c5dbfe27189f91b34f8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a3650dd1e7c3f5c5dbfe27189f91b34f8">operator/</a> (T val) const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
-<tr class="separator:a3650dd1e7c3f5c5dbfe27189f91b34f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11576106d3de5b550200728f8a62889d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a11576106d3de5b550200728f8a62889d">operator*</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt; &amp;vec) const noexcept</td></tr>
-<tr class="separator:a11576106d3de5b550200728f8a62889d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd113471019fc9473af55886fadd38d7"><td class="memTemplParams" colspan="2">template&lt;std::size_t WI, std::size_t HI&gt; </td></tr>
-<tr class="memitem:acd113471019fc9473af55886fadd38d7"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, H, WI &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#acd113471019fc9473af55886fadd38d7">operator*</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, WI, HI &gt; &amp;mat) const noexcept</td></tr>
-<tr class="separator:acd113471019fc9473af55886fadd38d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8634501cefae678bda5d5cadb6b580"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#acd8634501cefae678bda5d5cadb6b580">operator+=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
-<tr class="separator:acd8634501cefae678bda5d5cadb6b580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bcd9b9e4f76448abf3095c88e56e36c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a9bcd9b9e4f76448abf3095c88e56e36c">operator+=</a> (T val) noexcept</td></tr>
-<tr class="separator:a9bcd9b9e4f76448abf3095c88e56e36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3896191e4507f82fa01c78058349bd07"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a3896191e4507f82fa01c78058349bd07">operator-=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
-<tr class="separator:a3896191e4507f82fa01c78058349bd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a666032ec812550574861bf38ece3c653"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a666032ec812550574861bf38ece3c653">operator-=</a> (T val) noexcept</td></tr>
-<tr class="separator:a666032ec812550574861bf38ece3c653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1c1c3a495137cc4a83227be635659e7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ab1c1c3a495137cc4a83227be635659e7">operator%=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
-<tr class="separator:ab1c1c3a495137cc4a83227be635659e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3ab1c45f7220d198e768152d4481a1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a1b3ab1c45f7220d198e768152d4481a1">operator*=</a> (T val) noexcept</td></tr>
-<tr class="separator:a1b3ab1c45f7220d198e768152d4481a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d545bb54bf8c5efa856ee7401b2328a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a5d545bb54bf8c5efa856ee7401b2328a">operator/=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
-<tr class="separator:a5d545bb54bf8c5efa856ee7401b2328a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dfb9707b3dfe57b37085f64924ef310"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a5dfb9707b3dfe57b37085f64924ef310">operator/=</a> (T val) noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
-<tr class="separator:a5dfb9707b3dfe57b37085f64924ef310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5831e6598b131f0a78d15f4752454f1a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a5831e6598b131f0a78d15f4752454f1a">operator*=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
-<tr class="separator:a5831e6598b131f0a78d15f4752454f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec0aa3f17699c6af4405216d12d418d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#acec0aa3f17699c6af4405216d12d418d">operator+</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
+<tr class="separator:acec0aa3f17699c6af4405216d12d418d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09217116065ec37abf5de901e6b9e927"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a09217116065ec37abf5de901e6b9e927">operator+</a> (T val) const noexcept</td></tr>
+<tr class="separator:a09217116065ec37abf5de901e6b9e927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad3c65ba17f23b5b0142ce3c0e96721"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a9ad3c65ba17f23b5b0142ce3c0e96721">operator-</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
+<tr class="separator:a9ad3c65ba17f23b5b0142ce3c0e96721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7badb4038e4f9b29a9638ac1c7a2a437"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a7badb4038e4f9b29a9638ac1c7a2a437">operator-</a> (T val) const noexcept</td></tr>
+<tr class="separator:a7badb4038e4f9b29a9638ac1c7a2a437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076797ce0bb29bee030fd1b930502c9a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a076797ce0bb29bee030fd1b930502c9a">operator%</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
+<tr class="separator:a076797ce0bb29bee030fd1b930502c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b9ba4437b89124ab0417870d996cb4"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ae0b9ba4437b89124ab0417870d996cb4">operator*</a> (T val) const noexcept</td></tr>
+<tr class="separator:ae0b9ba4437b89124ab0417870d996cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68dd4ca89217b536c5998e174e43ccab"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a68dd4ca89217b536c5998e174e43ccab">operator/</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:a68dd4ca89217b536c5998e174e43ccab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa677a8c9a22a6bbd538abf52266f7628"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#aa677a8c9a22a6bbd538abf52266f7628">operator/</a> (T val) const noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:aa677a8c9a22a6bbd538abf52266f7628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4800a8f092814561856b87420e44db"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#add4800a8f092814561856b87420e44db">operator*</a> (const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt; &amp;vec) const noexcept</td></tr>
+<tr class="separator:add4800a8f092814561856b87420e44db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158cf8dd6607bb3d28a1d330218922d0"><td class="memTemplParams" colspan="2">template&lt;std::size_t WI, std::size_t HI&gt; </td></tr>
+<tr class="memitem:a158cf8dd6607bb3d28a1d330218922d0"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, H, WI &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a158cf8dd6607bb3d28a1d330218922d0">operator*</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, WI, HI &gt; &amp;mat) const noexcept</td></tr>
+<tr class="separator:a158cf8dd6607bb3d28a1d330218922d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08e9383ff01aa616818bc2b06a05f1e7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a08e9383ff01aa616818bc2b06a05f1e7">operator+=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
+<tr class="separator:a08e9383ff01aa616818bc2b06a05f1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5130b0632f19e1aeb164362b6805f1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a9d5130b0632f19e1aeb164362b6805f1">operator+=</a> (T val) noexcept</td></tr>
+<tr class="separator:a9d5130b0632f19e1aeb164362b6805f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8987a1db9fbdf6c6277385e3da222ddf"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a8987a1db9fbdf6c6277385e3da222ddf">operator-=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
+<tr class="separator:a8987a1db9fbdf6c6277385e3da222ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab03ceefd96aadcc43aa0c9d3b800d12"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#aab03ceefd96aadcc43aa0c9d3b800d12">operator-=</a> (T val) noexcept</td></tr>
+<tr class="separator:aab03ceefd96aadcc43aa0c9d3b800d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab25cd18ccb73d4a83841ab544cf82ff"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#aab25cd18ccb73d4a83841ab544cf82ff">operator%=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
+<tr class="separator:aab25cd18ccb73d4a83841ab544cf82ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4492b05164b0dc6a57efe71ec3187970"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a4492b05164b0dc6a57efe71ec3187970">operator*=</a> (T val) noexcept</td></tr>
+<tr class="separator:a4492b05164b0dc6a57efe71ec3187970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9edef785d361ae46670f0d59006f2d0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#af9edef785d361ae46670f0d59006f2d0">operator/=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:af9edef785d361ae46670f0d59006f2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f202c6bfe49184064588607f5d5d1b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a27f202c6bfe49184064588607f5d5d1b">operator/=</a> (T val) noexcept(std::is_integral_v&lt; T &gt;||std::numeric_limits&lt; T &gt;::is_iec559)</td></tr>
+<tr class="separator:a27f202c6bfe49184064588607f5d5d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70006254171b3c60255a8609a102713c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a70006254171b3c60255a8609a102713c">operator*=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) noexcept</td></tr>
+<tr class="separator:a70006254171b3c60255a8609a102713c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe345a6b60d99193f3427cd8634238fe"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#afe345a6b60d99193f3427cd8634238fe">operator[]</a> (std::size_t index) const noexcept</td></tr>
 <tr class="separator:afe345a6b60d99193f3427cd8634238fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8221469dd6d6f027dfae0f9acdc7806e"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a8221469dd6d6f027dfae0f9acdc7806e">operator[]</a> (std::size_t index) noexcept</td></tr>
@@ -192,11 +189,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a197bfe7747e2acf0556986bceeaf28a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24e67875c9c406e7b8b566a10662b18a"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a24e67875c9c406e7b8b566a10662b18a">operator!=</a> (const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> &amp;mat) const noexcept</td></tr>
 <tr class="separator:a24e67875c9c406e7b8b566a10662b18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474435d2a202bbb104e6d17f413d5008"><td class="memTemplParams" colspan="2">template&lt;typename... Vecs&gt; </td></tr>
+<tr class="memitem:a474435d2a202bbb104e6d17f413d5008"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a474435d2a202bbb104e6d17f413d5008">fromRows</a> (Vecs &amp;&amp;... vecs) noexcept</td></tr>
+<tr class="separator:a474435d2a202bbb104e6d17f413d5008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24b716f2551b17304d3d8052a75c4d9"><td class="memTemplParams" colspan="2">template&lt;typename... Vecs&gt; </td></tr>
+<tr class="memitem:ae24b716f2551b17304d3d8052a75c4d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ae24b716f2551b17304d3d8052a75c4d9">fromColumns</a> (Vecs &amp;&amp;... vecs) noexcept</td></tr>
+<tr class="separator:ae24b716f2551b17304d3d8052a75c4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a43effe0a9ecd9ec873259bc82973c434"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a43effe0a9ecd9ec873259bc82973c434">identity</a> () noexcept</td></tr>
-<tr class="separator:a43effe0a9ecd9ec873259bc82973c434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e02dbb4debcbff84e31a999a6dbb38"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a81e02dbb4debcbff84e31a999a6dbb38">identity</a> () noexcept</td></tr>
+<tr class="separator:a81e02dbb4debcbff84e31a999a6dbb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d6d11afcf524f643be76229af53277"><td class="memTemplParams" colspan="2">template&lt;typename... Vecs&gt; </td></tr>
+<tr class="memitem:ac6d6d11afcf524f643be76229af53277"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#ac6d6d11afcf524f643be76229af53277">fromRows</a> (Vecs &amp;&amp;... vecs) noexcept</td></tr>
+<tr class="separator:ac6d6d11afcf524f643be76229af53277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e707c695d57d05a2887aff22c0808b1"><td class="memTemplParams" colspan="2">template&lt;typename... Vecs&gt; </td></tr>
+<tr class="memitem:a3e707c695d57d05a2887aff22c0808b1"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_matrix.html#a3e707c695d57d05a2887aff22c0808b1">fromColumns</a> (Vecs &amp;&amp;... vecs) noexcept</td></tr>
+<tr class="separator:a3e707c695d57d05a2887aff22c0808b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -217,7 +226,7 @@ class Raz::Matrix&lt; T, W, H &gt;</h3>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a45026d0802b019ea8a0f084cc1b491cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45026d0802b019ea8a0f084cc1b491cb">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a45026d0802b019ea8a0f084cc1b491cb">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +253,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 </div>
 </div>
 <a id="a5aefa7d3a59e1579f911701b6e805719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aefa7d3a59e1579f911701b6e805719">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aefa7d3a59e1579f911701b6e805719">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +281,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 </div>
 </div>
 <a id="a0a5f64b4a156db7ac8bcf3c9e3e6364f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a5f64b4a156db7ac8bcf3c9e3e6364f">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5f64b4a156db7ac8bcf3c9e3e6364f">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,15 +308,15 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="aa98d0540d88355a0d2782b589004461a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa98d0540d88355a0d2782b589004461a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[4/7]</span></h2>
+<a id="aee8f7e6f8e07e2cbd54be8ec0259982a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee8f7e6f8e07e2cbd54be8ec0259982a">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <div class="memtemplate">
-template&lt;typename... Args&gt; </div>
+template&lt;typename T2 , typename... Args, typename &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -315,7 +324,7 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::<a class="el" href="class_raz_1_1_matrix.html">Matrix</a> </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
+          <td class="paramtype">T2 &amp;&amp;&#160;</td>
           <td class="paramname"><em>val</em>, </td>
         </tr>
         <tr>
@@ -339,7 +348,8 @@ template&lt;typename... Args&gt; </div>
 <p>Constructs a matrix from the given values. </p><dl class="section note"><dt>Note</dt><dd>All values must be of the same type as the matrix's inner one, and there must be exactly as many values as the matrix can hold (width * height). </dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">Args</td><td>Values to construct the matrix with. </td></tr>
+    <tr><td class="paramname">T2</td><td>Type of the first value. Must be the same as T. </td></tr>
+    <tr><td class="paramname">Args</td><td>Types of the other values. Must be the same as T. </td></tr>
   </table>
   </dd>
 </dl>
@@ -353,62 +363,8 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="af5bdcb18430d92510bd7f341cb031d48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5bdcb18430d92510bd7f341cb031d48">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[5/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
-<div class="memtemplate">
-template&lt;typename... Vecs&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::<a class="el" href="class_raz_1_1_matrix.html">Matrix</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vecs &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>vecs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Constructs a matrix from the given row vectors. </p><dl class="section note"><dt>Note</dt><dd>All vectors must be of the same inner type as the matrix's, and must have a size equal to the matrix's width. </dd></dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">Vecs</td><td>Vectors to construct the matrix with. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">vec</td><td>First row vector. </td></tr>
-    <tr><td class="paramname">vecs</td><td>Other row vectors. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a93fa8d842a14fc814327c032ad104fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93fa8d842a14fc814327c032ad104fc6">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a93fa8d842a14fc814327c032ad104fc6">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,7 +392,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 </div>
 </div>
 <a id="a5b3a93af6b5a6b028fdae4f54ea30033"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b3a93af6b5a6b028fdae4f54ea30033">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3a93af6b5a6b028fdae4f54ea30033">&#9670;&nbsp;</a></span>Matrix() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,7 +426,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -489,6 +445,152 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Determinant computation. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_matrix.html">Matrix</a>'s determinant. </dd></dl>
+
+</div>
+</div>
+<a id="a3e707c695d57d05a2887aff22c0808b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e707c695d57d05a2887aff22c0808b1">&#9670;&nbsp;</a></span>fromColumns() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Vecs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::fromColumns </td>
+          <td>(</td>
+          <td class="paramtype">Vecs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>vecs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a matrix from the given column vectors. </p><dl class="section note"><dt>Note</dt><dd>All vectors must be of the same inner type as the matrix's, and must have a size equal to the matrix's height. </dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Vecs</td><td>Types of the vectors to construct the matrix with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vecs</td><td>Column vectors to construct the matrix with. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae24b716f2551b17304d3d8052a75c4d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24b716f2551b17304d3d8052a75c4d9">&#9670;&nbsp;</a></span>fromColumns() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Vecs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt;T, W, H&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::fromColumns </td>
+          <td>(</td>
+          <td class="paramtype">Vecs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>vecs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6d6d11afcf524f643be76229af53277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d6d11afcf524f643be76229af53277">&#9670;&nbsp;</a></span>fromRows() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Vecs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::fromRows </td>
+          <td>(</td>
+          <td class="paramtype">Vecs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>vecs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a matrix from the given row vectors. </p><dl class="section note"><dt>Note</dt><dd>All vectors must be of the same inner type as the matrix's, and must have a size equal to the matrix's width. </dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Vecs</td><td>Types of the vectors to construct the matrix with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vecs</td><td>Row vectors to construct the matrix with. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a474435d2a202bbb104e6d17f413d5008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474435d2a202bbb104e6d17f413d5008">&#9670;&nbsp;</a></span>fromRows() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Vecs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt;T, W, H&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::fromRows </td>
+          <td>(</td>
+          <td class="paramtype">Vecs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>vecs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -752,7 +854,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -781,19 +883,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a43effe0a9ecd9ec873259bc82973c434"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43effe0a9ecd9ec873259bc82973c434">&#9670;&nbsp;</a></span>identity()</h2>
+<a id="a81e02dbb4debcbff84e31a999a6dbb38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81e02dbb4debcbff84e31a999a6dbb38">&#9670;&nbsp;</a></span>identity()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::identity </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::identity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -805,23 +907,23 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Identity matrix static creation; needs to be called with a square matrix type. </p><dl class="section return"><dt>Returns</dt><dd>Identity matrix. </dd></dl>
+<p>Creates an identity matrix; needs to be called with a square matrix type. </p><dl class="section return"><dt>Returns</dt><dd>Identity matrix. </dd></dl>
 
 </div>
 </div>
-<a id="abadecf8e494b35517470feabbfd38128"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abadecf8e494b35517470feabbfd38128">&#9670;&nbsp;</a></span>inverse()</h2>
+<a id="abcb14cfdb15153cda28e376579eebd4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcb14cfdb15153cda28e376579eebd4c">&#9670;&nbsp;</a></span>inverse()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::inverse </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::inverse </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -872,19 +974,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="af41637d6990e4044fd07d68f3cf80144"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af41637d6990e4044fd07d68f3cf80144">&#9670;&nbsp;</a></span>operator%()</h2>
+<a id="a076797ce0bb29bee030fd1b930502c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a076797ce0bb29bee030fd1b930502c9a">&#9670;&nbsp;</a></span>operator%()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator% </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator% </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -907,19 +1009,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="ab1c1c3a495137cc4a83227be635659e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c1c3a495137cc4a83227be635659e7">&#9670;&nbsp;</a></span>operator%=()</h2>
+<a id="aab25cd18ccb73d4a83841ab544cf82ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab25cd18ccb73d4a83841ab544cf82ff">&#9670;&nbsp;</a></span>operator%=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator%= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator%= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -942,8 +1044,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a1f6d6cc7c95906e7b0b0fbbcadd5745b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f6d6cc7c95906e7b0b0fbbcadd5745b">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+<a id="ae0b9ba4437b89124ab0417870d996cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0b9ba4437b89124ab0417870d996cb4">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -954,7 +1056,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator* </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -977,8 +1079,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a11576106d3de5b550200728f8a62889d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11576106d3de5b550200728f8a62889d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/3]</span></h2>
+<a id="add4800a8f092814561856b87420e44db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4800a8f092814561856b87420e44db">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -989,9 +1091,9 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt;T, H&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt; &amp;&#160;</td>
           <td class="paramname"><em>vec</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1012,8 +1114,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="acd113471019fc9473af55886fadd38d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd113471019fc9473af55886fadd38d7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
+<a id="a158cf8dd6607bb3d28a1d330218922d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158cf8dd6607bb3d28a1d330218922d0">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1026,7 +1128,7 @@ template&lt;std::size_t WI, std::size_t HI&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt;T, H, WI&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, H, WI &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator* </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, WI, HI &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1056,8 +1158,8 @@ template&lt;std::size_t WI, std::size_t HI&gt; </div>
 
 </div>
 </div>
-<a id="a1b3ab1c45f7220d198e768152d4481a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3ab1c45f7220d198e768152d4481a1">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
+<a id="a4492b05164b0dc6a57efe71ec3187970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4492b05164b0dc6a57efe71ec3187970">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1068,7 +1170,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator*= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator*= </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1091,8 +1193,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a5831e6598b131f0a78d15f4752454f1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5831e6598b131f0a78d15f4752454f1a">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
+<a id="a70006254171b3c60255a8609a102713c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70006254171b3c60255a8609a102713c">&#9670;&nbsp;</a></span>operator*=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1103,7 +1205,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator*= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator*= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1126,19 +1228,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a2c8947f4f682c00ede1c68a27885e1be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c8947f4f682c00ede1c68a27885e1be">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+<a id="acec0aa3f17699c6af4405216d12d418d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec0aa3f17699c6af4405216d12d418d">&#9670;&nbsp;</a></span>operator+() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+ </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+ </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1161,8 +1263,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a3c28979e099d7d587279cdb84b7d4457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c28979e099d7d587279cdb84b7d4457">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+<a id="a09217116065ec37abf5de901e6b9e927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09217116065ec37abf5de901e6b9e927">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1173,7 +1275,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+ </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+ </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1196,19 +1298,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="acd8634501cefae678bda5d5cadb6b580"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd8634501cefae678bda5d5cadb6b580">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/2]</span></h2>
+<a id="a08e9383ff01aa616818bc2b06a05f1e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08e9383ff01aa616818bc2b06a05f1e7">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1231,8 +1333,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a9bcd9b9e4f76448abf3095c88e56e36c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bcd9b9e4f76448abf3095c88e56e36c">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/2]</span></h2>
+<a id="a9d5130b0632f19e1aeb164362b6805f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d5130b0632f19e1aeb164362b6805f1">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1243,7 +1345,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator+= </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1266,19 +1368,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a8122eead30c75bb06b49740f5a044d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8122eead30c75bb06b49740f5a044d64">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+<a id="a9ad3c65ba17f23b5b0142ce3c0e96721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad3c65ba17f23b5b0142ce3c0e96721">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator- </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator- </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1301,8 +1403,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="ae0a09185a53d391dcdfb283c70b90e4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0a09185a53d391dcdfb283c70b90e4c">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+<a id="a7badb4038e4f9b29a9638ac1c7a2a437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7badb4038e4f9b29a9638ac1c7a2a437">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1313,7 +1415,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator- </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator- </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1336,19 +1438,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a3896191e4507f82fa01c78058349bd07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3896191e4507f82fa01c78058349bd07">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/2]</span></h2>
+<a id="a8987a1db9fbdf6c6277385e3da222ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8987a1db9fbdf6c6277385e3da222ddf">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator-= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator-= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1371,8 +1473,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a666032ec812550574861bf38ece3c653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a666032ec812550574861bf38ece3c653">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/2]</span></h2>
+<a id="aab03ceefd96aadcc43aa0c9d3b800d12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab03ceefd96aadcc43aa0c9d3b800d12">&#9670;&nbsp;</a></span>operator-=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1383,7 +1485,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator-= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator-= </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1406,19 +1508,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a265d069d25950694f0810305aa2517d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a265d069d25950694f0810305aa2517d1">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+<a id="a68dd4ca89217b536c5998e174e43ccab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68dd4ca89217b536c5998e174e43ccab">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/ </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1441,8 +1543,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a3650dd1e7c3f5c5dbfe27189f91b34f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3650dd1e7c3f5c5dbfe27189f91b34f8">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+<a id="aa677a8c9a22a6bbd538abf52266f7628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa677a8c9a22a6bbd538abf52266f7628">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1453,7 +1555,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a> <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/ </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1476,19 +1578,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a5d545bb54bf8c5efa856ee7401b2328a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d545bb54bf8c5efa856ee7401b2328a">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
+<a id="af9edef785d361ae46670f0d59006f2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9edef785d361ae46670f0d59006f2d0">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp;&#160;</td>
           <td class="paramname"><em>mat</em></td><td>)</td>
@@ -1511,8 +1613,8 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a5dfb9707b3dfe57b37085f64924ef310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dfb9707b3dfe57b37085f64924ef310">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
+<a id="a27f202c6bfe49184064588607f5d5d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27f202c6bfe49184064588607f5d5d1b">&#9670;&nbsp;</a></span>operator/=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1523,7 +1625,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/= </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, W, H &gt; &amp; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::operator/= </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -1610,7 +1712,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1664,7 +1766,11 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Element fetching operator with a single index. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Element fetching operator with a single index. </p><dl class="section warning"><dt>Warning</dt><dd>Matrices being in column-major layout, this must be used with caution. For example, with a 3x3 matrix, the indices are laid out as follows: <pre class="fragment">0 3 6
+1 4 7
+2 5 8
+</pre> For readability and ease of use, you may prefer using <a class="el" href="class_raz_1_1_matrix.html#a20b9ae212f872feb2c69341e2a9d5fa1">getElement()</a> instead. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>Element's index. </td></tr>
   </table>
@@ -1699,7 +1805,11 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Element fetching operator with a single index. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Element fetching operator with a single index. </p><dl class="section warning"><dt>Warning</dt><dd>Matrices being in a column-major layout, this must be used with caution. For example, with a 3x3 matrix, the indices are laid out as follows: <pre class="fragment">0 3 6
+1 4 7
+2 5 8
+</pre> For readability and ease of use, you may prefer using <a class="el" href="class_raz_1_1_matrix.html#a20b9ae212f872feb2c69341e2a9d5fa1">getElement()</a> instead. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>Element's index. </td></tr>
   </table>
@@ -1709,19 +1819,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a755e826fb6eccc29e6d0e453400bc6c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a755e826fb6eccc29e6d0e453400bc6c5">&#9670;&nbsp;</a></span>recoverColumn()</h2>
+<a id="a4ecc276982eb07f3a502a96aa898de9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ecc276982eb07f3a502a96aa898de9b">&#9670;&nbsp;</a></span>recoverColumn()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt;T, H&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::recoverColumn </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, H &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::recoverColumn </td>
           <td>(</td>
           <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>columnIndex</em></td><td>)</td>
@@ -1744,19 +1854,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="ae7692991f8dd82be4963bacaea5d946c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7692991f8dd82be4963bacaea5d946c">&#9670;&nbsp;</a></span>recoverRow()</h2>
+<a id="a60b372441d5149af68b1ccc7833014a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60b372441d5149af68b1ccc7833014a1">&#9670;&nbsp;</a></span>recoverRow()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt;T, W&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::recoverRow </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_vector.html">Vector</a>&lt; T, W &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::recoverRow </td>
           <td>(</td>
           <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>rowIndex</em></td><td>)</td>
@@ -1785,7 +1895,7 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1814,19 +1924,19 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<a id="a8e13499792fa238468ba858a8a173e9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e13499792fa238468ba858a8a173e9b">&#9670;&nbsp;</a></span>transpose()</h2>
+<a id="aac2d47ce6a46b13ff3107ae07ee441db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2d47ce6a46b13ff3107ae07ee441db">&#9670;&nbsp;</a></span>transpose()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
+template&lt;typename T , std::size_t W, std::size_t H&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt;T, H, W&gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::transpose </td>
+          <td class="memname">constexpr <a class="el" href="class_raz_1_1_matrix.html">Matrix</a>&lt; T, H, W &gt; <a class="el" href="class_raz_1_1_matrix.html">Raz::Matrix</a>&lt; T, W, H &gt;::transpose </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1888,8 +1998,9 @@ template&lt;typename T, std::size_t W, std::size_t H&gt; </div>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a></li>
+<li><a class="el" href="_matrix_8inl.html">Matrix.inl</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

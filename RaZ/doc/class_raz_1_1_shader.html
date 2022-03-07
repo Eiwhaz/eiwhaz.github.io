@@ -89,9 +89,12 @@ Inheritance diagram for Raz::Shader:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_raz_1_1_shader__inherit__graph.jpg" border="0" usemap="#_raz_1_1_shader_inherit__map" alt="Inheritance graph"/></div>
 <map name="_raz_1_1_shader_inherit__map" id="_raz_1_1_shader_inherit__map">
-<area shape="rect" id="node2" href="class_raz_1_1_fragment_shader.html" title="Raz::FragmentShader" alt="" coords="5,80,155,107"/>
-<area shape="rect" id="node3" href="class_raz_1_1_geometry_shader.html" title="Raz::GeometryShader" alt="" coords="179,80,330,107"/>
-<area shape="rect" id="node4" href="class_raz_1_1_vertex_shader.html" title="Raz::VertexShader" alt="" coords="354,80,486,107"/>
+<area shape="rect" id="node2" href="class_raz_1_1_compute_shader.html" title="Raz::ComputeShader" alt="" coords="165,5,312,32"/>
+<area shape="rect" id="node3" href="class_raz_1_1_fragment_shader.html" title="Raz::FragmentShader" alt="" coords="164,56,313,83"/>
+<area shape="rect" id="node4" href="class_raz_1_1_geometry_shader.html" title="Raz::GeometryShader" alt="" coords="163,107,314,133"/>
+<area shape="rect" id="node5" href="class_raz_1_1_tessellation_control_shader.html" title="Raz::TessellationControl\lShader" alt="" coords="157,158,320,199"/>
+<area shape="rect" id="node6" href="class_raz_1_1_tessellation_evaluation_shader.html" title="Raz::TessellationEvaluation\lShader" alt="" coords="148,223,329,265"/>
+<area shape="rect" id="node7" href="class_raz_1_1_vertex_shader.html" title="Raz::VertexShader" alt="" coords="173,289,305,316"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -101,20 +104,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab595afbd675fa0545438aa4bb8073462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37a7b355fc8b023727e12b41af6dc32f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a37a7b355fc8b023727e12b41af6dc32f">Shader</a> (<a class="el" href="class_raz_1_1_shader.html">Shader</a> &amp;&amp;shader) noexcept</td></tr>
 <tr class="separator:a37a7b355fc8b023727e12b41af6dc32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0634d9c6bc7aac9080614171c302260"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#ae0634d9c6bc7aac9080614171c302260">getIndex</a> () const</td></tr>
-<tr class="separator:ae0634d9c6bc7aac9080614171c302260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b662c74a429a039fbad448e86301a13"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a2b662c74a429a039fbad448e86301a13">getPath</a> () const</td></tr>
-<tr class="separator:a2b662c74a429a039fbad448e86301a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accfafe296c3d5980561528fcb7bbb74d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#accfafe296c3d5980561528fcb7bbb74d">isValid</a> () const</td></tr>
-<tr class="separator:accfafe296c3d5980561528fcb7bbb74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac16d2f9fa4c76bf440c82ae0e4fa2b71"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#ac16d2f9fa4c76bf440c82ae0e4fa2b71">getIndex</a> () const noexcept</td></tr>
+<tr class="separator:ac16d2f9fa4c76bf440c82ae0e4fa2b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189d5964e0bfe336c7652af6280dcb44"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a189d5964e0bfe336c7652af6280dcb44">getPath</a> () const noexcept</td></tr>
+<tr class="separator:a189d5964e0bfe336c7652af6280dcb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31849907b6271f6872d750a544385593"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a31849907b6271f6872d750a544385593">isValid</a> () const noexcept</td></tr>
+<tr class="separator:a31849907b6271f6872d750a544385593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9dcbaa735c0a13e7579973428b6ec52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#ac9dcbaa735c0a13e7579973428b6ec52">import</a> (<a class="el" href="class_raz_1_1_file_path.html">FilePath</a> filePath)</td></tr>
 <tr class="separator:ac9dcbaa735c0a13e7579973428b6ec52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b2e7f5e14a4d6d3543ede67d5f0530c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a6b2e7f5e14a4d6d3543ede67d5f0530c">load</a> () const</td></tr>
 <tr class="separator:a6b2e7f5e14a4d6d3543ede67d5f0530c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0757d55e20fab834fdeeeae2b7fdfdd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a0757d55e20fab834fdeeeae2b7fdfdd7">compile</a> () const</td></tr>
 <tr class="separator:a0757d55e20fab834fdeeeae2b7fdfdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af180a09cd568df5429cdd84f7811214a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#af180a09cd568df5429cdd84f7811214a">isCompiled</a> () const</td></tr>
-<tr class="separator:af180a09cd568df5429cdd84f7811214a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeddc8b44712056c16370de98f6776895"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#aeddc8b44712056c16370de98f6776895">isCompiled</a> () const noexcept</td></tr>
+<tr class="separator:aeddc8b44712056c16370de98f6776895"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a445004f312a3bc393241c5f94dec61d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#a445004f312a3bc393241c5f94dec61d2">destroy</a> ()</td></tr>
 <tr class="separator:a445004f312a3bc393241c5f94dec61d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafafc2f6606bc21bcf2a22829c1389bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_shader.html">Shader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader.html#aafafc2f6606bc21bcf2a22829c1389bc">operator=</a> (const <a class="el" href="class_raz_1_1_shader.html">Shader</a> &amp;)=delete</td></tr>
@@ -276,8 +279,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae0634d9c6bc7aac9080614171c302260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0634d9c6bc7aac9080614171c302260">&#9670;&nbsp;</a></span>getIndex()</h2>
+<a id="ac16d2f9fa4c76bf440c82ae0e4fa2b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac16d2f9fa4c76bf440c82ae0e4fa2b71">&#9670;&nbsp;</a></span>getIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,15 +297,15 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2b662c74a429a039fbad448e86301a13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b662c74a429a039fbad448e86301a13">&#9670;&nbsp;</a></span>getPath()</h2>
+<a id="a189d5964e0bfe336c7652af6280dcb44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a189d5964e0bfe336c7652af6280dcb44">&#9670;&nbsp;</a></span>getPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +322,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -344,11 +347,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af180a09cd568df5429cdd84f7811214a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af180a09cd568df5429cdd84f7811214a">&#9670;&nbsp;</a></span>isCompiled()</h2>
+<a id="aeddc8b44712056c16370de98f6776895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeddc8b44712056c16370de98f6776895">&#9670;&nbsp;</a></span>isCompiled()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool Raz::Shader::isCompiled </td>
@@ -357,15 +363,23 @@ Protected Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="accfafe296c3d5980561528fcb7bbb74d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accfafe296c3d5980561528fcb7bbb74d">&#9670;&nbsp;</a></span>isValid()</h2>
+<a id="a31849907b6271f6872d750a544385593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31849907b6271f6872d750a544385593">&#9670;&nbsp;</a></span>isValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool Raz::Shader::isValid </td>
@@ -374,6 +388,11 @@ Protected Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

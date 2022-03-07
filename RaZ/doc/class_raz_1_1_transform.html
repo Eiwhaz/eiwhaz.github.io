@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aba482d9f368f8baa29146acb91742cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fd52991f92b47be7d7fa32b1d359d52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_transform.html#a2fd52991f92b47be7d7fa32b1d359d52">rotate</a> (<a class="el" href="namespace_raz.html#a25ac78b10060851c32660ce1388735dd">Radiansf</a> xAngle, <a class="el" href="namespace_raz.html#a25ac78b10060851c32660ce1388735dd">Radiansf</a> yAngle, <a class="el" href="namespace_raz.html#a25ac78b10060851c32660ce1388735dd">Radiansf</a> zAngle)</td></tr>
 <tr class="separator:a2fd52991f92b47be7d7fa32b1d359d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df8f97c8bcf655b13ca16edef53d839"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_transform.html#a4df8f97c8bcf655b13ca16edef53d839">rotate</a> (const <a class="el" href="namespace_raz.html#af7548f038dd710bf0f6fd51f171ae79d">Quaternionf</a> &amp;rotation)</td></tr>
+<tr class="separator:a4df8f97c8bcf655b13ca16edef53d839"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f7503b276f6dade05d01625bb3acf22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_transform.html#a2f7503b276f6dade05d01625bb3acf22">rotate</a> (<a class="el" href="namespace_raz.html#a25ac78b10060851c32660ce1388735dd">Radiansf</a> angle, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;axis)</td></tr>
 <tr class="separator:a2f7503b276f6dade05d01625bb3acf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe326ea4398c2b97c3289acd58093035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_transform.html#abe326ea4398c2b97c3289acd58093035">scale</a> (float x, float y, float z)</td></tr>
@@ -440,7 +442,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aba482d9f368f8baa29146acb91742cce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba482d9f368f8baa29146acb91742cce">&#9670;&nbsp;</a></span>rotate() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba482d9f368f8baa29146acb91742cce">&#9670;&nbsp;</a></span>rotate() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -475,7 +477,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a2fd52991f92b47be7d7fa32b1d359d52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fd52991f92b47be7d7fa32b1d359d52">&#9670;&nbsp;</a></span>rotate() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fd52991f92b47be7d7fa32b1d359d52">&#9670;&nbsp;</a></span>rotate() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,8 +518,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a4df8f97c8bcf655b13ca16edef53d839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df8f97c8bcf655b13ca16edef53d839">&#9670;&nbsp;</a></span>rotate() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Transform::rotate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#af7548f038dd710bf0f6fd51f171ae79d">Quaternionf</a> &amp;&#160;</td>
+          <td class="paramname"><em>rotation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Rotates by the given quaternion. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rotation</td><td>Rotation quaternion to rotate by. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2f7503b276f6dade05d01625bb3acf22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f7503b276f6dade05d01625bb3acf22">&#9670;&nbsp;</a></span>rotate() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f7503b276f6dade05d01625bb3acf22">&#9670;&nbsp;</a></span>rotate() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -914,7 +940,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Translates by the given values in absolute coordinates (doesn't take rotation into account). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Translates by the given values in absolute coordinates (does not take rotation into account). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>Value of X to be translated by. </td></tr>
     <tr><td class="paramname">y</td><td>Value of Y to be translated by. </td></tr>
@@ -948,7 +974,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Translates by the given values in absolute coordinates (doesn't take rotation into account). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Translates by the given values in absolute coordinates (does not take rotation into account). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">displacement</td><td>Displacement to be translated by. </td></tr>
   </table>

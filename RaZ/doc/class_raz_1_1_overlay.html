@@ -75,7 +75,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_raz_1_1_overlay-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Raz::Overlay Class Reference</div>  </div>
@@ -99,8 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54a9b31c7b714ededa20a833b865b5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11738597adb58c8ec59db960ed8b12c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#a11738597adb58c8ec59db960ed8b12c2">initialize</a> (GLFWwindow *windowHandle) const</td></tr>
 <tr class="separator:a11738597adb58c8ec59db960ed8b12c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2607acb24fcb90b99585134314b9181"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_window.html">OverlayWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#ab2607acb24fcb90b99585134314b9181">addWindow</a> (std::string title)</td></tr>
-<tr class="separator:ab2607acb24fcb90b99585134314b9181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ae9c93a21cf0709958bd836aa43867"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_window.html">OverlayWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#ac1ae9c93a21cf0709958bd836aa43867">addWindow</a> (std::string title, const <a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a> &amp;initSize=<a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a>(0.f), const <a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a> &amp;initPos=<a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a>(0.f))</td></tr>
+<tr class="separator:ac1ae9c93a21cf0709958bd836aa43867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80582aca11e8d2244b5f8272cca6a18f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#a80582aca11e8d2244b5f8272cca6a18f">hasKeyboardFocus</a> () const</td></tr>
 <tr class="separator:a80582aca11e8d2244b5f8272cca6a18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc8fbba50abbfa949365a188965dc9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#a5fc8fbba50abbfa949365a188965dc9e">hasMouseFocus</a> () const</td></tr>
@@ -115,12 +114,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac67fb9c5efcf0d879042eb7d9d7ce610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5e76eb2fbbe11ff42c5b22ccfdc049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay.html">Overlay</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#a7a5e76eb2fbbe11ff42c5b22ccfdc049">operator=</a> (<a class="el" href="class_raz_1_1_overlay.html">Overlay</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a7a5e76eb2fbbe11ff42c5b22ccfdc049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa221862f372c0ef65509a943f80a6a7d"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:aa221862f372c0ef65509a943f80a6a7d"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="namespace_raz.html#a69b127818bb33fbabe7e46a86024ad5d">OverlayPtr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay.html#aa221862f372c0ef65509a943f80a6a7d">create</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:aa221862f372c0ef65509a943f80a6a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_overlay.html" title="Overlay class, used to render GUI elements (labels, buttons, checkboxes, ...) into a Window...">Overlay</a> class, used to render GUI elements (labels, buttons, checkboxes, ...) into a <a class="el" href="class_raz_1_1_window.html" title="Graphical window to render the scenes on, with input custom actions. ">Window</a>. </p>
@@ -203,8 +196,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab2607acb24fcb90b99585134314b9181"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2607acb24fcb90b99585134314b9181">&#9670;&nbsp;</a></span>addWindow()</h2>
+<a id="ac1ae9c93a21cf0709958bd836aa43867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ae9c93a21cf0709958bd836aa43867">&#9670;&nbsp;</a></span>addWindow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,46 +206,36 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="class_raz_1_1_overlay_window.html">OverlayWindow</a> &amp; Raz::Overlay::addWindow </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>title</em></td><td>)</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>initSize</em> = <code><a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a>(0.f)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>initPos</em> = <code><a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a>(0.f)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Adds a new overlay window. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">title</td><td><a class="el" href="class_raz_1_1_window.html" title="Graphical window to render the scenes on, with input custom actions. ">Window</a> title. </td></tr>
+    <tr><td class="paramname">initSize</td><td>Initial window size. If both X &amp; Y are strictly lower than 0, automatically resizes the window from its content. </td></tr>
+    <tr><td class="paramname">initPos</td><td>Initial window position. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The newly added window. </dd></dl>
-
-</div>
-</div>
-<a id="aa221862f372c0ef65509a943f80a6a7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa221862f372c0ef65509a943f80a6a7d">&#9670;&nbsp;</a></span>create()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="namespace_raz.html#a69b127818bb33fbabe7e46a86024ad5d">OverlayPtr</a> Raz::Overlay::create </td>
-          <td>(</td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

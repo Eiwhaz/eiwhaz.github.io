@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['goldenratio',['GoldenRatio',['../namespace_raz.html#afd68b14a3d5765cf769c8bc2327db765',1,'Raz']]]
+  ['isvalid',['isValid',['../_wav_load_8cpp.html#a8cc8d1cb67b70386f41455552f3a56f4',1,'WavLoad.cpp']]]
 ];

@@ -75,9 +75,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_raz_1_1_shader_program-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Raz::ShaderProgram Class Reference</div>  </div>
+<div class="title">Raz::ShaderProgram Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -85,37 +86,32 @@ $(function() {
  <a href="class_raz_1_1_shader_program.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_shader_program_8hpp_source.html">ShaderProgram.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Raz::ShaderProgram:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_raz_1_1_shader_program__inherit__graph.jpg" border="0" usemap="#_raz_1_1_shader_program_inherit__map" alt="Inheritance graph"/></div>
+<map name="_raz_1_1_shader_program_inherit__map" id="_raz_1_1_shader_program_inherit__map">
+<area shape="rect" id="node2" href="class_raz_1_1_compute_shader_program.html" title="Raz::ComputeShaderProgram" alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node3" href="class_raz_1_1_render_shader_program.html" title="Raz::RenderShaderProgram" alt="" coords="224,80,408,107"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a014d7b6eaca97e0552d3bd986b88ebee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a014d7b6eaca97e0552d3bd986b88ebee">ShaderProgram</a> ()</td></tr>
 <tr class="separator:a014d7b6eaca97e0552d3bd986b88ebee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8d4f98ab19c237e0e9a7b4deb1b0506"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#ac8d4f98ab19c237e0e9a7b4deb1b0506">ShaderProgram</a> (<a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;vertShader, <a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;fragShader)</td></tr>
-<tr class="separator:ac8d4f98ab19c237e0e9a7b4deb1b0506"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37228e933e22695f5ec52b2b72cef467"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a37228e933e22695f5ec52b2b72cef467">ShaderProgram</a> (<a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;vertShader, <a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;fragShader, <a class="el" href="class_raz_1_1_geometry_shader.html">GeometryShader</a> &amp;&amp;geomShader)</td></tr>
-<tr class="separator:a37228e933e22695f5ec52b2b72cef467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e76d5c6c238869321dcb6a5da06318"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a20e76d5c6c238869321dcb6a5da06318">ShaderProgram</a> (const <a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;)=delete</td></tr>
 <tr class="separator:a20e76d5c6c238869321dcb6a5da06318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b4132554ef4178b85095acef7ceb71a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a2b4132554ef4178b85095acef7ceb71a">ShaderProgram</a> (<a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;&amp;program) noexcept</td></tr>
 <tr class="separator:a2b4132554ef4178b85095acef7ceb71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b54fd2ca0a56615402ef1791744448"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a82b54fd2ca0a56615402ef1791744448">getIndex</a> () const</td></tr>
 <tr class="separator:a82b54fd2ca0a56615402ef1791744448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a124af9f0c1f29b9b8ac1049847c2bb12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a124af9f0c1f29b9b8ac1049847c2bb12">setVertexShader</a> (<a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;vertShader)</td></tr>
-<tr class="separator:a124af9f0c1f29b9b8ac1049847c2bb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad18637bcf80e638b2ba1006f77ba64c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#ad18637bcf80e638b2ba1006f77ba64c0">setGeometryShader</a> (<a class="el" href="class_raz_1_1_geometry_shader.html">GeometryShader</a> &amp;&amp;geomShader)</td></tr>
-<tr class="separator:ad18637bcf80e638b2ba1006f77ba64c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a441e7c0c38f82bf8b7730572334479d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a441e7c0c38f82bf8b7730572334479d6">setFragmentShader</a> (<a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;fragShader)</td></tr>
-<tr class="separator:a441e7c0c38f82bf8b7730572334479d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8776784fd4c5623e4df7a0a07cd510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#aeb8776784fd4c5623e4df7a0a07cd510">setShaders</a> (<a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;vertShader, <a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;fragShader)</td></tr>
-<tr class="separator:aeb8776784fd4c5623e4df7a0a07cd510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ae29fd9014e2ee3c1c5d8d53fd8b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a90ae29fd9014e2ee3c1c5d8d53fd8b66">setShaders</a> (<a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;vertShader, <a class="el" href="class_raz_1_1_geometry_shader.html">GeometryShader</a> &amp;&amp;geomShader, <a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;fragShader)</td></tr>
-<tr class="separator:a90ae29fd9014e2ee3c1c5d8d53fd8b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403648ba423aad9ea0d5de1aaea2486b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a403648ba423aad9ea0d5de1aaea2486b">loadShaders</a> () const</td></tr>
-<tr class="memdesc:a403648ba423aad9ea0d5de1aaea2486b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the shaders contained by the program.  <a href="#a403648ba423aad9ea0d5de1aaea2486b">More...</a><br /></td></tr>
-<tr class="separator:a403648ba423aad9ea0d5de1aaea2486b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a88b2af4eeeceb8335abe9a14b4a37b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a8a88b2af4eeeceb8335abe9a14b4a37b">compileShaders</a> () const</td></tr>
-<tr class="memdesc:a8a88b2af4eeeceb8335abe9a14b4a37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles all the shaders contained by the program.  <a href="#a8a88b2af4eeeceb8335abe9a14b4a37b">More...</a><br /></td></tr>
-<tr class="separator:a8a88b2af4eeeceb8335abe9a14b4a37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e82df296f7fc61fe1679868d252270"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a32e82df296f7fc61fe1679868d252270">loadShaders</a> () const =0</td></tr>
+<tr class="memdesc:a32e82df296f7fc61fe1679868d252270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all the shaders contained by the program.  <a href="#a32e82df296f7fc61fe1679868d252270">More...</a><br /></td></tr>
+<tr class="separator:a32e82df296f7fc61fe1679868d252270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4750be2713b307cc9807d03d97931e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#add4750be2713b307cc9807d03d97931e">compileShaders</a> () const =0</td></tr>
+<tr class="memdesc:add4750be2713b307cc9807d03d97931e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles all the shaders contained by the program.  <a href="#add4750be2713b307cc9807d03d97931e">More...</a><br /></td></tr>
+<tr class="separator:add4750be2713b307cc9807d03d97931e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00f4d42c123a5e31e7b4b68b06d88952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a00f4d42c123a5e31e7b4b68b06d88952">link</a> () const</td></tr>
 <tr class="memdesc:a00f4d42c123a5e31e7b4b68b06d88952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Links the program to the graphics card.  <a href="#a00f4d42c123a5e31e7b4b68b06d88952">More...</a><br /></td></tr>
 <tr class="separator:a00f4d42c123a5e31e7b4b68b06d88952"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +136,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf5a75185a9a46500994fc063f636a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d13ccbdc3e8863cafc02bb42ba86f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a36d13ccbdc3e8863cafc02bb42ba86f6">sendUniform</a> (int uniformIndex, float value) const</td></tr>
 <tr class="separator:a36d13ccbdc3e8863cafc02bb42ba86f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5092de46a77be8dc75f14eb7d1ecf095"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a5092de46a77be8dc75f14eb7d1ecf095">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#aa02aa002be09476552ceb2af857536b5">Vec2i</a> &amp;vec) const</td></tr>
+<tr class="separator:a5092de46a77be8dc75f14eb7d1ecf095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312428b1267f6c9290fd781650be9a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a312428b1267f6c9290fd781650be9a80">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#a877c2c6bc8800fd312dfd7522c6f3fe6">Vec3i</a> &amp;vec) const</td></tr>
+<tr class="separator:a312428b1267f6c9290fd781650be9a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4e9a14c1833b36e4047378303c2cdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a9d4e9a14c1833b36e4047378303c2cdc">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#a13b30239d404bf0eaf4cd5b83c04626b">Vec4i</a> &amp;vec) const</td></tr>
+<tr class="separator:a9d4e9a14c1833b36e4047378303c2cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e6bd76807836d60a5918cb3f20cb14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a04e6bd76807836d60a5918cb3f20cb14">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#acb06c18685e512d2112070f4d10d4848">Vec2u</a> &amp;vec) const</td></tr>
+<tr class="separator:a04e6bd76807836d60a5918cb3f20cb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8178b66a7d0fc5e1e8a858ad65bd2b53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a8178b66a7d0fc5e1e8a858ad65bd2b53">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#a4e7f12189bc5ad38413bb019da9e5aa8">Vec3u</a> &amp;vec) const</td></tr>
+<tr class="separator:a8178b66a7d0fc5e1e8a858ad65bd2b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbcc7648c2b6166eac9bb7343d2e7d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a4dbcc7648c2b6166eac9bb7343d2e7d8">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#aa578e22aa48eb1a0d1d88a71c6c88a7f">Vec4u</a> &amp;vec) const</td></tr>
+<tr class="separator:a4dbcc7648c2b6166eac9bb7343d2e7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ff92d996bdfe97561b3168126f5769a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a8ff92d996bdfe97561b3168126f5769a">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a> &amp;vec) const</td></tr>
 <tr class="separator:a8ff92d996bdfe97561b3168126f5769a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80d51df96b71198ec7c9c1613fd71684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a80d51df96b71198ec7c9c1613fd71684">sendUniform</a> (int uniformIndex, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;vec) const</td></tr>
@@ -158,6 +166,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af19a7185b15b05e226f3109cac8187d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12ecda41d1c2eff7a27f18431b9f2040"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a12ecda41d1c2eff7a27f18431b9f2040">sendUniform</a> (const std::string &amp;uniformName, float value) const</td></tr>
 <tr class="separator:a12ecda41d1c2eff7a27f18431b9f2040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab55d8ca0a659c1898f56071069d72d27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#ab55d8ca0a659c1898f56071069d72d27">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#aa02aa002be09476552ceb2af857536b5">Vec2i</a> &amp;vec) const</td></tr>
+<tr class="separator:ab55d8ca0a659c1898f56071069d72d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86665cc757644d755decaee665c4d33f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a86665cc757644d755decaee665c4d33f">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#a877c2c6bc8800fd312dfd7522c6f3fe6">Vec3i</a> &amp;vec) const</td></tr>
+<tr class="separator:a86665cc757644d755decaee665c4d33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5ffa3e29d73e0fe963f4f990f28795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#aee5ffa3e29d73e0fe963f4f990f28795">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#a13b30239d404bf0eaf4cd5b83c04626b">Vec4i</a> &amp;vec) const</td></tr>
+<tr class="separator:aee5ffa3e29d73e0fe963f4f990f28795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc58f9772446393e416860e9f29d2def"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#adc58f9772446393e416860e9f29d2def">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#acb06c18685e512d2112070f4d10d4848">Vec2u</a> &amp;vec) const</td></tr>
+<tr class="separator:adc58f9772446393e416860e9f29d2def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001531998164927b89182c72d8f9b835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a001531998164927b89182c72d8f9b835">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#a4e7f12189bc5ad38413bb019da9e5aa8">Vec3u</a> &amp;vec) const</td></tr>
+<tr class="separator:a001531998164927b89182c72d8f9b835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18b931931743ee607c3126cf4c3cad45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a18b931931743ee607c3126cf4c3cad45">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#aa578e22aa48eb1a0d1d88a71c6c88a7f">Vec4u</a> &amp;vec) const</td></tr>
+<tr class="separator:a18b931931743ee607c3126cf4c3cad45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00015b267baf43dd25fab7a459052e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a00015b267baf43dd25fab7a459052e7e">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#a46e99816551c0994a6a85f1c14fca3fa">Vec2f</a> &amp;vec) const</td></tr>
 <tr class="separator:a00015b267baf43dd25fab7a459052e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f1816e7fca26e48fbcfdcd2b81c6584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a0f1816e7fca26e48fbcfdcd2b81c6584">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;vec) const</td></tr>
@@ -170,27 +190,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af3875ea9b8e2228bc77f657aa077ea73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3919fe941a95bc277df188d9132da013"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a3919fe941a95bc277df188d9132da013">sendUniform</a> (const std::string &amp;uniformName, const <a class="el" href="namespace_raz.html#a19ad2645471e6206dbc89936d89c3157">Mat4f</a> &amp;mat) const</td></tr>
 <tr class="separator:a3919fe941a95bc277df188d9132da013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8ebb30021b88e9f295c2a1d434bb3f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#af8ebb30021b88e9f295c2a1d434bb3f7">destroyVertexShader</a> ()</td></tr>
-<tr class="memdesc:af8ebb30021b88e9f295c2a1d434bb3f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the vertex shader, detaching it from the program &amp; deleting it.  <a href="#af8ebb30021b88e9f295c2a1d434bb3f7">More...</a><br /></td></tr>
-<tr class="separator:af8ebb30021b88e9f295c2a1d434bb3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a845ee4f0c8e3fe39aeabe3ece07f026d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a845ee4f0c8e3fe39aeabe3ece07f026d">destroyGeometryShader</a> ()</td></tr>
-<tr class="memdesc:a845ee4f0c8e3fe39aeabe3ece07f026d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the geometry shader (if any), detaching it from the program &amp; deleting it.  <a href="#a845ee4f0c8e3fe39aeabe3ece07f026d">More...</a><br /></td></tr>
-<tr class="separator:a845ee4f0c8e3fe39aeabe3ece07f026d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5c1a75ab214e2a32937268146b82e67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#ac5c1a75ab214e2a32937268146b82e67">destroyFragmentShader</a> ()</td></tr>
-<tr class="memdesc:ac5c1a75ab214e2a32937268146b82e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the fragment shader, detaching it from the program &amp; deleting it.  <a href="#ac5c1a75ab214e2a32937268146b82e67">More...</a><br /></td></tr>
-<tr class="separator:ac5c1a75ab214e2a32937268146b82e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6bccc46a8a72a24fee93904bfeef07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#aab6bccc46a8a72a24fee93904bfeef07">operator=</a> (const <a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;)=delete</td></tr>
 <tr class="separator:aab6bccc46a8a72a24fee93904bfeef07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb8929ca8bbe6c33c40bc7600780d31c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#aeb8929ca8bbe6c33c40bc7600780d31c">operator=</a> (<a class="el" href="class_raz_1_1_shader_program.html">ShaderProgram</a> &amp;&amp;program) noexcept</td></tr>
 <tr class="separator:aeb8929ca8bbe6c33c40bc7600780d31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead3b716b4cfd1e4511542a018e11248"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#aead3b716b4cfd1e4511542a018e11248">~ShaderProgram</a> ()</td></tr>
+<tr class="memitem:aead3b716b4cfd1e4511542a018e11248"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#aead3b716b4cfd1e4511542a018e11248">~ShaderProgram</a> ()</td></tr>
 <tr class="separator:aead3b716b4cfd1e4511542a018e11248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a14d9708a4cae1e2a569ae095eb60af28"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_shader_program.html#a14d9708a4cae1e2a569ae095eb60af28">m_index</a> {}</td></tr>
+<tr class="separator:a14d9708a4cae1e2a569ae095eb60af28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_raz_1_1_shader_program.html" title="ShaderProgram class, holding shaders &amp; handling data transmission to the graphics card with uniforms...">ShaderProgram</a> class, holding shaders &amp; handling data transmission to the graphics card with uniforms. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a014d7b6eaca97e0552d3bd986b88ebee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a014d7b6eaca97e0552d3bd986b88ebee">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a014d7b6eaca97e0552d3bd986b88ebee">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,86 +222,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac8d4f98ab19c237e0e9a7b4deb1b0506"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8d4f98ab19c237e0e9a7b4deb1b0506">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::ShaderProgram::ShaderProgram </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>vertShader</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>fragShader</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a37228e933e22695f5ec52b2b72cef467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37228e933e22695f5ec52b2b72cef467">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::ShaderProgram::ShaderProgram </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>vertShader</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>fragShader</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_geometry_shader.html">GeometryShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>geomShader</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a20e76d5c6c238869321dcb6a5da06318"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20e76d5c6c238869321dcb6a5da06318">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e76d5c6c238869321dcb6a5da06318">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +249,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2b4132554ef4178b85095acef7ceb71a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b4132554ef4178b85095acef7ceb71a">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b4132554ef4178b85095acef7ceb71a">&#9670;&nbsp;</a></span>ShaderProgram() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -341,6 +279,9 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Raz::ShaderProgram::~ShaderProgram </td>
@@ -349,27 +290,42 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8a88b2af4eeeceb8335abe9a14b4a37b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a88b2af4eeeceb8335abe9a14b4a37b">&#9670;&nbsp;</a></span>compileShaders()</h2>
+<a id="add4750be2713b307cc9807d03d97931e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4750be2713b307cc9807d03d97931e">&#9670;&nbsp;</a></span>compileShaders()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Raz::ShaderProgram::compileShaders </td>
+          <td class="memname">virtual void Raz::ShaderProgram::compileShaders </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Compiles all the shaders contained by the program. </p>
+
+<p>Implemented in <a class="el" href="class_raz_1_1_compute_shader_program.html#ae69bcbc76b6b90722e47825dca4af01b">Raz::ComputeShaderProgram</a>, and <a class="el" href="class_raz_1_1_render_shader_program.html#ab526e71fe6637ff7656a12ad992d53f4">Raz::RenderShaderProgram</a>.</p>
 
 </div>
 </div>
@@ -394,63 +350,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ac5c1a75ab214e2a32937268146b82e67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5c1a75ab214e2a32937268146b82e67">&#9670;&nbsp;</a></span>destroyFragmentShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::destroyFragmentShader </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroys the fragment shader, detaching it from the program &amp; deleting it. </p>
-
-</div>
-</div>
-<a id="a845ee4f0c8e3fe39aeabe3ece07f026d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a845ee4f0c8e3fe39aeabe3ece07f026d">&#9670;&nbsp;</a></span>destroyGeometryShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::destroyGeometryShader </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroys the geometry shader (if any), detaching it from the program &amp; deleting it. </p>
-
-</div>
-</div>
-<a id="af8ebb30021b88e9f295c2a1d434bb3f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8ebb30021b88e9f295c2a1d434bb3f7">&#9670;&nbsp;</a></span>destroyVertexShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::destroyVertexShader </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroys the vertex shader, detaching it from the program &amp; deleting it. </p>
 
 </div>
 </div>
@@ -535,22 +434,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a403648ba423aad9ea0d5de1aaea2486b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a403648ba423aad9ea0d5de1aaea2486b">&#9670;&nbsp;</a></span>loadShaders()</h2>
+<a id="a32e82df296f7fc61fe1679868d252270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e82df296f7fc61fe1679868d252270">&#9670;&nbsp;</a></span>loadShaders()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Raz::ShaderProgram::loadShaders </td>
+          <td class="memname">virtual void Raz::ShaderProgram::loadShaders </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Loads all the shaders contained by the program. </p>
+
+<p>Implemented in <a class="el" href="class_raz_1_1_compute_shader_program.html#a32f2200ad0ee172b420ed549f14c85dc">Raz::ComputeShaderProgram</a>, and <a class="el" href="class_raz_1_1_render_shader_program.html#acbeb164bd421b2bfbdaed57b5fe5cf3c">Raz::RenderShaderProgram</a>.</p>
 
 </div>
 </div>
@@ -634,7 +543,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ab635ae62ee76e03fe878efcc69774b1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab635ae62ee76e03fe878efcc69774b1c">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[1/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab635ae62ee76e03fe878efcc69774b1c">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[1/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -669,7 +578,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aaf5a75185a9a46500994fc063f636a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf5a75185a9a46500994fc063f636a24">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[2/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5a75185a9a46500994fc063f636a24">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[2/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -704,7 +613,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a36d13ccbdc3e8863cafc02bb42ba86f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d13ccbdc3e8863cafc02bb42ba86f6">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[3/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d13ccbdc3e8863cafc02bb42ba86f6">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[3/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -738,8 +647,218 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5092de46a77be8dc75f14eb7d1ecf095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5092de46a77be8dc75f14eb7d1ecf095">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[4/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uniformIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa02aa002be09476552ceb2af857536b5">Vec2i</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sends an integer 2D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformIndex</td><td>Index of the uniform to send the vector's data to. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a312428b1267f6c9290fd781650be9a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312428b1267f6c9290fd781650be9a80">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[5/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uniformIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a877c2c6bc8800fd312dfd7522c6f3fe6">Vec3i</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sends an integer 3D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformIndex</td><td>Index of the uniform to send the vector's data to. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9d4e9a14c1833b36e4047378303c2cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d4e9a14c1833b36e4047378303c2cdc">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[6/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uniformIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a13b30239d404bf0eaf4cd5b83c04626b">Vec4i</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sends an integer 4D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformIndex</td><td>Index of the uniform to send the vector's data to. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a04e6bd76807836d60a5918cb3f20cb14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e6bd76807836d60a5918cb3f20cb14">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[7/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uniformIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#acb06c18685e512d2112070f4d10d4848">Vec2u</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sends an unsigned integer 2D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformIndex</td><td>Index of the uniform to send the vector's data to. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8178b66a7d0fc5e1e8a858ad65bd2b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8178b66a7d0fc5e1e8a858ad65bd2b53">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[8/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uniformIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a4e7f12189bc5ad38413bb019da9e5aa8">Vec3u</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sends an unsigned integer 3D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformIndex</td><td>Index of the uniform to send the vector's data to. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4dbcc7648c2b6166eac9bb7343d2e7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dbcc7648c2b6166eac9bb7343d2e7d8">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[9/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uniformIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa578e22aa48eb1a0d1d88a71c6c88a7f">Vec4u</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sends an unsigned integer 4D vector as uniform. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformIndex</td><td>Index of the uniform to send the vector's data to. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8ff92d996bdfe97561b3168126f5769a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ff92d996bdfe97561b3168126f5769a">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[4/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ff92d996bdfe97561b3168126f5769a">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[10/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -774,7 +893,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a80d51df96b71198ec7c9c1613fd71684"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80d51df96b71198ec7c9c1613fd71684">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[5/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d51df96b71198ec7c9c1613fd71684">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[11/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -809,7 +928,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af7abdb4d390589239e18c30c6747021e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7abdb4d390589239e18c30c6747021e">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[6/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af7abdb4d390589239e18c30c6747021e">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[12/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -844,7 +963,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4d8621d3a7efe0ded7e560f682a4991e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d8621d3a7efe0ded7e560f682a4991e">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[7/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8621d3a7efe0ded7e560f682a4991e">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[13/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -879,7 +998,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2a5779ec9c4f1d0df3146456664dcd8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a5779ec9c4f1d0df3146456664dcd8f">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[8/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a5779ec9c4f1d0df3146456664dcd8f">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[14/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -914,7 +1033,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a83d0e0125b606c8874ecad6a79afc649"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83d0e0125b606c8874ecad6a79afc649">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[9/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a83d0e0125b606c8874ecad6a79afc649">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[15/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -949,7 +1068,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af3f137b6f7479195927cc75f8cecdeef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f137b6f7479195927cc75f8cecdeef">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[10/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3f137b6f7479195927cc75f8cecdeef">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[16/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -992,7 +1111,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af19a7185b15b05e226f3109cac8187d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af19a7185b15b05e226f3109cac8187d8">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[11/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af19a7185b15b05e226f3109cac8187d8">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[17/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1035,7 +1154,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a12ecda41d1c2eff7a27f18431b9f2040"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12ecda41d1c2eff7a27f18431b9f2040">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[12/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a12ecda41d1c2eff7a27f18431b9f2040">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[18/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1077,8 +1196,266 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab55d8ca0a659c1898f56071069d72d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab55d8ca0a659c1898f56071069d72d27">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[19/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa02aa002be09476552ceb2af857536b5">Vec2i</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an integer 2D vector as uniform, which location will be retrieved with its name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Name of the uniform to retrieve the location from. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a86665cc757644d755decaee665c4d33f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86665cc757644d755decaee665c4d33f">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[20/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a877c2c6bc8800fd312dfd7522c6f3fe6">Vec3i</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an integer 3D vector as uniform, which location will be retrieved with its name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Name of the uniform to retrieve the location from. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee5ffa3e29d73e0fe963f4f990f28795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee5ffa3e29d73e0fe963f4f990f28795">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[21/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a13b30239d404bf0eaf4cd5b83c04626b">Vec4i</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an integer 4D vector as uniform, which location will be retrieved with its name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Name of the uniform to retrieve the location from. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adc58f9772446393e416860e9f29d2def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc58f9772446393e416860e9f29d2def">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[22/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#acb06c18685e512d2112070f4d10d4848">Vec2u</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an unsigned integer 2D vector as uniform, which location will be retrieved with its name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Name of the uniform to retrieve the location from. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a001531998164927b89182c72d8f9b835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001531998164927b89182c72d8f9b835">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[23/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a4e7f12189bc5ad38413bb019da9e5aa8">Vec3u</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an unsigned integer 3D vector as uniform, which location will be retrieved with its name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Name of the uniform to retrieve the location from. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a18b931931743ee607c3126cf4c3cad45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b931931743ee607c3126cf4c3cad45">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[24/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::ShaderProgram::sendUniform </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa578e22aa48eb1a0d1d88a71c6c88a7f">Vec4u</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an unsigned integer 4D vector as uniform, which location will be retrieved with its name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Name of the uniform to retrieve the location from. </td></tr>
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be sent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a00015b267baf43dd25fab7a459052e7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00015b267baf43dd25fab7a459052e7e">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[13/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a00015b267baf43dd25fab7a459052e7e">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[25/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1121,7 +1498,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a0f1816e7fca26e48fbcfdcd2b81c6584"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f1816e7fca26e48fbcfdcd2b81c6584">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[14/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f1816e7fca26e48fbcfdcd2b81c6584">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[26/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1164,7 +1541,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a14a129c8875fa62e97b8323b958bb539"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14a129c8875fa62e97b8323b958bb539">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[15/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a14a129c8875fa62e97b8323b958bb539">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[27/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1207,7 +1584,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="afd21ee77300011384b515f68e1a5917d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd21ee77300011384b515f68e1a5917d">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[16/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afd21ee77300011384b515f68e1a5917d">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[28/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1250,7 +1627,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af3875ea9b8e2228bc77f657aa077ea73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3875ea9b8e2228bc77f657aa077ea73">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[17/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3875ea9b8e2228bc77f657aa077ea73">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[29/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1293,7 +1670,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3919fe941a95bc277df188d9132da013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3919fe941a95bc277df188d9132da013">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[18/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3919fe941a95bc277df188d9132da013">&#9670;&nbsp;</a></span>sendUniform() <span class="overload">[30/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1335,122 +1712,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a441e7c0c38f82bf8b7730572334479d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a441e7c0c38f82bf8b7730572334479d6">&#9670;&nbsp;</a></span>setFragmentShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::setFragmentShader </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>fragShader</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad18637bcf80e638b2ba1006f77ba64c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad18637bcf80e638b2ba1006f77ba64c0">&#9670;&nbsp;</a></span>setGeometryShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::setGeometryShader </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_geometry_shader.html">GeometryShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>geomShader</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeb8776784fd4c5623e4df7a0a07cd510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8776784fd4c5623e4df7a0a07cd510">&#9670;&nbsp;</a></span>setShaders() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::setShaders </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>vertShader</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>fragShader</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a90ae29fd9014e2ee3c1c5d8d53fd8b66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ae29fd9014e2ee3c1c5d8d53fd8b66">&#9670;&nbsp;</a></span>setShaders() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::setShaders </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>vertShader</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_geometry_shader.html">GeometryShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>geomShader</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_fragment_shader.html">FragmentShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>fragShader</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a124af9f0c1f29b9b8ac1049847c2bb12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a124af9f0c1f29b9b8ac1049847c2bb12">&#9670;&nbsp;</a></span>setVertexShader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::ShaderProgram::setVertexShader </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_raz_1_1_vertex_shader.html">VertexShader</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>vertShader</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="afd48623e8a6333818ed3f547cf0a222b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd48623e8a6333818ed3f547cf0a222b">&#9670;&nbsp;</a></span>updateShaders()</h2>
 
@@ -1486,6 +1747,29 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tells the graphics card to use the program. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a14d9708a4cae1e2a569ae095eb60af28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d9708a4cae1e2a569ae095eb60af28">&#9670;&nbsp;</a></span>m_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Raz::ShaderProgram::m_index {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -2,7 +2,8 @@ var searchData=
 [
   ['texture_2ecpp',['Texture.cpp',['../_texture_8cpp.html',1,'']]],
   ['texture_2ehpp',['Texture.hpp',['../_texture_8hpp.html',1,'']]],
-  ['tgaimage_2ecpp',['TgaImage.cpp',['../_tga_image_8cpp.html',1,'']]],
+  ['tgaformat_2ecpp',['TgaFormat.cpp',['../_tga_format_8cpp.html',1,'']]],
+  ['tgaformat_2ehpp',['TgaFormat.hpp',['../_tga_format_8hpp.html',1,'']]],
   ['threading_2ecpp',['Threading.cpp',['../_threading_8cpp.html',1,'']]],
   ['threading_2ehpp',['Threading.hpp',['../_threading_8hpp.html',1,'']]],
   ['threading_2einl',['Threading.inl',['../_threading_8inl.html',1,'']]],

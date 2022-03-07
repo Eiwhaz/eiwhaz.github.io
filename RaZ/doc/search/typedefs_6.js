@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['overlayptr',['OverlayPtr',['../namespace_raz.html#a69b127818bb33fbabe7e46a86024ad5d',1,'Raz']]],
-  ['overlaywindowptr',['OverlayWindowPtr',['../namespace_raz.html#a7379c2eb7dd9c685e9404c43628c3c38',1,'Raz']]]
+  ['plusoperator',['PlusOperator',['../namespace_raz_1_1_type_utils_1_1_attribute.html#aa206dea3082a05bcf2399a0fbfc1d02b',1,'Raz::TypeUtils::Attribute']]]
 ];

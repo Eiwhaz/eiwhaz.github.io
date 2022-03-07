@@ -137,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad0bc1f7af349e3e6d5c245c240cd4534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0233407bd5ffd49eaa945ca1d0dc3c3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_quaternion.html">Quaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quaternion.html#af0233407bd5ffd49eaa945ca1d0dc3c3">operator=</a> (<a class="el" href="class_raz_1_1_quaternion.html">Quaternion</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:af0233407bd5ffd49eaa945ca1d0dc3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd21ec07af615e00c10f72a870ae905c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespace_raz.html#a2ff540629e728e81a802e2810dd98fc7">Vec3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quaternion.html#abd21ec07af615e00c10f72a870ae905c">operator*</a> (const <a class="el" href="namespace_raz.html#a2ff540629e728e81a802e2810dd98fc7">Vec3</a>&lt; T &gt; &amp;vec) const noexcept</td></tr>
+<tr class="separator:abd21ec07af615e00c10f72a870ae905c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeacee4df628fed70a6771d5266fa5cd4"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quaternion.html#aeacee4df628fed70a6771d5266fa5cd4">operator*</a> (const <a class="el" href="class_raz_1_1_quaternion.html">Quaternion</a> &amp;quat) const noexcept</td></tr>
 <tr class="separator:aeacee4df628fed70a6771d5266fa5cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16003ba3c146275c9215ae6d16a9c5f5"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="class_raz_1_1_quaternion.html">Quaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_quaternion.html#a16003ba3c146275c9215ae6d16a9c5f5">operator*=</a> (const <a class="el" href="class_raz_1_1_quaternion.html">Quaternion</a> &amp;quat) noexcept</td></tr>
@@ -750,13 +752,48 @@ template&lt;typename T = float&gt; </div>
 
 </div>
 </div>
-<a id="aeacee4df628fed70a6771d5266fa5cd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeacee4df628fed70a6771d5266fa5cd4">&#9670;&nbsp;</a></span>operator*()</h2>
+<a id="abd21ec07af615e00c10f72a870ae905c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd21ec07af615e00c10f72a870ae905c">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="namespace_raz.html#a2ff540629e728e81a802e2810dd98fc7">Vec3</a>&lt; T &gt; <a class="el" href="class_raz_1_1_quaternion.html">Raz::Quaternion</a>&lt; T &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_raz.html#a2ff540629e728e81a802e2810dd98fc7">Vec3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Quaternion-vector multiplication. Rotates a given vector from the current quaternion's rotation. The quaternion must be normalized. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td><a class="el" href="class_raz_1_1_vector.html">Vector</a> to be rotated. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Rotated vector. </dd></dl>
+
+</div>
+</div>
+<a id="aeacee4df628fed70a6771d5266fa5cd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeacee4df628fed70a6771d5266fa5cd4">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
