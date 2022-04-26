@@ -27,5 +27,5 @@ var searchData=
   ['bvec2',['BVEC2',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa65e3234d2bf7d76169393cb2d4b658b',1,'Raz']]],
   ['bvec3',['BVEC3',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a9cf22f139a6e72d92b074eaa61c1c6f3',1,'Raz']]],
   ['bvec4',['BVEC4',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a45262af824b41c9c05cc443ca6e71b90',1,'Raz']]],
-  ['byte',['BYTE',['../namespace_raz.html#a560e0a7db1b131359ef82257442d8b8cae409eb2ba6eb6801f52763ae370c350e',1,'Raz']]]
+  ['byte',['BYTE',['../namespace_raz.html#a560e0a7db1b131359ef82257442d8b8cae409eb2ba6eb6801f52763ae370c350e',1,'Raz::BYTE()'],['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005ae409eb2ba6eb6801f52763ae370c350e',1,'Raz::BYTE()']]]
 ];

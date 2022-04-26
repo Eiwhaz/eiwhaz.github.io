@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hasattribute',['hasAttribute',['../namespace_raz_1_1_type_utils.html#a911a308b7829be89b7e3934f51ce7dfc',1,'Raz::TypeUtils']]],
+  ['hasattribute',['hasAttribute',['../class_raz_1_1_material.html#a46fc02adc02d378ab965bd9dd9f67c59',1,'Raz::Material::hasAttribute()'],['../namespace_raz_1_1_type_utils.html#a911a308b7829be89b7e3934f51ce7dfc',1,'Raz::TypeUtils::hasAttribute()']]],
   ['hascomponent',['hasComponent',['../class_raz_1_1_entity.html#a52a9db0fc6ad648baf904d482d2d8777',1,'Raz::Entity']]],
   ['hascopyassignmentoperator',['hasCopyAssignmentOperator',['../namespace_raz_1_1_type_utils.html#a732efb9420f8791307b7c7c20b375551',1,'Raz::TypeUtils']]],
   ['hascopyconstructor',['hasCopyConstructor',['../namespace_raz_1_1_type_utils.html#a3a0b1e06286309e1b7e7f476dd344c58',1,'Raz::TypeUtils']]],
@@ -24,6 +24,7 @@ var searchData=
   ['hassystem',['hasSystem',['../class_raz_1_1_world.html#ad4c822a08d038e96f398102ee9e78d68',1,'Raz::World']]],
   ['hastessellationcontrolshader',['hasTessellationControlShader',['../class_raz_1_1_render_shader_program.html#ac8f5f228dfe3200aea11f07892c9457e',1,'Raz::RenderShaderProgram']]],
   ['hastessellationevaluationshader',['hasTessellationEvaluationShader',['../class_raz_1_1_render_shader_program.html#aac618813056774d376d436ff4e7fc5cc',1,'Raz::RenderShaderProgram']]],
+  ['hastexture',['hasTexture',['../class_raz_1_1_material.html#a138017ce80c7431c981e00fec72438c5',1,'Raz::Material::hasTexture(const Texture &amp;texture) const noexcept'],['../class_raz_1_1_material.html#abe9fb7d5555064578311d00061418c8c',1,'Raz::Material::hasTexture(const std::string &amp;uniformName) const noexcept']]],
   ['hasupdated',['hasUpdated',['../class_raz_1_1_transform.html#a388be04aca5a0a4e8595691c1c82221b',1,'Raz::Transform']]],
   ['haswindow',['hasWindow',['../class_raz_1_1_render_system.html#a7461670cf189350b1137b90f53e0d950',1,'Raz::RenderSystem']]],
   ['hidecursor',['hideCursor',['../class_raz_1_1_window.html#a58c9735cb61876547a355cb25dd4b2e8',1,'Raz::Window']]]

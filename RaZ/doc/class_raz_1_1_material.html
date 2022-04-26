@@ -75,89 +75,136 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_raz_1_1_material-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Raz::Material Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Raz::Material Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_material_8hpp_source.html">Material.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Raz::Material:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_raz_1_1_material__inherit__graph.jpg" border="0" usemap="#_raz_1_1_material_inherit__map" alt="Inheritance graph"/></div>
-<map name="_raz_1_1_material_inherit__map" id="_raz_1_1_material_inherit__map">
-<area shape="rect" id="node2" href="class_raz_1_1_material_blinn_phong.html" title="Raz::MaterialBlinnPhong" alt="" coords="5,80,171,107"/>
-<area shape="rect" id="node3" href="class_raz_1_1_material_cook_torrance.html" title="Raz::MaterialCookTorrance" alt="" coords="195,80,373,107"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ae230316e9276ac3ee07d3f6b3db4756e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae230316e9276ac3ee07d3f6b3db4756e">Material</a> ()=default</td></tr>
+<tr class="separator:ae230316e9276ac3ee07d3f6b3db4756e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c98b311652eb9a3e6cded303deda332"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a3c98b311652eb9a3e6cded303deda332">Material</a> (<a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a> type)</td></tr>
+<tr class="separator:a3c98b311652eb9a3e6cded303deda332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9df59bdb822c7040d9bce39f3f8efe8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#af9df59bdb822c7040d9bce39f3f8efe8">Material</a> (<a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:af9df59bdb822c7040d9bce39f3f8efe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6540551c476aec7d0d14e7964d6ade6a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a6540551c476aec7d0d14e7964d6ade6a">getType</a> () const =0</td></tr>
-<tr class="separator:a6540551c476aec7d0d14e7964d6ade6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba0a36da065aa27d10f42f27ce8efc9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a7ba0a36da065aa27d10f42f27ce8efc9">getBaseColor</a> () const</td></tr>
-<tr class="separator:a7ba0a36da065aa27d10f42f27ce8efc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2515ae29470dc799991c30489b4ab1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ad2515ae29470dc799991c30489b4ab1f">getEmissive</a> () const</td></tr>
-<tr class="separator:ad2515ae29470dc799991c30489b4ab1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455c1f4c0f7b2be150020b9f17f70539"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a455c1f4c0f7b2be150020b9f17f70539">getProgram</a> () const noexcept</td></tr>
+<tr class="separator:a455c1f4c0f7b2be150020b9f17f70539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a049a502cbc6699fcb1dec7a925bc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a59a049a502cbc6699fcb1dec7a925bc2">getProgram</a> () noexcept</td></tr>
+<tr class="separator:a59a049a502cbc6699fcb1dec7a925bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92655d401c0a52e762d92928327c9520"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a92655d401c0a52e762d92928327c9520">isEmpty</a> () const noexcept</td></tr>
+<tr class="separator:a92655d401c0a52e762d92928327c9520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46fc02adc02d378ab965bd9dd9f67c59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a46fc02adc02d378ab965bd9dd9f67c59">hasAttribute</a> (const std::string &amp;uniformName) const noexcept</td></tr>
+<tr class="separator:a46fc02adc02d378ab965bd9dd9f67c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d9806e194e2bda604a230810a2c09f"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a34d9806e194e2bda604a230810a2c09f">getAttributeCount</a> () const noexcept</td></tr>
+<tr class="separator:a34d9806e194e2bda604a230810a2c09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0af0997b030e262b7aadc4af20cbe2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2b0af0997b030e262b7aadc4af20cbe2"><td class="memTemplItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a2b0af0997b030e262b7aadc4af20cbe2">getAttribute</a> (const std::string &amp;uniformName) const noexcept</td></tr>
+<tr class="separator:a2b0af0997b030e262b7aadc4af20cbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138017ce80c7431c981e00fec72438c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a138017ce80c7431c981e00fec72438c5">hasTexture</a> (const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;texture) const noexcept</td></tr>
+<tr class="separator:a138017ce80c7431c981e00fec72438c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe9fb7d5555064578311d00061418c8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#abe9fb7d5555064578311d00061418c8c">hasTexture</a> (const std::string &amp;uniformName) const noexcept</td></tr>
+<tr class="separator:abe9fb7d5555064578311d00061418c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c8d79edc82d9d3d59b3efca6ccf619"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a37c8d79edc82d9d3d59b3efca6ccf619">getTextureCount</a> () const noexcept</td></tr>
 <tr class="separator:a37c8d79edc82d9d3d59b3efca6ccf619"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c1ff3a279471c68012ccfc3521cb80"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ad8c1ff3a279471c68012ccfc3521cb80">getTexture</a> (std::size_t index) const noexcept</td></tr>
 <tr class="separator:ad8c1ff3a279471c68012ccfc3521cb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3da1b75e3a0a74c1be15de43d22bf68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#af3da1b75e3a0a74c1be15de43d22bf68">setBaseColor</a> (float red, float green, float blue)</td></tr>
-<tr class="separator:af3da1b75e3a0a74c1be15de43d22bf68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16ef9b00ef665e49e8a048385c16d18b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a16ef9b00ef665e49e8a048385c16d18b">setBaseColor</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;color)</td></tr>
-<tr class="separator:a16ef9b00ef665e49e8a048385c16d18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99953986ac4398ced7cbed116fedddfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a99953986ac4398ced7cbed116fedddfa">setEmissive</a> (float red, float green, float blue)</td></tr>
-<tr class="separator:a99953986ac4398ced7cbed116fedddfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e6b69b092e8272bf9fa67bca538b18b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a9e6b69b092e8272bf9fa67bca538b18b">setEmissive</a> (const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;val)</td></tr>
-<tr class="separator:a9e6b69b092e8272bf9fa67bca538b18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7233fa823cd7097fa6f5e25c99d0bbd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a7233fa823cd7097fa6f5e25c99d0bbd0">addTexture</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> texture, std::string uniformName)</td></tr>
-<tr class="separator:a7233fa823cd7097fa6f5e25c99d0bbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a2c684bcfd2ce5bb33b673dd1233c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a2a2c684bcfd2ce5bb33b673dd1233c3b">loadTexture</a> (const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;filePath, int bindingIndex, std::string uniformName, bool flipVertically=true)</td></tr>
-<tr class="separator:a2a2c684bcfd2ce5bb33b673dd1233c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace16938b0bf955a8c2e4fc3be6c76da8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_raz.html#a75936dba39fe87d11b16d92172849149">MaterialPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ace16938b0bf955a8c2e4fc3be6c76da8">clone</a> () const =0</td></tr>
-<tr class="separator:ace16938b0bf955a8c2e4fc3be6c76da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a474d821bfe3f4939873bdb1483b97f78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a474d821bfe3f4939873bdb1483b97f78">initTextures</a> (const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;program) const</td></tr>
-<tr class="separator:a474d821bfe3f4939873bdb1483b97f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa878a7460241f27c7b1839fd08f7646c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aa878a7460241f27c7b1839fd08f7646c">bindTextures</a> (const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;program) const</td></tr>
-<tr class="separator:aa878a7460241f27c7b1839fd08f7646c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea44f108c717ee4af160bfaf9fff811a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aea44f108c717ee4af160bfaf9fff811a">bindAttributes</a> (const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;program) const =0</td></tr>
-<tr class="separator:aea44f108c717ee4af160bfaf9fff811a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59288a37158ead57879961a92707c8bb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a59288a37158ead57879961a92707c8bb">getTexture</a> (const std::string &amp;uniformName) const</td></tr>
+<tr class="separator:a59288a37158ead57879961a92707c8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d59904e98c871603b0fb574594d8a3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa2d59904e98c871603b0fb574594d8a3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aa2d59904e98c871603b0fb574594d8a3">setAttribute</a> (T &amp;&amp;attribVal, std::string uniformName)</td></tr>
+<tr class="separator:aa2d59904e98c871603b0fb574594d8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b8d04c3c9186ef5252313e52b8c265"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ad2b8d04c3c9186ef5252313e52b8c265">setTexture</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> texture, std::string uniformName)</td></tr>
+<tr class="separator:ad2b8d04c3c9186ef5252313e52b8c265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bf4e677bea6d846db8cd99bcea6882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_material.html">Material</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a14bf4e677bea6d846db8cd99bcea6882">clone</a> () const</td></tr>
+<tr class="separator:a14bf4e677bea6d846db8cd99bcea6882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1472a06c48a11b7eb24d6114aa8bbeda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a1472a06c48a11b7eb24d6114aa8bbeda">loadType</a> (<a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a> type)</td></tr>
+<tr class="separator:a1472a06c48a11b7eb24d6114aa8bbeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0213273922523f87eb18089ab5604c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#acd0213273922523f87eb18089ab5604c">sendAttributes</a> () const</td></tr>
+<tr class="separator:acd0213273922523f87eb18089ab5604c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c3b103d741653c3f646254911033a4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a8c3b103d741653c3f646254911033a4b">removeAttribute</a> (const std::string &amp;uniformName)</td></tr>
+<tr class="separator:a8c3b103d741653c3f646254911033a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834b2b978118a985035c4c619520d142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a834b2b978118a985035c4c619520d142">clearAttributes</a> ()</td></tr>
+<tr class="memdesc:a834b2b978118a985035c4c619520d142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all attributes in the material.  <a href="#a834b2b978118a985035c4c619520d142">More...</a><br /></td></tr>
+<tr class="separator:a834b2b978118a985035c4c619520d142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f36f929877ff2e6316c388160b4655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae0f36f929877ff2e6316c388160b4655">initTextures</a> () const</td></tr>
+<tr class="separator:ae0f36f929877ff2e6316c388160b4655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecbb379276271b4f90c701fe48ad3b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a7ecbb379276271b4f90c701fe48ad3b7">bindTextures</a> () const</td></tr>
+<tr class="separator:a7ecbb379276271b4f90c701fe48ad3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9d87bfe9d5d8353235fecbc3536e73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#abf9d87bfe9d5d8353235fecbc3536e73">removeTexture</a> (const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;texture)</td></tr>
+<tr class="separator:abf9d87bfe9d5d8353235fecbc3536e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec1720810363e4f74202f7574fe72b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aaec1720810363e4f74202f7574fe72b4">removeTexture</a> (const std::string &amp;uniformName)</td></tr>
+<tr class="separator:aaec1720810363e4f74202f7574fe72b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee8bc7a4edadc49124e49357f67f02a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#aaee8bc7a4edadc49124e49357f67f02a">clearTextures</a> ()</td></tr>
+<tr class="separator:aaee8bc7a4edadc49124e49357f67f02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4e89095811cddd3af3912cdb1d66116"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ad4e89095811cddd3af3912cdb1d66116">operator=</a> (<a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:ad4e89095811cddd3af3912cdb1d66116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac248674e9eaf73a50fe4a5b127bdae4a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ac248674e9eaf73a50fe4a5b127bdae4a">~Material</a> ()=default</td></tr>
 <tr class="separator:ac248674e9eaf73a50fe4a5b127bdae4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4b7a41a413095b9eaaf956dac8511500"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_raz.html#a14284763fd74b16974ba54d59eaf4fa4">MaterialCookTorrancePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a4b7a41a413095b9eaaf956dac8511500">recoverMaterial</a> (<a class="el" href="namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43ed">MaterialPreset</a> preset, float roughnessFactor)</td></tr>
-<tr class="separator:a4b7a41a413095b9eaaf956dac8511500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ae230316e9276ac3ee07d3f6b3db4756e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#ae230316e9276ac3ee07d3f6b3db4756e">Material</a> ()=default</td></tr>
-<tr class="separator:ae230316e9276ac3ee07d3f6b3db4756e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a532aafc9f37e035eab433dd2e016cbb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a532aafc9f37e035eab433dd2e016cbb7">Material</a> (const <a class="el" href="class_raz_1_1_material.html">Material</a> &amp;)=default</td></tr>
-<tr class="separator:a532aafc9f37e035eab433dd2e016cbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:adc359ac903e7c6d982778d13275d6bcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#adc359ac903e7c6d982778d13275d6bcc">m_baseColor</a> = <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f)</td></tr>
-<tr class="separator:adc359ac903e7c6d982778d13275d6bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22b986b224d53057deece7d1e9d2bbe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a22b986b224d53057deece7d1e9d2bbe4">m_emissive</a> = <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(0.f)</td></tr>
-<tr class="separator:a22b986b224d53057deece7d1e9d2bbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25cca6a9b63bb907b5fbed3f8ccb240f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_material.html#a25cca6a9b63bb907b5fbed3f8ccb240f">m_textures</a> {}</td></tr>
-<tr class="separator:a25cca6a9b63bb907b5fbed3f8ccb240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae230316e9276ac3ee07d3f6b3db4756e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae230316e9276ac3ee07d3f6b3db4756e">&#9670;&nbsp;</a></span>Material() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::Material::Material </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c98b311652eb9a3e6cded303deda332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c98b311652eb9a3e6cded303deda332">&#9670;&nbsp;</a></span>Material() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Raz::Material::Material </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a material with a predefined type. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td><a class="el" href="class_raz_1_1_material.html">Material</a> type to apply. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af9df59bdb822c7040d9bce39f3f8efe8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9df59bdb822c7040d9bce39f3f8efe8">&#9670;&nbsp;</a></span>Material() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af9df59bdb822c7040d9bce39f3f8efe8">&#9670;&nbsp;</a></span>Material() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,116 +254,9 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae230316e9276ac3ee07d3f6b3db4756e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae230316e9276ac3ee07d3f6b3db4756e">&#9670;&nbsp;</a></span>Material() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Material::Material </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a532aafc9f37e035eab433dd2e016cbb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a532aafc9f37e035eab433dd2e016cbb7">&#9670;&nbsp;</a></span>Material() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Raz::Material::Material </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_material.html">Material</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7233fa823cd7097fa6f5e25c99d0bbd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7233fa823cd7097fa6f5e25c99d0bbd0">&#9670;&nbsp;</a></span>addTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::Material::addTexture </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td>
-          <td class="paramname"><em>texture</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>uniformName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea44f108c717ee4af160bfaf9fff811a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea44f108c717ee4af160bfaf9fff811a">&#9670;&nbsp;</a></span>bindAttributes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Raz::Material::bindAttributes </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;&#160;</td>
-          <td class="paramname"><em>program</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="class_raz_1_1_material_cook_torrance.html#a6e74fc620f600b672afb42378a6b67f1">Raz::MaterialCookTorrance</a>, and <a class="el" href="class_raz_1_1_material_blinn_phong.html#a8f6008774a7183a4520f19bcebeb52bf">Raz::MaterialBlinnPhong</a>.</p>
-
-</div>
-</div>
-<a id="aa878a7460241f27c7b1839fd08f7646c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa878a7460241f27c7b1839fd08f7646c">&#9670;&nbsp;</a></span>bindTextures()</h2>
+<a id="a7ecbb379276271b4f90c701fe48ad3b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecbb379276271b4f90c701fe48ad3b7">&#9670;&nbsp;</a></span>bindTextures()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,44 +264,16 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Raz::Material::bindTextures </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;&#160;</td>
-          <td class="paramname"><em>program</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ace16938b0bf955a8c2e4fc3be6c76da8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace16938b0bf955a8c2e4fc3be6c76da8">&#9670;&nbsp;</a></span>clone()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespace_raz.html#a75936dba39fe87d11b16d92172849149">MaterialPtr</a> Raz::Material::clone </td>
-          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_raz_1_1_material_cook_torrance.html#a5ccb4848dced72a0fa36dfabd9020fa4">Raz::MaterialCookTorrance</a>, and <a class="el" href="class_raz_1_1_material_blinn_phong.html#a71ddc03de6023ff2fcd3258187b14e27">Raz::MaterialBlinnPhong</a>.</p>
-
 </div>
 </div>
-<a id="a7ba0a36da065aa27d10f42f27ce8efc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba0a36da065aa27d10f42f27ce8efc9">&#9670;&nbsp;</a></span>getBaseColor()</h2>
+<a id="a834b2b978118a985035c4c619520d142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834b2b978118a985035c4c619520d142">&#9670;&nbsp;</a></span>clearAttributes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,7 +282,59 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>&amp; Raz::Material::getBaseColor </td>
+          <td class="memname">void Raz::Material::clearAttributes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes all attributes in the material. </p>
+
+</div>
+</div>
+<a id="aaee8bc7a4edadc49124e49357f67f02a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee8bc7a4edadc49124e49357f67f02a">&#9670;&nbsp;</a></span>clearTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Material::clearTextures </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14bf4e677bea6d846db8cd99bcea6882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bf4e677bea6d846db8cd99bcea6882">&#9670;&nbsp;</a></span>clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_raz_1_1_material.html">Material</a> Raz::Material::clone </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -385,8 +349,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2515ae29470dc799991c30489b4ab1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2515ae29470dc799991c30489b4ab1f">&#9670;&nbsp;</a></span>getEmissive()</h2>
+<a id="a2b0af0997b030e262b7aadc4af20cbe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0af0997b030e262b7aadc4af20cbe2">&#9670;&nbsp;</a></span>getAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T&amp; Raz::Material::getAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34d9806e194e2bda604a230810a2c09f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34d9806e194e2bda604a230810a2c09f">&#9670;&nbsp;</a></span>getAttributeCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -395,7 +387,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>&amp; Raz::Material::getEmissive </td>
+          <td class="memname">std::size_t Raz::Material::getAttributeCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -403,7 +395,57 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a455c1f4c0f7b2be150020b9f17f70539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455c1f4c0f7b2be150020b9f17f70539">&#9670;&nbsp;</a></span>getProgram() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a>&amp; Raz::Material::getProgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59a049a502cbc6699fcb1dec7a925bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a049a502cbc6699fcb1dec7a925bc2">&#9670;&nbsp;</a></span>getProgram() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a>&amp; Raz::Material::getProgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -411,7 +453,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad8c1ff3a279471c68012ccfc3521cb80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8c1ff3a279471c68012ccfc3521cb80">&#9670;&nbsp;</a></span>getTexture()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c1ff3a279471c68012ccfc3521cb80">&#9670;&nbsp;</a></span>getTexture() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -432,6 +474,24 @@ Protected Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59288a37158ead57879961a92707c8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59288a37158ead57879961a92707c8bb">&#9670;&nbsp;</a></span>getTexture() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp; Raz::Material::getTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -461,8 +521,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6540551c476aec7d0d14e7964d6ade6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6540551c476aec7d0d14e7964d6ade6a">&#9670;&nbsp;</a></span>getType()</h2>
+<a id="a46fc02adc02d378ab965bd9dd9f67c59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46fc02adc02d378ab965bd9dd9f67c59">&#9670;&nbsp;</a></span>hasAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,25 +531,90 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a> Raz::Material::getType </td>
+          <td class="memname">bool Raz::Material::hasAttribute </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_raz_1_1_material_cook_torrance.html#af2d8ab9f60f307d82140230ae8513626">Raz::MaterialCookTorrance</a>, and <a class="el" href="class_raz_1_1_material_blinn_phong.html#acac426ee387d34e5a0afb622c8fe76c5">Raz::MaterialBlinnPhong</a>.</p>
+</div>
+</div>
+<a id="a138017ce80c7431c981e00fec72438c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a138017ce80c7431c981e00fec72438c5">&#9670;&nbsp;</a></span>hasTexture() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::Material::hasTexture </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td>
+          <td class="paramname"><em>texture</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Checks if there is a texture entry with the given texture. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td><a class="el" href="class_raz_1_1_texture.html" title="Texture class, handling images to be displayed into the scene. ">Texture</a> to find. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if an entry has been found, false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="a474d821bfe3f4939873bdb1483b97f78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a474d821bfe3f4939873bdb1483b97f78">&#9670;&nbsp;</a></span>initTextures()</h2>
+<a id="abe9fb7d5555064578311d00061418c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe9fb7d5555064578311d00061418c8c">&#9670;&nbsp;</a></span>hasTexture() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::Material::hasTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Checks if there is a texture entry with the given uniform name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Uniform name to find. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if an entry has been found, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="ae0f36f929877ff2e6316c388160b4655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f36f929877ff2e6316c388160b4655">&#9670;&nbsp;</a></span>initTextures()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,8 +622,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Raz::Material::initTextures </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;&#160;</td>
-          <td class="paramname"><em>program</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -506,43 +630,53 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2a2c684bcfd2ce5bb33b673dd1233c3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a2c684bcfd2ce5bb33b673dd1233c3b">&#9670;&nbsp;</a></span>loadTexture()</h2>
+<a id="a92655d401c0a52e762d92928327c9520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92655d401c0a52e762d92928327c9520">&#9670;&nbsp;</a></span>isEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Raz::Material::isEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Checks if the material has any attribute or texture. </p><dl class="section return"><dt>Returns</dt><dd>True if the material has neither an attribute nor a texture, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a1472a06c48a11b7eb24d6114aa8bbeda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1472a06c48a11b7eb24d6114aa8bbeda">&#9670;&nbsp;</a></span>loadType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Raz::Material::loadTexture </td>
+          <td class="memname">void Raz::Material::loadType </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_file_path.html">FilePath</a> &amp;&#160;</td>
-          <td class="paramname"><em>filePath</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="namespace_raz.html#a396d7efc7ef8aa8ea28386a538c302a2">MaterialType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>bindingIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>uniformName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>flipVertically</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Loads a predefined material type, setting default shaders &amp; adding all needed attributes &amp; textures if they do not exist yet. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td><a class="el" href="class_raz_1_1_material.html">Material</a> type to apply. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -572,136 +706,117 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b7a41a413095b9eaaf956dac8511500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b7a41a413095b9eaaf956dac8511500">&#9670;&nbsp;</a></span>recoverMaterial()</h2>
+<a id="a8c3b103d741653c3f646254911033a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c3b103d741653c3f646254911033a4b">&#9670;&nbsp;</a></span>removeAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_raz.html#a14284763fd74b16974ba54d59eaf4fa4">MaterialCookTorrancePtr</a> Raz::Material::recoverMaterial </td>
+          <td class="memname">void Raz::Material::removeAttribute </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43ed">MaterialPreset</a>&#160;</td>
-          <td class="paramname"><em>preset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>roughnessFactor</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+<p>Removes an attribute given its uniform name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Uniform name of the attribute to remove. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abf9d87bfe9d5d8353235fecbc3536e73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9d87bfe9d5d8353235fecbc3536e73">&#9670;&nbsp;</a></span>removeTexture() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Material::removeTexture </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td>
+          <td class="paramname"><em>texture</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all entries associated with the given texture. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td><a class="el" href="class_raz_1_1_texture.html" title="Texture class, handling images to be displayed into the scene. ">Texture</a> to remove the entries for. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aaec1720810363e4f74202f7574fe72b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec1720810363e4f74202f7574fe72b4">&#9670;&nbsp;</a></span>removeTexture() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Material::removeTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uniformName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes the entry associated with the given uniform name. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uniformName</td><td>Uniform name to remove the entry for. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acd0213273922523f87eb18089ab5604c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd0213273922523f87eb18089ab5604c">&#9670;&nbsp;</a></span>sendAttributes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Material::sendAttributes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af3da1b75e3a0a74c1be15de43d22bf68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3da1b75e3a0a74c1be15de43d22bf68">&#9670;&nbsp;</a></span>setBaseColor() <span class="overload">[1/2]</span></h2>
+<a id="aa2d59904e98c871603b0fb574594d8a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d59904e98c871603b0fb574594d8a3">&#9670;&nbsp;</a></span>setAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Raz::Material::setBaseColor </td>
+          <td class="memname">void Raz::Material::setAttribute </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>red</em>, </td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>attribVal</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>green</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>blue</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16ef9b00ef665e49e8a048385c16d18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16ef9b00ef665e49e8a048385c16d18b">&#9670;&nbsp;</a></span>setBaseColor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::Material::setBaseColor </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a99953986ac4398ced7cbed116fedddfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99953986ac4398ced7cbed116fedddfa">&#9670;&nbsp;</a></span>setEmissive() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::Material::setEmissive </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>red</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>green</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>blue</em>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>uniformName</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -715,99 +830,54 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets an attribute to be sent to the shaders. If the uniform name already exists, replaces the attribute's value. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of the attribute to set. Must be a type handled by <a class="el" href="class_raz_1_1_shader_program.html#ab635ae62ee76e03fe878efcc69774b1c">ShaderProgram::sendUniform()</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attribVal</td><td>Attribute to set. </td></tr>
+    <tr><td class="paramname">uniformName</td><td>Uniform name of the attribute to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a9e6b69b092e8272bf9fa67bca538b18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e6b69b092e8272bf9fa67bca538b18b">&#9670;&nbsp;</a></span>setEmissive() <span class="overload">[2/2]</span></h2>
+<a id="ad2b8d04c3c9186ef5252313e52b8c265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b8d04c3c9186ef5252313e52b8c265">&#9670;&nbsp;</a></span>setTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Raz::Material::setEmissive </td>
+          <td class="memname">void Raz::Material::setTexture </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>uniformName</em>&#160;</td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="adc359ac903e7c6d982778d13275d6bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc359ac903e7c6d982778d13275d6bcc">&#9670;&nbsp;</a></span>m_baseColor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> Raz::Material::m_baseColor = <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(1.f)</td>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a22b986b224d53057deece7d1e9d2bbe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22b986b224d53057deece7d1e9d2bbe4">&#9670;&nbsp;</a></span>m_emissive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a> Raz::Material::m_emissive = <a class="el" href="namespace_raz.html#aa13f89c28e3030f83a5f3e1b64a22bf3">Vec3f</a>(0.f)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a25cca6a9b63bb907b5fbed3f8ccb240f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25cca6a9b63bb907b5fbed3f8ccb240f">&#9670;&nbsp;</a></span>m_textures</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>, std::string&gt; &gt; Raz::Material::m_textures {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Sets a texture to be bound to the shaders. If the uniform name already exists, replace the texture. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td><a class="el" href="class_raz_1_1_texture.html" title="Texture class, handling images to be displayed into the scene. ">Texture</a> to set. </td></tr>
+    <tr><td class="paramname">uniformName</td><td>Uniform name to bind the texture to. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

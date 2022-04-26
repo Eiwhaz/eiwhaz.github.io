@@ -13,7 +13,6 @@ var searchData=
   ['aliased_5fline_5fwidth_5frange',['ALIASED_LINE_WIDTH_RANGE',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1eaf4db3cc3723a49dc0f613f7e9bbab181',1,'Raz']]],
   ['all',['ALL',['../namespace_raz.html#add7d0d2c9e171120534cf3deeb30e550a5fb1f955b45e38e31789286a1790398d',1,'Raz::ALL()'],['../namespace_raz.html#a2c66e58bc91a04f8099abb601c4a65a0a5fb1f955b45e38e31789286a1790398d',1,'Raz::ALL()'],['../namespace_raz.html#a363557d9277281d0ff0c70ed19f57538a5fb1f955b45e38e31789286a1790398d',1,'Raz::ALL()']]],
   ['alpha_5fsize',['ALPHA_SIZE',['../namespace_raz.html#a0a7eee6b2c590cb0039484f443c58e00aa03e6855927d7f8aef0932cae2a181c9',1,'Raz']]],
-  ['aluminium',['ALUMINIUM',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43eda786e6153a22481ffe1125ea40f6f51c3',1,'Raz']]],
   ['always',['ALWAYS',['../namespace_raz_1_1_input.html#ab00430b5b7e3c9f912ac3e24b7358d8fa729ce82d2d43be3bd5730e6c83eae566',1,'Raz::Input::ALWAYS()'],['../namespace_raz.html#ab67153183f5f08ed70012f8c9fe05818af3fc827ade4b968e50406496907ef962',1,'Raz::ALWAYS()']]],
   ['always_5fon_5ftop',['ALWAYS_ON_TOP',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1ae691ed6feadad498d49ae83224dfc172',1,'Raz']]],
   ['array_5fbuffer',['ARRAY_BUFFER',['../namespace_raz.html#a61581b620e9ba8b7e52013105af294bba77852f5d7968aa8e2907d2bcfddee859',1,'Raz']]],

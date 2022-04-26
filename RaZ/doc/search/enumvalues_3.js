@@ -39,7 +39,7 @@ var searchData=
   ['dmat4',['DMAT4',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0ab0c0073f83f20703ab0d98d2cc576b7b',1,'Raz']]],
   ['dmat4x2',['DMAT4x2',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a28596ade5c846144b26b3c758f31f5b2',1,'Raz']]],
   ['dmat4x3',['DMAT4x3',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a2fc6327479ca21769fafe651287f7419',1,'Raz']]],
-  ['double',['DOUBLE',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0afd3e4ece78a7d422280d5ed379482229',1,'Raz']]],
+  ['double',['DOUBLE',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005afd3e4ece78a7d422280d5ed379482229',1,'Raz::DOUBLE()'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0afd3e4ece78a7d422280d5ed379482229',1,'Raz::DOUBLE()']]],
   ['down',['DOWN',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a297111b6a509b2142d98eb4d50c2a3b8',1,'Raz::Keyboard']]],
   ['draw_5fframebuffer',['DRAW_FRAMEBUFFER',['../namespace_raz.html#a7b8450ee4ec7601cc280cbe4117361dea3a5c5e93121aa26f7e34464f075307fc',1,'Raz']]],
   ['dropdown',['DROPDOWN',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca11104907ea3583e29b65b1bceb239a02',1,'Raz']]],

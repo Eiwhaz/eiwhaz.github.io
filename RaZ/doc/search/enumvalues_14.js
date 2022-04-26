@@ -1,8 +1,10 @@
 var searchData=
 [
   ['u',['U',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639ada292d7ab8f1d56e9b25c29b25d669f5',1,'Raz::Keyboard']]],
-  ['ubyte',['UBYTE',['../namespace_raz.html#a651306b9d3e7811b1601fb5651d89a7ea6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz']]],
-  ['uint',['UINT',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a3351504090a741e69da641a42e00da80',1,'Raz']]],
+  ['ubyte',['UBYTE',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE()'],['../namespace_raz.html#a651306b9d3e7811b1601fb5651d89a7ea6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE()'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dba6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE()']]],
+  ['uint',['UINT',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a3351504090a741e69da641a42e00da80',1,'Raz::UINT()'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a3351504090a741e69da641a42e00da80',1,'Raz::UINT()'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dba3351504090a741e69da641a42e00da80',1,'Raz::UINT()']]],
+  ['uint_5f10f_5f11f_5f11f',['UINT_10F_11F_11F',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005af8642bce7278f68b2ff70a593f66b271',1,'Raz']]],
+  ['uint_5f2_5f10_5f10_5f10',['UINT_2_10_10_10',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a3757449a020d2c263fa501e5399b24bf',1,'Raz']]],
   ['uint_5fatomic_5fcounter',['UINT_ATOMIC_COUNTER',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0ab034bf558c5ee2160b1249eb0f23b439',1,'Raz']]],
   ['uint_5fimage_5f1d',['UINT_IMAGE_1D',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a6f25a7acba2b9b03c40fe3c646f04610',1,'Raz']]],
   ['uint_5fimage_5f1d_5farray',['UINT_IMAGE_1D_ARRAY',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a9ae5fecf1a6ae10668b45140e3f04079',1,'Raz']]],
@@ -37,6 +39,7 @@ var searchData=
   ['unpack_5fswap_5fbytes',['UNPACK_SWAP_BYTES',['../namespace_raz.html#a02605d7b6c2f990263f458c5f6f3d9f1ace747aa841f335334ae367ef64c5483a',1,'Raz']]],
   ['unsupported',['UNSUPPORTED',['../namespace_raz.html#a3dc4fe979a8fdba3bdd7e100af06510ca40aa75f8e8cfdf7b660c5620e953229f',1,'Raz']]],
   ['up',['UP',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a4ad3c34b83388c24c66b81238f8b6765',1,'Raz::Keyboard']]],
+  ['ushort',['USHORT',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005ab8627cc5bae17ed1687bb487a4d70a3e',1,'Raz::USHORT()'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dbab8627cc5bae17ed1687bb487a4d70a3e',1,'Raz::USHORT()']]],
   ['uv',['UV',['../namespace_raz.html#aed7d485a1e7a40f377859b5abf111004adeaa2adbeb26802ae61609c3f3642d82',1,'Raz']]],
   ['uvec2',['UVEC2',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a5ca0c8351a842472da0c9e89a3714475',1,'Raz']]],
   ['uvec3',['UVEC3',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa9767ed71ca4b7d192cdaec255e6d39b',1,'Raz']]],

@@ -5,7 +5,6 @@ var searchData=
   ['nearest_5fmipmap_5flinear',['NEAREST_MIPMAP_LINEAR',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980a65706de8e74692e0dcd9cd776d668bab',1,'Raz']]],
   ['nearest_5fmipmap_5fnearest',['NEAREST_MIPMAP_NEAREST',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980a1fbb2c20778f4e3e3ea0ec17ebd5dce3',1,'Raz']]],
   ['never',['NEVER',['../namespace_raz.html#ab67153183f5f08ed70012f8c9fe05818a443475558f0168dff92ecde26b98ae5a',1,'Raz']]],
-  ['nickel',['NICKEL',['../namespace_raz.html#ae4cf5366c28ab7b65af4a5022a1c43edaec9beed043738a428459aede3da05b0b',1,'Raz']]],
   ['none',['NONE',['../namespace_raz.html#ac31c87885c21a0bb00bdbee3741a3863ab50339a10e1de285ac99d4c3990b8693',1,'Raz::NONE()'],['../namespace_raz.html#a08d253eadce90839613f77ab2486ee39ab50339a10e1de285ac99d4c3990b8693',1,'Raz::NONE()'],['../namespace_raz.html#a363557d9277281d0ff0c70ed19f57538ab50339a10e1de285ac99d4c3990b8693',1,'Raz::NONE()']]],
   ['normal',['NORMAL',['../namespace_raz_1_1_cursor.html#a29a2e5225bfb6920236a16983f0ff57fa891ae68ebca6b66a291ae877554b096c',1,'Raz::Cursor']]],
   ['not_5fequal',['NOT_EQUAL',['../namespace_raz.html#ab67153183f5f08ed70012f8c9fe05818a4ea2d378cdec20f59330f113297bc1ce',1,'Raz']]],

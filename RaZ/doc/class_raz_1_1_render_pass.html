@@ -121,10 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac846fac05aa8a40c5364ad988d62b644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d8a436fa73e27a0a2564c95210296ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a4d8a436fa73e27a0a2564c95210296ba">setProgram</a> (<a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a> &amp;&amp;program)</td></tr>
 <tr class="separator:a4d8a436fa73e27a0a2564c95210296ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d7deff2a9f23a98124d0c13253ba67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#ac5d7deff2a9f23a98124d0c13253ba67">addReadTexture</a> (const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;texture, const std::string &amp;uniformName)</td></tr>
-<tr class="separator:ac5d7deff2a9f23a98124d0c13253ba67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebeca8ddd9be4acda7e70426a90920b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#aebeca8ddd9be4acda7e70426a90920b7">addWriteTexture</a> (const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;texture)</td></tr>
-<tr class="separator:aebeca8ddd9be4acda7e70426a90920b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea109b702176590d22489612625b021"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#aeea109b702176590d22489612625b021">addReadTexture</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> texture, const std::string &amp;uniformName)</td></tr>
+<tr class="separator:aeea109b702176590d22489612625b021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7e977039ba0fec06874cde884ae800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a3d7e977039ba0fec06874cde884ae800">addWriteTexture</a> (<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> texture)</td></tr>
+<tr class="separator:a3d7e977039ba0fec06874cde884ae800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6e6335ddfb2886be834ce1459783e71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#ae6e6335ddfb2886be834ce1459783e71">resizeWriteBuffers</a> (unsigned int width, unsigned int height)</td></tr>
 <tr class="separator:ae6e6335ddfb2886be834ce1459783e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e3b56f3145865b111c9a04f1947407"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a79e3b56f3145865b111c9a04f1947407">enable</a> (bool enabled=true)</td></tr>
@@ -135,8 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d6e3b5021aacdedb9a9370c01bccf9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a6d6e3b5021aacdedb9a9370c01bccf9e">bindTextures</a> () const noexcept</td></tr>
 <tr class="memdesc:a6d6e3b5021aacdedb9a9370c01bccf9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the pass' read textures to its program.  <a href="#a6d6e3b5021aacdedb9a9370c01bccf9e">More...</a><br /></td></tr>
 <tr class="separator:a6d6e3b5021aacdedb9a9370c01bccf9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67663611a00411909fe23d7d04d67a73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a67663611a00411909fe23d7d04d67a73">execute</a> (const <a class="el" href="class_raz_1_1_framebuffer.html">Framebuffer</a> &amp;prevFramebuffer) const</td></tr>
-<tr class="separator:a67663611a00411909fe23d7d04d67a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a253d9efd0dcd135329058648e898d564"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a253d9efd0dcd135329058648e898d564">execute</a> () const</td></tr>
+<tr class="memdesc:a253d9efd0dcd135329058648e898d564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the render pass.  <a href="#a253d9efd0dcd135329058648e898d564">More...</a><br /></td></tr>
+<tr class="separator:a253d9efd0dcd135329058648e898d564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92884ac6d24566b829d88418127ac0be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_render_pass.html">RenderPass</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a92884ac6d24566b829d88418127ac0be">operator=</a> (const <a class="el" href="class_raz_1_1_render_pass.html">RenderPass</a> &amp;)=delete</td></tr>
 <tr class="separator:a92884ac6d24566b829d88418127ac0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abca3b7f1738f5669e2ba01837f7039ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_render_pass.html">RenderPass</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#abca3b7f1738f5669e2ba01837f7039ae">operator=</a> (<a class="el" href="class_raz_1_1_render_pass.html">RenderPass</a> &amp;&amp;) noexcept=default</td></tr>
@@ -187,8 +188,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a3a6607cd11152725e13c67ad72f4fdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af21c369dcc1ea1c6dd1148c989b36c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_render_shader_program.html">RenderShaderProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#af21c369dcc1ea1c6dd1148c989b36c3c">m_program</a> {}</td></tr>
 <tr class="separator:af21c369dcc1ea1c6dd1148c989b36c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a632a7ba41a46305b4ea6cf7dbc2e8142"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_raz_1_1_texture.html">Texture</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a632a7ba41a46305b4ea6cf7dbc2e8142">m_readTextures</a> {}</td></tr>
-<tr class="separator:a632a7ba41a46305b4ea6cf7dbc2e8142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66cb89e6b5ebfa162ed8a1fdba3a3e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#aa66cb89e6b5ebfa162ed8a1fdba3a3e1">m_readTextures</a> {}</td></tr>
+<tr class="separator:aa66cb89e6b5ebfa162ed8a1fdba3a3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a634fc7e56e052887468b6f07c82c6600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_framebuffer.html">Framebuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_render_pass.html#a634fc7e56e052887468b6f07c82c6600">m_writeFramebuffer</a> {}</td></tr>
 <tr class="separator:a634fc7e56e052887468b6f07c82c6600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_raz_1_1_graph_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_raz_1_1_graph_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_raz_1_1_graph_node.html">Raz::GraphNode&lt; RenderPass &gt;</a></td></tr>
@@ -369,8 +370,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac5d7deff2a9f23a98124d0c13253ba67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5d7deff2a9f23a98124d0c13253ba67">&#9670;&nbsp;</a></span>addReadTexture()</h2>
+<a id="aeea109b702176590d22489612625b021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea109b702176590d22489612625b021">&#9670;&nbsp;</a></span>addReadTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +379,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Raz::RenderPass::addReadTexture </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td>
           <td class="paramname"><em>texture</em>, </td>
         </tr>
         <tr>
@@ -397,8 +398,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aebeca8ddd9be4acda7e70426a90920b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebeca8ddd9be4acda7e70426a90920b7">&#9670;&nbsp;</a></span>addWriteTexture()</h2>
+<a id="a3d7e977039ba0fec06874cde884ae800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7e977039ba0fec06874cde884ae800">&#9670;&nbsp;</a></span>addWriteTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +410,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Raz::RenderPass::addWriteTexture </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_texture.html">Texture</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&#160;</td>
           <td class="paramname"><em>texture</em></td><td>)</td>
           <td></td>
         </tr>
@@ -509,8 +510,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a67663611a00411909fe23d7d04d67a73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67663611a00411909fe23d7d04d67a73">&#9670;&nbsp;</a></span>execute()</h2>
+<a id="a253d9efd0dcd135329058648e898d564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a253d9efd0dcd135329058648e898d564">&#9670;&nbsp;</a></span>execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,18 +519,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void Raz::RenderPass::execute </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_raz_1_1_framebuffer.html">Framebuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>prevFramebuffer</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Executes the render pass. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">prevFramebuffer</td><td><a class="el" href="class_raz_1_1_framebuffer.html" title="Framebuffer class, handling buffers used for deferred rendering. ">Framebuffer</a> written by the previous render pass. </td></tr>
-  </table>
-  </dd>
-</dl>
+
+<p>Executes the render pass. </p>
 
 </div>
 </div>
@@ -869,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a632a7ba41a46305b4ea6cf7dbc2e8142"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a632a7ba41a46305b4ea6cf7dbc2e8142">&#9670;&nbsp;</a></span>m_readTextures</h2>
+<a id="aa66cb89e6b5ebfa162ed8a1fdba3a3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66cb89e6b5ebfa162ed8a1fdba3a3e1">&#9670;&nbsp;</a></span>m_readTextures</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -879,7 +875,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;const <a class="el" href="class_raz_1_1_texture.html">Texture</a>*&gt; Raz::RenderPass::m_readTextures {}</td>
+          <td class="memname">std::vector&lt;<a class="el" href="namespace_raz.html#a29eae4ddba3e2f60b487cd12bab557ac">TexturePtr</a>&gt; Raz::RenderPass::m_readTextures {}</td>
         </tr>
       </table>
   </td>
