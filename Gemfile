@@ -8,7 +8,7 @@ gem "activesupport", ">= 5.2.4.3"
 gem "addressable", ">= 2.8.0"
 gem "commonmarker", ">= 0.23.4"
 gem "kramdown", ">= 2.3.1"
-gem "nokogiri", ">= 1.13.4"
+gem "nokogiri", ">= 1.13.6"
 gem "rexml", ">= 3.2.5"
 gem "webrick"
 
