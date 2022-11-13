@@ -1,6 +1,7 @@
 <map id="Raz::GraphNode&lt; T &gt;" name="Raz::GraphNode&lt; T &gt;">
-<area shape="rect" id="node2" href="$class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; RenderPass \&gt;" alt="" coords="5,102,219,129"/>
-<area shape="rect" id="node4" href="$class_raz_1_1_graph_node.html" title="Raz::GraphNode\&lt; Skeleton\lJoint \&gt;" alt="" coords="243,95,424,136"/>
-<area shape="rect" id="node3" href="$class_raz_1_1_render_pass.html" title="Raz::RenderPass" alt="" coords="50,185,174,212"/>
-<area shape="rect" id="node5" href="$class_raz_1_1_skeleton_joint.html" title="Raz::SkeletonJoint" alt="" coords="268,185,399,212"/>
+<area shape="rect" id="node1" title=" " alt="" coords="148,5,297,32"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_graph_node.html" title=" " alt="" coords="5,102,219,129"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_graph_node.html" title=" " alt="" coords="243,95,424,136"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_render_pass.html" title=" " alt="" coords="50,185,174,212"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_skeleton_joint.html" title=" " alt="" coords="268,185,399,212"/>
 </map>

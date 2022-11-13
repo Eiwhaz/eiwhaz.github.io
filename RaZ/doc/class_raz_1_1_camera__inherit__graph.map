@@ -1,3 +1,4 @@
 <map id="Raz::Camera" name="Raz::Camera">
-<area shape="rect" id="node2" href="$class_raz_1_1_component.html" title="Component class representing a base Component to be inherited. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" title="Camera class, simulating a point of view for a scene to be rendered from." alt="" coords="15,80,114,107"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_component.html" title="Component class representing a base Component to be inherited." alt="" coords="5,5,124,32"/>
 </map>

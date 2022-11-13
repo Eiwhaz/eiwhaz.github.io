@@ -1,3 +1,4 @@
 <map id="Raz::Quad" name="Raz::Quad">
-<area shape="rect" id="node2" href="$class_raz_1_1_shape.html" title="Raz::Shape" alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node1" title="Quad defined by its four vertices&#39; positions, presumably in counter&#45;clockwise order." alt="" coords="9,80,93,107"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_shape.html" title=" " alt="" coords="5,5,96,32"/>
 </map>

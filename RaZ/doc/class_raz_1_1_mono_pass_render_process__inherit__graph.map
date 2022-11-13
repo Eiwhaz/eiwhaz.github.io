@@ -1,0 +1,6 @@
+<map id="Raz::MonoPassRenderProcess" name="Raz::MonoPassRenderProcess">
+<area shape="rect" id="node1" title=" " alt="" coords="108,80,312,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_box_blur_render_process.html" title=" " alt="" coords="5,155,193,181"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_convolution_render_process.html" title=" " alt="" coords="218,155,426,181"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_render_process.html" title="RenderProcess class, representing a set of render passes with fixed actions; can be derived to implem..." alt="" coords="139,5,281,32"/>
+</map>

@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_thread_pool.html" title="Raz::ThreadPool" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" href="$class_raz_1_1_system.html" title="System class representing a base System to be inherited." alt="" coords="5,81,104,108"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_audio_system.html" title=" " alt="" coords="159,5,290,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_bvh_system.html" title=" " alt="" coords="165,56,284,83"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_physics_system.html" title=" " alt="" coords="152,107,297,133"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_render_system.html" title="RenderSystem class, handling the rendering part." alt="" coords="155,157,294,184"/>
 </map>

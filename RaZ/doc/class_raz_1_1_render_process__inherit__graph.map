@@ -1,0 +1,8 @@
+<map id="Raz::RenderProcess" name="Raz::RenderProcess">
+<area shape="rect" id="node1" title="RenderProcess class, representing a set of render passes with fixed actions; can be derived to implem..." alt="" coords="247,5,390,32"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_bloom_render_process.html" title=" " alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_gaussian_blur_render_process.html" title=" " alt="" coords="209,80,429,107"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_mono_pass_render_process.html" title=" " alt="" coords="453,80,657,107"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_box_blur_render_process.html" title=" " alt="" coords="349,155,537,181"/>
+<area shape="rect" id="node6" href="$class_raz_1_1_convolution_render_process.html" title=" " alt="" coords="561,155,769,181"/>
+</map>

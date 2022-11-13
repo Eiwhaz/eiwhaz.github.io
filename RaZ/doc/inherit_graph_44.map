@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_raz_1_1_type_utils_1_1_details_1_1_detector.html" title="Raz::TypeUtils::Details\l::Detector\&lt; Default, AlwaysVoid,\l Attr, Args \&gt;" alt="" coords="5,5,216,61"/>
+<area shape="rect" id="node1" href="$class_raz_1_1_texture.html" title="Texture class, representing images or buffers to be used in the rendering process." alt="" coords="5,56,101,83"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_texture1_d.html" title=" " alt="" coords="149,5,261,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_texture2_d.html" title=" " alt="" coords="149,56,261,83"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_texture3_d.html" title=" " alt="" coords="149,107,261,133"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="Raz::Transform" name="Raz::Transform">
-<area shape="rect" id="node2" href="$class_raz_1_1_component.html" title="Component class representing a base Component to be inherited. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" title="Transform class which handles 3D transformations (translation/rotation/scale)." alt="" coords="9,80,120,107"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_component.html" title="Component class representing a base Component to be inherited." alt="" coords="5,5,124,32"/>
 </map>

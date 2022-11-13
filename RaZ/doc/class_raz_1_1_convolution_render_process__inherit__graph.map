@@ -1,0 +1,5 @@
+<map id="Raz::ConvolutionRenderProcess" name="Raz::ConvolutionRenderProcess">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,213,181"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_mono_pass_render_process.html" title=" " alt="" coords="7,80,211,107"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_render_process.html" title="RenderProcess class, representing a set of render passes with fixed actions; can be derived to implem..." alt="" coords="38,5,181,32"/>
+</map>

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['tangent',['tangent',['../struct_raz_1_1_vertex.html#a848b8a2e1ab925f0456249798ef9ad6e',1,'Raz::Vertex']]],
-  ['texcoords',['texcoords',['../struct_raz_1_1_vertex.html#a2398ca002e4ee5e244a576b1c9801315',1,'Raz::Vertex']]],
-  ['triangleindexcount',['triangleIndexCount',['../class_raz_1_1_index_buffer.html#ada5a7968ae1497834cdb02143d47ec6c',1,'Raz::IndexBuffer']]]
+  ['roughness_0',['Roughness',['../namespace_raz_1_1_material_attribute.html#a26d3c7640c566f84d76b16e2b60340c1',1,'Raz::MaterialAttribute::Roughness()'],['../namespace_raz_1_1_material_texture.html#a7399c7ee3427cc4c9a91c77257c04f71',1,'Raz::MaterialTexture::Roughness()']]]
 ];

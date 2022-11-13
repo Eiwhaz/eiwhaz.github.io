@@ -1,6 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_system.html" title="System class representing a base System to be inherited. " alt="" coords="5,56,104,83"/>
-<area shape="rect" id="node2" href="$class_raz_1_1_audio_system.html" title="Raz::AudioSystem" alt="" coords="159,5,290,32"/>
-<area shape="rect" id="node3" href="$class_raz_1_1_physics_system.html" title="Raz::PhysicsSystem" alt="" coords="152,56,297,83"/>
-<area shape="rect" id="node4" href="$class_raz_1_1_render_system.html" title="RenderSystem class, handling the rendering part. " alt="" coords="155,107,294,133"/>
+<area shape="rect" id="node1" href="$class_raz_1_1_shader.html" title=" " alt="" coords="5,136,100,163"/>
+<area shape="rect" id="node2" href="$class_raz_1_1_compute_shader.html" title=" " alt="" coords="165,5,312,32"/>
+<area shape="rect" id="node3" href="$class_raz_1_1_fragment_shader.html" title=" " alt="" coords="164,56,313,83"/>
+<area shape="rect" id="node4" href="$class_raz_1_1_geometry_shader.html" title=" " alt="" coords="163,107,314,133"/>
+<area shape="rect" id="node5" href="$class_raz_1_1_tessellation_control_shader.html" title=" " alt="" coords="157,158,320,199"/>
+<area shape="rect" id="node6" href="$class_raz_1_1_tessellation_evaluation_shader.html" title=" " alt="" coords="148,223,329,265"/>
+<area shape="rect" id="node7" href="$class_raz_1_1_vertex_shader.html" title=" " alt="" coords="173,289,305,316"/>
 </map>
