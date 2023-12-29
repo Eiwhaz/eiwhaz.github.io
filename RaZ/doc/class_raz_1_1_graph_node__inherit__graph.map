@@ -1,7 +1,11 @@
 <map id="Raz::GraphNode&lt; T &gt;" name="Raz::GraphNode&lt; T &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="148,5,297,32"/>
-<area shape="rect" id="node2" href="$class_raz_1_1_graph_node.html" title=" " alt="" coords="5,102,219,129"/>
-<area shape="rect" id="node4" href="$class_raz_1_1_graph_node.html" title=" " alt="" coords="243,95,424,136"/>
-<area shape="rect" id="node3" href="$class_raz_1_1_render_pass.html" title=" " alt="" coords="50,185,174,212"/>
-<area shape="rect" id="node5" href="$class_raz_1_1_skeleton_joint.html" title=" " alt="" coords="268,185,399,212"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="148,5,297,31"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_graph_node.html" title=" " alt="" coords="5,101,219,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,42,127,103,124,98,197,38"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_graph_node.html" title=" " alt="" coords="243,93,424,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,35,283,53,321,91,317,95,280,57,255,40"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_render_pass.html" title=" " alt="" coords="50,183,174,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,140,115,183,109,183,109,140"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_skeleton_joint.html" title=" " alt="" coords="268,183,399,208"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="336,147,336,182,331,182,331,147"/>
 </map>

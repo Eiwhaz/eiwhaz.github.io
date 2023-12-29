@@ -1,4 +1,9 @@
 <map id="Raz::OwnerValue&lt; T, InvalidValue &gt;" name="Raz::OwnerValue&lt; T, InvalidValue &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="25,5,172,47"/>
-<area shape="rect" id="node2" href="$class_raz_1_1_owner_value.html" title=" " alt="" coords="5,139,192,195"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,152,120"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_owner_value.html" title=" " alt="" coords="375,5,562,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,71,175,52,226,40,278,32,375,24,376,29,279,38,227,46,177,57,128,76"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_owner_value.html" title=" " alt="" coords="375,73,562,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,97,375,97,375,103,166,103"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_owner_value.html" title=" " alt="" coords="361,152,576,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="166,115,176,117,361,151,361,156,176,123,165,121"/>
 </map>

@@ -1,3 +1,23 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_cubemap.html" title="Cubemap class representing an environment map surrounding the scene (also known as a skybox)." alt="" coords="5,5,113,32"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_component.html" title="Component class representing a base Component to be inherited." alt="" coords="5,228,124,253"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_camera.html" title="Camera simulating a point of view for a scene to be rendered from." alt="" coords="191,5,290,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="71,214,84,176,104,129,133,82,170,40,190,28,193,32,174,44,137,85,109,132,89,178,76,216"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_collider.html" title=" " alt="" coords="193,55,289,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="75,214,112,152,139,119,170,89,191,77,194,82,174,93,143,122,116,155,80,217"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_light.html" title=" " alt="" coords="200,104,281,129"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="84,215,122,176,171,138,199,125,201,130,173,143,125,180,87,219"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_listener.html" title=" " alt="" coords="191,153,290,179"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="102,219,171,188,200,176,202,181,173,192,104,224"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_lua_script.html" title=" " alt="" coords="187,203,295,228"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="137,228,186,220,187,226,138,233"/>
+<area shape="rect" id="Node000006" href="$class_raz_1_1_mesh.html" title=" " alt="" coords="198,252,283,277"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="138,248,198,256,198,262,137,253"/>
+<area shape="rect" id="Node000007" href="$class_raz_1_1_mesh_renderer.html" title=" " alt="" coords="172,301,309,327"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="106,257,173,286,205,299,203,304,171,291,104,262"/>
+<area shape="rect" id="Node000008" href="$class_raz_1_1_rigid_body.html" title=" " alt="" coords="185,351,297,376"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="88,262,126,299,173,336,199,348,197,353,171,340,122,303,85,266"/>
+<area shape="rect" id="Node000009" href="$class_raz_1_1_sound.html" title=" " alt="" coords="195,400,286,425"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="81,264,117,325,143,357,174,385,196,398,194,403,170,389,139,361,113,328,76,267"/>
+<area shape="rect" id="Node000010" href="$class_raz_1_1_transform.html" title="Transform class which handles 3D transformations (translation/rotation/scale)." alt="" coords="185,449,296,475"/>
+<area shape="poly" id="edge10_Node000000_Node000010" title=" " alt="" coords="76,266,89,303,110,348,138,394,174,435,193,447,191,451,170,439,134,398,105,351,84,305,71,267"/>
 </map>

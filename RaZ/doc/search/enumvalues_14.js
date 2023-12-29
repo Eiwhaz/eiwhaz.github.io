@@ -1,8 +1,8 @@
 var searchData=
 [
   ['u_0',['U',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639ada292d7ab8f1d56e9b25c29b25d669f5',1,'Raz::Keyboard']]],
-  ['ubyte_1',['UBYTE',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE()'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dba6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE()'],['../namespace_raz.html#aeb90f7054852f125559ff7b0c656de22a6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE()']]],
-  ['uint_2',['UINT',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a3351504090a741e69da641a42e00da80',1,'Raz::UINT()'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a3351504090a741e69da641a42e00da80',1,'Raz::UINT()'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dba3351504090a741e69da641a42e00da80',1,'Raz::UINT()']]],
+  ['ubyte_1',['UBYTE',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dba6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE'],['../namespace_raz.html#aeb90f7054852f125559ff7b0c656de22a6df7643c26cd4b455d883d8fae3d6bf1',1,'Raz::UBYTE']]],
+  ['uint_2',['UINT',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a3351504090a741e69da641a42e00da80',1,'Raz::UINT'],['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a3351504090a741e69da641a42e00da80',1,'Raz::UINT'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dba3351504090a741e69da641a42e00da80',1,'Raz::UINT']]],
   ['uint_5f10f_5f11f_5f11f_3',['UINT_10F_11F_11F',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005af8642bce7278f68b2ff70a593f66b271',1,'Raz']]],
   ['uint_5f2_5f10_5f10_5f10_4',['UINT_2_10_10_10',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005a3757449a020d2c263fa501e5399b24bf',1,'Raz']]],
   ['uint_5fatomic_5fcounter_5',['UINT_ATOMIC_COUNTER',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0ab034bf558c5ee2160b1249eb0f23b439',1,'Raz']]],
@@ -27,7 +27,7 @@ var searchData=
   ['uint_5fsampler_5fbuffer_24',['UINT_SAMPLER_BUFFER',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a5233901cae7316345793ab5d046fee0f',1,'Raz']]],
   ['uint_5fsampler_5fcube_25',['UINT_SAMPLER_CUBE',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0ac4da2cf09f5b9f94ea892401396c0c7e',1,'Raz']]],
   ['undefined_26',['UNDEFINED',['../namespace_raz.html#a3dc4fe979a8fdba3bdd7e100af06510ca0db45d2a4141101bdfe48e3314cfbca3',1,'Raz']]],
-  ['uniform_27',['UNIFORM',['../namespace_raz.html#add7d0d2c9e171120534cf3deeb30e550a891f35a29c3d51d02ffd42dd6dcc69b2',1,'Raz::UNIFORM()'],['../namespace_raz.html#a2c66e58bc91a04f8099abb601c4a65a0a891f35a29c3d51d02ffd42dd6dcc69b2',1,'Raz::UNIFORM()']]],
+  ['uniform_27',['UNIFORM',['../namespace_raz.html#add7d0d2c9e171120534cf3deeb30e550a891f35a29c3d51d02ffd42dd6dcc69b2',1,'Raz::UNIFORM'],['../namespace_raz.html#a2c66e58bc91a04f8099abb601c4a65a0a891f35a29c3d51d02ffd42dd6dcc69b2',1,'Raz::UNIFORM']]],
   ['uniform_5fbuffer_28',['UNIFORM_BUFFER',['../namespace_raz.html#a61581b620e9ba8b7e52013105af294bba8d0be820da8f4fe5aa49e0ef3065ca29',1,'Raz']]],
   ['unpack_5falignment_29',['UNPACK_ALIGNMENT',['../namespace_raz.html#a02605d7b6c2f990263f458c5f6f3d9f1a5fe311e3dde7be4e8d540ff29acabc5d',1,'Raz']]],
   ['unpack_5fimage_5fheight_30',['UNPACK_IMAGE_HEIGHT',['../namespace_raz.html#a02605d7b6c2f990263f458c5f6f3d9f1a617c3b33505c00caae4280d3449306b3',1,'Raz']]],
@@ -40,7 +40,7 @@ var searchData=
   ['unsupported_37',['UNSUPPORTED',['../namespace_raz.html#a3dc4fe979a8fdba3bdd7e100af06510ca40aa75f8e8cfdf7b660c5620e953229f',1,'Raz']]],
   ['up_38',['UP',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639a4ad3c34b83388c24c66b81238f8b6765',1,'Raz::Keyboard']]],
   ['upper_5fleft_39',['UPPER_LEFT',['../namespace_raz.html#a2750a38fe190262e436c212e952ae9a7ac122adb2ef4ea606a12c5af1b8ca5319',1,'Raz']]],
-  ['ushort_40',['USHORT',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005ab8627cc5bae17ed1687bb487a4d70a3e',1,'Raz::USHORT()'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dbab8627cc5bae17ed1687bb487a4d70a3e',1,'Raz::USHORT()']]],
+  ['ushort_40',['USHORT',['../namespace_raz.html#afae9db707fa7b7df7d536aaa579ed005ab8627cc5bae17ed1687bb487a4d70a3e',1,'Raz::USHORT'],['../namespace_raz.html#ae7c1f15c8a4c13f61b51adec5cd450dbab8627cc5bae17ed1687bb487a4d70a3e',1,'Raz::USHORT']]],
   ['uv_41',['UV',['../namespace_raz.html#aed7d485a1e7a40f377859b5abf111004adeaa2adbeb26802ae61609c3f3642d82',1,'Raz']]],
   ['uvec2_42',['UVEC2',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0a5ca0c8351a842472da0c9e89a3714475',1,'Raz']]],
   ['uvec3_43',['UVEC3',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0aa9767ed71ca4b7d192cdaec255e6d39b',1,'Raz']]],

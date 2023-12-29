@@ -16,10 +16,10 @@ var searchData=
   ['middle_5fclick_13',['MIDDLE_CLICK',['../namespace_raz_1_1_mouse.html#aecd851d1547db40e9a695d94486dedd7a1d377e0b409e76fd3553d20e241c6040',1,'Raz::Mouse']]],
   ['minify_5ffilter_14',['MINIFY_FILTER',['../namespace_raz.html#a14093882ba75577889d37831da612fcda1bae2714bc500ee5b382f2aa2d1160c4',1,'Raz']]],
   ['minor_5fversion_15',['MINOR_VERSION',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1eabcd70d36f5cceaccaf0481d68e756080',1,'Raz']]],
-  ['mono_5ff32_16',['MONO_F32',['../namespace_raz.html#a011230bd2eb7773158109790dc5692b3a5f77c2ed22f05c228c0372939dd08db7',1,'Raz']]],
-  ['mono_5ff64_17',['MONO_F64',['../namespace_raz.html#a011230bd2eb7773158109790dc5692b3aaf8910405ed41d39b1df94cedb1b84dc',1,'Raz']]],
-  ['mono_5fi16_18',['MONO_I16',['../namespace_raz.html#a011230bd2eb7773158109790dc5692b3a5a40f6e3659a637ce4922a6619e12b17',1,'Raz']]],
-  ['mono_5fu8_19',['MONO_U8',['../namespace_raz.html#a011230bd2eb7773158109790dc5692b3acd4740d0419b74e2d48ed04ccf59a3ac',1,'Raz']]],
+  ['mono_5ff32_16',['MONO_F32',['../namespace_raz.html#a40ff6561dface4827cea7928f478168fa5f77c2ed22f05c228c0372939dd08db7',1,'Raz']]],
+  ['mono_5ff64_17',['MONO_F64',['../namespace_raz.html#a40ff6561dface4827cea7928f478168faaf8910405ed41d39b1df94cedb1b84dc',1,'Raz']]],
+  ['mono_5fi16_18',['MONO_I16',['../namespace_raz.html#a40ff6561dface4827cea7928f478168fa5a40f6e3659a637ce4922a6619e12b17',1,'Raz']]],
+  ['mono_5fu8_19',['MONO_U8',['../namespace_raz.html#a40ff6561dface4827cea7928f478168facd4740d0419b74e2d48ed04ccf59a3ac',1,'Raz']]],
   ['multiply_20',['MULTIPLY',['../namespace_raz_1_1_keyboard.html#ab0df88400089cd7e81ad0dc644c3c639ae5ad9205f3add9f340bfd5ec1d0bfae9',1,'Raz::Keyboard']]],
   ['multisample_21',['MULTISAMPLE',['../namespace_raz.html#a23465a7a94eb84844ade9bbdb8a0e2e2a5a6ea12caac2fa666c0a0bac839100fe',1,'Raz']]]
 ];

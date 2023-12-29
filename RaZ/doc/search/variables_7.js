@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['isvalid_0',['isValid',['../_wav_load_8cpp.html#a8cc8d1cb67b70386f41455552f3a56f4',1,'WavLoad.cpp']]]
+  ['highfrequencyreference_0',['highFrequencyReference',['../struct_raz_1_1_reverberation_params.html#aaae1231139a5c0395e625e8790f76ecd',1,'Raz::ReverberationParams']]]
 ];

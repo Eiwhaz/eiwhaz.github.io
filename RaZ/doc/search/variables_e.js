@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['tangent_0',['tangent',['../struct_raz_1_1_vertex.html#a848b8a2e1ab925f0456249798ef9ad6e',1,'Raz::Vertex']]],
-  ['texcoords_1',['texcoords',['../struct_raz_1_1_vertex.html#a2398ca002e4ee5e244a576b1c9801315',1,'Raz::Vertex']]],
-  ['transparency_2',['Transparency',['../namespace_raz_1_1_material_attribute.html#a6f1a880a6926bd3a6ba2649894dfa8f0',1,'Raz::MaterialAttribute::Transparency()'],['../namespace_raz_1_1_material_texture.html#a2fd5eae4ba384b0a074632ce65d5bbbe',1,'Raz::MaterialTexture::Transparency()']]],
-  ['triangleindexcount_3',['triangleIndexCount',['../class_raz_1_1_index_buffer.html#ada5a7968ae1497834cdb02143d47ec6c',1,'Raz::IndexBuffer']]]
+  ['specular_0',['Specular',['../namespace_raz_1_1_material_attribute.html#a5dce41a479d56f961cc8d8c68d0b77d3',1,'Raz::MaterialAttribute::Specular'],['../namespace_raz_1_1_material_texture.html#a2381cd2a830f9a3fac24eaf61f87b0cd',1,'Raz::MaterialTexture::Specular']]],
+  ['spread_1',['spread',['../struct_raz_1_1_echo_params.html#a119b5f7b7fa2d554303cd8afafd509b7',1,'Raz::EchoParams']]],
+  ['substepcount_2',['substepCount',['../struct_raz_1_1_frame_time_info.html#a0fbb081f279613b09b8bc19139450c0d',1,'Raz::FrameTimeInfo']]],
+  ['substeptime_3',['substepTime',['../struct_raz_1_1_frame_time_info.html#a2dd2208553e9fa2f366cb1397cb37910',1,'Raz::FrameTimeInfo']]]
 ];

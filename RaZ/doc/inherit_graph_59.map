@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_raz_1_1_world.html" title="World class handling systems &amp; entities." alt="" coords="5,5,92,32"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_system.html" title="System class representing a base System to be inherited." alt="" coords="5,104,104,129"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_audio_system.html" title=" " alt="" coords="159,5,290,31"/>
+<area shape="poly" id="edge56_Node000000_Node000001" title=" " alt="" coords="78,93,111,65,151,40,177,28,179,33,153,44,114,70,81,97"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_bvh_system.html" title=" " alt="" coords="165,55,284,80"/>
+<area shape="poly" id="edge57_Node000000_Node000002" title=" " alt="" coords="112,97,179,78,181,83,113,103"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_physics_system.html" title=" " alt="" coords="152,104,297,129"/>
+<area shape="poly" id="edge58_Node000000_Node000003" title=" " alt="" coords="118,114,151,114,151,119,118,119"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_render_system.html" title="RenderSystem class, handling the rendering part." alt="" coords="155,153,294,179"/>
+<area shape="poly" id="edge59_Node000000_Node000004" title=" " alt="" coords="113,131,181,151,179,156,112,136"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_script_system.html" title=" " alt="" coords="159,203,291,228"/>
+<area shape="poly" id="edge60_Node000000_Node000005" title=" " alt="" coords="82,137,115,163,153,188,182,200,179,205,151,192,112,167,79,141"/>
 </map>

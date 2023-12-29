@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['windowsetting_0',['WindowSetting',['../namespace_raz.html#a622466e4e31f311ef6e719d6fb759eb1',1,'Raz']]]
+  ['uniformbufferusage_0',['UniformBufferUsage',['../namespace_raz.html#a69507357930b255cccda02c91afbe41a',1,'Raz']]],
+  ['uniformtype_1',['UniformType',['../namespace_raz.html#acbee8cda080ad5f53adf319e3140beb0',1,'Raz']]]
 ];

@@ -1,9 +1,15 @@
 <map id="Raz::Shader" name="Raz::Shader">
-<area shape="rect" id="node1" title=" " alt="" coords="5,136,100,163"/>
-<area shape="rect" id="node2" href="$class_raz_1_1_compute_shader.html" title=" " alt="" coords="165,5,312,32"/>
-<area shape="rect" id="node3" href="$class_raz_1_1_fragment_shader.html" title=" " alt="" coords="164,56,313,83"/>
-<area shape="rect" id="node4" href="$class_raz_1_1_geometry_shader.html" title=" " alt="" coords="163,107,314,133"/>
-<area shape="rect" id="node5" href="$class_raz_1_1_tessellation_control_shader.html" title=" " alt="" coords="157,158,320,199"/>
-<area shape="rect" id="node6" href="$class_raz_1_1_tessellation_evaluation_shader.html" title=" " alt="" coords="148,223,329,265"/>
-<area shape="rect" id="node7" href="$class_raz_1_1_vertex_shader.html" title=" " alt="" coords="173,289,305,316"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,100,159"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_compute_shader.html" title=" " alt="" coords="165,5,312,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,120,100,79,122,58,147,40,171,28,173,33,149,44,126,62,104,83,72,124"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_fragment_shader.html" title=" " alt="" coords="164,55,313,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,123,147,89,180,78,182,83,149,94,85,128"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_geometry_shader.html" title=" " alt="" coords="163,104,314,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,134,163,126,164,131,114,139"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_tessellation_control_shader.html" title=" " alt="" coords="157,154,320,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="114,152,158,159,157,164,113,158"/>
+<area shape="rect" id="Node000006" href="$class_raz_1_1_tessellation_evaluation_shader.html" title=" " alt="" coords="148,218,329,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="84,164,149,204,177,215,174,220,147,208,81,169"/>
+<area shape="rect" id="Node000007" href="$class_raz_1_1_vertex_shader.html" title=" " alt="" coords="173,283,305,308"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="69,169,101,220,123,246,149,268,174,280,172,285,147,272,120,250,97,223,64,172"/>
 </map>

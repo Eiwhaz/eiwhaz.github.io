@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['value_0',['value',['../struct_raz_1_1_degrees.html#a52e615b420e931bac783d9fc033935ad',1,'Raz::Degrees::value()'],['../struct_raz_1_1_radians.html#a025a238fa3a0597e06e434b8da4ef6db',1,'Raz::Radians::value()']]],
-  ['vertexcount_1',['vertexCount',['../class_raz_1_1_vertex_buffer.html#af205cac8a2103767e18331b195fe4cf4',1,'Raz::VertexBuffer']]]
+  ['tangent_0',['tangent',['../struct_raz_1_1_vertex.html#a848b8a2e1ab925f0456249798ef9ad6e',1,'Raz::Vertex']]],
+  ['texcoords_1',['texcoords',['../struct_raz_1_1_vertex.html#a2398ca002e4ee5e244a576b1c9801315',1,'Raz::Vertex']]],
+  ['transparency_2',['Transparency',['../namespace_raz_1_1_material_attribute.html#a6f1a880a6926bd3a6ba2649894dfa8f0',1,'Raz::MaterialAttribute::Transparency'],['../namespace_raz_1_1_material_texture.html#a2fd5eae4ba384b0a074632ce65d5bbbe',1,'Raz::MaterialTexture::Transparency']]],
+  ['triangleindexcount_3',['triangleIndexCount',['../class_raz_1_1_index_buffer.html#ada5a7968ae1497834cdb02143d47ec6c',1,'Raz::IndexBuffer']]]
 ];
