@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a67cd319d0979f71f56fb16c509bdb295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab33243edbb65028ee56402a62b5057"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_dropdown.html">OverlayDropdown</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_window.html#a6ab33243edbb65028ee56402a62b5057">addDropdown</a> (std::string label, std::vector&lt; std::string &gt; entries, std::function&lt; void(const std::string &amp;, std::size_t)&gt; actionChanged, std::size_t initId=0)</td></tr>
 <tr class="separator:a6ab33243edbb65028ee56402a62b5057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25b83611a8d67bee9700f23fc44e9cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_color_picker.html">OverlayColorPicker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_window.html#af25b83611a8d67bee9700f23fc44e9cd">addColorPicker</a> (std::string label, std::function&lt; void(const <a class="el" href="class_raz_1_1_color.html">Color</a> &amp;)&gt; actionChanged, const <a class="el" href="class_raz_1_1_color.html">Color</a> &amp;initColor)</td></tr>
+<tr class="separator:af25b83611a8d67bee9700f23fc44e9cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb1fc96f99f3fcc0cfa2fbb940594cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_texture.html">OverlayTexture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_window.html#afb1fc96f99f3fcc0cfa2fbb940594cb4">addTexture</a> (const <a class="el" href="class_raz_1_1_texture2_d.html">Texture2D</a> &amp;texture, unsigned int maxWidth, unsigned int maxHeight)</td></tr>
 <tr class="separator:afb1fc96f99f3fcc0cfa2fbb940594cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac73951213387428ba70c354ce0b08dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay_texture.html">OverlayTexture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_overlay_window.html#aac73951213387428ba70c354ce0b08dd">addTexture</a> (const <a class="el" href="class_raz_1_1_texture2_d.html">Texture2D</a> &amp;texture)</td></tr>
@@ -440,6 +442,49 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the newly added colored label. </dd></dl>
+
+</div>
+</div>
+<a id="af25b83611a8d67bee9700f23fc44e9cd" name="af25b83611a8d67bee9700f23fc44e9cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25b83611a8d67bee9700f23fc44e9cd">&#9670;&#160;</a></span>addColorPicker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_raz_1_1_overlay_color_picker.html">OverlayColorPicker</a> &amp; Raz::OverlayWindow::addColorPicker </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const <a class="el" href="class_raz_1_1_color.html">Color</a> &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>actionChanged</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_color.html">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>initColor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a color picker on the overlay window. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">label</td><td>Text to be displayed beside the color picker. </td></tr>
+    <tr><td class="paramname">actionChanged</td><td>Action to be executed when a color is selected. </td></tr>
+    <tr><td class="paramname">initColor</td><td>Initial color. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the newly added color picker. </dd></dl>
 
 </div>
 </div>

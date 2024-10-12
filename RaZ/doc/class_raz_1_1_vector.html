@@ -476,7 +476,7 @@ template&lt;typename LengthT  = std::conditional_t&lt;std::is_integral_v&lt;T&gt
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Computes the length of the vector. Calculating the actual length requires a square root operation to be involved, which is expensive. As such, this function should be used if actual length is needed; otherwise, prefer <a class="el" href="class_raz_1_1_vector.html#a86b207b5abca0456054f362bb8825488">computeSquaredLength()</a>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Computes the length of the vector. Calculating the actual length requires a square root operation to be involved, which is expensive. As such, this function should be used only if the actual length is needed; otherwise, prefer <a class="el" href="class_raz_1_1_vector.html#a86b207b5abca0456054f362bb8825488">computeSquaredLength()</a>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">LengthT</td><td>Type of the length value. For vectors of an integral type, it is defined to float; otherwise, it is the same as the original vector's. </td></tr>
   </table>

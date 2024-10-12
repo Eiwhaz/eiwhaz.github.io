@@ -97,23 +97,27 @@ Inheritance diagram for Raz::MonoPassRenderProcess:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_raz_1_1_mono_pass_render_process__inherit__graph.jpg" border="0" usemap="#a_raz_1_1_mono_pass_render_process_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_raz_1_1_mono_pass_render_process_inherit__map" id="a_raz_1_1_mono_pass_render_process_inherit__map">
-<area shape="rect" title=" " alt="" coords="196,169,400,195"/>
+<area shape="rect" title=" " alt="" coords="196,219,400,244"/>
 <area shape="rect" href="class_raz_1_1_box_blur_render_process.html" title=" " alt="" coords="459,5,647,31"/>
-<area shape="poly" title=" " alt="" coords="316,156,370,98,407,67,447,41,478,28,480,33,449,46,410,71,374,102,320,160"/>
-<area shape="rect" href="class_raz_1_1_chromatic_aberration_render_process.html" title=" " alt="" coords="467,55,638,95"/>
-<area shape="poly" title=" " alt="" coords="332,160,386,133,447,105,480,93,482,98,449,110,388,137,335,165"/>
-<area shape="rect" href="class_raz_1_1_convolution_render_process.html" title=" " alt="" coords="449,120,657,145"/>
-<area shape="poly" title=" " alt="" coords="377,164,486,143,487,148,378,169"/>
-<area shape="rect" href="class_raz_1_1_film_grain_render_process.html" title=" " alt="" coords="453,169,652,195"/>
-<area shape="poly" title=" " alt="" coords="414,179,453,179,453,185,414,185"/>
-<area shape="rect" href="class_raz_1_1_pixelization_render_process.html" title=" " alt="" coords="448,219,657,244"/>
-<area shape="poly" title=" " alt="" coords="378,195,487,216,486,221,377,200"/>
-<area shape="rect" href="class_raz_1_1_ssr_render_process.html" title=" " alt="" coords="471,268,634,293"/>
-<area shape="poly" title=" " alt="" coords="334,199,387,227,449,254,486,265,485,270,447,259,385,232,331,204"/>
-<area shape="rect" href="class_raz_1_1_vignette_render_process.html" title=" " alt="" coords="457,317,648,343"/>
-<area shape="poly" title=" " alt="" coords="322,203,376,254,411,281,449,304,478,315,476,320,447,308,408,285,373,258,318,207"/>
-<area shape="rect" href="class_raz_1_1_render_process.html" title="RenderProcess class, representing a set of render passes with fixed actions; can be derived to implem..." alt="" coords="5,169,148,195"/>
-<area shape="poly" title=" " alt="" coords="162,179,196,179,196,185,162,185"/>
+<area shape="poly" title=" " alt="" coords="310,205,331,167,361,123,400,78,447,40,470,28,472,33,449,44,404,81,366,126,335,170,314,207"/>
+<area shape="rect" href="class_raz_1_1_canny_filter_render_process.html" title=" " alt="" coords="449,55,657,80"/>
+<area shape="poly" title=" " alt="" coords="316,206,370,148,407,117,447,90,478,78,480,83,449,95,410,121,374,151,320,209"/>
+<area shape="rect" href="class_raz_1_1_chromatic_aberration_render_process.html" title=" " alt="" coords="467,105,638,145"/>
+<area shape="poly" title=" " alt="" coords="332,210,386,182,447,154,480,142,482,147,449,159,388,187,335,214"/>
+<area shape="rect" href="class_raz_1_1_convolution_render_process.html" title=" " alt="" coords="449,169,657,195"/>
+<area shape="poly" title=" " alt="" coords="377,213,486,192,487,197,378,219"/>
+<area shape="rect" href="class_raz_1_1_film_grain_render_process.html" title=" " alt="" coords="453,219,652,244"/>
+<area shape="poly" title=" " alt="" coords="414,229,453,229,453,234,414,234"/>
+<area shape="rect" href="class_raz_1_1_pixelization_render_process.html" title=" " alt="" coords="448,268,657,293"/>
+<area shape="poly" title=" " alt="" coords="378,244,487,265,486,271,377,249"/>
+<area shape="rect" href="class_raz_1_1_screen_space_reflections_render_process.html" title=" " alt="" coords="455,318,650,358"/>
+<area shape="poly" title=" " alt="" coords="335,248,388,276,449,304,482,315,480,320,447,308,386,281,332,253"/>
+<area shape="rect" href="class_raz_1_1_sobel_filter_render_process.html" title="Sobel filter/operator render process." alt="" coords="451,383,655,408"/>
+<area shape="poly" title=" " alt="" coords="320,253,374,311,410,342,449,368,480,380,478,385,447,372,407,346,370,315,316,257"/>
+<area shape="rect" href="class_raz_1_1_vignette_render_process.html" title=" " alt="" coords="457,432,648,457"/>
+<area shape="poly" title=" " alt="" coords="314,255,335,292,366,337,404,381,449,418,472,429,470,434,447,423,400,385,361,340,331,295,310,258"/>
+<area shape="rect" href="class_raz_1_1_render_process.html" title="RenderProcess class, representing a set of render passes with fixed actions; can be derived to implem..." alt="" coords="5,219,148,244"/>
+<area shape="poly" title=" " alt="" coords="162,229,196,229,196,234,162,234"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -374,7 +378,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Recovers the elapsed time (in milliseconds) of the process' execution. </p><dl class="section note"><dt>Note</dt><dd>This action is not available with OpenGL ES and will always return 0. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Time taken to execute the process. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_raz_1_1_time.html">Time</a> taken to execute the process. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_raz_1_1_render_process.html#a1f825541a5f94b1e5e8ebea36a8a8f5d">Raz::RenderProcess</a>.</p>
 

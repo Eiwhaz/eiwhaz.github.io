@@ -99,12 +99,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adbf1f61f211a9ef944fa4e839b2183ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2afe7da7f4c271f527834ccc9f32bab7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_raz.html#ae519d2778510307df382f391d2cb9185">WorldPtr</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a2afe7da7f4c271f527834ccc9f32bab7">getWorlds</a> ()</td></tr>
 <tr class="separator:a2afe7da7f4c271f527834ccc9f32bab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92c8a5e3104847149b47ff1e8e51297d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a92c8a5e3104847149b47ff1e8e51297d">getDeltaTime</a> () const</td></tr>
-<tr class="separator:a92c8a5e3104847149b47ff1e8e51297d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf64a0dc84975de235d9644fec0b58d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#aaf64a0dc84975de235d9644fec0b58d5">getGlobalTime</a> () const</td></tr>
-<tr class="separator:aaf64a0dc84975de235d9644fec0b58d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a060f32b1ef05039eab912fd092e45a62"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a060f32b1ef05039eab912fd092e45a62">getFixedTimeStep</a> () const</td></tr>
-<tr class="separator:a060f32b1ef05039eab912fd092e45a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f7a2821f46aefa57bf28c93b20ec3c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_raz_1_1_frame_time_info.html">FrameTimeInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a35f7a2821f46aefa57bf28c93b20ec3c">getTimeInfo</a> () const</td></tr>
+<tr class="separator:a35f7a2821f46aefa57bf28c93b20ec3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0840a90ad52066a35cd64a7bc537a3a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_application.html#a0840a90ad52066a35cd64a7bc537a3a7">setFixedTimeStep</a> (float fixedTimeStep)</td></tr>
 <tr class="separator:a0840a90ad52066a35cd64a7bc537a3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae912580dd2490d4fc4d613bd9f8d4313"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
@@ -167,49 +163,24 @@ template&lt;typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds a <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities.">World</a> into the <a class="el" href="class_raz_1_1_application.html">Application</a>. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Adds a world into the application. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">Args</td><td>Types of the arguments to be forwarded to the <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities.">World</a>. </td></tr>
+    <tr><td class="paramname">Args</td><td>Types of the arguments to be forwarded to the world. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">args</td><td>Arguments to be forwarded to the <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities.">World</a>. </td></tr>
+    <tr><td class="paramname">args</td><td>Arguments to be forwarded to the world. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the newly added <a class="el" href="class_raz_1_1_world.html" title="World class handling systems &amp; entities.">World</a>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the newly added world. </dd></dl>
 
 </div>
 </div>
-<a id="a92c8a5e3104847149b47ff1e8e51297d" name="a92c8a5e3104847149b47ff1e8e51297d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92c8a5e3104847149b47ff1e8e51297d">&#9670;&#160;</a></span>getDeltaTime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Raz::Application::getDeltaTime </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a060f32b1ef05039eab912fd092e45a62" name="a060f32b1ef05039eab912fd092e45a62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a060f32b1ef05039eab912fd092e45a62">&#9670;&#160;</a></span>getFixedTimeStep()</h2>
+<a id="a35f7a2821f46aefa57bf28c93b20ec3c" name="a35f7a2821f46aefa57bf28c93b20ec3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f7a2821f46aefa57bf28c93b20ec3c">&#9670;&#160;</a></span>getTimeInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,32 +189,7 @@ template&lt;typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float Raz::Application::getFixedTimeStep </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaf64a0dc84975de235d9644fec0b58d5" name="aaf64a0dc84975de235d9644fec0b58d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf64a0dc84975de235d9644fec0b58d5">&#9670;&#160;</a></span>getGlobalTime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Raz::Application::getGlobalTime </td>
+          <td class="memname">const <a class="el" href="struct_raz_1_1_frame_time_info.html">FrameTimeInfo</a> &amp; Raz::Application::getTimeInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -371,15 +317,15 @@ template&lt;typename FuncT &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Runs the application and call the given callable between each cycle. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Runs the application and call the given callable on each cycle. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">FuncT</td><td>Type of the callback to call between each cycle. </td></tr>
+    <tr><td class="paramname">FuncT</td><td>Type of the callback to call on each cycle. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">callback</td><td>Callback to call between each cycle. </td></tr>
+    <tr><td class="paramname">callback</td><td>Callback to call on each cycle. </td></tr>
   </table>
   </dd>
 </dl>

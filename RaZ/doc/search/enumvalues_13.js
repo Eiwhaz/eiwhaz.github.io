@@ -5,7 +5,7 @@ var searchData=
   ['tessellation_5fevaluation_2',['TESSELLATION_EVALUATION',['../namespace_raz.html#ad89bb45846c2309a8d1e60ed06a68d37a8c342df328469662555b1e75cf07815b',1,'Raz']]],
   ['text_5farea_3',['TEXT_AREA',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edcaba5a075195347416e1831ee9a0dba535',1,'Raz']]],
   ['textbox_4',['TEXTBOX',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca90bb771088edc79816de4252154f5037',1,'Raz']]],
-  ['texture_5',['TEXTURE',['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca3f92f542bd9ec48f912b9350e22736ac',1,'Raz::TEXTURE'],['../namespace_raz.html#a803a534368a5680f8f9ff56200ab3f94a3f92f542bd9ec48f912b9350e22736ac',1,'Raz::TEXTURE']]],
+  ['texture_5',['TEXTURE',['../namespace_raz.html#a803a534368a5680f8f9ff56200ab3f94a3f92f542bd9ec48f912b9350e22736ac',1,'Raz::TEXTURE'],['../namespace_raz.html#a7552f3e530ba9e9bd4e6c411b0661edca3f92f542bd9ec48f912b9350e22736ac',1,'Raz::TEXTURE']]],
   ['texture_5f1d_6',['TEXTURE_1D',['../namespace_raz.html#a089e78713ca8a2ef4251e190fe56e602a85975f3555d8eb49414ceb23f293b0e3',1,'Raz']]],
   ['texture_5f1d_5farray_7',['TEXTURE_1D_ARRAY',['../namespace_raz.html#a089e78713ca8a2ef4251e190fe56e602ad42c65b960524c40b470c8e43dc899d1',1,'Raz']]],
   ['texture_5f2d_8',['TEXTURE_2D',['../namespace_raz.html#a089e78713ca8a2ef4251e190fe56e602acc301ce75e16247f3b96a3907519096c',1,'Raz']]],
@@ -26,5 +26,12 @@ var searchData=
   ['triangle_5fstrip_5fadjacency_23',['TRIANGLE_STRIP_ADJACENCY',['../namespace_raz.html#aed7a43220250f49e5ee71eba11f37218a3bd8519568230caf7877922c9956a456',1,'Raz']]],
   ['triangles_24',['TRIANGLES',['../namespace_raz.html#aed7a43220250f49e5ee71eba11f37218add3bfee8042d1b85c224f08b42a3fc2e',1,'Raz']]],
   ['triangles_5fadjacency_25',['TRIANGLES_ADJACENCY',['../namespace_raz.html#aed7a43220250f49e5ee71eba11f37218a96af0037e7ad76831afd4df272e040ca',1,'Raz']]],
-  ['type_26',['TYPE',['../namespace_raz.html#a797b56877485e4271594f0bebf4ed849a948495146facadfe8859789036313d79',1,'Raz']]]
+  ['type_26',['TYPE',['../namespace_raz.html#a797b56877485e4271594f0bebf4ed849a948495146facadfe8859789036313d79',1,'Raz']]],
+  ['type_5f1d_27',['TYPE_1D',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9afcac1bbd2c5da5bfcb247422fdb09b88',1,'Raz::XrSession::ImageViewCreateInfo']]],
+  ['type_5f1d_5farray_28',['TYPE_1D_ARRAY',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9a150d9e853a8297f56306692a43fa768d',1,'Raz::XrSession::ImageViewCreateInfo']]],
+  ['type_5f2d_29',['TYPE_2D',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9a4ae84963058d3c2cc2c6ac6734df34ad',1,'Raz::XrSession::ImageViewCreateInfo']]],
+  ['type_5f2d_5farray_30',['TYPE_2D_ARRAY',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9a614136ef6a88b44412317d46dcf72abf',1,'Raz::XrSession::ImageViewCreateInfo']]],
+  ['type_5f3d_31',['TYPE_3D',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9ab3af166025e451f4314c7b854990b94a',1,'Raz::XrSession::ImageViewCreateInfo']]],
+  ['type_5fcube_32',['TYPE_CUBE',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9ac0a00253afaac620fda54fa2f5b733df',1,'Raz::XrSession::ImageViewCreateInfo']]],
+  ['type_5fcube_5farray_33',['TYPE_CUBE_ARRAY',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#a29531c375ab9fcbdb7f77d960737b0b9aafd00cf893d43436690754a0d94aba85',1,'Raz::XrSession::ImageViewCreateInfo']]]
 ];

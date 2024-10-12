@@ -109,19 +109,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a451a9f2b6d5d1e694bdae60b96eca8e6"><td class="memTemplParams" colspan="2">template&lt;typename FuncT , typename... Args, typename ResultT  = std::invoke_result_t&lt;FuncT&amp;&amp;, Args&amp;&amp;...&gt;&gt; </td></tr>
 <tr class="memitem:a451a9f2b6d5d1e694bdae60b96eca8e6"><td class="memTemplItemLeft" align="right" valign="top">std::future&lt; ResultT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a451a9f2b6d5d1e694bdae60b96eca8e6">launchAsync</a> (FuncT &amp;&amp;action, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a451a9f2b6d5d1e694bdae60b96eca8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad00c5908be95ebe1c296f20d3b35b246"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#ad00c5908be95ebe1c296f20d3b35b246">parallelize</a> (const std::function&lt; void()&gt; &amp;action, unsigned int threadCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
-<tr class="separator:ad00c5908be95ebe1c296f20d3b35b246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbd55f26ba19f7f64304db647ac3fe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#affbd55f26ba19f7f64304db647ac3fe3">parallelize</a> (const std::function&lt; void()&gt; &amp;action, unsigned int taskCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
+<tr class="separator:affbd55f26ba19f7f64304db647ac3fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b468c877b3623a049b223e46c775d6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a0b468c877b3623a049b223e46c775d6a">parallelize</a> (std::initializer_list&lt; std::function&lt; void()&gt; &gt; actions)</td></tr>
 <tr class="separator:a0b468c877b3623a049b223e46c775d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e25c7e011e61fd397c63153db8350b6"><td class="memTemplParams" colspan="2">template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename  = std::enable_if_t&lt;std::is_integral_v&lt;BegIndexT&gt; &amp;&amp; std::is_integral_v&lt;EndIndexT&gt;&gt;&gt; </td></tr>
-<tr class="memitem:a0e25c7e011e61fd397c63153db8350b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a0e25c7e011e61fd397c63153db8350b6">parallelize</a> (BegIndexT beginIndex, EndIndexT endIndex, FuncT &amp;&amp;action, unsigned int threadCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
-<tr class="separator:a0e25c7e011e61fd397c63153db8350b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9ace316d558786fb8fef244d6f81cb"><td class="memTemplParams" colspan="2">template&lt;typename IterT , typename FuncT , typename  = typename std::iterator_traits&lt;IterT&gt;::iterator_category&gt; </td></tr>
-<tr class="memitem:aab9ace316d558786fb8fef244d6f81cb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#aab9ace316d558786fb8fef244d6f81cb">parallelize</a> (IterT begin, IterT end, FuncT &amp;&amp;action, unsigned int threadCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
-<tr class="separator:aab9ace316d558786fb8fef244d6f81cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade85f1dbc906b1b77771f7206f542748"><td class="memTemplParams" colspan="2">template&lt;typename ContainerT , typename FuncT , typename  = decltype(std::begin(std::declval&lt;ContainerT&gt;()))&gt; </td></tr>
-<tr class="memitem:ade85f1dbc906b1b77771f7206f542748"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#ade85f1dbc906b1b77771f7206f542748">parallelize</a> (ContainerT &amp;&amp;collection, FuncT &amp;&amp;action, unsigned int threadCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
-<tr class="separator:ade85f1dbc906b1b77771f7206f542748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c7eea90c34d1e61b1899f247ee95308"><td class="memTemplParams" colspan="2">template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename  = std::enable_if_t&lt;std::is_integral_v&lt;BegIndexT&gt; &amp;&amp; std::is_integral_v&lt;EndIndexT&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a1c7eea90c34d1e61b1899f247ee95308"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a1c7eea90c34d1e61b1899f247ee95308">parallelize</a> (BegIndexT beginIndex, EndIndexT endIndex, const FuncT &amp;action, unsigned int taskCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
+<tr class="separator:a1c7eea90c34d1e61b1899f247ee95308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5962791092d0b4794354c90de2cb7d8b"><td class="memTemplParams" colspan="2">template&lt;typename IterT , typename FuncT , typename  = typename std::iterator_traits&lt;IterT&gt;::iterator_category&gt; </td></tr>
+<tr class="memitem:a5962791092d0b4794354c90de2cb7d8b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a5962791092d0b4794354c90de2cb7d8b">parallelize</a> (IterT begin, IterT end, const FuncT &amp;action, unsigned int taskCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
+<tr class="separator:a5962791092d0b4794354c90de2cb7d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98967d566eed92fdbb7f63ac69743e15"><td class="memTemplParams" colspan="2">template&lt;typename ContainerT , typename FuncT , typename  = decltype(std::begin(std::declval&lt;ContainerT&gt;()))&gt; </td></tr>
+<tr class="memitem:a98967d566eed92fdbb7f63ac69743e15"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_raz_1_1_threading.html#a98967d566eed92fdbb7f63ac69743e15">parallelize</a> (ContainerT &amp;&amp;collection, FuncT &amp;&amp;action, unsigned int taskCount=<a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>())</td></tr>
+<tr class="separator:a98967d566eed92fdbb7f63ac69743e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3ac63ee5178e3c57494ef7fc600ef9a1" name="a3ac63ee5178e3c57494ef7fc600ef9a1"></a>
@@ -215,8 +215,8 @@ template&lt;typename FuncT , typename... Args, typename ResultT  = std::invoke_r
 
 </div>
 </div>
-<a id="a0e25c7e011e61fd397c63153db8350b6" name="a0e25c7e011e61fd397c63153db8350b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e25c7e011e61fd397c63153db8350b6">&#9670;&#160;</a></span>parallelize() <span class="overload">[1/5]</span></h2>
+<a id="a1c7eea90c34d1e61b1899f247ee95308" name="a1c7eea90c34d1e61b1899f247ee95308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c7eea90c34d1e61b1899f247ee95308">&#9670;&#160;</a></span>parallelize() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,14 +238,14 @@ template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FuncT &amp;&amp;&#160;</td>
+          <td class="paramtype">const FuncT &amp;&#160;</td>
           <td class="paramname"><em>action</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>threadCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
+          <td class="paramname"><em>taskCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -254,7 +254,7 @@ template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename 
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Calls a function in parallel over an index range. The indices are automatically split, giving a separate start/past-the-end index range to each thread. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
+<p>Calls a function in parallel over an index range. The given index range is automatically split, providing a separate start/past-the-end index sub-range to each task. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">BegIndexT</td><td>Type of the begin index. </td></tr>
@@ -267,16 +267,16 @@ template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename 
   <table class="params">
     <tr><td class="paramname">beginIndex</td><td>Starting index of the whole range. Must be lower than the end index. </td></tr>
     <tr><td class="paramname">endIndex</td><td>Past-the-last index of the whole range. Must be greater than the begin index. </td></tr>
-    <tr><td class="paramname">action</td><td>Action to be performed by each thread, taking an index range as boundaries. </td></tr>
-    <tr><td class="paramname">threadCount</td><td>Amount of threads to start an instance on. </td></tr>
+    <tr><td class="paramname">action</td><td>Action to be performed in parallel, taking an index range as boundaries. </td></tr>
+    <tr><td class="paramname">taskCount</td><td>Amount of tasks to start. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ad00c5908be95ebe1c296f20d3b35b246" name="ad00c5908be95ebe1c296f20d3b35b246"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad00c5908be95ebe1c296f20d3b35b246">&#9670;&#160;</a></span>parallelize() <span class="overload">[2/5]</span></h2>
+<a id="affbd55f26ba19f7f64304db647ac3fe3" name="affbd55f26ba19f7f64304db647ac3fe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affbd55f26ba19f7f64304db647ac3fe3">&#9670;&#160;</a></span>parallelize() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,7 @@ template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename 
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>threadCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
+          <td class="paramname"><em>taskCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -303,16 +303,16 @@ template&lt;typename BegIndexT , typename EndIndexT , typename FuncT , typename 
 <p>Calls a function in parallel. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">action</td><td>Action to be performed by each thread. </td></tr>
-    <tr><td class="paramname">threadCount</td><td>Amount of threads to start an instance on. </td></tr>
+    <tr><td class="paramname">action</td><td>Action to be performed in parallel. </td></tr>
+    <tr><td class="paramname">taskCount</td><td>Amount of tasks to start. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ade85f1dbc906b1b77771f7206f542748" name="ade85f1dbc906b1b77771f7206f542748"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade85f1dbc906b1b77771f7206f542748">&#9670;&#160;</a></span>parallelize() <span class="overload">[3/5]</span></h2>
+<a id="a98967d566eed92fdbb7f63ac69743e15" name="a98967d566eed92fdbb7f63ac69743e15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98967d566eed92fdbb7f63ac69743e15">&#9670;&#160;</a></span>parallelize() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,7 +335,7 @@ template&lt;typename ContainerT , typename FuncT , typename  = decltype(std::beg
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>threadCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
+          <td class="paramname"><em>taskCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -344,7 +344,7 @@ template&lt;typename ContainerT , typename FuncT , typename  = decltype(std::beg
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Calls a function in parallel over a collection. The collection is automatically split, giving a separate start/past-the-end iterator range to each thread. </p><dl class="section note"><dt>Note</dt><dd>The container must either be a constant-size C array, or have public begin() &amp; end() functions. </dd>
+<p>Calls a function in parallel over a collection. The given collection is automatically split, providing a separate start/past-the-end iterator sub-range to each task. </p><dl class="section note"><dt>Note</dt><dd>The container must either be a constant-size C array, or have public begin() &amp; end() functions. </dd>
 <dd>
 If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
@@ -356,17 +356,17 @@ If using Emscripten this call will be synchronous, threads being unsupported wit
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">collection</td><td>Collection to iterate over on multiple threads. </td></tr>
-    <tr><td class="paramname">action</td><td>Action to be performed by each thread, taking an iterator range as boundaries. </td></tr>
-    <tr><td class="paramname">threadCount</td><td>Amount of threads to start an instance on. </td></tr>
+    <tr><td class="paramname">collection</td><td>Collection to iterate over in parallel. </td></tr>
+    <tr><td class="paramname">action</td><td>Action to be performed in parallel, taking an iterator range as boundaries. </td></tr>
+    <tr><td class="paramname">taskCount</td><td>Amount of tasks to start. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="aab9ace316d558786fb8fef244d6f81cb" name="aab9ace316d558786fb8fef244d6f81cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab9ace316d558786fb8fef244d6f81cb">&#9670;&#160;</a></span>parallelize() <span class="overload">[4/5]</span></h2>
+<a id="a5962791092d0b4794354c90de2cb7d8b" name="a5962791092d0b4794354c90de2cb7d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5962791092d0b4794354c90de2cb7d8b">&#9670;&#160;</a></span>parallelize() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,14 +388,14 @@ template&lt;typename IterT , typename FuncT , typename  = typename std::iterator
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FuncT &amp;&amp;&#160;</td>
+          <td class="paramtype">const FuncT &amp;&#160;</td>
           <td class="paramname"><em>action</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>threadCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
+          <td class="paramname"><em>taskCount</em> = <code><a class="el" href="namespace_raz_1_1_threading.html#a95c6c460a6d61261b8b74ae5e669764e">getSystemThreadCount</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -404,7 +404,7 @@ template&lt;typename IterT , typename FuncT , typename  = typename std::iterator
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Calls a function in parallel over an iterator range. The iterators are automatically split, giving a separate start/past-the-end iterator range to each thread. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
+<p>Calls a function in parallel over an iterator range. The given iterator range is automatically split, providing a separate start/past-the-end iterator sub-range to each task. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">IterT</td><td>Type of the iterators. </td></tr>
@@ -416,8 +416,8 @@ template&lt;typename IterT , typename FuncT , typename  = typename std::iterator
   <table class="params">
     <tr><td class="paramname">begin</td><td>Begin iterator of the whole range. Must be lower than the end iterator. </td></tr>
     <tr><td class="paramname">end</td><td>End iterator of the whole range. Must be greater than the begin iterator. </td></tr>
-    <tr><td class="paramname">action</td><td>Action to be performed by each thread, taking an iterator range as boundaries. </td></tr>
-    <tr><td class="paramname">threadCount</td><td>Amount of threads to start an instance on. </td></tr>
+    <tr><td class="paramname">action</td><td>Action to be performed in parallel, taking an iterator range as boundaries. </td></tr>
+    <tr><td class="paramname">taskCount</td><td>Amount of tasks to start. </td></tr>
   </table>
   </dd>
 </dl>
@@ -439,7 +439,7 @@ template&lt;typename IterT , typename FuncT , typename  = typename std::iterator
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Calls the given functions in parallel, each on its own thread. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
+<p>Calls the given functions in parallel. </p><dl class="section note"><dt>Note</dt><dd>If using Emscripten this call will be synchronous, threads being unsupported with it for now. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">actions</td><td>Actions to be performed in parallel. </td></tr>

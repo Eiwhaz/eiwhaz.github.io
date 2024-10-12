@@ -6,7 +6,7 @@ var searchData=
   ['vec2d_3',['Vec2d',['../namespace_raz.html#a209b2520691d598260e96c5b7549b614',1,'Raz']]],
   ['vec2f_4',['Vec2f',['../namespace_raz.html#a5580a749cf746221373955be4cf7f420',1,'Raz']]],
   ['vec2i_5',['Vec2i',['../namespace_raz.html#aa02aa002be09476552ceb2af857536b5',1,'Raz']]],
-  ['vec2u_6',['Vec2u',['../namespace_raz.html#acb06c18685e512d2112070f4d10d4848',1,'Raz']]],
+  ['vec2u_6',['Vec2u',['../namespace_raz.html#a0e56b027fc8029a586bf3e75cd024594',1,'Raz']]],
   ['vec3_7',['Vec3',['../namespace_raz.html#a2ff540629e728e81a802e2810dd98fc7',1,'Raz']]],
   ['vec3b_8',['Vec3b',['../namespace_raz.html#ac9077a243e3cbbd8454e104a935ba9b1',1,'Raz']]],
   ['vec3d_9',['Vec3d',['../namespace_raz.html#aeab5f3dc19053717415bf4f02d871343',1,'Raz']]],

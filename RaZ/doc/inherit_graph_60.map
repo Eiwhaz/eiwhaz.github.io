@@ -1,9 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_raz_1_1_texture.html" title="Texture class, representing images or buffers to be used in the rendering process." alt="" coords="5,55,101,80"/>
-<area shape="rect" id="Node000001" href="$class_raz_1_1_texture1_d.html" title=" " alt="" coords="149,5,261,31"/>
-<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="105,48,164,28,166,33,107,53"/>
-<area shape="rect" id="Node000002" href="$class_raz_1_1_texture2_d.html" title=" " alt="" coords="149,55,261,80"/>
-<area shape="poly" id="edge62_Node000000_Node000002" title=" " alt="" coords="115,65,149,65,149,70,115,70"/>
-<area shape="rect" id="Node000003" href="$class_raz_1_1_texture3_d.html" title=" " alt="" coords="149,104,261,129"/>
-<area shape="poly" id="edge63_Node000000_Node000003" title=" " alt="" coords="107,82,166,101,164,106,105,87"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_shape.html" title=" " alt="" coords="5,153,96,179"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_a_a_b_b.html" title=" " alt="" coords="149,5,238,31"/>
+<area shape="poly" id="edge59_Node000000_Node000001" title=" " alt="" coords="63,140,96,91,118,64,142,40,160,28,163,33,146,44,122,68,100,94,68,143"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_line.html" title="Line segment defined by its two extremities&#39; positions." alt="" coords="155,55,232,80"/>
+<area shape="poly" id="edge60_Node000000_Node000002" title=" " alt="" coords="75,142,143,89,163,78,165,82,145,94,78,146"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_o_b_b.html" title=" " alt="" coords="153,104,234,129"/>
+<area shape="poly" id="edge61_Node000000_Node000003" title=" " alt="" coords="100,146,155,127,156,132,102,151"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_plane.html" title="Plane defined by a distance from [ 0; 0; 0 ] and a normal." alt="" coords="150,153,237,179"/>
+<area shape="poly" id="edge62_Node000000_Node000004" title=" " alt="" coords="110,163,150,163,150,169,110,169"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_quad.html" title="Quad defined by its four vertices&#39; positions, presumably in counter&#45;clockwise order." alt="" coords="151,203,235,228"/>
+<area shape="poly" id="edge63_Node000000_Node000005" title=" " alt="" coords="102,181,156,200,155,205,100,186"/>
+<area shape="rect" id="Node000006" href="$class_raz_1_1_sphere.html" title="Sphere defined by its center position and a radius." alt="" coords="146,252,241,277"/>
+<area shape="poly" id="edge64_Node000000_Node000006" title=" " alt="" coords="78,186,145,237,167,250,164,254,143,242,75,190"/>
+<area shape="rect" id="Node000007" href="$class_raz_1_1_triangle.html" title="Triangle defined by its three vertices&#39; positions, presumably in counter&#45;clockwise order." alt="" coords="144,301,243,327"/>
+<area shape="poly" id="edge65_Node000000_Node000007" title=" " alt="" coords="68,189,101,237,122,263,146,287,164,299,161,303,142,291,118,267,96,241,64,192"/>
 </map>

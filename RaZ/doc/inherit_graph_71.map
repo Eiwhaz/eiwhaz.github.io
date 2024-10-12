@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_raz_1_1_uniform_buffer.html" title=" " alt="" coords="5,5,136,31"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_texture.html" title="Texture class, representing images or buffers to be used in the rendering process." alt="" coords="5,55,101,80"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_texture1_d.html" title=" " alt="" coords="149,5,261,31"/>
+<area shape="poly" id="edge75_Node000000_Node000001" title=" " alt="" coords="105,48,164,28,166,33,107,53"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_texture2_d.html" title=" " alt="" coords="149,55,261,80"/>
+<area shape="poly" id="edge76_Node000000_Node000002" title=" " alt="" coords="115,65,149,65,149,70,115,70"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_texture3_d.html" title=" " alt="" coords="149,104,261,129"/>
+<area shape="poly" id="edge77_Node000000_Node000003" title=" " alt="" coords="107,82,166,101,164,106,105,87"/>
 </map>

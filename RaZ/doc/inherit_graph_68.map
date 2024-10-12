@@ -1,3 +1,21 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_raz_1_1_type_utils_1_1_details_1_1_detector_3_01_default_00_01std_1_1void__t_3_01_attr_3_5848d339f449ea557e8a0145ee844866.html" title=" " alt="" coords="5,5,163,75"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_system.html" title="System class representing a base System to be inherited." alt="" coords="5,219,104,244"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_action_system.html" title=" " alt="" coords="188,5,323,31"/>
+<area shape="poly" id="edge66_Node000000_Node000001" title=" " alt="" coords="59,204,70,167,88,123,115,78,150,40,168,29,187,22,189,27,170,34,154,44,119,81,93,125,75,169,64,206"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_audio_system.html" title=" " alt="" coords="190,55,321,80"/>
+<area shape="poly" id="edge67_Node000000_Node000002" title=" " alt="" coords="64,205,97,147,121,116,151,90,188,73,191,78,153,95,125,120,101,150,69,207"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_bounding_volume_hierarchy_system.html" title=" " alt="" coords="152,105,359,145"/>
+<area shape="poly" id="edge68_Node000000_Node000003" title=" " alt="" coords="78,207,111,180,151,154,178,142,180,147,153,159,114,184,81,211"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_physics_system.html" title=" " alt="" coords="183,169,328,195"/>
+<area shape="poly" id="edge69_Node000000_Node000004" title=" " alt="" coords="116,213,151,203,198,192,200,197,153,209,117,218"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_render_system.html" title="RenderSystem class, handling the rendering part." alt="" coords="186,219,325,244"/>
+<area shape="poly" id="edge70_Node000000_Node000005" title=" " alt="" coords="118,229,186,229,186,234,118,234"/>
+<area shape="rect" id="Node000006" href="$class_raz_1_1_script_system.html" title=" " alt="" coords="189,268,321,293"/>
+<area shape="poly" id="edge71_Node000000_Node000006" title=" " alt="" coords="118,244,153,253,203,265,202,271,151,258,117,249"/>
+<area shape="rect" id="Node000007" href="$class_raz_1_1_trigger_system.html" title=" " alt="" coords="187,317,324,343"/>
+<area shape="poly" id="edge72_Node000000_Node000007" title=" " alt="" coords="81,252,114,278,153,302,187,315,185,320,151,307,111,283,78,256"/>
+<area shape="rect" id="Node000008" href="$class_raz_1_1_update_system.html" title=" " alt="" coords="186,367,325,392"/>
+<area shape="poly" id="edge73_Node000000_Node000008" title=" " alt="" coords="71,254,104,305,127,330,153,352,187,367,184,371,151,356,123,334,100,308,66,257"/>
+<area shape="rect" id="Node000009" href="$class_raz_1_1_xr_system.html" title=" " alt="" coords="201,416,310,441"/>
+<area shape="poly" id="edge74_Node000000_Node000009" title=" " alt="" coords="66,256,78,290,96,329,121,368,154,401,176,414,201,421,200,426,174,419,150,405,117,372,91,332,73,292,61,258"/>
 </map>

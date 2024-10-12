@@ -1,3 +1,27 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$struct_raz_1_1_shader_program_1_1_attribute.html" title=" " alt="" coords="5,5,148,45"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_render_process.html" title="RenderProcess class, representing a set of render passes with fixed actions; can be derived to implem..." alt="" coords="5,169,148,195"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_bloom_render_process.html" title=" " alt="" coords="217,120,395,145"/>
+<area shape="poly" id="edge39_Node000000_Node000001" title=" " alt="" coords="149,164,246,143,247,148,150,169"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_gaussian_blur_render_process.html" title=" " alt="" coords="196,169,416,195"/>
+<area shape="poly" id="edge40_Node000000_Node000002" title=" " alt="" coords="162,179,196,179,196,185,162,185"/>
+<area shape="rect" id="Node000003" href="$class_raz_1_1_mono_pass_render_process.html" title=" " alt="" coords="204,219,408,244"/>
+<area shape="poly" id="edge41_Node000000_Node000003" title=" " alt="" coords="150,195,247,216,246,221,149,200"/>
+<area shape="rect" id="Node000004" href="$class_raz_1_1_box_blur_render_process.html" title=" " alt="" coords="475,5,663,31"/>
+<area shape="poly" id="edge42_Node000003_Node000004" title=" " alt="" coords="408,209,414,204,429,185,436,165,437,124,438,82,446,61,462,40,478,29,481,33,466,44,451,63,444,83,443,124,442,166,434,187,418,208,411,213"/>
+<area shape="rect" id="Node000005" href="$class_raz_1_1_canny_filter_render_process.html" title=" " alt="" coords="465,55,673,80"/>
+<area shape="poly" id="edge43_Node000003_Node000005" title=" " alt="" coords="406,210,414,204,426,191,433,178,437,149,442,120,449,105,462,91,483,78,486,82,466,95,454,108,447,121,443,150,438,179,431,194,418,208,409,214"/>
+<area shape="rect" id="Node000006" href="$class_raz_1_1_chromatic_aberration_render_process.html" title=" " alt="" coords="483,105,654,145"/>
+<area shape="poly" id="edge44_Node000003_Node000006" title=" " alt="" coords="398,212,415,204,429,192,438,180,447,167,463,154,486,142,489,147,465,159,451,171,442,183,433,196,417,208,401,216"/>
+<area shape="rect" id="Node000007" href="$class_raz_1_1_convolution_render_process.html" title=" " alt="" coords="465,169,673,195"/>
+<area shape="poly" id="edge45_Node000003_Node000007" title=" " alt="" coords="387,213,500,192,501,197,388,219"/>
+<area shape="rect" id="Node000008" href="$class_raz_1_1_film_grain_render_process.html" title=" " alt="" coords="469,219,668,244"/>
+<area shape="poly" id="edge46_Node000003_Node000008" title=" " alt="" coords="422,229,469,229,469,234,422,234"/>
+<area shape="rect" id="Node000009" href="$class_raz_1_1_pixelization_render_process.html" title=" " alt="" coords="464,268,673,293"/>
+<area shape="poly" id="edge47_Node000003_Node000009" title=" " alt="" coords="388,244,501,265,500,271,387,249"/>
+<area shape="rect" id="Node000010" href="$class_raz_1_1_screen_space_reflections_render_process.html" title=" " alt="" coords="471,318,666,358"/>
+<area shape="poly" id="edge48_Node000003_Node000010" title=" " alt="" coords="346,248,465,302,502,315,500,320,463,307,343,253"/>
+<area shape="rect" id="Node000011" href="$class_raz_1_1_sobel_filter_render_process.html" title="Sobel filter/operator render process." alt="" coords="467,383,671,408"/>
+<area shape="poly" id="edge49_Node000003_Node000011" title=" " alt="" coords="329,253,386,311,424,342,465,368,497,380,495,385,463,372,421,346,383,315,325,256"/>
+<area shape="rect" id="Node000012" href="$class_raz_1_1_vignette_render_process.html" title=" " alt="" coords="473,432,664,457"/>
+<area shape="poly" id="edge50_Node000003_Node000012" title=" " alt="" coords="323,255,346,291,378,335,418,380,465,417,492,430,490,434,463,422,415,384,374,339,341,294,318,257"/>
 </map>

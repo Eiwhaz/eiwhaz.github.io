@@ -9,5 +9,6 @@ var searchData=
   ['textureparam_6',['TextureParam',['../namespace_raz.html#a14093882ba75577889d37831da612fcd',1,'Raz']]],
   ['textureparamvalue_7',['TextureParamValue',['../namespace_raz.html#ab96028101f53e28c9e909c1ec39c0980',1,'Raz']]],
   ['texturetype_8',['TextureType',['../namespace_raz.html#a089e78713ca8a2ef4251e190fe56e602',1,'Raz']]],
-  ['texturewrapping_9',['TextureWrapping',['../namespace_raz.html#ad768da7f407638b8831c2af8788e6a42',1,'Raz']]]
+  ['texturewrapping_9',['TextureWrapping',['../namespace_raz.html#ad768da7f407638b8831c2af8788e6a42',1,'Raz']]],
+  ['type_10',['Type',['../struct_raz_1_1_xr_session_1_1_image_view_create_info.html#ab35462276514593289c8002d8f0974cb',1,'Raz::XrSession::ImageViewCreateInfo']]]
 ];

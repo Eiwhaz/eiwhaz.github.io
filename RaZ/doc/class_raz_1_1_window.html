@@ -85,6 +85,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_raz_1_1_window-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Raz::Window Class Reference</div></div>
 </div><!--header-->
@@ -109,8 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace78ef0055a814a57943e92cea10051e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb64a60af6be1bb9e7dd86f857b291e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_overlay.html">Overlay</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#adb64a60af6be1bb9e7dd86f857b291e7">getOverlay</a> () noexcept</td></tr>
 <tr class="separator:adb64a60af6be1bb9e7dd86f857b291e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad774d5f6f7101d45bb183b636b61c966"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#ad774d5f6f7101d45bb183b636b61c966">setClearColor</a> (const <a class="el" href="namespace_raz.html#af6af78815189dd96bea3491327fa938a">Vec4f</a> &amp;clearColor) const</td></tr>
-<tr class="separator:ad774d5f6f7101d45bb183b636b61c966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc1913a725a94e9a5f6045ef1bdf1ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a1bc1913a725a94e9a5f6045ef1bdf1ec">setClearColor</a> (const <a class="el" href="class_raz_1_1_color.html">Color</a> &amp;color, float alpha=1.f) const</td></tr>
+<tr class="separator:a1bc1913a725a94e9a5f6045ef1bdf1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ee7c266ad2c3d6a70516663dce75af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#ad4ee7c266ad2c3d6a70516663dce75af">setClearColor</a> (float red, float green, float blue, float alpha=1.f) const</td></tr>
 <tr class="separator:ad4ee7c266ad2c3d6a70516663dce75af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade9b77f132b85c114b70df15262c06e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#ade9b77f132b85c114b70df15262c06e0">setTitle</a> (const std::string &amp;title) const</td></tr>
@@ -166,12 +167,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abb55fd64b6be001122a021662d8f6097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a422d8b3e059aabee43ed37e414dc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_raz.html#a5580a749cf746221373955be4cf7f420">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a99a422d8b3e059aabee43ed37e414dc6">recoverMousePosition</a> () const</td></tr>
 <tr class="separator:a99a422d8b3e059aabee43ed37e414dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98d64549f86096c4315b20d99efde06e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a98d64549f86096c4315b20d99efde06e">setShouldClose</a> () const</td></tr>
-<tr class="memdesc:a98d64549f86096c4315b20d99efde06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the window that it should close.  <br /></td></tr>
-<tr class="separator:a98d64549f86096c4315b20d99efde06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95da7c2f618bb65e4966deca1d37eda9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a95da7c2f618bb65e4966deca1d37eda9">close</a> ()</td></tr>
-<tr class="memdesc:a95da7c2f618bb65e4966deca1d37eda9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the window.  <br /></td></tr>
-<tr class="separator:a95da7c2f618bb65e4966deca1d37eda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a304477d131a5d817606bb150b27be07d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_window.html">Window</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a304477d131a5d817606bb150b27be07d">operator=</a> (const <a class="el" href="class_raz_1_1_window.html">Window</a> &amp;)=delete</td></tr>
 <tr class="separator:a304477d131a5d817606bb150b27be07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb29bc5a0803a9485de7deda80f4171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_raz_1_1_window.html">Window</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a2eb29bc5a0803a9485de7deda80f4171">operator=</a> (<a class="el" href="class_raz_1_1_window.html">Window</a> &amp;&amp;) noexcept=default</td></tr>
@@ -184,6 +179,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a776abd79bfaba7b5dc1d2cf3ada3e272"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a776abd79bfaba7b5dc1d2cf3ada3e272"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="namespace_raz.html#a19a79c361829e40a73559bd7036dffcd">WindowPtr</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a776abd79bfaba7b5dc1d2cf3ada3e272">create</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a776abd79bfaba7b5dc1d2cf3ada3e272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a06b786d8e0847dfe9cc15e1dea308fcd"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_window.html#a06b786d8e0847dfe9cc15e1dea308fcd">RenderSystem</a></td></tr>
+<tr class="separator:a06b786d8e0847dfe9cc15e1dea308fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Graphical window to render the scenes on, with input custom actions. </p>
@@ -424,25 +424,6 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a95da7c2f618bb65e4966deca1d37eda9" name="a95da7c2f618bb65e4966deca1d37eda9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95da7c2f618bb65e4966deca1d37eda9">&#9670;&#160;</a></span>close()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::Window::close </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Closes the window. </p>
 
 </div>
 </div>
@@ -948,8 +929,8 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="ad774d5f6f7101d45bb183b636b61c966" name="ad774d5f6f7101d45bb183b636b61c966"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad774d5f6f7101d45bb183b636b61c966">&#9670;&#160;</a></span>setClearColor() <span class="overload">[1/2]</span></h2>
+<a id="a1bc1913a725a94e9a5f6045ef1bdf1ec" name="a1bc1913a725a94e9a5f6045ef1bdf1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc1913a725a94e9a5f6045ef1bdf1ec">&#9670;&#160;</a></span>setClearColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -957,9 +938,19 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="memname">void Raz::Window::setClearColor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_raz.html#af6af78815189dd96bea3491327fa938a">Vec4f</a> &amp;&#160;</td>
-          <td class="paramname"><em>clearColor</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="class_raz_1_1_color.html">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>alpha</em> = <code>1.f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1134,25 +1125,6 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a98d64549f86096c4315b20d99efde06e" name="a98d64549f86096c4315b20d99efde06e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98d64549f86096c4315b20d99efde06e">&#9670;&#160;</a></span>setShouldClose()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Raz::Window::setShouldClose </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Tells the window that it should close. </p>
-
-</div>
-</div>
 <a id="ade9b77f132b85c114b70df15262c06e0" name="ade9b77f132b85c114b70df15262c06e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade9b77f132b85c114b70df15262c06e0">&#9670;&#160;</a></span>setTitle()</h2>
 
@@ -1213,6 +1185,29 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Associates all of the callbacks, making them active. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="a06b786d8e0847dfe9cc15e1dea308fcd" name="a06b786d8e0847dfe9cc15e1dea308fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06b786d8e0847dfe9cc15e1dea308fcd">&#9670;&#160;</a></span>RenderSystem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_raz_1_1_render_system.html">RenderSystem</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

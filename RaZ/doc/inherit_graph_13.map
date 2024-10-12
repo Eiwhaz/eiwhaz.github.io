@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_raz_1_1_framebuffer.html" title="Framebuffer class, handling buffers used for deferred rendering." alt="" coords="5,5,127,31"/>
+<area shape="rect" id="Node000000" href="$class_raz_1_1_file.html" title=" " alt="" coords="5,31,80,56"/>
+<area shape="rect" id="Node000001" href="$class_raz_1_1_input_file.html" title=" " alt="" coords="133,5,236,31"/>
+<area shape="poly" id="edge16_Node000000_Node000001" title=" " alt="" coords="93,32,133,25,134,30,94,37"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_output_file.html" title=" " alt="" coords="128,55,241,80"/>
+<area shape="poly" id="edge17_Node000000_Node000002" title=" " alt="" coords="94,49,128,55,127,60,93,55"/>
 </map>

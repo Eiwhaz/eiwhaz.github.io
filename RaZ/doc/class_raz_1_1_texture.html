@@ -151,6 +151,11 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8e181199ed1d12fd538d8c121bcd2e72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a8e181199ed1d12fd538d8c121bcd2e72">Texture</a> (<a class="el" href="namespace_raz.html#a089e78713ca8a2ef4251e190fe56e602">TextureType</a> type)</td></tr>
 <tr class="separator:a8e181199ed1d12fd538d8c121bcd2e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae1ec8418604e138fcbe02b0440188a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a6ae1ec8418604e138fcbe02b0440188a">setLoadedParameters</a> (bool createMipmaps) const</td></tr>
+<tr class="separator:a6ae1ec8418604e138fcbe02b0440188a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc3455d7785b4bf0f57f1defe296326"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#aacc3455d7785b4bf0f57f1defe296326">generateMipmaps</a> () const</td></tr>
+<tr class="memdesc:aacc3455d7785b4bf0f57f1defe296326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates mipmaps for the current texture.  <br /></td></tr>
+<tr class="separator:aacc3455d7785b4bf0f57f1defe296326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c2d9e165ec53683efa9bfa0988d82ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_texture.html#a1c2d9e165ec53683efa9bfa0988d82ef">load</a> () const =0</td></tr>
 <tr class="separator:a1c2d9e165ec53683efa9bfa0988d82ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -288,6 +293,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Binds the current texture. </p>
+
+</div>
+</div>
+<a id="aacc3455d7785b4bf0f57f1defe296326" name="aacc3455d7785b4bf0f57f1defe296326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacc3455d7785b4bf0f57f1defe296326">&#9670;&#160;</a></span>generateMipmaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Texture::generateMipmaps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates mipmaps for the current texture. </p>
 
 </div>
 </div>
@@ -587,6 +619,38 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ae1ec8418604e138fcbe02b0440188a" name="a6ae1ec8418604e138fcbe02b0440188a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae1ec8418604e138fcbe02b0440188a">&#9670;&#160;</a></span>setLoadedParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Raz::Texture::setLoadedParameters </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>createMipmaps</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Assigns default parameters after image loading. Must be called after having loaded the images' data in order to properly create the mipmaps. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">createMipmaps</td><td>True to generate texture mipmaps, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -8,5 +8,6 @@ var searchData=
   ['spheremeshtype_5',['SphereMeshType',['../namespace_raz.html#aed7d485a1e7a40f377859b5abf111004',1,'Raz']]],
   ['state_6',['State',['../namespace_raz_1_1_cursor.html#a29a2e5225bfb6920236a16983f0ff57f',1,'Raz::Cursor']]],
   ['stateparameter_7',['StateParameter',['../namespace_raz.html#a7b11a316d31a32f133156da7c2918a1e',1,'Raz']]],
-  ['stenciloperation_8',['StencilOperation',['../namespace_raz.html#adbb3dadc2cfcf7f60ee53e202d766888',1,'Raz']]]
+  ['stenciloperation_8',['StencilOperation',['../namespace_raz.html#adbb3dadc2cfcf7f60ee53e202d766888',1,'Raz']]],
+  ['swapchaintype_9',['SwapchainType',['../class_raz_1_1_xr_session.html#a1f50ce860d968fd80fc1967ac6adb351',1,'Raz::XrSession']]]
 ];

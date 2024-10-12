@@ -1,0 +1,5 @@
+<map id="Raz::Cloth" name="Raz::Cloth">
+<area shape="rect" id="Node000001" title="Cloth simulation based on a Mass&#45;Spring System (MSS) implementation." alt="" coords="23,79,106,104"/>
+<area shape="rect" id="Node000002" href="$class_raz_1_1_component.html" title="Component class representing a base Component to be inherited." alt="" coords="5,5,124,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,44,67,79,62,79,62,44"/>
+</map>

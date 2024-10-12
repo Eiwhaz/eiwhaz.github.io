@@ -91,11 +91,12 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_image_8hpp_source.html">RaZ/Data/Image.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_image_format_8hpp_source.html">RaZ/Data/ImageFormat.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_png_format_8hpp_source.html">RaZ/Data/PngFormat.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_file_path_8hpp_source.html">RaZ/Utils/FilePath.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_logger_8hpp_source.html">RaZ/Utils/Logger.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_str_utils_8hpp_source.html">RaZ/Utils/StrUtils.hpp</a>&quot;</code><br />
 <code>#include &quot;stb_image.h&quot;</code><br />
+<code>#include &quot;stb_image_write.h&quot;</code><br />
+<code>#include &quot;tracy/Tracy.hpp&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -112,6 +113,10 @@ Macros</h2></td></tr>
 <tr class="separator:a03f11c185c278fd82e6d2624e9ce9214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad19e9f778983aa8a814236d9742a5f72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_image_format_8cpp.html#ad19e9f778983aa8a814236d9742a5f72">STBI_WINDOWS_UTF8</a></td></tr>
 <tr class="separator:ad19e9f778983aa8a814236d9742a5f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe397a94e8feddc652f92ef40ce9597"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_image_format_8cpp.html#aefe397a94e8feddc652f92ef40ce9597">STB_IMAGE_WRITE_IMPLEMENTATION</a></td></tr>
+<tr class="separator:aefe397a94e8feddc652f92ef40ce9597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae686781d8a0a66f016a73b286eea3292"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_image_format_8cpp.html#ae686781d8a0a66f016a73b286eea3292">STBIW_WINDOWS_UTF8</a></td></tr>
+<tr class="separator:ae686781d8a0a66f016a73b286eea3292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -133,6 +138,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define STB_IMAGE_IMPLEMENTATION</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefe397a94e8feddc652f92ef40ce9597" name="aefe397a94e8feddc652f92ef40ce9597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefe397a94e8feddc652f92ef40ce9597">&#9670;&#160;</a></span>STB_IMAGE_WRITE_IMPLEMENTATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STB_IMAGE_WRITE_IMPLEMENTATION</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,6 +180,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define STBI_WINDOWS_UTF8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae686781d8a0a66f016a73b286eea3292" name="ae686781d8a0a66f016a73b286eea3292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae686781d8a0a66f016a73b286eea3292">&#9670;&#160;</a></span>STBIW_WINDOWS_UTF8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STBIW_WINDOWS_UTF8</td>
         </tr>
       </table>
 </div><div class="memdoc">

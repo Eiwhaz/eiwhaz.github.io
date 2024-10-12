@@ -9,7 +9,7 @@ var searchData=
   ['quaternion_3c_20float_20_3e_6',['Quaternion&lt; float &gt;',['../class_raz_1_1_quaternion.html',1,'Raz']]],
   ['quaterniond_7',['Quaterniond',['../namespace_raz.html#ab56216acacea0af0e41dc037ed5e2594',1,'Raz']]],
   ['quaternionf_8',['Quaternionf',['../namespace_raz.html#af7548f038dd710bf0f6fd51f171ae79d',1,'Raz']]],
-  ['query_9',['query',['../class_raz_1_1_bvh_node.html#a9d4b2eb87d0b6dac7b88fab68009a549',1,'Raz::BvhNode::query()'],['../class_raz_1_1_bvh_system.html#ae2cd75992afa9675c6d5de6f6425af32',1,'Raz::BvhSystem::query()']]],
+  ['query_9',['query',['../class_raz_1_1_bounding_volume_hierarchy_node.html#a30f92d16d5ce12f3627555bd1ed22ba1',1,'Raz::BoundingVolumeHierarchyNode::query()'],['../class_raz_1_1_bounding_volume_hierarchy.html#a741244c089f6a9f2b5431c2e82d4ee22',1,'Raz::BoundingVolumeHierarchy::query()']]],
   ['query_10',['QUERY',['../namespace_raz.html#a803a534368a5680f8f9ff56200ab3f94a5662080872eece1e1ceeec5750198283',1,'Raz']]],
   ['querytype_11',['QueryType',['../namespace_raz.html#a1bf88fc3714d130c40319c9e0d1757cd',1,'Raz']]],
   ['quit_12',['quit',['../class_raz_1_1_application.html#a1c36a22fbac3784a6031db1822c6e1f0',1,'Raz::Application']]]

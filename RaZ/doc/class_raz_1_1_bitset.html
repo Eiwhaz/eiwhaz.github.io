@@ -100,10 +100,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a97c05a50bdeacf5ce5f03b6469909358"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa565897344443ef02f0421da16b418"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a6fa565897344443ef02f0421da16b418">Bitset</a> (std::initializer_list&lt; bool &gt; values)</td></tr>
 <tr class="separator:a6fa565897344443ef02f0421da16b418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43e165bbff32bd1b5cde3b32d392a70a"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; bool &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a43e165bbff32bd1b5cde3b32d392a70a">getBits</a> () const noexcept</td></tr>
-<tr class="separator:a43e165bbff32bd1b5cde3b32d392a70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d238d5479e18554e93af051754d9669"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a0d238d5479e18554e93af051754d9669">getBits</a> () noexcept</td></tr>
-<tr class="separator:a0d238d5479e18554e93af051754d9669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8430f39a7933fb9dbe81929ea004c490"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a8430f39a7933fb9dbe81929ea004c490">getSize</a> () const noexcept</td></tr>
 <tr class="separator:a8430f39a7933fb9dbe81929ea004c490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a993f831a3b5e76be49d4c2a2f04ed122"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a993f831a3b5e76be49d4c2a2f04ed122">isEmpty</a> () const noexcept</td></tr>
@@ -112,8 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10c666061c310e9cfc1015ebcfb3ec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e0d6da04dfd63f247cb4cf2b72c9478"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a0e0d6da04dfd63f247cb4cf2b72c9478">getDisabledBitCount</a> () const noexcept</td></tr>
 <tr class="separator:a0e0d6da04dfd63f247cb4cf2b72c9478"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a4a4da266b2690b465078e4a203f5ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a1a4a4da266b2690b465078e4a203f5ce">setBit</a> (std::size_t position, bool value=true)</td></tr>
-<tr class="separator:a1a4a4da266b2690b465078e4a203f5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d089291189f94582ede9c0b17461df3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a1d089291189f94582ede9c0b17461df3">setBit</a> (std::size_t index, bool value=true)</td></tr>
+<tr class="separator:a1d089291189f94582ede9c0b17461df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a315ab0742a8b356ed3a9162252851638"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a315ab0742a8b356ed3a9162252851638">resize</a> (std::size_t newSize)</td></tr>
 <tr class="separator:a315ab0742a8b356ed3a9162252851638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a162ceffec9d384360800aaff37678c1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_raz_1_1_bitset.html#a162ceffec9d384360800aaff37678c1d">reset</a> ()</td></tr>
@@ -254,56 +250,6 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void Raz::Bitset::clear </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a43e165bbff32bd1b5cde3b32d392a70a" name="a43e165bbff32bd1b5cde3b32d392a70a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43e165bbff32bd1b5cde3b32d392a70a">&#9670;&#160;</a></span>getBits() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt; bool &gt; &amp; Raz::Bitset::getBits </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d238d5479e18554e93af051754d9669" name="a0d238d5479e18554e93af051754d9669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d238d5479e18554e93af051754d9669">&#9670;&#160;</a></span>getBits() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; bool &gt; &amp; Raz::Bitset::getBits </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -800,8 +746,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a4a4da266b2690b465078e4a203f5ce" name="a1a4a4da266b2690b465078e4a203f5ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a4a4da266b2690b465078e4a203f5ce">&#9670;&#160;</a></span>setBit()</h2>
+<a id="a1d089291189f94582ede9c0b17461df3" name="a1d089291189f94582ede9c0b17461df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d089291189f94582ede9c0b17461df3">&#9670;&#160;</a></span>setBit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -810,7 +756,7 @@ Friends</h2></td></tr>
           <td class="memname">void Raz::Bitset::setBit </td>
           <td>(</td>
           <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>position</em>, </td>
+          <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

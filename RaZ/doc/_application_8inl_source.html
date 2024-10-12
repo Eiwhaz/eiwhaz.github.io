@@ -94,7 +94,7 @@ $(function() {
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_raz_1_1_application.html#ae912580dd2490d4fc4d613bd9f8d4313">    8</a></span><a class="code hl_class" href="class_raz_1_1_world.html">World</a>&amp; <a class="code hl_function" href="class_raz_1_1_application.html#ae912580dd2490d4fc4d613bd9f8d4313">Application::addWorld</a>(Args&amp;&amp;... args) {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>  m_worlds.emplace_back(std::make_unique&lt;World&gt;(std::forward&lt;Args&gt;(args)...));</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  m_activeWorlds.<a class="code hl_function" href="class_raz_1_1_bitset.html#a1a4a4da266b2690b465078e4a203f5ce">setBit</a>(m_worlds.size() - 1);</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  m_activeWorlds.<a class="code hl_function" href="class_raz_1_1_bitset.html#a1d089291189f94582ede9c0b17461df3">setBit</a>(m_worlds.size() - 1);</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  <span class="keywordflow">return</span> *m_worlds.back();</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>}</div>
@@ -104,7 +104,7 @@ $(function() {
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#if defined(RAZ_PLATFORM_EMSCRIPTEN)</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  <span class="keyword">static</span> <span class="keyword">auto</span> emCallback = [<span class="keyword">this</span>, callback = std::forward&lt;FuncT&gt;(callback)] () {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="class_raz_1_1_application.html#a2dfadca277c6309a5434915188dcfd49">runOnce</a>();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    callback(m_deltaTime);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    callback(m_timeInfo);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  };</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  emscripten_set_main_loop_arg([] (<span class="keywordtype">void</span>* lambda) {</div>
@@ -112,15 +112,15 @@ $(function() {
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  }, &amp;emCallback, 0, 1);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordflow">while</span> (<a class="code hl_function" href="class_raz_1_1_application.html#a2dfadca277c6309a5434915188dcfd49">runOnce</a>())</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    callback(m_deltaTime);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    callback(m_timeInfo);</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>} <span class="comment">// namespace Raz</span></div>
-<div class="ttc" id="aclass_raz_1_1_application_html_a2dfadca277c6309a5434915188dcfd49"><div class="ttname"><a href="class_raz_1_1_application.html#a2dfadca277c6309a5434915188dcfd49">Raz::Application::runOnce</a></div><div class="ttdeci">bool runOnce()</div><div class="ttdef"><b>Definition</b> Application.cpp:29</div></div>
-<div class="ttc" id="aclass_raz_1_1_application_html_ad8b8b4af535645b0df2241e26a937a5f"><div class="ttname"><a href="class_raz_1_1_application.html#ad8b8b4af535645b0df2241e26a937a5f">Raz::Application::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">Runs the application.</div><div class="ttdef"><b>Definition</b> Application.cpp:15</div></div>
+<div class="ttc" id="aclass_raz_1_1_application_html_a2dfadca277c6309a5434915188dcfd49"><div class="ttname"><a href="class_raz_1_1_application.html#a2dfadca277c6309a5434915188dcfd49">Raz::Application::runOnce</a></div><div class="ttdeci">bool runOnce()</div><div class="ttdef"><b>Definition</b> Application.cpp:30</div></div>
+<div class="ttc" id="aclass_raz_1_1_application_html_ad8b8b4af535645b0df2241e26a937a5f"><div class="ttname"><a href="class_raz_1_1_application.html#ad8b8b4af535645b0df2241e26a937a5f">Raz::Application::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">Runs the application.</div><div class="ttdef"><b>Definition</b> Application.cpp:16</div></div>
 <div class="ttc" id="aclass_raz_1_1_application_html_ae912580dd2490d4fc4d613bd9f8d4313"><div class="ttname"><a href="class_raz_1_1_application.html#ae912580dd2490d4fc4d613bd9f8d4313">Raz::Application::addWorld</a></div><div class="ttdeci">World &amp; addWorld(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> Application.inl:8</div></div>
-<div class="ttc" id="aclass_raz_1_1_bitset_html_a1a4a4da266b2690b465078e4a203f5ce"><div class="ttname"><a href="class_raz_1_1_bitset.html#a1a4a4da266b2690b465078e4a203f5ce">Raz::Bitset::setBit</a></div><div class="ttdeci">void setBit(std::size_t position, bool value=true)</div><div class="ttdef"><b>Definition</b> Bitset.cpp:7</div></div>
+<div class="ttc" id="aclass_raz_1_1_bitset_html_a1d089291189f94582ede9c0b17461df3"><div class="ttname"><a href="class_raz_1_1_bitset.html#a1d089291189f94582ede9c0b17461df3">Raz::Bitset::setBit</a></div><div class="ttdeci">void setBit(std::size_t index, bool value=true)</div><div class="ttdef"><b>Definition</b> Bitset.cpp:7</div></div>
 <div class="ttc" id="aclass_raz_1_1_world_html"><div class="ttname"><a href="class_raz_1_1_world.html">Raz::World</a></div><div class="ttdoc">World class handling systems &amp; entities.</div><div class="ttdef"><b>Definition</b> World.hpp:16</div></div>
 <div class="ttc" id="anamespace_raz_html"><div class="ttname"><a href="namespace_raz.html">Raz</a></div><div class="ttdef"><b>Definition</b> Skeleton.hpp:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
